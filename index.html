@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Hallway Track</title>
+<meta name="description" content="Buyer listening: what security buyers are saying, the words they use and the rooms where they gather.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Source+Sans+3:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a briefing page for a CEO. Brief first, then what's rising, where buyers gather,
+   their words, live in-market threads, and the full conversation log. */
+:root{
+  --bg:#f5f4ef; --surface:#ffffff; --sunk:#ecebe4; --line:#dcdad0;
+  --fg:#16201f; --muted:#56615f; --faint:#8b9492;
+  --accent:#0f6e66; --accent-soft:#dcefec; --accent-fg:#ffffff;
+  --up:#b4540a; --up-soft:#fbe9d8; --down:#55606e;
+  --hot:#b4540a;
+  --display:"Bricolage Grotesque","Avenir Next","Segoe UI",sans-serif;
+  --body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --r:12px; color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#101615; --surface:#172020; --sunk:#1e2928; --line:#2b3837;
+  --fg:#e6ecea; --muted:#a3b0ad; --faint:#6f7d7a;
+  --accent:#4fc7b9; --accent-soft:#16312e; --accent-fg:#06201d;
+  --up:#f2a564; --up-soft:#3a2614; --down:#93a0ad; --hot:#f2a564; color-scheme:dark}}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5;margin:0;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.wrap{max-width:1100px;margin:0 auto;padding-inline:16px;padding-block:24px 56px;display:grid;gap:22px}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance;letter-spacing:-.015em}
+h1{font-size:clamp(32px,6vw,48px);font-weight:700;line-height:1.05}
+h2{font-size:21px;font-weight:600}
+h3{font-size:17px;font-weight:600}
+.eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.muted{color:var(--muted)} .mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+a{color:var(--accent)} button{font:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+header{display:grid;gap:8px}
+.lede{max-width:64ch;color:var(--muted);margin:0;font-size:17px}
+.meta{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:14px;color:var(--muted)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px;display:grid;gap:14px;min-width:0}
+.panel-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.brief{border-left:4px solid var(--accent)}
+.brief-text{white-space:pre-wrap;max-width:72ch;font-size:16.5px;line-height:1.6;margin:0}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;display:grid;gap:2px;min-width:0}
+.stat b{font-family:var(--display);font-size:28px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.1}
+.stat span{font-size:14px;color:var(--muted)}
+.stat.small b{font-size:18px;line-height:1.25;padding-top:6px}
+@media (max-width:760px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.pains{display:grid;gap:4px}
+.pain{display:grid;grid-template-columns:minmax(0,1fr) 110px 70px 64px;gap:12px;align-items:center;padding:8px 6px;border-radius:8px;border:none;background:transparent;color:inherit;text-align:left}
+.pain:hover{background:var(--sunk)}
+.pain[aria-pressed="true"]{background:var(--accent-soft)}
+.pain .lbl{font-weight:600;min-width:0}
+.pain .n{font-family:var(--mono);font-size:13px;color:var(--muted);text-align:right}
+.chg{font-family:var(--mono);font-size:12px;padding:2px 6px;border-radius:4px;text-align:center}
+.chg.up{background:var(--up-soft);color:var(--up)} .chg.flat{background:var(--sunk);color:var(--muted)}
+@media (max-width:560px){.pain{grid-template-columns:minmax(0,1fr) 80px 56px}.pain .n{display:none}}
+.rooms{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:760px){.rooms{grid-template-columns:minmax(0,1fr)}}
+.room{border:1px solid var(--line);border-radius:10px;padding:14px;display:grid;gap:7px;align-content:start;min-width:0}
+.room-top{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.rank{font-family:var(--mono);font-size:12px;color:var(--faint)}
+.tags{display:flex;flex-wrap:wrap;gap:5px}
+.tag{font-size:12.5px;padding:1px 8px;border-radius:999px;background:var(--sunk);color:var(--muted)}
+.tag.access{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.05em;border-radius:4px}
+.tag.new{background:var(--up-soft);color:var(--up)}
+.room p{margin:0;font-size:14.5px}
+.who{font-size:14.5px}
+.who b{font-weight:600}
+.why{display:flex;flex-wrap:wrap;gap:4px}
+.why span{font-family:var(--mono);font-size:11.5px;padding:1px 7px;border-radius:4px;background:var(--sunk);color:var(--muted)}
+details{font-size:14px} summary{cursor:pointer;color:var(--accent);font-weight:600}
+details ul{margin:6px 0 0;padding-left:18px;display:grid;gap:4px}
+.words{display:flex;flex-wrap:wrap;gap:6px}
+.word{border:1px solid var(--line);border-radius:999px;padding:3px 11px;font-size:14px;background:var(--surface)}
+.word i{font-style:normal;font-family:var(--mono);font-size:11px;color:var(--faint);margin-left:5px}
+.quotes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:760px){.quotes{grid-template-columns:minmax(0,1fr)}}
+.quote{margin:0;padding:10px 14px;border-left:3px solid var(--accent);background:var(--sunk);border-radius:0 8px 8px 0;font-size:15px;display:grid;gap:4px}
+.quote cite{font-style:normal;font-size:12.5px;color:var(--muted)}
+.feed{display:grid;gap:10px}
+.conv{border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:6px;min-width:0}
+.conv.hot{border-color:color-mix(in srgb,var(--hot) 55%,var(--line))}
+.conv-top{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13.5px;color:var(--muted);align-items:center}
+.room-name{font-weight:600;color:var(--fg)}
+.inmarket{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border-radius:4px;background:var(--up-soft);color:var(--up)}
+.conv h3{font-size:16px}
+.conv p{margin:0;font-size:15px;color:var(--muted);max-width:78ch;overflow-wrap:anywhere}
+.reply{white-space:pre-wrap;background:var(--accent-soft);border-radius:8px;padding:10px 12px;margin-top:6px;font-size:14.5px}
+.filters{display:flex;flex-wrap:wrap;gap:6px}
+.fchip{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:6px;padding:4px 10px;font-size:13.5px}
+.fchip[aria-pressed="true"]{border-color:var(--fg);color:var(--fg);background:var(--sunk)}
+.empty{color:var(--muted);font-size:15px;margin:0}
+svg.spark{display:block;width:110px;height:26px}
+svg.spark path.line{fill:none;stroke:var(--accent);stroke-width:1.6}
+svg.spark path.area{fill:var(--accent-soft);stroke:none}
+svg.spark circle{fill:var(--accent)}
+footer{font-size:14px;color:var(--muted);max-width:80ch;display:grid;gap:6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow" id="cat">Buyer listening</div>
+    <h1>Hallway Track</h1>
+    <p class="lede" id="lede">Loading conversations…</p>
+    <div class="meta" id="meta"></div>
+  </header>
+
+  <section class="panel brief" aria-labelledby="briefH">
+    <div class="panel-head"><h2 id="briefH">This week's buyer brief</h2><span class="eyebrow" id="briefDate"></span></div>
+    <p class="brief-text" id="brief"></p>
+  </section>
+
+  <section class="stats" id="stats" aria-label="Summary"></section>
+
+  <section class="panel">
+    <div class="panel-head"><h2>What buyers are struggling with</h2><span class="muted" style="font-size:14px">Mentions in the last 14 days vs the 14 before. Tap one to filter.</span></div>
+    <div class="pains" id="pains" role="group" aria-label="Pains"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head"><h2>Rooms to be in</h2><span class="muted" style="font-size:14px">Ranked by buyer fit and how often practitioners mention them</span></div>
+    <div class="rooms" id="rooms"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head"><h2>In their words</h2><span class="muted" style="font-size:14px">Phrases buyers repeat, for content, ads and talk tracks</span></div>
+    <div class="words" id="words"></div>
+    <div class="quotes" id="quotes"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head"><h2>Buyers shopping right now</h2><span class="muted" style="font-size:14px">Public threads asking for tools or advice, with a suggested reply</span></div>
+    <div class="feed" id="inmarket"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head"><h2>All conversations</h2><span class="muted mono" id="count" style="font-size:13px"></span></div>
+    <div class="filters" id="personaFilters" role="group" aria-label="Filter by buyer"></div>
+    <div class="feed" id="feed"></div>
+  </section>
+
+  <footer>
+    <div><b>How it works.</b> Every morning Hallway Track reads public conversations on Hacker News, Information Security Stack Exchange, infosec.exchange, Google News and Reddit. It keeps the ones about the buyer's problems, tags who is talking and what hurts, and ranks the communities practitioners point each other to.</div>
+    <div><b>Privacy.</b> It reads public posts only. It never joins or reads private groups, it doesn't store usernames, and every excerpt links back to the original. Rooms are recommended from public evidence such as practitioners recommending them, so the team can request access the normal way.</div>
+    <div>Built by Samantha Solemsaas.</div>
+  </footer>
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+const MONTHS=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const ACCESS={open:"Open",apply:"Apply",invite:"Invite only",paid:"Paid",event:"Event",unknown:"Unknown"};
+let D, state={pain:null, persona:"all"};
+function el(t,a={},k=[]){const n=document.createElement(t);for(const[x,v]of Object.entries(a)){if(x==="text")n.textContent=v;else if(x==="class")n.className=v;else n.setAttribute(x,v);}for(const c of[].concat(k))if(c!=null)n.append(c);return n;}
+function fmt(d){if(!d)return"";const[y,m,dd]=d.split("-");return`${MONTHS[+m-1]} ${+dd}`;}
+function days(d){return d?(Date.now()-new Date(d+"T00:00:00Z"))/864e5:999;}
+
+function spark(vals){
+  const ns="http://www.w3.org/2000/svg",W=110,H=26,max=Math.max(1,...vals),step=W/(vals.length-1);
+  const pts=vals.map((v,i)=>[i*step,H-3-(v/max)*(H-6)]);
+  const s=document.createElementNS(ns,"svg");s.setAttribute("viewBox",`0 0 ${W} ${H}`);s.setAttribute("class","spark");s.setAttribute("aria-hidden","true");
+  const a=document.createElementNS(ns,"path");a.setAttribute("class","area");a.setAttribute("d",`M0 ${H} `+pts.map(p=>`L${p[0].toFixed(1)} ${p[1].toFixed(1)}`).join(" ")+` L${W} ${H} Z`);
+  const l=document.createElementNS(ns,"path");l.setAttribute("class","line");l.setAttribute("d",pts.map((p,i)=>`${i?"L":"M"}${p[0].toFixed(1)} ${p[1].toFixed(1)}`).join(" "));
+  const c=document.createElementNS(ns,"circle");const e=pts.at(-1);c.setAttribute("cx",e[0]);c.setAttribute("cy",e[1]);c.setAttribute("r",2.6);
+  s.append(a,l,c);return s;
+}
+
+function conv(c,showReply){
+  const kids=[el("div",{class:"conv-top"},[
+    c.intent&&c.source!=="Press"?el("span",{class:"inmarket",text:"In market"}):null,
+    el("span",{class:"room-name",text:c.room}),el("span",{class:"mono",text:fmt(c.date)}),
+    ...c.personas.map(p=>el("span",{text:D.buyers[p]})),
+    el("a",{href:c.url,target:"_blank",rel:"noopener",text:"Open"})])];
+  if(c.title)kids.push(el("h3",{text:c.title}));
+  if(c.text)kids.push(el("p",{text:c.text.length>320?c.text.slice(0,320)+"…":c.text}));
+  if(c.pains.length)kids.push(el("div",{class:"tags"},c.pains.map(p=>el("span",{class:"tag",text:D.pains[p]}))));
+  if(showReply&&c.reply)kids.push(el("details",{},[el("summary",{text:"Suggested reply"}),el("div",{class:"reply",text:c.reply})]));
+  return el("article",{class:"conv"+(c.intent&&c.source!=="Press"?" hot":"")},kids);
+}
+
+function render(){
+  const C=D.conversations, win=C.filter(c=>days(c.date)<=D.window_days);
+  $("cat").textContent=`${D.category} · buyer listening`;
+  $("lede").textContent=`What ${D.company}'s buyers are saying in public, the words they use and the rooms where they gather. Updated every morning.`;
+  const bs=Object.entries(D.last_run.by_source||{}).map(([k,v])=>`${v} ${k}`).join(", ");
+  $("meta").replaceChildren(el("span",{text:"Updated "+new Date(D.generated.replace("Z",":00Z")).toLocaleString([], {dateStyle:"medium",timeStyle:"short"})}),
+    el("span",{text:`${D.last_run.new} new in last run${bs?" ("+bs+")":""}`}),el("span",{text:`${C.length} conversations in history`}));
+
+  $("briefDate").textContent=D.brief&&D.brief.date?"Written "+fmt(D.brief.date):"";
+  $("brief").textContent=D.brief&&D.brief.text?D.brief.text:"The brief is written by AI once there's a week of conversations. Check back after the next daily run.";
+
+  const inm=win.filter(c=>c.intent&&c.source!=="Press");
+  const top=D.trends[0];
+  $("stats").replaceChildren(
+    el("div",{class:"stat"},[el("b",{text:String(win.length)}),el("span",{text:`buyer conversations, last ${D.window_days} days`})]),
+    el("div",{class:"stat"},[el("b",{text:String(inm.length)}),el("span",{text:"asking for tools or advice"})]),
+    el("div",{class:"stat small"},[el("b",{text:top&&top.recent?top.label:"Not enough data yet"}),el("span",{text:"loudest pain right now"})]),
+    el("div",{class:"stat"},[el("b",{text:String(D.rooms.filter(r=>!r.known).length)}),el("span",{text:"rooms discovered from conversations"})]));
+
+  $("pains").replaceChildren(...D.trends.map(t=>{
+    const cls=t.recent>t.prior?"up":"flat";
+    const label=t.prior?`${t.change>0?"+":""}${t.change}%`:(t.recent?"new":"·");
+    const b=el("button",{class:"pain",type:"button","aria-pressed":String(state.pain===t.key)},[
+      el("span",{class:"lbl",text:t.label}),spark(t.weekly),el("span",{class:"chg "+cls,text:label}),el("span",{class:"n",text:`${t.recent} / ${t.total}`})]);
+    b.onclick=()=>{state.pain=state.pain===t.key?null:t.key;render();document.getElementById("feed").scrollIntoView({behavior:"smooth",block:"start"});};
+    return b;}));
+
+  $("rooms").replaceChildren(...D.rooms.slice(0,10).map((r,i)=>el("div",{class:"room"},[
+    el("div",{class:"room-top"},[el("h3",{},[r.url?el("a",{href:r.url,target:"_blank",rel:"noopener",text:r.name}):r.name]),el("span",{class:"rank",text:"#"+(i+1)+" · "+r.score})]),
+    el("div",{class:"tags"},[r.platform?el("span",{class:"tag",text:r.platform}):null,el("span",{class:"tag access",text:ACCESS[r.access]||r.access}),!r.known?el("span",{class:"tag new",text:"Discovered"}):null]),
+    el("p",{class:"muted",text:r.audience}),
+    el("p",{class:"who"},[el("b",{text:"Who goes: "}),r.who]),
+    el("div",{class:"why"},r.why.map(w=>el("span",{text:w}))),
+    r.evidence.length?el("details",{},[el("summary",{text:`Evidence (${r.mentions})`}),el("ul",{},r.evidence.map(e=>el("li",{},[el("a",{href:e.url,target:"_blank",rel:"noopener",text:e.title||"Conversation"}),el("span",{class:"muted",text:" "+fmt(e.date)})])))]):null])));
+
+  $("words").replaceChildren(...(D.phrases.length?D.phrases.map(p=>el("span",{class:"word"},[p.phrase,el("i",{text:"×"+p.count})])):[el("p",{class:"empty",text:"Phrases appear once a few conversations repeat the same words."})]));
+  const qs=Object.entries(D.quotes||{}).filter(([k,v])=>v.length).slice(0,6).map(([k,v])=>el("blockquote",{class:"quote"},[el("span",{text:v[0].text}),el("cite",{},[`${D.pains[k]} · ${v[0].room} · `,el("a",{href:v[0].url,target:"_blank",rel:"noopener",text:"source"})])]));
+  $("quotes").replaceChildren(...qs);
+
+  $("inmarket").replaceChildren(...(inm.length?inm.slice(0,8).map(c=>conv(c,true)):[el("p",{class:"empty",text:"No public threads asking for tools in this window yet."})]));
+
+  const personas=[["all","Everyone"],...Object.entries(D.buyers)];
+  $("personaFilters").replaceChildren(...personas.map(([k,l])=>{const b=el("button",{class:"fchip",type:"button","aria-pressed":String(state.persona===k),text:l});b.onclick=()=>{state.persona=k;render();};return b;}),
+    state.pain?(()=>{const b=el("button",{class:"fchip",type:"button","aria-pressed":"true",text:D.pains[state.pain]+" ×"});b.onclick=()=>{state.pain=null;render();};return b;})():null);
+  const list=C.filter(c=>(state.persona==="all"||c.personas.includes(state.persona))&&(!state.pain||c.pains.includes(state.pain)));
+  $("count").textContent=`${list.length} of ${C.length}`;
+  $("feed").replaceChildren(...(list.length?list.slice(0,60).map(c=>conv(c,false)):[el("p",{class:"empty",text:"No conversations match."})]));
+}
+
+fetch("hallway.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{D=d;render();})
+  .catch(()=>{$("lede").textContent="No data yet. Run the Hallway Track workflow once and refresh.";});
+</script>
+</body>
+</html>

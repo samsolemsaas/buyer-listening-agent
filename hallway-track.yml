@@ -1,0 +1,37 @@
+name: Hallway Track
+
+on:
+  schedule:
+    - cron: "15 13 * * *"   # every day around 6am Pacific
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  models: read
+
+concurrency:
+  group: hallway-track
+  cancel-in-progress: false
+
+jobs:
+  listen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Listen, tag and rank rooms
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+        run: python hallway.py
+      - name: Save conversations
+        run: |
+          git config user.name "hallway-track"
+          git config user.email "hallway-track@users.noreply.github.com"
+          git add hallway.json
+          git diff --cached --quiet || git commit -m "Hallway Track daily run"
+          git pull --rebase origin main
+          git push origin HEAD:main

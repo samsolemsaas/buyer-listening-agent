@@ -1,0 +1,127 @@
+# Hallway Track settings.
+# Listens to the people a company sells to, not to competitors.
+# To point it at a different company, change the company, buyers, pains and searches.
+
+company = "Nagomi"
+category = "Exposure management"
+
+# How far back trends and rankings look.
+window_days = 90
+# First run looks back this far so the dashboard starts full.
+first_run_days = 30
+# Most AI calls per run (GitHub Models free tier allows 150 a day).
+max_ai_calls = 12
+
+# ---------- Who we're listening for ----------
+# A conversation gets a persona when its text matches one of these phrases.
+
+[buyers.leader]
+label = "Security leader"
+phrases = ["ciso", "as a ciso", "security leader", "head of security", "vp of security",
+           "director of security", "security director", "my board", "our board", "security budget"]
+
+[buyers.vm_owner]
+label = "Vuln management owner"
+phrases = ["vuln management", "vulnerability management team", "vm team", "vm program",
+           "vulnerability program", "our scanner", "qualys", "rapid7", "tenable", "nessus",
+           "patch compliance", "exposure management", "ctem"]
+
+[buyers.secops]
+label = "Security engineer & SecOps"
+phrases = ["soc", "security engineer", "detection", "blue team", "incident response",
+           "our edr", "crowdstrike", "sentinelone", "defender", "siem", "splunk", "sentinel"]
+
+[buyers.it]
+label = "IT & infrastructure"
+phrases = ["sysadmin", "it team", "it director", "patch tuesday", "intune", "sccm",
+           "endpoint management", "our servers", "infrastructure team", "change window"]
+
+# ---------- What buyers struggle with ----------
+# Each pain is a set of phrases. Edit freely; this is the buyer-language model.
+
+[pains.prioritization]
+label = "Too many findings to prioritize"
+phrases = ["too many vulnerabilities", "too many vulns", "vuln backlog", "backlog", "prioritiz",
+           "cvss", "epss", "kev", "noise", "false positive", "drowning", "alert fatigue",
+           "critical findings", "what to fix first"]
+
+[pains.ownership]
+label = "Getting fixes owned and done"
+phrases = ["who owns", "ownership", "remediation", "ticket", "jira", "servicenow",
+           "patching", "patch", "sla", "fix rate", "mean time to remediate", "mttr",
+           "app owners", "pushback from it"]
+
+[pains.ai_vulns]
+label = "AI-found vulnerability surge"
+phrases = ["mythos", "ai-discovered", "ai discovered", "ai found", "flood of cves",
+           "cve volume", "llm found", "ai finding vulnerabilities", "zero-day surge"]
+
+[pains.controls]
+label = "Controls not doing their job"
+phrases = ["misconfig", "misconfigured", "coverage gap", "edr coverage", "not deployed",
+           "drift", "control validation", "tool not configured", "already had the tool",
+           "compensating control"]
+
+[pains.sprawl]
+label = "Tool sprawl and consolidation"
+phrases = ["too many tools", "tool sprawl", "consolidat", "single pane", "another dashboard",
+           "integrat", "vendor fatigue", "platform vs best of breed"]
+
+[pains.proving]
+label = "Proving value to the board"
+phrases = ["board", "metrics", "kpi", "roi", "justify", "budget", "risk reduction",
+           "report to leadership", "executive report", "show progress"]
+
+[pains.people]
+label = "Too few people"
+phrases = ["burnout", "burned out", "understaffed", "headcount", "hiring freeze",
+           "team of one", "one person team", "no budget for staff", "overworked"]
+
+[pains.compliance]
+label = "Compliance pressure"
+phrases = ["bod 26", "bod 22-01", "sec rule", "nis2", "dora", "pci", "hipaa", "audit",
+           "fedramp", "cyber insurance", "insurer"]
+
+[pains.ai_security]
+label = "Securing AI and agents"
+phrases = ["shadow ai", "ai agents", "agentic", "mcp server", "llm security",
+           "ai governance", "copilot", "prompt injection"]
+
+# ---------- Buying intent ----------
+# Phrases that signal someone is shopping or evaluating right now.
+[intent]
+phrases = ["recommend", "recommendations", "anyone using", "anyone use", "alternatives to",
+           "alternative to", "looking for a tool", "looking for a solution", "evaluating",
+           "poc", "proof of concept", "rfp", "worth it", "vs ", "versus", "switch from",
+           "replace our", "renewal", "which tool", "what tools", "best tool"]
+
+# A conversation must mention at least one of these to count as on-topic.
+[relevance]
+phrases = ["vulnerab", "cve", "patch", "exposure", "attack surface", "remediat", "scanner",
+           "pentest", "misconfig", "security tool", "ciso", "soc", "edr", "risk"]
+exclude = ["who is hiring", "who wants to be hired", "freelancer? seeking", "job posting",
+           "resume", "certification exam", "oscp", "ctf", "homework"]
+
+# ---------- Where to listen ----------
+[sources]
+# Hacker News stories and comments (free, official API).
+hn_queries = ["vulnerability management", "patch management", "exposure management",
+              "CISO", "vulnerability backlog", "CVE flood", "EDR misconfiguration",
+              "security tool sprawl", "Mythos vulnerabilities"]
+
+# Information Security Stack Exchange questions (free, official API).
+stackexchange_queries = ["vulnerability management", "patch management", "vulnerability scanner",
+                         "prioritize vulnerabilities", "CVSS"]
+
+# Mastodon tags on infosec.exchange, where many practitioners post (public RSS).
+mastodon_tags = ["infosec", "cybersecurity", "vulnerability", "patchtuesday", "ciso", "blueteam"]
+
+# Google News: buyers quoted in the press (CISO interviews, surveys).
+news_queries = ['CISO "vulnerability management"', 'CISO patching backlog',
+                'CISO survey exposure management', 'security leaders "too many vulnerabilities"']
+
+# Reddit (optional). Needs a free Reddit app; add REDDIT_CLIENT_ID and REDDIT_CLIENT_SECRET
+# as repo secrets to turn it on. Skipped quietly without them.
+subreddits = ["cybersecurity", "sysadmin", "AskNetsec", "netsec", "blueteamsec", "CISO", "msp"]
+reddit_queries = ["vulnerability management", "patching", "prioritize vulnerabilities",
+                  "exposure management", "tool recommendation"]

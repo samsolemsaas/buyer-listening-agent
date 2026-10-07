@@ -1,0 +1,250 @@
+# Where security buyers gather.
+# Hallway Track ranks these by how often practitioners mention them in public
+# conversations, plus how well the room fits the buyers in config.toml.
+# Nothing here reads inside private groups. Access and policy notes come from public pages.
+#
+# fit:    3 = the buyer is the room's core audience, 2 = strong overlap, 1 = adjacent
+# access: "open", "apply", "invite", "paid", "event"
+# who:    who on the team should be there
+# match:  names practitioners use when they mention it (lowercase)
+# Add rooms you hear about. Rooms the agent discovers on its own show up as "Discovered".
+
+[[rooms]]
+name = "r/cybersecurity"
+platform = "Reddit"
+audience = "Working security professionals and people entering the field"
+fit = 2
+access = "open"
+who = "SEs and PMs answer questions in their own name. No pitching."
+url = "https://www.reddit.com/r/cybersecurity/"
+match = ["r/cybersecurity", "/r/cybersecurity"]
+
+[[rooms]]
+name = "r/sysadmin"
+platform = "Reddit"
+audience = "IT and infrastructure teams who do the patching"
+fit = 2
+access = "open"
+who = "SEs listen for remediation pain. Content team mines the language."
+url = "https://www.reddit.com/r/sysadmin/"
+match = ["r/sysadmin", "/r/sysadmin"]
+
+[[rooms]]
+name = "r/AskNetsec"
+platform = "Reddit"
+audience = "Practitioners asking for tool and process advice"
+fit = 2
+access = "open"
+who = "SEs answer evaluation questions honestly."
+url = "https://www.reddit.com/r/AskNetsec/"
+match = ["r/asknetsec", "/r/asknetsec"]
+
+[[rooms]]
+name = "r/blueteamsec"
+platform = "Reddit"
+audience = "Defenders, detection and response engineers"
+fit = 2
+access = "open"
+who = "Product and research teams share findings."
+url = "https://www.reddit.com/r/blueteamsec/"
+match = ["r/blueteamsec", "/r/blueteamsec"]
+
+[[rooms]]
+name = "r/CISO"
+platform = "Reddit"
+audience = "Security leaders"
+fit = 3
+access = "open"
+who = "Founders and the CISO advisor listen first, post rarely."
+url = "https://www.reddit.com/r/CISO/"
+match = ["r/ciso", "/r/ciso"]
+
+[[rooms]]
+name = "Hacker News"
+platform = "Forum"
+audience = "Engineers and technical leaders"
+fit = 1
+access = "open"
+who = "Founders and engineers post research and launches."
+url = "https://news.ycombinator.com/"
+match = ["hacker news", "hackernews"]
+
+[[rooms]]
+name = "infosec.exchange"
+platform = "Mastodon"
+audience = "Security researchers and practitioners"
+fit = 1
+access = "open"
+who = "Research team posts findings."
+url = "https://infosec.exchange/"
+match = ["infosec.exchange", "infosec exchange"]
+
+[[rooms]]
+name = "OWASP Slack"
+platform = "Slack"
+audience = "Application security engineers and developers"
+fit = 1
+access = "open"
+who = "SEs join channels on AppSec and supply chain."
+url = "https://owasp.org/slack/invite"
+match = ["owasp slack"]
+
+[[rooms]]
+name = "Black Hills Information Security Discord"
+platform = "Discord"
+audience = "Mid-level practitioners, threat hunters and pentesters"
+fit = 1
+access = "open"
+who = "SEs listen and help. Webinar sponsorships through BHIS."
+url = "https://discord.gg/bhis"
+match = ["bhis discord", "black hills discord", "black hills infosec discord", "discord.gg/bhis"]
+
+[[rooms]]
+name = "Threat Hunter Community Discord"
+platform = "Discord"
+audience = "Threat hunters and SOC analysts"
+fit = 1
+access = "open"
+who = "Research team and SEs."
+url = "https://discord.gg/threathunter"
+match = ["threat hunter community", "discord.gg/threathunter"]
+
+[[rooms]]
+name = "SANS CISO Network"
+platform = "Webinars and newsletter"
+audience = "CISOs and security executives"
+fit = 3
+access = "apply"
+who = "CISO advisor or founder applies. Marketing sponsors sessions."
+url = "https://www.sans.org/for-organizations/ciso-network"
+match = ["sans ciso network"]
+
+[[rooms]]
+name = "Evanta CISO communities (Gartner)"
+platform = "In-person summits"
+audience = "Qualified security leaders, vendor-neutral with sponsors"
+fit = 3
+access = "event"
+who = "Field marketing sponsors. AEs attend with an exec."
+url = "https://www.evanta.com/"
+match = ["evanta"]
+
+[[rooms]]
+name = "Gartner Peer Community"
+platform = "Online forum"
+audience = "Security and IT leaders"
+fit = 3
+access = "invite"
+who = "Customer advocates answer polls. Marketing watches questions."
+url = "https://www.gartner.com/peer-community/home"
+match = ["gartner peer community", "peer community"]
+
+[[rooms]]
+name = "CISO Executive Network"
+platform = "In-person chapters"
+audience = "Senior security executives"
+fit = 3
+access = "apply"
+who = "Founder or CISO advisor. Sponsorship through partner programs."
+url = ""
+match = ["ciso executive network"]
+
+[[rooms]]
+name = "CISO Society"
+platform = "Membership network"
+audience = "CISOs"
+fit = 3
+access = "apply"
+who = "CISO advisor. Marketing explores partner programs."
+url = "https://www.thecisosociety.com/"
+match = ["ciso society"]
+
+[[rooms]]
+name = "CISO Network"
+platform = "Peer community"
+audience = "CISOs"
+fit = 3
+access = "apply"
+who = "CISO advisor or founder."
+url = "https://www.cisonetwork.com/"
+match = ["ciso network"]
+
+[[rooms]]
+name = "403 Circle"
+platform = "Slack and WhatsApp"
+audience = "CISOs, CTOs and security leads"
+fit = 2
+access = "invite"
+who = "Founder requests an invite."
+url = "https://www.getastra.com/the403circle-community-by-astra"
+match = ["403 circle"]
+
+[[rooms]]
+name = "IANS Research"
+platform = "Advisory network"
+audience = "Security leaders buying advice"
+fit = 3
+access = "paid"
+who = "Product marketing briefs IANS faculty."
+url = "https://www.iansresearch.com/"
+match = ["ians"]
+
+[[rooms]]
+name = "CISO Series"
+platform = "Podcasts and live events"
+audience = "CISOs and security leaders"
+fit = 3
+access = "open"
+who = "Founder pitches guest spots. Marketing sponsors episodes."
+url = "https://cisoseries.com/"
+match = ["ciso series", "defense in depth podcast"]
+
+[[rooms]]
+name = "ISSA chapters"
+platform = "Local chapters"
+audience = "Security professionals at every level"
+fit = 2
+access = "paid"
+who = "AEs and SEs in each territory join their local chapter."
+url = "https://www.issa.org/"
+match = ["issa"]
+
+[[rooms]]
+name = "ISACA Engage"
+platform = "Online community and chapters"
+audience = "IT audit, risk and security professionals"
+fit = 1
+access = "paid"
+who = "Marketing watches compliance questions."
+url = "https://www.isaca.org/"
+match = ["isaca"]
+
+[[rooms]]
+name = "Cloud Security Alliance"
+platform = "Working groups and chapters"
+audience = "Cloud security architects and practitioners"
+fit = 2
+access = "open"
+who = "Product joins a working group."
+url = "https://cloudsecurityalliance.org/"
+match = ["cloud security alliance", "csa working group"]
+
+[[rooms]]
+name = "BSides events"
+platform = "Local conferences"
+audience = "Practitioners in each city"
+fit = 2
+access = "event"
+who = "Field marketing sponsors the cities with the most target accounts. SEs give talks."
+url = "https://bsides.org/"
+match = ["bsides"]
+
+[[rooms]]
+name = "FIRST"
+platform = "Member organization"
+audience = "CSIRT and PSIRT teams"
+fit = 1
+access = "paid"
+who = "Research team."
+url = "https://www.first.org/"
+match = ["first.org", "first conference"]
