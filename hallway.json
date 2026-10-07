@@ -1,13 +1,13 @@
 {
- "generated": "2026-10-07T04:50Z",
+ "generated": "2026-10-07T13:35Z",
  "company": "Nagomi",
  "category": "Exposure management",
  "window_days": 90,
  "last_run": {
-  "new": 57,
+  "new": 5,
   "by_source": {
-   "Hacker News": 36,
-   "Press": 21
+   "Hacker News": 4,
+   "Press": 1
   }
  },
  "buyers": {
@@ -542,29 +542,13 @@
    "evidence": []
   },
   {
-   "name": "CISO Network",
+   "name": "CISO Society",
    "known": true,
-   "platform": "Peer community",
+   "platform": "Membership network",
    "audience": "CISOs",
    "access": "apply",
-   "who": "CISO advisor or founder.",
-   "url": "https://www.cisonetwork.com/",
-   "score": 6.0,
-   "why": [
-    "+6 buyer fit (3 of 3)"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "SANS CISO Network",
-   "known": true,
-   "platform": "Webinars and newsletter",
-   "audience": "CISOs and security executives",
-   "access": "apply",
-   "who": "CISO advisor or founder applies. Marketing sponsors sessions.",
-   "url": "https://www.sans.org/for-organizations/ciso-network",
+   "who": "CISO advisor. Marketing explores partner programs.",
+   "url": "https://www.thecisosociety.com/",
    "score": 6.0,
    "why": [
     "+6 buyer fit (3 of 3)"
@@ -590,13 +574,13 @@
    "evidence": []
   },
   {
-   "name": "CISO Society",
+   "name": "CISO Network",
    "known": true,
-   "platform": "Membership network",
+   "platform": "Peer community",
    "audience": "CISOs",
    "access": "apply",
-   "who": "CISO advisor. Marketing explores partner programs.",
-   "url": "https://www.thecisosociety.com/",
+   "who": "CISO advisor or founder.",
+   "url": "https://www.cisonetwork.com/",
    "score": 6.0,
    "why": [
     "+6 buyer fit (3 of 3)"
@@ -622,17 +606,16 @@
    "evidence": []
   },
   {
-   "name": "r/AskNetsec",
+   "name": "SANS CISO Network",
    "known": true,
-   "platform": "Reddit",
-   "audience": "Practitioners asking for tool and process advice",
-   "access": "open",
-   "who": "SEs answer evaluation questions honestly.",
-   "url": "https://www.reddit.com/r/AskNetsec/",
-   "score": 5.0,
+   "platform": "Webinars and newsletter",
+   "audience": "CISOs and security executives",
+   "access": "apply",
+   "who": "CISO advisor or founder applies. Marketing sponsors sessions.",
+   "url": "https://www.sans.org/for-organizations/ciso-network",
+   "score": 6.0,
    "why": [
-    "+4 buyer fit (2 of 3)",
-    "+1 easy to join"
+    "+6 buyer fit (3 of 3)"
    ],
    "mentions": 0,
    "hosted": 0,
@@ -673,13 +656,13 @@
    "evidence": []
   },
   {
-   "name": "r/sysadmin",
+   "name": "r/blueteamsec",
    "known": true,
    "platform": "Reddit",
-   "audience": "IT and infrastructure teams who do the patching",
+   "audience": "Defenders, detection and response engineers",
    "access": "open",
-   "who": "SEs listen for remediation pain. Content team mines the language.",
-   "url": "https://www.reddit.com/r/sysadmin/",
+   "who": "Product and research teams share findings.",
+   "url": "https://www.reddit.com/r/blueteamsec/",
    "score": 5.0,
    "why": [
     "+4 buyer fit (2 of 3)",
@@ -690,13 +673,30 @@
    "evidence": []
   },
   {
-   "name": "r/blueteamsec",
+   "name": "r/AskNetsec",
    "known": true,
    "platform": "Reddit",
-   "audience": "Defenders, detection and response engineers",
+   "audience": "Practitioners asking for tool and process advice",
    "access": "open",
-   "who": "Product and research teams share findings.",
-   "url": "https://www.reddit.com/r/blueteamsec/",
+   "who": "SEs answer evaluation questions honestly.",
+   "url": "https://www.reddit.com/r/AskNetsec/",
+   "score": 5.0,
+   "why": [
+    "+4 buyer fit (2 of 3)",
+    "+1 easy to join"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "r/sysadmin",
+   "known": true,
+   "platform": "Reddit",
+   "audience": "IT and infrastructure teams who do the patching",
+   "access": "open",
+   "who": "SEs listen for remediation pain. Content team mines the language.",
+   "url": "https://www.reddit.com/r/sysadmin/",
    "score": 5.0,
    "why": [
     "+4 buyer fit (2 of 3)",
@@ -724,22 +724,6 @@
    "evidence": []
   },
   {
-   "name": "ISSA chapters",
-   "known": true,
-   "platform": "Local chapters",
-   "audience": "Security professionals at every level",
-   "access": "paid",
-   "who": "AEs and SEs in each territory join their local chapter.",
-   "url": "https://www.issa.org/",
-   "score": 4.0,
-   "why": [
-    "+4 buyer fit (2 of 3)"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
    "name": "403 Circle",
    "known": true,
    "platform": "Slack and WhatsApp",
@@ -756,6 +740,22 @@
    "evidence": []
   },
   {
+   "name": "ISSA chapters",
+   "known": true,
+   "platform": "Local chapters",
+   "audience": "Security professionals at every level",
+   "access": "paid",
+   "who": "AEs and SEs in each territory join their local chapter.",
+   "url": "https://www.issa.org/",
+   "score": 4.0,
+   "why": [
+    "+4 buyer fit (2 of 3)"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
    "name": "Threat Hunter Community Discord",
    "known": true,
    "platform": "Discord",
@@ -763,23 +763,6 @@
    "access": "open",
    "who": "Research team and SEs.",
    "url": "https://discord.gg/threathunter",
-   "score": 3.0,
-   "why": [
-    "+2 buyer fit (1 of 3)",
-    "+1 easy to join"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "OWASP Slack",
-   "known": true,
-   "platform": "Slack",
-   "audience": "Application security engineers and developers",
-   "access": "open",
-   "who": "SEs join channels on AppSec and supply chain.",
-   "url": "https://owasp.org/slack/invite",
    "score": 3.0,
    "why": [
     "+2 buyer fit (1 of 3)",
@@ -814,6 +797,23 @@
    "access": "open",
    "who": "Research team posts findings.",
    "url": "https://infosec.exchange/",
+   "score": 3.0,
+   "why": [
+    "+2 buyer fit (1 of 3)",
+    "+1 easy to join"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "OWASP Slack",
+   "known": true,
+   "platform": "Slack",
+   "audience": "Application security engineers and developers",
+   "access": "open",
+   "who": "SEs join channels on AppSec and supply chain.",
+   "url": "https://owasp.org/slack/invite",
    "score": 3.0,
    "why": [
     "+2 buyer fit (1 of 3)",
@@ -982,6 +982,23 @@
    "pains": [
     "proving"
    ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "8a953660be36",
+   "source": "Press",
+   "room": "CSO Online",
+   "title": "Should the CISO role be split in two?",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOU94OXJxZWMzcHBWcXhxY1JlbklyaWwwU3R6WjN4UERfR2xsNXEtQ01JdGlHRXlfMVpnaTMzald4QWZXdk1iYmxhUnZpRmlGNHNSQkNVUG5CNXgwUHBpSjJ5bVU5RXZTUjR1dkVZWXJCYkFXaUFGa25oZkM3S0tjRlZZYThTUGhWZVNV?oc=5",
+   "date": "2026-10-05",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [],
    "intent": false,
    "rooms": [],
    "found": "2026-10-07"
