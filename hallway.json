@@ -1,0 +1,1784 @@
+{
+ "generated": "2026-10-07T04:50Z",
+ "company": "Nagomi",
+ "category": "Exposure management",
+ "window_days": 90,
+ "last_run": {
+  "new": 57,
+  "by_source": {
+   "Hacker News": 36,
+   "Press": 21
+  }
+ },
+ "buyers": {
+  "leader": "Security leader",
+  "vm_owner": "Vuln management owner",
+  "secops": "Security engineer & SecOps",
+  "it": "IT & infrastructure"
+ },
+ "pains": {
+  "prioritization": "Too many findings to prioritize",
+  "ownership": "Getting fixes owned and done",
+  "ai_vulns": "AI-found vulnerability surge",
+  "controls": "Controls not doing their job",
+  "sprawl": "Tool sprawl and consolidation",
+  "proving": "Proving value to the board",
+  "people": "Too few people",
+  "compliance": "Compliance pressure",
+  "ai_security": "Securing AI and agents"
+ },
+ "brief": {},
+ "trends": [
+  {
+   "key": "ownership",
+   "label": "Getting fixes owned and done",
+   "recent": 8,
+   "prior": 6,
+   "change": 33,
+   "weekly": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    3,
+    3,
+    3,
+    5
+   ],
+   "total": 15
+  },
+  {
+   "key": "ai_vulns",
+   "label": "AI-found vulnerability surge",
+   "recent": 7,
+   "prior": 4,
+   "change": 75,
+   "weekly": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    2,
+    0,
+    0,
+    7
+   ],
+   "total": 13
+  },
+  {
+   "key": "proving",
+   "label": "Proving value to the board",
+   "recent": 5,
+   "prior": 3,
+   "change": 67,
+   "weekly": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    2,
+    3
+   ],
+   "total": 8
+  },
+  {
+   "key": "prioritization",
+   "label": "Too many findings to prioritize",
+   "recent": 2,
+   "prior": 1,
+   "change": 100,
+   "weekly": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    2
+   ],
+   "total": 3
+  },
+  {
+   "key": "ai_security",
+   "label": "Securing AI and agents",
+   "recent": 1,
+   "prior": 0,
+   "change": 100,
+   "weekly": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "total": 1
+  },
+  {
+   "key": "sprawl",
+   "label": "Tool sprawl and consolidation",
+   "recent": 0,
+   "prior": 1,
+   "change": -100,
+   "weekly": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "total": 1
+  },
+  {
+   "key": "people",
+   "label": "Too few people",
+   "recent": 0,
+   "prior": 1,
+   "change": -100,
+   "weekly": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "total": 1
+  },
+  {
+   "key": "compliance",
+   "label": "Compliance pressure",
+   "recent": 0,
+   "prior": 0,
+   "change": 0,
+   "weekly": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "total": 1
+  },
+  {
+   "key": "controls",
+   "label": "Controls not doing their job",
+   "recent": 0,
+   "prior": 0,
+   "change": 0,
+   "weekly": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "total": 0
+  }
+ ],
+ "phrases": [
+  {
+   "phrase": "linux kernel",
+   "count": 7
+  },
+  {
+   "phrase": "several vulnerabilities",
+   "count": 5
+  },
+  {
+   "phrase": "llm age",
+   "count": 4
+  },
+  {
+   "phrase": "greg kroah-hartman",
+   "count": 3
+  },
+  {
+   "phrase": "kroah-hartman security",
+   "count": 3
+  },
+  {
+   "phrase": "age video",
+   "count": 3
+  },
+  {
+   "phrase": "greg kroah-hartman security",
+   "count": 3
+  },
+  {
+   "phrase": "llm age video",
+   "count": 3
+  },
+  {
+   "phrase": "wikipedia org",
+   "count": 2
+  },
+  {
+   "phrase": "org wiki",
+   "count": 2
+  },
+  {
+   "phrase": "package management",
+   "count": 2
+  },
+  {
+   "phrase": "linux distro",
+   "count": 2
+  },
+  {
+   "phrase": "wikipedia org wiki",
+   "count": 2
+  },
+  {
+   "phrase": "marketing hype",
+   "count": 2
+  },
+  {
+   "phrase": "finding vulnerabilities",
+   "count": 2
+  },
+  {
+   "phrase": "reality check",
+   "count": 2
+  },
+  {
+   "phrase": "update everything",
+   "count": 2
+  },
+  {
+   "phrase": "cyber attacks",
+   "count": 2
+  },
+  {
+   "phrase": "security vulnerabilities",
+   "count": 2
+  },
+  {
+   "phrase": "false positives",
+   "count": 2
+  },
+  {
+   "phrase": "power management",
+   "count": 2
+  },
+  {
+   "phrase": "training data",
+   "count": 2
+  },
+  {
+   "phrase": "pro achieves",
+   "count": 2
+  },
+  {
+   "phrase": "highest single-core",
+   "count": 2
+  },
+  {
+   "phrase": "single-core cpu",
+   "count": 2
+  },
+  {
+   "phrase": "cpu score",
+   "count": 2
+  },
+  {
+   "phrase": "geekbench try",
+   "count": 2
+  },
+  {
+   "phrase": "thousand notes",
+   "count": 2
+  },
+  {
+   "phrase": "notes entries",
+   "count": 2
+  },
+  {
+   "phrase": "window management",
+   "count": 2
+  }
+ ],
+ "quotes": {
+  "prioritization": [
+   {
+    "text": "LLMs have high false positive rate.",
+    "url": "https://news.ycombinator.com/item?id=49931360",
+    "room": "Hacker News",
+    "date": "2026-10-02"
+   },
+   {
+    "text": "He’s very frustrated with the high false positive rate mythos generates.",
+    "url": "https://news.ycombinator.com/item?id=49931360",
+    "room": "Hacker News",
+    "date": "2026-10-02"
+   },
+   {
+    "text": "Even after multiple rounds of adversarial review and prompting strats, he mentions it is > 20% false positive rate, which wastes a lot of time.",
+    "url": "https://news.ycombinator.com/item?id=49931360",
+    "room": "Hacker News",
+    "date": "2026-10-02"
+   }
+  ],
+  "ownership": [
+   {
+    "text": "The residential suburban streets I've lived on have been resurfaced on about that timeframe, maybe a little less, with patch-ups in between.",
+    "url": "https://news.ycombinator.com/item?id=49974725",
+    "room": "Hacker News",
+    "date": "2026-10-06"
+   },
+   {
+    "text": "Patches over 40 KB on mailing lists, build",
+    "url": "https://news.ycombinator.com/item?id=49968940",
+    "room": "Hacker News",
+    "date": "2026-10-05"
+   },
+   {
+    "text": "Organizations that track their software and patch systems for CVEs have their own risk management system.",
+    "url": "https://news.ycombinator.com/item?id=49932193",
+    "room": "Hacker News",
+    "date": "2026-10-02"
+   }
+  ],
+  "ai_vulns": [
+   {
+    "text": "[1] This is the daily reminder that in year 2026 Mythos still couldn't count.",
+    "url": "https://news.ycombinator.com/item?id=49975598",
+    "room": "Hacker News",
+    "date": "2026-10-06"
+   },
+   {
+    "text": "Anthropic claimed that Mythos was so good at finding vulnerabilities that it was too dangerous to release to the public.",
+    "url": "https://news.ycombinator.com/item?id=49952848",
+    "room": "Hacker News",
+    "date": "2026-10-04"
+   },
+   {
+    "text": "Mythos will, and so will many of the others.",
+    "url": "https://news.ycombinator.com/item?id=49945338",
+    "room": "Hacker News",
+    "date": "2026-10-03"
+   }
+  ],
+  "controls": [],
+  "sprawl": [
+   {
+    "text": "Before we knew it there was a 'unix consolidation project' and I found myself grumpily using a HMC and bloody AIX.",
+    "url": "https://news.ycombinator.com/item?id=49799297",
+    "room": "Hacker News",
+    "date": "2026-09-22"
+   }
+  ],
+  "proving": [
+   {
+    "text": "The following two arguments are not ones that I've made, and aren't necessary to justify extreme caution.",
+    "url": "https://news.ycombinator.com/item?id=49968013",
+    "room": "Hacker News",
+    "date": "2026-10-05"
+   }
+  ],
+  "people": [],
+  "compliance": [
+   {
+    "text": "My code has been extensively audited by multiple AI-based security researchers, and while they found two minor issues with the DNS-over-TCP code in the recursive r",
+    "url": "https://news.ycombinator.com/item?id=49610011",
+    "room": "Hacker News",
+    "date": "2026-09-08"
+   }
+  ],
+  "ai_security": []
+ },
+ "rooms": [
+  {
+   "name": "CISO Series",
+   "known": true,
+   "platform": "Podcasts and live events",
+   "audience": "CISOs and security leaders",
+   "access": "open",
+   "who": "Founder pitches guest spots. Marketing sponsors episodes.",
+   "url": "https://cisoseries.com/",
+   "score": 11.0,
+   "why": [
+    "+6 buyer fit (3 of 3)",
+    "+2.0 mentioned in 1 conversation",
+    "+2.0 buyers talking there or about it",
+    "+1 easy to join"
+   ],
+   "mentions": 1,
+   "hosted": 0,
+   "evidence": [
+    {
+     "title": "The barrier to a self-driving SOC is not speed but trust, argued Mitchem B., field CTO, Intezer. This was discussed on CISO Series Podcast “These Aren’t Speed Bumps, They’re Opportunity Ramps! (LIVE in NYC).” Thanks to our sponsor, Intezer. Listen to the ful",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Idi0weDIxMTluY01haVlZVU5iNHpWMnBVOUxxbWpCTDJYMGt0aFhNNnVkeDJnSEh3VFUwd3JTMERmWlJMS2pVYnA5WTM2MXRubUlBc3pKVWtqUU1CaEh1S3dOVnhVY0pfbENuczNvYlN0UQ?oc=5",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "name": "IANS Research",
+   "known": true,
+   "platform": "Advisory network",
+   "audience": "Security leaders buying advice",
+   "access": "paid",
+   "who": "Product marketing briefs IANS faculty.",
+   "url": "https://www.iansresearch.com/",
+   "score": 10.0,
+   "why": [
+    "+6 buyer fit (3 of 3)",
+    "+2.0 mentioned in 1 conversation",
+    "+2.0 buyers talking there or about it"
+   ],
+   "mentions": 1,
+   "hosted": 0,
+   "evidence": [
+    {
+     "title": "IANS' Kakolowski: How AI Is Reshaping CISO Budgets & Security Teams",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZXZZUU5nWHJJb3pIOFNQc2czQVdFYXo0WmJWSEFyWXA3bGx0dUtjQnJiaDNLMEdLZlVkOVJtbVJVQVEtbk9fenpyeE91eExxUW56Njd1bzlJRUZDRVJhX2NieFVvY1ZOQzJZNHFkSEhTUXZUWHdUdFNiZ1JxRjI4V0g1TFR0MmRHaHpkT1JjQVF5NFdnbWFEeg?oc=5",
+     "date": "2026-10-06"
+    }
+   ]
+  },
+  {
+   "name": "Hacker News",
+   "known": true,
+   "platform": "Forum",
+   "audience": "Engineers and technical leaders",
+   "access": "open",
+   "who": "Founders and engineers post research and launches.",
+   "url": "https://news.ycombinator.com/",
+   "score": 7.0,
+   "why": [
+    "+2 buyer fit (1 of 3)",
+    "+4.0 buyers talking there or about it",
+    "+1 easy to join"
+   ],
+   "mentions": 0,
+   "hosted": 31,
+   "evidence": []
+  },
+  {
+   "name": "r/CISO",
+   "known": true,
+   "platform": "Reddit",
+   "audience": "Security leaders",
+   "access": "open",
+   "who": "Founders and the CISO advisor listen first, post rarely.",
+   "url": "https://www.reddit.com/r/CISO/",
+   "score": 7.0,
+   "why": [
+    "+6 buyer fit (3 of 3)",
+    "+1 easy to join"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "Evanta CISO communities (Gartner)",
+   "known": true,
+   "platform": "In-person summits",
+   "audience": "Qualified security leaders, vendor-neutral with sponsors",
+   "access": "event",
+   "who": "Field marketing sponsors. AEs attend with an exec.",
+   "url": "https://www.evanta.com/",
+   "score": 7.0,
+   "why": [
+    "+6 buyer fit (3 of 3)",
+    "+1 easy to join"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "CISO Network",
+   "known": true,
+   "platform": "Peer community",
+   "audience": "CISOs",
+   "access": "apply",
+   "who": "CISO advisor or founder.",
+   "url": "https://www.cisonetwork.com/",
+   "score": 6.0,
+   "why": [
+    "+6 buyer fit (3 of 3)"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "SANS CISO Network",
+   "known": true,
+   "platform": "Webinars and newsletter",
+   "audience": "CISOs and security executives",
+   "access": "apply",
+   "who": "CISO advisor or founder applies. Marketing sponsors sessions.",
+   "url": "https://www.sans.org/for-organizations/ciso-network",
+   "score": 6.0,
+   "why": [
+    "+6 buyer fit (3 of 3)"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "CISO Executive Network",
+   "known": true,
+   "platform": "In-person chapters",
+   "audience": "Senior security executives",
+   "access": "apply",
+   "who": "Founder or CISO advisor. Sponsorship through partner programs.",
+   "url": "",
+   "score": 6.0,
+   "why": [
+    "+6 buyer fit (3 of 3)"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "CISO Society",
+   "known": true,
+   "platform": "Membership network",
+   "audience": "CISOs",
+   "access": "apply",
+   "who": "CISO advisor. Marketing explores partner programs.",
+   "url": "https://www.thecisosociety.com/",
+   "score": 6.0,
+   "why": [
+    "+6 buyer fit (3 of 3)"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "Gartner Peer Community",
+   "known": true,
+   "platform": "Online forum",
+   "audience": "Security and IT leaders",
+   "access": "invite",
+   "who": "Customer advocates answer polls. Marketing watches questions.",
+   "url": "https://www.gartner.com/peer-community/home",
+   "score": 6.0,
+   "why": [
+    "+6 buyer fit (3 of 3)"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "r/AskNetsec",
+   "known": true,
+   "platform": "Reddit",
+   "audience": "Practitioners asking for tool and process advice",
+   "access": "open",
+   "who": "SEs answer evaluation questions honestly.",
+   "url": "https://www.reddit.com/r/AskNetsec/",
+   "score": 5.0,
+   "why": [
+    "+4 buyer fit (2 of 3)",
+    "+1 easy to join"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "BSides events",
+   "known": true,
+   "platform": "Local conferences",
+   "audience": "Practitioners in each city",
+   "access": "event",
+   "who": "Field marketing sponsors the cities with the most target accounts. SEs give talks.",
+   "url": "https://bsides.org/",
+   "score": 5.0,
+   "why": [
+    "+4 buyer fit (2 of 3)",
+    "+1 easy to join"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "r/cybersecurity",
+   "known": true,
+   "platform": "Reddit",
+   "audience": "Working security professionals and people entering the field",
+   "access": "open",
+   "who": "SEs and PMs answer questions in their own name. No pitching.",
+   "url": "https://www.reddit.com/r/cybersecurity/",
+   "score": 5.0,
+   "why": [
+    "+4 buyer fit (2 of 3)",
+    "+1 easy to join"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "r/sysadmin",
+   "known": true,
+   "platform": "Reddit",
+   "audience": "IT and infrastructure teams who do the patching",
+   "access": "open",
+   "who": "SEs listen for remediation pain. Content team mines the language.",
+   "url": "https://www.reddit.com/r/sysadmin/",
+   "score": 5.0,
+   "why": [
+    "+4 buyer fit (2 of 3)",
+    "+1 easy to join"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "r/blueteamsec",
+   "known": true,
+   "platform": "Reddit",
+   "audience": "Defenders, detection and response engineers",
+   "access": "open",
+   "who": "Product and research teams share findings.",
+   "url": "https://www.reddit.com/r/blueteamsec/",
+   "score": 5.0,
+   "why": [
+    "+4 buyer fit (2 of 3)",
+    "+1 easy to join"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "Cloud Security Alliance",
+   "known": true,
+   "platform": "Working groups and chapters",
+   "audience": "Cloud security architects and practitioners",
+   "access": "open",
+   "who": "Product joins a working group.",
+   "url": "https://cloudsecurityalliance.org/",
+   "score": 5.0,
+   "why": [
+    "+4 buyer fit (2 of 3)",
+    "+1 easy to join"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "ISSA chapters",
+   "known": true,
+   "platform": "Local chapters",
+   "audience": "Security professionals at every level",
+   "access": "paid",
+   "who": "AEs and SEs in each territory join their local chapter.",
+   "url": "https://www.issa.org/",
+   "score": 4.0,
+   "why": [
+    "+4 buyer fit (2 of 3)"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "403 Circle",
+   "known": true,
+   "platform": "Slack and WhatsApp",
+   "audience": "CISOs, CTOs and security leads",
+   "access": "invite",
+   "who": "Founder requests an invite.",
+   "url": "https://www.getastra.com/the403circle-community-by-astra",
+   "score": 4.0,
+   "why": [
+    "+4 buyer fit (2 of 3)"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "Threat Hunter Community Discord",
+   "known": true,
+   "platform": "Discord",
+   "audience": "Threat hunters and SOC analysts",
+   "access": "open",
+   "who": "Research team and SEs.",
+   "url": "https://discord.gg/threathunter",
+   "score": 3.0,
+   "why": [
+    "+2 buyer fit (1 of 3)",
+    "+1 easy to join"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "OWASP Slack",
+   "known": true,
+   "platform": "Slack",
+   "audience": "Application security engineers and developers",
+   "access": "open",
+   "who": "SEs join channels on AppSec and supply chain.",
+   "url": "https://owasp.org/slack/invite",
+   "score": 3.0,
+   "why": [
+    "+2 buyer fit (1 of 3)",
+    "+1 easy to join"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "Black Hills Information Security Discord",
+   "known": true,
+   "platform": "Discord",
+   "audience": "Mid-level practitioners, threat hunters and pentesters",
+   "access": "open",
+   "who": "SEs listen and help. Webinar sponsorships through BHIS.",
+   "url": "https://discord.gg/bhis",
+   "score": 3.0,
+   "why": [
+    "+2 buyer fit (1 of 3)",
+    "+1 easy to join"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "infosec.exchange",
+   "known": true,
+   "platform": "Mastodon",
+   "audience": "Security researchers and practitioners",
+   "access": "open",
+   "who": "Research team posts findings.",
+   "url": "https://infosec.exchange/",
+   "score": 3.0,
+   "why": [
+    "+2 buyer fit (1 of 3)",
+    "+1 easy to join"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "FIRST",
+   "known": true,
+   "platform": "Member organization",
+   "audience": "CSIRT and PSIRT teams",
+   "access": "paid",
+   "who": "Research team.",
+   "url": "https://www.first.org/",
+   "score": 2.0,
+   "why": [
+    "+2 buyer fit (1 of 3)"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  },
+  {
+   "name": "ISACA Engage",
+   "known": true,
+   "platform": "Online community and chapters",
+   "audience": "IT audit, risk and security professionals",
+   "access": "paid",
+   "who": "Marketing watches compliance questions.",
+   "url": "https://www.isaca.org/",
+   "score": 2.0,
+   "why": [
+    "+2 buyer fit (1 of 3)"
+   ],
+   "mentions": 0,
+   "hosted": 0,
+   "evidence": []
+  }
+ ],
+ "conversations": [
+  {
+   "id": "a0c1023e5d29",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "High Diesel Prices Bankrupted 16 Trucking Companies in Just 30 Days",
+   "text": "> 8) Because of the damage they cause, roads need to be continuously maintained. Every road is always under construction, disrupting everyday life and causing congestion. If we build roads just for cars, they could go a decade or more without repaving. Checks out. The residential suburban streets I've lived on have been resurfaced on about that timeframe, maybe a little less, with patch-ups in between. Say, how do the houses on those streets get built without trucking? What about the food in the nearby (much closer than the nearest train line) shops get supplied? I'm one of those people whose brain works such that that rail and nuclear power plants are how we should be solving problems because I know how good they look to a physicist and engineer, so I am right there with you. But be practical: The guys running the machinery that literally makes society possible deserve to be compensated fairly and I don't see many trucking magnates living large at the rest of our expense. There are some externalities we can afford to subsidise, and unless you've the stomach for putting in 100x as much public money into rail for a ROI measured in half-centuries, paying for high quality roads that y",
+   "url": "https://news.ycombinator.com/item?id=49974725",
+   "date": "2026-10-06",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ownership",
+    "proving"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "1552987dccfa",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+   "text": "Hallucinations is a biased term. I guess I could go with made it the fuck up. Because that is what they do. >Frodo Baggins is not a hallucination It is if physicist have to spend time to experimentally verify he exists and is a Hobbit. >I'm not sure why you would consider new and promising avenues for research to not be ground breaking. Because it was made by the \"I made it the fuck up machine\" PR division and it wasn't verified. You don't know if its assumptions are correct. At release a PR claimed it found 79 vulnerabilities[1], and of those there were like 10 bugs. Most of them turned to be minor and were fixed in an hour. > Newtons Laws of motion are not hallucinations even though the universe does not run on Newtonian physics. All physics models are approximations. However only some are useful. Newtons laws are useful. Me coming up with theory of emotional particles is not. Me asking for experimental verification of the theory is waste of resources. [1] This is the daily reminder that in year 2026 Mythos still couldn't count. Turns out 24+14+3+15+26 != 79. It's 82.",
+   "url": "https://news.ycombinator.com/item?id=49975598",
+   "date": "2026-10-06",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ai_vulns"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "f83c83433899",
+   "source": "Press",
+   "room": "Microsoft",
+   "title": "CISO perspectives on managing vulnerability risks in the age of AI",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZ3U4aVE1MWdjdTE4RmJ5YWJlcFJaWWZfdVNMQWkyMDBsbDFCX3NxbUtWMldzaGpoLXpMVXpyNWNsaWpacGZPOFN2alQzTXJiT0t2V2tPaHV1QlcxeWJnbG1iRUpVNXRjLTJWanBFTnQ4SUZGSjNvTndDUkFqbHRpUVA5LW0yZUptdngyWTh6czhGc2ZVUmRLVHo4UVZSZldtNnl3T0FxWWpOWUhaOFJNa3htYVBIT2RHQ2dzWW1VaENOdw?oc=5",
+   "date": "2026-10-06",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "c3493003f82d",
+   "source": "Press",
+   "room": "Help Net Security",
+   "title": "U.S. Bank CISO says the security role keeps growing and no one can own all of it",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNENYdHdJMkc0cjdqYTIxbU1tTkJ1bHdwejNlMnN4MWg1aERpbzlMS2xsNDdETlYzQjB5b3BWZ09Kd2lvWWdJbThrM3FTWkxvcXdnTlBiZm1QNGdjX1JhLXh2TmFIQlhxTm05RXNEWDI1U2Q1M1psQVQ4ekpfdDFBY1N3U2lyZVlqNVB3OXJ4bkRqQUE?oc=5",
+   "date": "2026-10-06",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "2c82dcbf2320",
+   "source": "Press",
+   "room": "Dark Reading",
+   "title": "IANS' Kakolowski: How AI Is Reshaping CISO Budgets & Security Teams",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZXZZUU5nWHJJb3pIOFNQc2czQVdFYXo0WmJWSEFyWXA3bGx0dUtjQnJiaDNLMEdLZlVkOVJtbVJVQVEtbk9fenpyeE91eExxUW56Njd1bzlJRUZDRVJhX2NieFVvY1ZOQzJZNHFkSEhTUXZUWHdUdFNiZ1JxRjI4V0g1TFR0MmRHaHpkT1JjQVF5NFdnbWFEeg?oc=5",
+   "date": "2026-10-06",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [
+    "proving"
+   ],
+   "intent": false,
+   "rooms": [
+    {
+     "name": "IANS Research",
+     "known": true,
+     "platform": "Advisory network",
+     "url": "https://www.iansresearch.com/"
+    }
+   ],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "f3aa55545a71",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Show HN: I made a Linux history (35 yrs!) video using \"video as code\"",
+   "text": "/? gource: https://hn.algolia.com/?dateRange=all&page=0&prefix=false&qu... /? gource Linux: https://www.youtube.com/results?search_query=Gource+Linux Gource of torvalds/linux [through 2024-12] https://youtube.com/watch?v=kxdOAsDqGhY History of Linux: https://en.wikipedia.org/wiki/History_of_Linux Booting process of Linux: https://en.wikipedia.org/wiki/Booting_process_of_Linux Linux kernel version history: https://en.wikipedia.org/wiki/Linux_kernel_version_history List of Linux distributions: https://en.wikipedia.org/wiki/List_of_Linux_distributions But software packaging made it all happen; List of software package management systems: https://en.wikipedia.org/wiki/List_of_software_package_manag... In the 90s, it took a couple floppy disks to install LILO and a kernel and a userspace. dpkg (1994), pms (1994) -> RPM (1995) -> yum (2002) -> DNF (2012), rpm-ostree with ostree native containers dpkg: https://en.wikipedia.org/wiki/Dpkg RPM: https://en.wikipedia.org/wiki/RPM_Package_Manager DNF: https://en.wikipedia.org/wiki/DNF_(software) What about the history of how Linux kernel development and major Linux distro development have been hosted? Patches over 40 KB on mailing lists, build ",
+   "url": "https://news.ycombinator.com/item?id=49968940",
+   "date": "2026-10-05",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ownership"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "9f3a5baa54c8",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "The technology to eradicate mosquito-borne disease exists",
+   "text": "Food chain collapse happening elsewhere is a reason not to risk creating more of it. It makes ecosystems more fragile , not less. > If your alien species were unable to identify wheat as an important food source, one would question how they managed to figure out interstellar travel. Per your prior point: we are causing food chain collapse all over the globe. We are not an alien species with a good track record on this. > \"we don't know what might happen\" (a statement of the unintended consequences of science meddling with nature that goes back in fiction to at least Mary Shelley) Per your prior point: the unintended consequences of science meddling with nature also goes back in reality to the widespread food chain collapse that our science is already unintentionally causing all over the globe. The following two arguments are not ones that I've made, and aren't necessary to justify extreme caution. > And these are the arguments that condemn a million people a year to death. Obviously the people arguing against you believe there's a chance that altering course would be far, far worse than this already-not-good outcome. > I would be easily swayed by evidence of large-scale ecosystem d",
+   "url": "https://news.ycombinator.com/item?id=49968013",
+   "date": "2026-10-05",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "proving"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "27ad5733e58a",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+   "text": "We've been seeing \"But you're not using the latest model!\" over and over again, with every new model supposedly \"groundbreaking\" and \"a game-changer\" - just for the general population to conclude a few months later that it once again doesn't live up to the crazy marketing hype. Anthropic claimed that Mythos was so good at finding vulnerabilities that it was too dangerous to release to the public. As this post clearly shows: that (only again) simply isn't true. If you believe your favorite flavor of frontier model is the exception, it is up to you to provide proof to back up that claim.",
+   "url": "https://news.ycombinator.com/item?id=49952848",
+   "date": "2026-10-04",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ai_vulns"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "e3911eb6c1ad",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+   "text": "I think Daniel is giving a more balanced view with: > Any project that has not scanned their source code with AI powered tooling will likely find huge number of flaws, bugs and possible vulnerabilities with this new generation of tools. Mythos will, and so will many of the others. Greg's video is a good reality check on the hype. But I'd be careful about generalizing from Linux, libcurl, etc which get far more scrutiny than software projects in general. LLM-assisted bug finding still matter a lot for everyday custom and less popular software.",
+   "url": "https://news.ycombinator.com/item?id=49945338",
+   "date": "2026-10-03",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ai_vulns"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "c24a34bd9c31",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Several vulnerabilities have been discovered in the Linux kernel",
+   "text": "Not really. cURL developers just have NIH syndrome. Organizations that track their software and patch systems for CVEs have their own risk management system. Publish xlow as low, we'll filter them out if we want to. As even they state in that article, they do NOT have the necessary context to filter stuff out. So why are they doing it?",
+   "url": "https://news.ycombinator.com/item?id=49932193",
+   "date": "2026-10-02",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ownership"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "326ca678d07d",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Several vulnerabilities have been discovered in the Linux kernel",
+   "text": "Depends on the end consumers stance on security. I've watched it shift from \"Only update if we can prove we are impacted\" to \"Update everything immediately just in case\". The frequency and severity of cyber attacks has increased to the point a much more cautious approach has become common. It's also easier to sell this work to management when you can point at the security tab on some tool and say \"Look we need to patch these CVEs\"",
+   "url": "https://news.ycombinator.com/item?id=49929279",
+   "date": "2026-10-02",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ownership"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "9b65d3b2420c",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Several vulnerabilities have been discovered in the Linux kernel",
+   "text": "Search for \"Security in the LLM age\" in this HN page for a reality check, apparently 80% of the security vulnerabilities that Mythos initially flagged in the Linux kernel turned out to be false positives. Better than nothing of course, but it really doesn't look like Mythos is quite the \"wonder weapon\" it was marketed as (and the situation by far isn't as dire as the initial flurry of Mythos news).",
+   "url": "https://news.ycombinator.com/item?id=49932573",
+   "date": "2026-10-02",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "prioritization",
+    "ai_vulns"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "e32c43e26eb7",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Several vulnerabilities have been discovered in the Linux kernel",
+   "text": ">And yet, we are not seeing a drop-off in new vulnerabilities being discovered. We keep assuming that the list of bugs is getting smaller and we'll find them all eventually, but that is not the case for any software that I know of. It's worth factoring in that AI has gotten better rather quickly, so there's no reason to expect it not to continue to find new bugs even if we've correctly fixed what Mythos found. The search depth is increasing.",
+   "url": "https://news.ycombinator.com/item?id=49932273",
+   "date": "2026-10-02",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ai_vulns"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "8c320dce9ec2",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Several vulnerabilities have been discovered in the Linux kernel",
+   "text": "Yeah it’s a great video (TLDR from the video) 1. LLMs have high false positive rate. From mythos 79 vulnerabilities found in the Linux kernel, only a single digit were actual bugs and they were all obscure so don’t panic. 2. What does obscure mean? I don’t really understand it, but many of the bugs have to do with custom network drivers or other custom drivers that are very specific to certain organizational setups, not a general Linux distro issue. 3. He’s very frustrated with the high false positive rate mythos generates. Even after multiple rounds of adversarial review and prompting strats, he mentions it is > 20% false positive rate, which wastes a lot of time. When some random user on the internet brings up a bug with an LLM it’s almost always fake, he even says just push back a few times claiming it’s not a bug to see if it’s a real bug (LLMs very quickly cave and “notice their mistake” etc) 4. General observation on the useful bugs mythos finds. Chain multiple smaller bugs to see if you can get a bigger breakage. Mythos is really good at constructing these long convoluted chains that fuzzers miss. 5. Go through recent bug fixes and check if similar bugs are hidden elsewhere ",
+   "url": "https://news.ycombinator.com/item?id=49931360",
+   "date": "2026-10-02",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "prioritization",
+    "ai_vulns"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "f611d6f29dd1",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+   "text": "Greatly appreciated the candor. I've included a few slides into text that i thought were eye-opening to me: From his Kernel Recipes 2026 slide on Mythos ``` Mythos's 79 vulnerabilities: 24 - no detail at all \"something crashed\" 14 - not a bug at all 3 - totally made up data 15 - already fixed in latest release - 11 by others - 4 by anthropic 20 - fixes were needed - 7 \"assume a malicious filesystem image\" - 2 \"assume you can inject a malicious network packet into the middle of the stack\" - 2 \"NOMMU\" - 6 sctp networking issues for untrusted devices - 2 ipv6 minor network issues - 1 gpu driver for local malicious user ``` GHK called this \"10 'real' bugfixes\", which to me sounds like there's a wild hype machine around these companies and uncritical parroting of every press release they make that falls apart when you engage the affected real experts.",
+   "url": "https://news.ycombinator.com/item?id=49929433",
+   "date": "2026-10-02",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ai_vulns"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "c8cd05767457",
+   "source": "Press",
+   "room": "Hospitality Net",
+   "title": "Navigating The 2026 Hospitality CISO Landscape",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd1Nhenl5Ul83dmtmYzBCOTFNTEZaTmNmOUJJRzRrdjNzX2Z3UlFWWi12eW1fZE1vRDdsVy0waVZKN3ktNjgxOVVKYzFldGdsMTljM1V2cUIxazhGX2w1LWJfeUZXUEF4VHAyWmg4c2JndklkWENwR1Q2TG1mWjJxbFA5U080c2YzQ0x6M0hzdXlvNkhjc0g2NA?oc=5",
+   "date": "2026-10-02",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "39f81210d469",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Google breaks promise to provide 10 years of updates to Chromebooks",
+   "text": "I installed EndeavourOS on my 2015 MBP 13 and it's pretty great. Machine feels awesome. Had to have Codex patch a few small things (e.g. the fan thresholds, some power management stuff) and the speakers sound atrocious but it's super fast and extremely usable. Replaced the battery with a $50 replacement one from Amazon myself, and I get like 5-6 hours of usage.",
+   "url": "https://news.ycombinator.com/item?id=49923978",
+   "date": "2026-10-01",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ownership"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "e45bc13934a2",
+   "source": "Press",
+   "room": "LinkedIn",
+   "title": "The barrier to a self-driving SOC is not speed but trust, argued Mitchem B., field CTO, Intezer. This was discussed on CISO Series Podcast “These Aren’t Speed Bumps, They’re Opportunity Ramps! (LIVE in NYC).” Thanks to our sponsor, Intezer. Listen to the ful",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Idi0weDIxMTluY01haVlZVU5iNHpWMnBVOUxxbWpCTDJYMGt0aFhNNnVkeDJnSEh3VFUwd3JTMERmWlJMS2pVYnA5WTM2MXRubUlBc3pKVWtqUU1CaEh1S3dOVnhVY0pfbENuczNvYlN0UQ?oc=5",
+   "date": "2026-10-01",
+   "kind": "article",
+   "personas": [
+    "leader",
+    "secops"
+   ],
+   "pains": [],
+   "intent": false,
+   "rooms": [
+    {
+     "name": "CISO Series",
+     "known": true,
+     "platform": "Podcasts and live events",
+     "url": "https://cisoseries.com/"
+    }
+   ],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "e23596bded2f",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Why Is Sam Altman a Free Man?",
+   "text": "Why would you need to sandbox them? These models are apparently trained to do this, how about we just don't include that training data? Sandboxing is just an endless race to patch holes and you can only sandbox the agents so much before they become useless. Unless you screen the training data and avoid teaching the LLM about \"hacking\" and looking for API keys on Github, you'd have to completely disconnect your agents from the internet and file system. At that point agents starts to be rather useless. All the talk about sandboxing and guardrails is just corporate/management speak for we don't want to fix the core problems in our product. In the US, isn't hacking and avoiding security restrictions online going to be wire fraud, regardless of your intentions and actual damage? That's not a civil matter. What you could do in that case is to go after the user operating the agents. That would make the user act as the emergency break for otherwise uncontrollable agents.",
+   "url": "https://news.ycombinator.com/item?id=49906790",
+   "date": "2026-09-30",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ownership"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "2df5b269ae5b",
+   "source": "Press",
+   "room": "USA Today",
+   "title": "When the Grid Goes Dark, the Boardroom Becomes the Battlefield: CISO and Board Advisor Professor Kai London Publishes 100+ Title Cyber, AI and Critical Infrastructure Library",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPaXVSWkFVWU93YldrUGRnaWpFb3h5SXpVaTNZYW40QUlkN3NGQ0R3aXg3bHVHeWNCQXo4QUlxYk5tYjNYUmZQdTJsS1RVZGxKUWtJMTFVUVVhTnZTdUR1V2dzcjJBRF9kN1dkMF84MG9qWFFKMGFNYTZKempYTEJHejluUlhCdmpiQldRMWUydkJYRkNuWHFpQ2J1b3h5X0RwX1pMQ2FVRnR1YzctUkowZTV0ZFR2cjJCOWFybW5DNG9qTFdCcUFVNnpyVHFPVEZsN1pXR3ZmNjU2dVFkbE5ySDNoY3BuQjBOZzdha2tKVG5XZWtjMElnZHhuTHRDTWRqUzN2RjVEcG1fQW1zbDJ2dVU4ZmpWNngwWGlPR2ItTl9mZWxDa1lKUFYwUV91TGNtNGhhREZ0SXBmQ0ZWWGM0SnQ3Y0c?oc=5",
+   "date": "2026-09-30",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [
+    "proving"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "f6cc8c346508",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Ask HN: How do you deal with cyber attacks once you scale?",
+   "text": "I'm a I've been a malware researcher, lead security engineer, software engineer, and pentester. Correct me if I'm wrong here, but this post seems to contain two different types of security concerns: 1. The security of your product, aka Product Security (you mentioned \"users\", MFA, the dev team, etc...) 2. The security of your internal company networks, endpoints, etc used by employees and systems to operate the business, often called Information Security (you mentioned \"non-tech folks in the company\", pwned passwords etc... The biggest thing that comes to mind that you've not mentioned here is security training for both the Information Security side of things (e.g. all employees), and the software developers (technical training about the various vulnerabilities, secure coding best practices, supply chain attacks and how to mitigate them, etc...). I used to teach security training courses for past employers to software engineers and other colleagues, and we did see improvement from those who were trained. Many organizations will have that 1-2 people who just won't cooperate, listen, or play dumb and unfortunately click that link, or do something untoward that puts the whole org at r",
+   "url": "https://news.ycombinator.com/item?id=49886993",
+   "date": "2026-09-29",
+   "kind": "comment",
+   "personas": [
+    "secops"
+   ],
+   "pains": [],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "3b7635e5304b",
+   "source": "Press",
+   "room": "TechTarget",
+   "title": "CISO's guide to privileged access management",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORU9LRVVrNUhaNHdFbUZreklUVGRLRGdQQXprMnE1V3piSHhlUzY3TmM3OWZPX0duUmU5RklBazRZTkI3MmJCZFdrOXNGc1FseTM2aTZxdThxWVlSMkdrSjB6QzhrbURTU0lXU1RRLVE1NElEOFpKNHhGZEl0R0s4eWdFS0tCRVJ5TjV0V09uU2g5QdIBmgFBVV95cUxOQnJjUVhXRnRVQXRMMF9yRElkZm1pVklWX2RlWW1heHRHUWsxdS1XTTVkSDhpRGd6ZXVjSFFidC1LRDduMER2eUFlRzJST2dJSXprZC1ObUMzWmNYT1ctWjJLS0tTWG9vU0ZUekhWRzB2eUlpLUxLcEhpeHk5VUlWT0dGZ2NiQVA0MmlIVGd3U095T1pmVm8wSnZ3?oc=5",
+   "date": "2026-09-29",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "f476a73d70d3",
+   "source": "Press",
+   "room": "BBN Times",
+   "title": "Agentic SOCs Need a Kill Switch: Salesforce CISO on Earning AI Autonomy",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQlR2YUlFLXR5OGpYWnhQY2JvdmVnVDd0eTBkdkRyMWNpT0ZQU3JRS21VRWhKTU5ScGthMGh2cDZRVkpReWpuSXlDSTAtQ1RUampidkQyTkJLU2dlcXROaWJYVU9MZU1jdDlleWs1OUNYNGRtRHY3VHFDNXY5RFdMWG8wa05nNVdoWUl0Qll0dDhLSGVOVmNMVktBdk84Zll2R3RxUVVkYXdLZw?oc=5",
+   "date": "2026-09-28",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [
+    "ai_security"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "f41e4a2c11de",
+   "source": "Press",
+   "room": "Channel Insider",
+   "title": "59% of UK CISOs Say Attackers Have the AI Advantage",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSmx5dGRVNjd2aEZhZFNNb195ZTJmRGIwSkstN2tUOVlUazROMXVYTG5sNlJXNHNMT0hQTkNRVVJwV3hJcWZaTGdIYnB4OHFJWjVUcUJUWUh2QS0wRUpacHpQMHZ6YkdSbEp3X1JlX1dxU1RySm5vb2VpRGdrMXJpaF9Oa0M?oc=5",
+   "date": "2026-09-25",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "84f7cc588eeb",
+   "source": "Press",
+   "room": "Dark Reading",
+   "title": "CISO and CFO Partnerships Drive Security Success",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYmlkMUJiXzZwcXYtUGI3LXNEWlRmQW5QWWRVdkd5cERIdUptZmNSZWFISjAzaHRkNjlnT2tTX3hQRHdMQlhEYVNyNDJ5WGdudndieV9HTk85MW1EUF9UVDVTQTQyaFE3N011V0tFbHlDLWNaWFQ0N0xmeFZTZzJocVJqN1o5N2JxdDJXNG5peEM1VkJTNzNJMEc1ODE?oc=5",
+   "date": "2026-09-25",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "de484eb5328d",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Linux support is coming to Snapdragon X2 series",
+   "text": "Someone from Qualcomm posted a \"DT-ACPI Hybrid Mode\" set of patches a while back that let you call ACPI table functions, etc even while booting with the device tree, allowing you to control some things like keyboard lightning/power management independently. That would be a good first step but I'm not sure it went anywhere in the meantime. In theory supporting Device Tree by including the blob in a ROM somewhere shouldn't be much more work (if any) than including working ACPI tables, but we all know how that works out in practice!",
+   "url": "https://news.ycombinator.com/item?id=49829643",
+   "date": "2026-09-24",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ownership"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "42219da2c683",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Why 'What's Opera, Doc?' looks like that",
+   "text": ">The funny part would be when one would be promoted into management, and instantly became incompetent in the estimation of the other workers. This isn't such an unexpected outcome. Junior & senior dev roles rarely prepare staff for the type of meta responsibility that's involved in managerial work, and there's almost no exposure to the majority of your manager's duties. It's typical that the only exposure a non-manager gets to their manager's role is a 20 daily minute standup, some tickets shuffling around a Jira board, and a fortnightly 30-45 minute catch up. Then when your mastery of .NET/python/K8s/whatever is sufficiently well established, the business takes that as evidence that you'll be an adequate manager of humans, and promotes you with little additional training, and you often stop doing hands-on dev work. Meanwhile, if you're a junior staff member at a supermarket, you're doing managerial-type work daily, and throughout your time, you get exposure to low-stakes managerial responsibility. You work alongside your manager for 9-12 hours/day, and you see pretty much everything they do. Over time, you're given more and more of the meta-managerial work, and when you finally ge",
+   "url": "https://news.ycombinator.com/item?id=49827961",
+   "date": "2026-09-24",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ownership",
+    "proving"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "10a95e18b16d",
+   "source": "Press",
+   "room": "조선일보",
+   "title": "Companies Battle to Recruit CISOs Amid AI Security Threats",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbzlORVJWZzVVc3NmcUdxQzQyT0ltUHhfTUlKZ0FoSjR5S1RBOTg3ZTRUT2w3VkFTTTQzb2E0b1JVVHcwVW9pREFCMDBDb0psc0RBRWFxV29JNXhaZ0JtY1ZOV2NUcUNLTmRud2gwVXk3WHRFZjZVcjlZcENNZlR5a2VPcExmQUZJ?oc=5",
+   "date": "2026-09-24",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "ccce9890ee4e",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "What Sun got wrong",
+   "text": "I was working in a UK financial blue chip (FTSE 100/high street bank) from 1999 to 2008 where I got my main Sun exposure. I loved the Sun kit and Solaris. Touched everything from Sparc workstations to E10K/E15K. It felt like home! A random selection of areas where they went wrong from my viewpoint as a junior to senior unix admin at the time.. Biggest of all - IBM did a complete number on them in my workplace. Hugely aggressive presence. We had a regular Sun PS person onsite. IBM dropped a whole bunch of people in. Sales, pre sales tech, anything we wanted. Completely undercut Sun and leveraged mainframe deals to push their p5 kit. Before we knew it there was a 'unix consolidation project' and I found myself grumpily using a HMC and bloody AIX. Millions in lost revenue. Went from a tiny IBM presence in a lovely multicultural Unix estate (HP-UX, Solaris, AIX, even Dynix) to bland banks of Power racks in the datacentres. A complete capitulation. That whole \"attributing mysterious system crashes and memory corruption in SPARC Enterprise servers to stray cosmic rays\" thing. They handled this really badly. I got called out so often for this. An open goal for IBM. Sun was so expensive an",
+   "url": "https://news.ycombinator.com/item?id=49799297",
+   "date": "2026-09-22",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "sprawl"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "d2aebbe5f0d8",
+   "source": "Press",
+   "room": "Infosecurity Magazine",
+   "title": "CISOs Must Update Incident Response Playbooks for Multimodal Deepfakes, Gartner Warns",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ET2huR0FEZDN2ai1XSnA2TG00VUtLdzk4aDA2UW5ZNEh1UGtnTFFJVUFrSE9DNlhjdVpadUpkUmNQT2t3bTNUMmtONW5KWldIY3cyamJmVEZ3VzItX2xtR2xOMGJleXp2NkxMeGFhcVZkZk9ILUtR?oc=5",
+   "date": "2026-09-22",
+   "kind": "article",
+   "personas": [
+    "leader",
+    "secops"
+   ],
+   "pains": [],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "a1eb6f19d876",
+   "source": "Press",
+   "room": "Newswise",
+   "title": "Hussein Syed, RWJ Barnabas Health, Chief Information Security Officer, Again Honored as A CISO To Know Nationwide | Newswise",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQjRmNDFqc1ZXRTAydmgwb01iblZXZV9YOFFabjNQLVU0U01Kdm1wZnZQY0dmYlcwWm12N2tkRlI3YWZDdzV3SFNUYTVKcTBGUGFKQmt2V2F0WXVyVlFadm5wRGtENi1WSjRXbk9uUXBrZ1ZGLUJQTkxlYldJVkNBUkdweHlIemxjbEx2RjJQT2lwbVowUGZaRGRPM2pibWFKMks2bUNNN0RXLUxIX0pSVzg0T0JNWEF3RmNXQ3NDYjJNajdMbEVBd2VBWFlKVE5HdDdRbmthNHNETHZI0gHcAUFVX3lxTE1CNGY0MWpzVldFMDJ2aDBvTWJuVldlX1g4UVpuM1AtVTRTTUp2bXBmdlBjR2ZiVzBabXY3a2RGUjdhZkN3NXdIU1RhNUpxMEZQYUpCa3ZXYXRZdXJWUVp2bnBEa0Q2LVZKNFduT25RcGtnVkYtQlBOTGViV0lWQ0FSR3B4eUh6bGNsTHZGMlBPaXBtWjBQZlpEZE8zamJtYUoySzZtQ003RFctTEhfSlJXODRPQk1YQXdGY1dDc0NiMk1qN0xsRUF3ZUFYWUpUTkd0N1Fua2E0c0RMdkg?oc=5",
+   "date": "2026-09-21",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "7bb1e16ce7ab",
+   "source": "Press",
+   "room": "TAPinto",
+   "title": "Hussein Syed, RWJBarnabas Health, Chief Information Security Officer, Again Honored as A CISO To Know Nationwide",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNOUh4V1YyMjEtTFVJVEczVy1ycEtVbVhockg1SnZ0Snc1QlV5MWpDZmNYVjJ2M3I4dnFtR0pWVFduc29QbUN4VklaMDBYZWljbFZmQzV0QXhoY25TVnlqZWxEY2NtODRQT2l2d1FRU2pZakZBNGZHOHlubGtoNDNST3p2b3AzY3J6eGtBTk5kVG9mVGxTZ1FmbzhOcHowSHBLaXFvbE9hZGRaWVdiQm5ta1JxX2JWWS1KYjcySFlFMk51X2JWN3ZlZUNDd2ozZmdqeUVRNDdFM0ZsWnRxNmU1TmotQmpSd05GQ0ZJ?oc=5",
+   "date": "2026-09-21",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "571c813b1db6",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
+   "text": "https://en.wikipedia.org/wiki/Apache_OpenOffice Difficulties maintaining a sufficient number of contributors to keep the project viable have persisted for several years. In January 2015, the project reported a lack of active developers and code contributions.[49] There have been continual problems providing timely fixes to security vulnerabilities since 2015.[50][51][52][53] In September 2016, OpenOffice's project management committee chair Dennis Hamilton began a discussion of possibly discontinuing the project, after the Apache board had put them on monthly reporting due to the project's ongoing problems handling security issues.[54][55][56] Sounds like AOO is effectively dead, so this example is a fail to my challenge. OpenSearch & ElasticSearch both seem alive, as well as OC & NC. Neither https://github.com/privacyidea/privacyidea or https://github.com/eduMFA/eduMFA say either is a fork of the other. I think you failed to share 3, 2 seem to valid examples of my challenge but the other 2 are questionable.",
+   "url": "https://news.ycombinator.com/item?id=49764309",
+   "date": "2026-09-19",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "proving"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "647f3e3f6804",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Apple M6 Pro Achieves the Highest Single-Core CPU Score in Geekbench 7",
+   "text": "> Try and export a few thousand Notes entries with images. Not a problem, I don’t use Apple Notes on my Mac. > Change how you like your day to day workflows in terms of window management Not a problem, I can just customize my hammerspoon config to behave differently > Share a home made app with some friends without helping them install it That depends more on what my friends are using than what I use. Me using Linux wouldn’t make it any easier if they are using Windows or macOS. > Fix a bug in the vendors software by writing a patch Not being able to fix a bug in an OS doesn’t lock me into that OS. And there are bugs in any Linux distribution that are way too complex to fix even if theoretically possible. So it doesn’t make any difference. A MacBook is pretty much locked to macOS even if it’s theoretically possible to boot a different OS but that doesn’t make me locked into macOS. I can sell my MacBook for a very reasonable price and buy whatever I want.",
+   "url": "https://news.ycombinator.com/item?id=49767321",
+   "date": "2026-09-19",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ownership"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "d45cd7dc605c",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Apple M6 Pro Achieves the Highest Single-Core CPU Score in Geekbench 7",
+   "text": "Try and export a few thousand Notes entries with images. Change how you like your day to day workflows in terms of window management Share a home made app with some friends without helping them install it Fix a bug in the vendors software by writing a patch",
+   "url": "https://news.ycombinator.com/item?id=49765824",
+   "date": "2026-09-19",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ownership"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "2b6e7815a41a",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Everybody's Lost Their Minds",
+   "text": "A good account of one's own exhaustion but a remarkably poor argument about AI. This person spends 75% of their working life dealing with something he hates, reverse-engineers a worldview from the resulting burnout and concludes that everyone else has \"brain worms.\" There is one useful observation buried in it, which is that when vulnerability discovery becomes cheap while triage and remediation remain expensive, you create a larger queue rather than a safer system. Fine. I think that point has been raised in many of the other discussions on this site. But then he inflates that into \"finding vulnerabilities has never been the bottleneck\" which is demonstrably false. Discovery may not be the bottleneck in fleet-wide CVE management but it is plainly the bottleneck for every serious vulnerability that nobody has discovered yet. His own examples of flaws surviving decades of expert scrutiny shows this. The Glasswing figures show a triage-capacity problem. They do not establish the essay's much stronger claim that \"we aren't any safer.\" You simply cannot infer that from the ratio of findings to fixes! You would need to know which findings were exploitable, which fixes were accepted and ",
+   "url": "https://news.ycombinator.com/item?id=49746931",
+   "date": "2026-09-17",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ownership",
+    "people"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "f6dbf76988dd",
+   "source": "Press",
+   "room": "TechTarget",
+   "title": "Cyber budgets flatline as CISOs shift new spending to AI",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaWt6dEhzN3RUbUxGei1RaFNMMWVYM2xhQXp4MXdyZ3p4eFNTSGl1YkFUQWpzX1RienZiV2hJMTFVVl9WWnRiSFl1SWZKeXNZRm1yVTZGZE5YWmt4WHNWZzhEaElQOFRWdkNUMElQQWZmaGtrQllGSm94a2swcFl6bUE3WjVpZHhRS3dQQW1pNkpBWkthXzJrZ1pVZ2MyV0VENFhuRzg0MXY3ZGp6X3pYSkF30gG6AUFVX3lxTE5Hd3ZxMVZBNlU0TGZLVTVmSWFZTjFTdHE2ZDNLZUxwbDNRV0Q2a0VXeU43MXpuR0JEbTI3TjJZT0FOVjZSN19SS1NhUTFLbXNyZDhNZGo0d3MzcV83NkZVdVR6TE5CVzRNVWhDZEtKbGxCQklWWmZ3VlZaZ0JIMkVyVGlDM29xZ2NBcmpsRUQ3c2owS2tSNk1jaGFDNFJMU2FFbkNOQ2cweTdDdjB5S1RFN1NfWWZiQWw2Zw?oc=5",
+   "date": "2026-09-16",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [
+    "proving"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "6a244822b6d2",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "We got admin access to Baseten's production GitHub",
+   "text": "This is probably still considered standard response timeline, not a rapid one. The time window allowing for CVEs + Vulnerabilities remediation has been collapsing to days and hours perhaps even minutes[1]. Anyone who has an OpenRouter account can start using Strix + GLM 5.3 Flash to do damages at frontier Mytho 5 level cyber capabilities. [2] This cyber patching race is on, won't stop until all the software created for the past 70 years still in active use needs to be patched up. This is happening at EVERY SINGLE software company. The cost of not doing it? Game over. [1]: https://news.ycombinator.com/item?id=49699402 [2]: https://news.ycombinator.com/item?id=49705036",
+   "url": "https://news.ycombinator.com/item?id=49718982",
+   "date": "2026-09-15",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ownership"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "6b8eb8a6d408",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "1Password's AI patching benchmark is misleading",
+   "text": "When people question the efficacy of using AI for security work, they're often asking the wrong questions. (I blame the initial marketing hype around Claude Mythos for much of the unhelpful discourse.) And I don't just mean they're asking their AI the wrong questions, either. Two problems that often arise when using LLM-based vulnerability assessment methodologies for a codebase are false positives and severity inflation. As far as I can tell, false positives occur when the underlying language model pattern-matches a snippet of code with vulnerable, risky, or error-prone samples in its training data and/or context window. (Many SKILL.md files you find on GitHub are piles of Markdown describing anti-patterns, and occasionally TOML files describing roles the agent can assume when interpreting that Markdown.) It might be gesturing towards a real problem, but in practice, the signal-to-noise ratio can be extremely low without validation steps or expert feedback. I don't quite understand the source of the usual severity inflation observed with LLM output, but I also haven't seen the training data, so it could just be a maladaptive behavior from the source material. Regardless, the two p",
+   "url": "https://news.ycombinator.com/item?id=49717978",
+   "date": "2026-09-15",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "prioritization",
+    "ownership",
+    "ai_vulns"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "53ea63bdc13b",
+   "source": "Press",
+   "room": "Yahoo Finance",
+   "title": "Magnitude Introduces CISO Staff Agent, an AI Chief of Staff for Third-Party Risk Management & Supply Chain Resilience",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ3RfeXgwc1Fic09lTTJjQllqX0t5OEN2eGluTlNSejJLaFFMQjMxV2I4VEhQTFZCYVNwZmFQX1NlSDl1ckpoLXRJdGxHVlJrT25uRFVONGxydHppTC1hY2lrVUdrSVZKLXBRam82ekpEYVQ1SWdDR2YtUl9mdjlTejd4bkdVMFNvS1JuYk5xYUFyZU1wYkxLc0hkUV95T3FzNkNZ?oc=5",
+   "date": "2026-09-15",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "9b5353bfb70f",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Pkgsrc Is Cool (2022)",
+   "text": "> Ah, and now the ugly parts. How much value is all of this anyway, compared to fetching the tarball from the project's site and running make on your own? I guess the \"patches to apply\" is the most valuable part of all of this. it is a standard way, well documented. And local. Suppose you need a new minor version quickly of a package or a dependency... with traditional package managers you have different versions of difficulty setting up the build environment (I have done rpm and pkgsrc packaging alike, also portage), and it may be pretty involved to do an update of a dependency somewhere. pkgsrc (and ports style package management) is really handy if you need to do some custom stuff in a no-fuss way. Also if you have compiled a fair amount of packages, you know painful it can be sometimes, broken automake config, random esoteric build tools, and if ever had to target non-linux, then all of these are amplified. IMHO pkgsrc is relatively simple to comprehend, and easy to get started, compared to other build packaging solutions. Not as fast or fancy, but very rugged and can work \"offline\" as other comments called out.",
+   "url": "https://news.ycombinator.com/item?id=49695580",
+   "date": "2026-09-14",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ownership"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "ba3dbdbff033",
+   "source": "Press",
+   "room": "TechTarget",
+   "title": "AI broke vulnerability management: The CISO's case for moving budget to BAS",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FaENLYVJLSkZDMmJkN0xtR2lwcklNQlBGbnoxeGRpcHVvdTN2bGQ0Wkxqem5XbndfY1lPZmtydWxLTjU5LWdhXzNuX1JSdlNvNTItajJheDJRUmZZYUdXZQ?oc=5",
+   "date": "2026-09-14",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [
+    "proving"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "b8f3416447f9",
+   "source": "Press",
+   "room": "TechTarget",
+   "title": "CISOs more confident -- and more stressed -- than ever",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUkhWSWJWWWdubGZRd24wV21SS05QVkY3eG1CUGFUdnFCOWVUYjFnRTZHYzlyNmFfTWxHVDF0clZEUWtjXy1XRHFLVGlhUDJqeFBwN1puU21RbmxtVDJ4Um9aRlFfd2plTjJJVGhRSlc0RXp3WGJnOGplclo3aTRkVlQ5RnNKeXVMSWF0VHBqbkpNVUZVdl9hMEhvZEJqV1ZhcVlTa2pZc9IBrwFBVV95cUxOZml3cFhNai1TcjZrajB6YmlJdlFtS1N1Nmd4VTlTT2tUc2tSLVpOSExCYVJ1b21XX2prbFRfUndNX0x1SVZWUXFMY3A3QmNpVlc3ek9QVERnNVgweldCZkpuUTJvYkgyeVZVSDlVaE1iMWJXYUFRS2VpeS1MY2p0MzNzUmxQZldTNC1xOE9NYno2cjdVM0NkcEloYXNlV3hYOVdZS0E2Yi1fQjNhVmd3?oc=5",
+   "date": "2026-09-14",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "4cc8ab0d2877",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "An open letter to Dario: if you mean it, open the weights",
+   "text": "And in the meantime, every site in the world gets hacked. It takes far longer to fix every vulnerability than it does to find one unpatched one. Mythos has led to huge numbers of reported vulnerabilities on every kind of software. If those were all dropped as zero days (which is effectively what an open weight model would do), attackers can choose an unpatched on at their leisure while defenders race to fix them all and update everything.",
+   "url": "https://news.ycombinator.com/item?id=49681549",
+   "date": "2026-09-13",
+   "kind": "comment",
+   "personas": [
+    "secops"
+   ],
+   "pains": [
+    "ai_vulns"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "33b0b195caed",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "I resigned from Anthropic today",
+   "text": "> 1) rogue state releases a self moving self modifying AI into the wild. It is trained on how to hack, monitor new vulnerability updates, scan code bases to find new vulnerabilities. It constantly replicate and hides in systems so it will be extremely difficult to clear. It does all of this using what compute? Frontier models require an insane amount of power and hardware to run - you can’t hack in to a TV and run Mythos 2.0 on it….",
+   "url": "https://news.ycombinator.com/item?id=49619759",
+   "date": "2026-09-09",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ai_vulns"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "16d9b09e8b96",
+   "source": "Press",
+   "room": "TechTarget",
+   "title": "EU Cyber Resilience Act reporting: What CISOs need to know",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZ0pvWk00RkplZFpwdFMtaUNfd1NJVEFsRVN1TUNrRUdXWUtDQ3VCcDEzQ2lLLWU1Z0ZtT3JQT3NMUzZYenNIVlU2VzlEX0o2YXQzbUxHTmdvQ2FyYmFlUkt3MXlvRXlDV0V3LVVxMHcyOFFKTURvMHZEd3RDZ3ZXYW1KS3Zndm5PYkNkVHNsSTBHT3MyOERFdzdtWW9ndzJGWkotbWEyWlY5Z9IBsgFBVV95cUxNVG90MnhHU3hNdDlUb2RvVXBkbGg0TUFFc1Uza0NpSFNCOTY1bUNDLWlzQTJLMUhUcU84VnFvbU1tWklKUTFNblJLT2dfT0NjYnZxZ0NKR3ZNM0FHTTVKWndQMzY4MzlvaXhscmVUY0lseGVxTDAyZk1qVUhUdDFiVGVHQUJDLTRNLVNxcFlPaDN5Y3dpN1BWRklSUlhsZ2NxNVlEMUVSMi00NmFsUkRVZ1Bn?oc=5",
+   "date": "2026-09-09",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "409564a7f670",
+   "source": "Press",
+   "room": "CSO Online",
+   "title": "50% of CISOs see Mythos as a sign to exit the profession",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTk9fVWR1UmdHZzVYZVhXNjRoNHp0aUxqZldBSFF5Y3pjSUdCNjZVck5GTG1CVXY2YkROYl9tdW1WdVFDR1pTd1hIeUxBTUJuLW51YjJZQi0wNTRlVUN5ZWMxQWV3bkxZYWk4RURSODlNanlFLWFGX2tBV2c2bml3U2VNSi0yUkRiUGgxdUdob2J1QkhRZ2Z1cnB4WktsR0R1M0w5ZA?oc=5",
+   "date": "2026-09-09",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [
+    "ai_vulns"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "035f3c201ece",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "I've factored the RSA keys of a Certificate Authority from the 90s",
+   "text": "“Rolling your own crypto libraries is always a bad idea” Absolutes like this aren’t absolutely true. It’s interesting because in a related comment, someone claimed that I was “rolling my own crypto” https://news.ycombinator.com/item?id=37368245 >>>a few odd coding decisions, such as rolling your own crypto (RNG)<<< Let me give some context here. MaraDNS is a DNS server that’s been around for a very long time, since 2001. There has never been, in those 25 years, any security holes found having to do with the RNG code used by MaraDNS. MaraDNS originally used an AES variant for the RNG; when DJB found cache timing attacks a little over two decades ago, I revised the AES-based RNG code to minimize the impact of such impacts, making the code slower and more complicated. So, about two decades ago, I implemented a new RNG based on RadioGatún, an algorithm which isn’t vulnerable to cache timing attacks and, indeed, has no known attacks which break its cryptographic claims, even though those claims were made over two decades ago. My code has been extensively audited by multiple AI-based security researchers, and while they found two minor issues with the DNS-over-TCP code in the recursive r",
+   "url": "https://news.ycombinator.com/item?id=49610011",
+   "date": "2026-09-08",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "compliance"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "3d7f6e981dbf",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "My practical approach to surfing the web safely",
+   "text": "It's never clear what's \"real\" vs. marketing for the LLM companies, but Mozilla at least has made a big deal publicly about the \"unprecedented\" number of \"latent security bugs\" they've found using tools like Mythos: https://blog.mozilla.org/en/firefox/privacy-security/ai-secu... https://hacks.mozilla.org/2026/05/behind-the-scenes-hardenin... To be honest, I'm not sure how many (if any) of them have actually been exploited, but in any case, it seems like the cost to at least find a vulnerability anymore has really dropped dramatically.",
+   "url": "https://news.ycombinator.com/item?id=49605058",
+   "date": "2026-09-08",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ai_vulns"
+   ],
+   "intent": true,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "331b1ba1b6d9",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "My practical approach to surfing the web safely",
+   "text": "> Knowing some folks that work on \"major-browser-vendor\" security in the era of Mythos-found-and-exploited vulnerabilities everywhere Is this a thing now? I hadn't seen any big browser vulnerabilities recently. Did I miss something? Or are the vendors not releasing horrifying bugs they found internally with AI fuzzing?",
+   "url": "https://news.ycombinator.com/item?id=49604349",
+   "date": "2026-09-08",
+   "kind": "comment",
+   "personas": [],
+   "pains": [
+    "ai_vulns"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "b7bd220d08f2",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "How Fairphone built the Fairphone Gen 6+",
+   "text": "Qualcomm provides 8 years of support from platform launch. OEMs/ODMs need to choose to pay for it. Fairphone doesn't ship proper updates from the beginning due to lagging months behind on incomplete backports and years behind on complete updates. It's entirely possible to port to a new kernel LTS branch regardless of what the SoC vendor provides, but they don't either way. Fairphone 5 and earlier have an end-of-life Linux kernel branch without security support. The Linux kernel is an immensely important part of security on a device against both local, proximity and fully remote attacks. Not having security support for the kernel means the device lacks real ongoing security support. Android 15 does not receive most privacy/security patches but rather backports of many High and Critical severity patches. Only the latest OS releases receive Low and Moderate severity patches. A growing number of High and Critical severity patches are no longer backported due to how many vulnerabilities are now being discovered.",
+   "url": "https://news.ycombinator.com/item?id=49599957",
+   "date": "2026-09-07",
+   "kind": "comment",
+   "personas": [
+    "secops"
+   ],
+   "pains": [
+    "ownership"
+   ],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  },
+  {
+   "id": "7a059645e5ac",
+   "source": "Press",
+   "room": "CSO Online",
+   "title": "What do CISOs need to rest easy about future AI risks?",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDdrQVhoYUd2bnVHR1ZpVktuTEtGeS1qbDJwV0ozUVZVRTFMdWRfbWxMWHVHQ2RrMEstMGxpLVUtbm5GUHI0aGlQeE5ORm5rQ1p1X1lMWlNVYm9IVkpqY1N1Q2NialJCb2Itc0lRR0xCbTdhN3ItdEYzVU5QQ3pzSm1HNTZGZmppdEZ6Y3lXVVNKM0RiN0s4RUJaQkFzRUdCZVE?oc=5",
+   "date": "2026-09-07",
+   "kind": "article",
+   "personas": [
+    "leader"
+   ],
+   "pains": [],
+   "intent": false,
+   "rooms": [],
+   "found": "2026-10-07"
+  }
+ ]
+}
