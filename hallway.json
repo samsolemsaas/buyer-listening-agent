@@ -1,14 +1,11 @@
 {
- "generated": "2026-10-08T06:43Z",
+ "generated": "2026-10-08T13:36Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 3,
-  "by_source": {
-   "Hacker News": 2,
-   "Press": 1
-  }
+  "new": 0,
+  "by_source": {}
  },
  "rooms_norms": {
   "r/cybersecurity": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
