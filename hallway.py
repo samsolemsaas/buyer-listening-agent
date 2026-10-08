@@ -20,6 +20,7 @@ Privacy: public posts only, no usernames stored, short excerpts that link back.
 Run locally:  python hallway.py --dry-run
 """
 import base64
+import gzip
 import hashlib
 import json
 import math
@@ -68,7 +69,8 @@ def http(url, headers=None, data=None, timeout=25):
     req = urllib.request.Request(url, headers=h, data=data, method="POST" if data else "GET")
     try:
         with urllib.request.urlopen(req, timeout=timeout) as r:
-            return r.read()
+            body = r.read()
+            return gzip.decompress(body) if body[:2] == b"\x1f\x8b" else body
     except urllib.error.HTTPError as e:
         print(f"  {e.code} from {url[:80]}")
     except (urllib.error.URLError, TimeoutError, ValueError) as e:
@@ -142,7 +144,9 @@ def from_stackexchange(queries, since):
         try:
             items = json.loads(raw).get("items", [])
         except ValueError:
+            print(f"  Stack Exchange returned something unreadable for {q}")
             continue
+        print(f"  Stack Exchange '{q}': {len(items)}")
         for it in items:
             out.append({"id": cid("se", it.get("question_id")), "source": "Security Stack Exchange",
                         "room": "Security Stack Exchange", "title": clean(it.get("title")),
@@ -155,28 +159,38 @@ def from_stackexchange(queries, since):
 
 
 def from_mastodon(tags, since):
+    """Public tag timelines on mastodon.social, which include posts federated from infosec.exchange."""
     out = []
     for tag in tags:
-        raw = http(f"https://infosec.exchange/tags/{urllib.parse.quote(tag)}.rss")
+        raw = http(f"https://mastodon.social/api/v1/timelines/tag/{urllib.parse.quote(tag)}?limit=40")
         if not raw:
             continue
         try:
-            root = ET.fromstring(raw)
-        except ET.ParseError:
+            posts = json.loads(raw)
+        except ValueError:
             continue
-        for item in root.iter("item"):
-            link = item.findtext("link") or ""
-            try:
-                dt = parsedate_to_datetime(item.findtext("pubDate"))
-            except (TypeError, ValueError):
-                dt = None
+        print(f"  Mastodon #{tag}: {len(posts)}")
+        for p in posts:
+            if not isinstance(p, dict):
+                continue
+            dt = parse_iso(p.get("created_at"))
             if dt and dt < since:
                 continue
-            out.append({"id": cid("masto", link), "source": "Mastodon", "room": "infosec.exchange",
-                        "title": "", "text": clean(item.findtext("description")), "url": link,
-                        "date": dt.strftime("%Y-%m-%d") if dt else "", "kind": "post", "replies": None})
-        time.sleep(0.3)
+            link = p.get("url") or p.get("uri") or ""
+            out.append({"id": cid("masto", link), "source": "Mastodon",
+                        "room": urllib.parse.urlparse(link).netloc or "Mastodon",
+                        "title": "", "text": clean(p.get("content")), "url": link,
+                        "date": dt.strftime("%Y-%m-%d") if dt else "", "kind": "post",
+                        "replies": p.get("replies_count")})
+        time.sleep(0.5)
     return out
+
+
+def parse_iso(s):
+    try:
+        return datetime.fromisoformat(str(s).replace("Z", "+00:00"))
+    except (TypeError, ValueError):
+        return None
 
 
 def from_news(queries, since):
@@ -342,21 +356,35 @@ QUESTION = re.compile(r"\?|^(how|what|which|why|is|are|does|do|can|should|has|ha
 
 
 def read_for_lens(c, L, cfg):
-    """Tag a conversation for one lens. Returns None when it's off-topic for that lens."""
-    full = f" {c['title']} {c['text']} ".lower()
+    """Tag a conversation for one lens. Returns None when it's off-topic for that lens.
+
+    One loose word is never enough. A conversation counts when it is on-topic for the lens
+    and shows two signals: two different problem phrases, or a problem phrase plus a buyer
+    persona, or a problem phrase in a post that asks for help. Hacker News comments also
+    need the thread itself to be on-topic.
+    """
+    title = (c.get("title") or "").lower()
+    full = f" {title} {c['text']} ".lower()
     if any(x in full for x in cfg["exclude"]["phrases"]):
         return None
-    if not any(hit(full, p) for p in L["relevance"]["phrases"]):
+    rel = L["relevance"]["phrases"]
+    if not any(hit(full, p) for p in rel):
         return None
-    topics = [k for k, t in L["topics"].items() if any(hit(full, p) for p in t["phrases"])]
-    personas = [k for k, b in L["buyers"].items() if any(hit(full, p) for p in b["phrases"])]
-    if not topics and not personas:
+    if c["source"] == "Hacker News" and c.get("kind") == "comment" and not any(hit(f" {title} ", p) for p in rel):
         return None
     mentions = any(hit(full, a) for a in L["company"].get("aliases", []))
-    asking = bool(QUESTION.search(c["title"] or "")) or "?" in c["text"][:600] or bool(QUESTION.search(c["text"][:160]))
+    found = {k: [p for p in t["phrases"] if hit(full, p)] for k, t in L["topics"].items()}
+    found = {k: v for k, v in found.items() if v}
+    phrases = {p for v in found.values() for p in v}
+    personas = [k for k, b in L["buyers"].items() if any(hit(full, p) for p in b["phrases"])]
+    asking = bool(QUESTION.search(c.get("title") or "")) or "?" in c["text"][:600] or bool(QUESTION.search(c["text"][:160]))
+    in_title = any(hit(f" {title} ", p) for p in phrases)
+    strong = len(phrases) >= 2 or (phrases and personas) or (phrases and asking and in_title)
+    if not (strong or mentions):
+        return None
     shopping = any(hit(full, p) for p in cfg["intent"]["phrases"])
-    return {"topics": topics, "personas": personas, "mentions": mentions,
-            "asking": asking, "shopping": shopping}
+    return {"topics": list(found), "personas": personas, "mentions": mentions,
+            "asking": asking, "shopping": shopping, "evidence": sorted(phrases)[:6]}
 
 
 def weigh_in(c, r, L, cfg):
