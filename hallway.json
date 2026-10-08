@@ -1,862 +1,1948 @@
 {
- "generated": "2026-10-07T13:35Z",
- "company": "Nagomi",
- "category": "Exposure management",
+ "generated": "2026-10-08T06:43Z",
+ "default_lens": "nagomi",
  "window_days": 90,
+ "reply_window_days": 14,
  "last_run": {
-  "new": 5,
+  "new": 3,
   "by_source": {
-   "Hacker News": 4,
+   "Hacker News": 2,
    "Press": 1
   }
  },
- "buyers": {
-  "leader": "Security leader",
-  "vm_owner": "Vuln management owner",
-  "secops": "Security engineer & SecOps",
-  "it": "IT & infrastructure"
+ "rooms_norms": {
+  "r/cybersecurity": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+  "r/sysadmin": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+  "r/AskNetsec": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+  "r/blueteamsec": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+  "r/CISO": "Small, senior and wary of vendors. Listen first and post rarely.",
+  "Hacker News": "Engineers here punish marketing language. Add facts, data or code, and say where you work.",
+  "infosec.exchange": "Research and findings travel. Product posts don't.",
+  "OWASP Slack": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+  "Black Hills Information Security Discord": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+  "Threat Hunter Community Discord": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+  "SANS CISO Network": "Join as a peer first. Sponsor or speak once you know the room.",
+  "Evanta CISO communities (Gartner)": "Join as a peer first. Sponsor or speak once you know the room.",
+  "Gartner Peer Community": "Join as a peer first. Sponsor or speak once you know the room.",
+  "CISO Executive Network": "Join as a peer first. Sponsor or speak once you know the room.",
+  "CISO Society": "Join as a peer first. Sponsor or speak once you know the room.",
+  "CISO Network": "Join as a peer first. Sponsor or speak once you know the room.",
+  "403 Circle": "Join as a peer first. Sponsor or speak once you know the room.",
+  "IANS Research": "Join as a peer first. Sponsor or speak once you know the room.",
+  "CISO Series": "Join as a peer first. Sponsor or speak once you know the room.",
+  "ISSA chapters": "Join as a peer first. Sponsor or speak once you know the room.",
+  "ISACA Engage": "Join as a peer first. Sponsor or speak once you know the room.",
+  "Cloud Security Alliance": "Join as a peer first. Sponsor or speak once you know the room.",
+  "BSides events": "Join as a peer first. Sponsor or speak once you know the room.",
+  "FIRST": "Join as a peer first. Sponsor or speak once you know the room.",
+  "r/Office365": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+  "r/msp": "MSPs are blunt about vendors. Disclose, answer directly and never DM-pitch.",
+  "M3AAWG": "A technical, member-run group. Contribute research and data.",
+  "APWG": "Data sharing is the currency. Bring findings.",
+  "Security Stack Exchange": "Answers need to stand alone and be correct. Links to your product get downvoted."
  },
- "pains": {
-  "prioritization": "Too many findings to prioritize",
-  "ownership": "Getting fixes owned and done",
-  "ai_vulns": "AI-found vulnerability surge",
-  "controls": "Controls not doing their job",
-  "sprawl": "Tool sprawl and consolidation",
-  "proving": "Proving value to the board",
-  "people": "Too few people",
-  "compliance": "Compliance pressure",
-  "ai_security": "Securing AI and agents"
- },
- "brief": {},
- "trends": [
-  {
-   "key": "ownership",
-   "label": "Getting fixes owned and done",
-   "recent": 8,
-   "prior": 6,
-   "change": 33,
-   "weekly": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    3,
-    3,
-    3,
-    5
-   ],
-   "total": 15
-  },
-  {
-   "key": "ai_vulns",
-   "label": "AI-found vulnerability surge",
-   "recent": 7,
-   "prior": 4,
-   "change": 75,
-   "weekly": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    4,
-    2,
-    0,
-    0,
-    7
-   ],
-   "total": 13
-  },
-  {
-   "key": "proving",
-   "label": "Proving value to the board",
-   "recent": 5,
-   "prior": 3,
-   "change": 67,
-   "weekly": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    1,
-    2,
-    3
-   ],
-   "total": 8
-  },
-  {
-   "key": "prioritization",
-   "label": "Too many findings to prioritize",
-   "recent": 2,
-   "prior": 1,
-   "change": 100,
-   "weekly": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    2
-   ],
-   "total": 3
-  },
-  {
-   "key": "ai_security",
-   "label": "Securing AI and agents",
-   "recent": 1,
-   "prior": 0,
-   "change": 100,
-   "weekly": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0
-   ],
-   "total": 1
-  },
-  {
-   "key": "sprawl",
-   "label": "Tool sprawl and consolidation",
-   "recent": 0,
-   "prior": 1,
-   "change": -100,
-   "weekly": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0
-   ],
-   "total": 1
-  },
-  {
-   "key": "people",
-   "label": "Too few people",
-   "recent": 0,
-   "prior": 1,
-   "change": -100,
-   "weekly": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0
-   ],
-   "total": 1
-  },
-  {
-   "key": "compliance",
-   "label": "Compliance pressure",
-   "recent": 0,
-   "prior": 0,
-   "change": 0,
-   "weekly": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0
-   ],
-   "total": 1
-  },
-  {
-   "key": "controls",
-   "label": "Controls not doing their job",
-   "recent": 0,
-   "prior": 0,
-   "change": 0,
-   "weekly": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   "total": 0
-  }
- ],
- "phrases": [
-  {
-   "phrase": "linux kernel",
-   "count": 7
-  },
-  {
-   "phrase": "several vulnerabilities",
-   "count": 5
-  },
-  {
-   "phrase": "llm age",
-   "count": 4
-  },
-  {
-   "phrase": "greg kroah-hartman",
-   "count": 3
-  },
-  {
-   "phrase": "kroah-hartman security",
-   "count": 3
-  },
-  {
-   "phrase": "age video",
-   "count": 3
-  },
-  {
-   "phrase": "greg kroah-hartman security",
-   "count": 3
-  },
-  {
-   "phrase": "llm age video",
-   "count": 3
-  },
-  {
-   "phrase": "wikipedia org",
-   "count": 2
-  },
-  {
-   "phrase": "org wiki",
-   "count": 2
-  },
-  {
-   "phrase": "package management",
-   "count": 2
-  },
-  {
-   "phrase": "linux distro",
-   "count": 2
-  },
-  {
-   "phrase": "wikipedia org wiki",
-   "count": 2
-  },
-  {
-   "phrase": "marketing hype",
-   "count": 2
-  },
-  {
-   "phrase": "finding vulnerabilities",
-   "count": 2
-  },
-  {
-   "phrase": "reality check",
-   "count": 2
-  },
-  {
-   "phrase": "update everything",
-   "count": 2
-  },
-  {
-   "phrase": "cyber attacks",
-   "count": 2
-  },
-  {
-   "phrase": "security vulnerabilities",
-   "count": 2
-  },
-  {
-   "phrase": "false positives",
-   "count": 2
-  },
-  {
-   "phrase": "power management",
-   "count": 2
-  },
-  {
-   "phrase": "training data",
-   "count": 2
-  },
-  {
-   "phrase": "pro achieves",
-   "count": 2
-  },
-  {
-   "phrase": "highest single-core",
-   "count": 2
-  },
-  {
-   "phrase": "single-core cpu",
-   "count": 2
-  },
-  {
-   "phrase": "cpu score",
-   "count": 2
-  },
-  {
-   "phrase": "geekbench try",
-   "count": 2
-  },
-  {
-   "phrase": "thousand notes",
-   "count": 2
-  },
-  {
-   "phrase": "notes entries",
-   "count": 2
-  },
-  {
-   "phrase": "window management",
-   "count": 2
-  }
- ],
- "quotes": {
-  "prioritization": [
-   {
-    "text": "LLMs have high false positive rate.",
-    "url": "https://news.ycombinator.com/item?id=49931360",
-    "room": "Hacker News",
-    "date": "2026-10-02"
+ "lenses": {
+  "nagomi": {
+   "company": {
+    "name": "Nagomi",
+    "category": "Exposure management",
+    "url": "https://nagomisecurity.com/",
+    "aliases": [
+     "nagomi",
+     "nagomisecurity"
+    ]
    },
-   {
-    "text": "He’s very frustrated with the high false positive rate mythos generates.",
-    "url": "https://news.ycombinator.com/item?id=49931360",
-    "room": "Hacker News",
-    "date": "2026-10-02"
+   "buyers": {
+    "leader": "Security leader",
+    "vm_owner": "Vuln management owner",
+    "secops": "Security engineer & SecOps",
+    "it": "IT & infrastructure"
    },
-   {
-    "text": "Even after multiple rounds of adversarial review and prompting strats, he mentions it is > 20% false positive rate, which wastes a lot of time.",
-    "url": "https://news.ycombinator.com/item?id=49931360",
-    "room": "Hacker News",
-    "date": "2026-10-02"
-   }
-  ],
-  "ownership": [
-   {
-    "text": "The residential suburban streets I've lived on have been resurfaced on about that timeframe, maybe a little less, with patch-ups in between.",
-    "url": "https://news.ycombinator.com/item?id=49974725",
-    "room": "Hacker News",
-    "date": "2026-10-06"
-   },
-   {
-    "text": "Patches over 40 KB on mailing lists, build",
-    "url": "https://news.ycombinator.com/item?id=49968940",
-    "room": "Hacker News",
-    "date": "2026-10-05"
-   },
-   {
-    "text": "Organizations that track their software and patch systems for CVEs have their own risk management system.",
-    "url": "https://news.ycombinator.com/item?id=49932193",
-    "room": "Hacker News",
-    "date": "2026-10-02"
-   }
-  ],
-  "ai_vulns": [
-   {
-    "text": "[1] This is the daily reminder that in year 2026 Mythos still couldn't count.",
-    "url": "https://news.ycombinator.com/item?id=49975598",
-    "room": "Hacker News",
-    "date": "2026-10-06"
-   },
-   {
-    "text": "Anthropic claimed that Mythos was so good at finding vulnerabilities that it was too dangerous to release to the public.",
-    "url": "https://news.ycombinator.com/item?id=49952848",
-    "room": "Hacker News",
-    "date": "2026-10-04"
-   },
-   {
-    "text": "Mythos will, and so will many of the others.",
-    "url": "https://news.ycombinator.com/item?id=49945338",
-    "room": "Hacker News",
-    "date": "2026-10-03"
-   }
-  ],
-  "controls": [],
-  "sprawl": [
-   {
-    "text": "Before we knew it there was a 'unix consolidation project' and I found myself grumpily using a HMC and bloody AIX.",
-    "url": "https://news.ycombinator.com/item?id=49799297",
-    "room": "Hacker News",
-    "date": "2026-09-22"
-   }
-  ],
-  "proving": [
-   {
-    "text": "The following two arguments are not ones that I've made, and aren't necessary to justify extreme caution.",
-    "url": "https://news.ycombinator.com/item?id=49968013",
-    "room": "Hacker News",
-    "date": "2026-10-05"
-   }
-  ],
-  "people": [],
-  "compliance": [
-   {
-    "text": "My code has been extensively audited by multiple AI-based security researchers, and while they found two minor issues with the DNS-over-TCP code in the recursive r",
-    "url": "https://news.ycombinator.com/item?id=49610011",
-    "room": "Hacker News",
-    "date": "2026-09-08"
-   }
-  ],
-  "ai_security": []
- },
- "rooms": [
-  {
-   "name": "CISO Series",
-   "known": true,
-   "platform": "Podcasts and live events",
-   "audience": "CISOs and security leaders",
-   "access": "open",
-   "who": "Founder pitches guest spots. Marketing sponsors episodes.",
-   "url": "https://cisoseries.com/",
-   "score": 11.0,
-   "why": [
-    "+6 buyer fit (3 of 3)",
-    "+2.0 mentioned in 1 conversation",
-    "+2.0 buyers talking there or about it",
-    "+1 easy to join"
-   ],
-   "mentions": 1,
-   "hosted": 0,
-   "evidence": [
-    {
-     "title": "The barrier to a self-driving SOC is not speed but trust, argued Mitchem B., field CTO, Intezer. This was discussed on CISO Series Podcast “These Aren’t Speed Bumps, They’re Opportunity Ramps! (LIVE in NYC).” Thanks to our sponsor, Intezer. Listen to the ful",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Idi0weDIxMTluY01haVlZVU5iNHpWMnBVOUxxbWpCTDJYMGt0aFhNNnVkeDJnSEh3VFUwd3JTMERmWlJMS2pVYnA5WTM2MXRubUlBc3pKVWtqUU1CaEh1S3dOVnhVY0pfbENuczNvYlN0UQ?oc=5",
-     "date": "2026-10-01"
+   "topics_meta": {
+    "prioritization": {
+     "label": "Too many findings to prioritize",
+     "fit": 3
+    },
+    "remediation": {
+     "label": "Getting fixes owned and done",
+     "fit": 3
+    },
+    "controls": {
+     "label": "Security tools misconfigured or not covering everything",
+     "fit": 3
+    },
+    "ai_cves": {
+     "label": "AI-found vulnerability surge",
+     "fit": 2
+    },
+    "board": {
+     "label": "Proving progress to the board",
+     "fit": 2
+    },
+    "sprawl": {
+     "label": "Tool sprawl and consolidation",
+     "fit": 2
+    },
+    "compliance": {
+     "label": "Directives and compliance deadlines",
+     "fit": 2
+    },
+    "staffing": {
+     "label": "Too few people",
+     "fit": 1
+    },
+    "ai_security": {
+     "label": "Securing AI and agents",
+     "fit": 1
     }
-   ]
-  },
-  {
-   "name": "IANS Research",
-   "known": true,
-   "platform": "Advisory network",
-   "audience": "Security leaders buying advice",
-   "access": "paid",
-   "who": "Product marketing briefs IANS faculty.",
-   "url": "https://www.iansresearch.com/",
-   "score": 10.0,
-   "why": [
-    "+6 buyer fit (3 of 3)",
-    "+2.0 mentioned in 1 conversation",
-    "+2.0 buyers talking there or about it"
-   ],
-   "mentions": 1,
-   "hosted": 0,
-   "evidence": [
+   },
+   "topics": [
     {
-     "title": "IANS' Kakolowski: How AI Is Reshaping CISO Budgets & Security Teams",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZXZZUU5nWHJJb3pIOFNQc2czQVdFYXo0WmJWSEFyWXA3bGx0dUtjQnJiaDNLMEdLZlVkOVJtbVJVQVEtbk9fenpyeE91eExxUW56Njd1bzlJRUZDRVJhX2NieFVvY1ZOQzJZNHFkSEhTUXZUWHdUdFNiZ1JxRjI4V0g1TFR0MmRHaHpkT1JjQVF5NFdnbWFEeg?oc=5",
-     "date": "2026-10-06"
+     "key": "ai_cves",
+     "label": "AI-found vulnerability surge",
+     "fit": 2,
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "who": "Research team",
+     "total": 14,
+     "recent": 8,
+     "prior": 2,
+     "change": 300,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      2,
+      0,
+      0,
+      8
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "Hacker News"
+     ],
+     "score": 23.4
+    },
+    {
+     "key": "remediation",
+     "label": "Getting fixes owned and done",
+     "fit": 3,
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "who": "Sales engineer",
+     "total": 15,
+     "recent": 8,
+     "prior": 6,
+     "change": 33,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      4,
+      4,
+      2,
+      4
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "Hacker News"
+     ],
+     "score": 16.0
+    },
+    {
+     "key": "board",
+     "label": "Proving progress to the board",
+     "fit": 2,
+     "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
+     "who": "Founder or CISO advisor",
+     "total": 4,
+     "recent": 3,
+     "prior": 1,
+     "change": 200,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1,
+      1
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "Hacker News"
+     ],
+     "score": 13.9
+    },
+    {
+     "key": "ai_security",
+     "label": "Securing AI and agents",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 2,
+     "recent": 2,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "Hacker News"
+     ],
+     "score": 3.2
+    },
+    {
+     "key": "sprawl",
+     "label": "Tool sprawl and consolidation",
+     "fit": 2,
+     "angle": "Get more out of the tools you already own before adding another.",
+     "who": "Founder",
+     "total": 1,
+     "recent": 0,
+     "prior": 1,
+     "change": -100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "Hacker News"
+     ],
+     "score": 2.0
+    },
+    {
+     "key": "compliance",
+     "label": "Directives and compliance deadlines",
+     "fit": 2,
+     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
+     "who": "Content team",
+     "total": 1,
+     "recent": 0,
+     "prior": 0,
+     "change": 0,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "Hacker News"
+     ],
+     "score": 2.0
+    },
+    {
+     "key": "staffing",
+     "label": "Too few people",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 1,
+     "recent": 0,
+     "prior": 1,
+     "change": -100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "Hacker News"
+     ],
+     "score": 1.0
+    },
+    {
+     "key": "prioritization",
+     "label": "Too many findings to prioritize",
+     "fit": 3,
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "who": "Sales engineer",
+     "total": 0,
+     "recent": 0,
+     "prior": 0,
+     "change": 0,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [],
+     "score": 0.0
+    },
+    {
+     "key": "controls",
+     "label": "Security tools misconfigured or not covering everything",
+     "fit": 3,
+     "angle": "Most breaches hit companies that already owned a tool that could have stopped them. Check coverage and configuration before buying more.",
+     "who": "Founder or research team",
+     "total": 0,
+     "recent": 0,
+     "prior": 0,
+     "change": 0,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [],
+     "score": 0.0
     }
-   ]
-  },
-  {
-   "name": "Hacker News",
-   "known": true,
-   "platform": "Forum",
-   "audience": "Engineers and technical leaders",
-   "access": "open",
-   "who": "Founders and engineers post research and launches.",
-   "url": "https://news.ycombinator.com/",
-   "score": 7.0,
-   "why": [
-    "+2 buyer fit (1 of 3)",
-    "+4.0 buyers talking there or about it",
-    "+1 easy to join"
    ],
-   "mentions": 0,
-   "hosted": 31,
-   "evidence": []
-  },
-  {
-   "name": "r/CISO",
-   "known": true,
-   "platform": "Reddit",
-   "audience": "Security leaders",
-   "access": "open",
-   "who": "Founders and the CISO advisor listen first, post rarely.",
-   "url": "https://www.reddit.com/r/CISO/",
-   "score": 7.0,
-   "why": [
-    "+6 buyer fit (3 of 3)",
-    "+1 easy to join"
+   "emerging": [],
+   "emerging_date": "",
+   "rooms": [
+    {
+     "name": "Hacker News",
+     "known": true,
+     "platform": "Forum",
+     "audience": "Engineers and technical leaders",
+     "access": "open",
+     "who": "Founders and engineers post research and launches.",
+     "norms": "Engineers here punish marketing language. Add facts, data or code, and say where you work.",
+     "url": "https://news.ycombinator.com/",
+     "score": 13.1,
+     "why": [
+      "+2 audience fit (1 of 3)",
+      "+10.1 32 relevant conversations there",
+      "+1 easy to join"
+     ],
+     "hosted": 32,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "CISO Series",
+     "known": true,
+     "platform": "Podcasts and live events",
+     "audience": "CISOs and security leaders",
+     "access": "open",
+     "who": "Founder pitches guest spots. Marketing sponsors episodes.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://cisoseries.com/",
+     "score": 11.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+2.0 mentioned in 1",
+      "+2.0 buyers point to it",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 1,
+     "evidence": [
+      {
+       "title": "The barrier to a self-driving SOC is not speed but trust, argued Mitchem B., field CTO, Intezer. This was discussed on CISO Series Podcast “These Aren’t Speed Bumps, They’re Opportunity Ramps! (LIVE in NYC).” Thanks to our sponsor, Intezer. Listen to the ful",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Idi0weDIxMTluY01haVlZVU5iNHpWMnBVOUxxbWpCTDJYMGt0aFhNNnVkeDJnSEh3VFUwd3JTMERmWlJMS2pVYnA5WTM2MXRubUlBc3pKVWtqUU1CaEh1S3dOVnhVY0pfbENuczNvYlN0UQ?oc=5",
+       "date": "2026-10-01"
+      }
+     ]
+    },
+    {
+     "name": "IANS Research",
+     "known": true,
+     "platform": "Advisory network",
+     "audience": "Security leaders buying advice",
+     "access": "paid",
+     "who": "Product marketing briefs IANS faculty.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.iansresearch.com/",
+     "score": 10.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+2.0 mentioned in 1",
+      "+2.0 buyers point to it"
+     ],
+     "hosted": 0,
+     "mentions": 1,
+     "evidence": [
+      {
+       "title": "IANS' Kakolowski: How AI Is Reshaping CISO Budgets & Security Teams",
+       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZXZZUU5nWHJJb3pIOFNQc2czQVdFYXo0WmJWSEFyWXA3bGx0dUtjQnJiaDNLMEdLZlVkOVJtbVJVQVEtbk9fenpyeE91eExxUW56Njd1bzlJRUZDRVJhX2NieFVvY1ZOQzJZNHFkSEhTUXZUWHdUdFNiZ1JxRjI4V0g1TFR0MmRHaHpkT1JjQVF5NFdnbWFEeg?oc=5",
+       "date": "2026-10-06"
+      }
+     ]
+    },
+    {
+     "name": "r/cybersecurity",
+     "known": true,
+     "platform": "Reddit",
+     "audience": "Working security professionals and people entering the field",
+     "access": "open",
+     "who": "SEs and PMs answer questions in their own name. No pitching.",
+     "norms": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+     "url": "https://www.reddit.com/r/cybersecurity/",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "r/sysadmin",
+     "known": true,
+     "platform": "Reddit",
+     "audience": "IT and infrastructure teams who do the patching",
+     "access": "open",
+     "who": "SEs listen for remediation pain. Content team mines the language.",
+     "norms": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+     "url": "https://www.reddit.com/r/sysadmin/",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "r/CISO",
+     "known": true,
+     "platform": "Reddit",
+     "audience": "Security leaders",
+     "access": "open",
+     "who": "Founders and the CISO advisor listen first, post rarely.",
+     "norms": "Small, senior and wary of vendors. Listen first and post rarely.",
+     "url": "https://www.reddit.com/r/CISO/",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "Evanta CISO communities (Gartner)",
+     "known": true,
+     "platform": "In-person summits",
+     "audience": "Qualified security leaders, vendor-neutral with sponsors",
+     "access": "event",
+     "who": "Field marketing sponsors. AEs attend with an exec.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.evanta.com/",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "Security Stack Exchange",
+     "known": true,
+     "platform": "Q&A site",
+     "audience": "Practitioners asking precise technical questions",
+     "access": "open",
+     "who": "SEs and researchers answer in their own name.",
+     "norms": "Answers need to stand alone and be correct. Links to your product get downvoted.",
+     "url": "https://security.stackexchange.com/",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "SANS CISO Network",
+     "known": true,
+     "platform": "Webinars and newsletter",
+     "audience": "CISOs and security executives",
+     "access": "apply",
+     "who": "CISO advisor or founder applies. Marketing sponsors sessions.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.sans.org/for-organizations/ciso-network",
+     "score": 6.0,
+     "why": [
+      "+6 audience fit (3 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "Gartner Peer Community",
+     "known": true,
+     "platform": "Online forum",
+     "audience": "Security and IT leaders",
+     "access": "invite",
+     "who": "Customer advocates answer polls. Marketing watches questions.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.gartner.com/peer-community/home",
+     "score": 6.0,
+     "why": [
+      "+6 audience fit (3 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "CISO Executive Network",
+     "known": true,
+     "platform": "In-person chapters",
+     "audience": "Senior security executives",
+     "access": "apply",
+     "who": "Founder or CISO advisor. Sponsorship through partner programs.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "",
+     "score": 6.0,
+     "why": [
+      "+6 audience fit (3 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "CISO Society",
+     "known": true,
+     "platform": "Membership network",
+     "audience": "CISOs",
+     "access": "apply",
+     "who": "CISO advisor. Marketing explores partner programs.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.thecisosociety.com/",
+     "score": 6.0,
+     "why": [
+      "+6 audience fit (3 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "CISO Network",
+     "known": true,
+     "platform": "Peer community",
+     "audience": "CISOs",
+     "access": "apply",
+     "who": "CISO advisor or founder.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.cisonetwork.com/",
+     "score": 6.0,
+     "why": [
+      "+6 audience fit (3 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "403 Circle",
+     "known": true,
+     "platform": "Slack and WhatsApp",
+     "audience": "CISOs, CTOs and security leads",
+     "access": "invite",
+     "who": "Founder requests an invite.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.getastra.com/the403circle-community-by-astra",
+     "score": 6.0,
+     "why": [
+      "+6 audience fit (3 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "r/AskNetsec",
+     "known": true,
+     "platform": "Reddit",
+     "audience": "Practitioners asking for tool and process advice",
+     "access": "open",
+     "who": "SEs answer evaluation questions honestly.",
+     "norms": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+     "url": "https://www.reddit.com/r/AskNetsec/",
+     "score": 5.0,
+     "why": [
+      "+4 audience fit (2 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "r/blueteamsec",
+     "known": true,
+     "platform": "Reddit",
+     "audience": "Defenders, detection and response engineers",
+     "access": "open",
+     "who": "Product and research teams share findings.",
+     "norms": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+     "url": "https://www.reddit.com/r/blueteamsec/",
+     "score": 5.0,
+     "why": [
+      "+4 audience fit (2 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "infosec.exchange",
+     "known": true,
+     "platform": "Mastodon",
+     "audience": "Security researchers and practitioners",
+     "access": "open",
+     "who": "Research team posts findings.",
+     "norms": "Research and findings travel. Product posts don't.",
+     "url": "https://infosec.exchange/",
+     "score": 5.0,
+     "why": [
+      "+4 audience fit (2 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "Black Hills Information Security Discord",
+     "known": true,
+     "platform": "Discord",
+     "audience": "Mid-level practitioners, threat hunters and pentesters",
+     "access": "open",
+     "who": "SEs listen and help. Webinar sponsorships through BHIS.",
+     "norms": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+     "url": "https://discord.gg/bhis",
+     "score": 5.0,
+     "why": [
+      "+4 audience fit (2 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "Threat Hunter Community Discord",
+     "known": true,
+     "platform": "Discord",
+     "audience": "Threat hunters and SOC analysts",
+     "access": "open",
+     "who": "Research team and SEs.",
+     "norms": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+     "url": "https://discord.gg/threathunter",
+     "score": 5.0,
+     "why": [
+      "+4 audience fit (2 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "Cloud Security Alliance",
+     "known": true,
+     "platform": "Working groups and chapters",
+     "audience": "Cloud security architects and practitioners",
+     "access": "open",
+     "who": "Product joins a working group.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://cloudsecurityalliance.org/",
+     "score": 5.0,
+     "why": [
+      "+4 audience fit (2 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "BSides events",
+     "known": true,
+     "platform": "Local conferences",
+     "audience": "Practitioners in each city",
+     "access": "event",
+     "who": "Field marketing sponsors the cities with the most target accounts. SEs give talks.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://bsides.org/",
+     "score": 5.0,
+     "why": [
+      "+4 audience fit (2 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "r/Office365",
+     "known": true,
+     "platform": "Reddit",
+     "audience": "Microsoft 365 and Exchange admins",
+     "access": "open",
+     "who": "SEs answer mail flow and Defender questions.",
+     "norms": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+     "url": "https://www.reddit.com/r/Office365/",
+     "score": 5.0,
+     "why": [
+      "+4 audience fit (2 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "r/msp",
+     "known": true,
+     "platform": "Reddit",
+     "audience": "Managed service providers running security for small businesses",
+     "access": "open",
+     "who": "Partner team and SEs. MSPs buy for many tenants at once.",
+     "norms": "MSPs are blunt about vendors. Disclose, answer directly and never DM-pitch.",
+     "url": "https://www.reddit.com/r/msp/",
+     "score": 5.0,
+     "why": [
+      "+4 audience fit (2 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "ISSA chapters",
+     "known": true,
+     "platform": "Local chapters",
+     "audience": "Security professionals at every level",
+     "access": "paid",
+     "who": "AEs and SEs in each territory join their local chapter.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.issa.org/",
+     "score": 4.0,
+     "why": [
+      "+4 audience fit (2 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "FIRST",
+     "known": true,
+     "platform": "Member organization",
+     "audience": "CSIRT and PSIRT teams",
+     "access": "paid",
+     "who": "Research team.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.first.org/",
+     "score": 4.0,
+     "why": [
+      "+4 audience fit (2 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "APWG",
+     "known": true,
+     "platform": "Industry working group",
+     "audience": "Anti-phishing researchers, banks and security vendors",
+     "access": "paid",
+     "who": "Research team shares phishing data.",
+     "norms": "Data sharing is the currency. Bring findings.",
+     "url": "https://apwg.org/",
+     "score": 4.0,
+     "why": [
+      "+4 audience fit (2 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "OWASP Slack",
+     "known": true,
+     "platform": "Slack",
+     "audience": "Application security engineers and developers",
+     "access": "open",
+     "who": "SEs join channels on AppSec and supply chain.",
+     "norms": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+     "url": "https://owasp.org/slack/invite",
+     "score": 3.0,
+     "why": [
+      "+2 audience fit (1 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "ISACA Engage",
+     "known": true,
+     "platform": "Online community and chapters",
+     "audience": "IT audit, risk and security professionals",
+     "access": "paid",
+     "who": "Marketing watches compliance questions.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.isaca.org/",
+     "score": 2.0,
+     "why": [
+      "+2 audience fit (1 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    }
    ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "Evanta CISO communities (Gartner)",
-   "known": true,
-   "platform": "In-person summits",
-   "audience": "Qualified security leaders, vendor-neutral with sponsors",
-   "access": "event",
-   "who": "Field marketing sponsors. AEs attend with an exec.",
-   "url": "https://www.evanta.com/",
-   "score": 7.0,
-   "why": [
-    "+6 buyer fit (3 of 3)",
-    "+1 easy to join"
+   "phrases": [
+    {
+     "phrase": "linux kernel",
+     "count": 7
+    },
+    {
+     "phrase": "several vulnerabilities",
+     "count": 5
+    },
+    {
+     "phrase": "llm age",
+     "count": 4
+    },
+    {
+     "phrase": "greg kroah-hartman",
+     "count": 3
+    },
+    {
+     "phrase": "kroah-hartman security",
+     "count": 3
+    },
+    {
+     "phrase": "age video",
+     "count": 3
+    },
+    {
+     "phrase": "security engineer",
+     "count": 2
+    },
+    {
+     "phrase": "wikipedia org",
+     "count": 2
+    },
+    {
+     "phrase": "org wiki",
+     "count": 2
+    },
+    {
+     "phrase": "package management",
+     "count": 2
+    },
+    {
+     "phrase": "linux distro",
+     "count": 2
+    },
+    {
+     "phrase": "marketing hype",
+     "count": 2
+    },
+    {
+     "phrase": "finding vulnerabilities",
+     "count": 2
+    },
+    {
+     "phrase": "reality check",
+     "count": 2
+    },
+    {
+     "phrase": "update everything",
+     "count": 2
+    },
+    {
+     "phrase": "cyber attacks",
+     "count": 2
+    },
+    {
+     "phrase": "security vulnerabilities",
+     "count": 2
+    },
+    {
+     "phrase": "false positives",
+     "count": 2
+    },
+    {
+     "phrase": "power management",
+     "count": 2
+    },
+    {
+     "phrase": "training data",
+     "count": 2
+    },
+    {
+     "phrase": "pro achieves",
+     "count": 2
+    },
+    {
+     "phrase": "highest single-core",
+     "count": 2
+    },
+    {
+     "phrase": "single-core cpu",
+     "count": 2
+    },
+    {
+     "phrase": "cpu score",
+     "count": 2
+    },
+    {
+     "phrase": "geekbench try",
+     "count": 2
+    },
+    {
+     "phrase": "thousand notes",
+     "count": 2
+    },
+    {
+     "phrase": "notes entries",
+     "count": 2
+    },
+    {
+     "phrase": "window management",
+     "count": 2
+    },
+    {
+     "phrase": "share home",
+     "count": 2
+    },
+    {
+     "phrase": "friends without",
+     "count": 2
+    }
    ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
+   "quotes": {
+    "ai_security": [],
+    "remediation": [
+     {
+      "text": "The residential suburban streets I've lived on have been resurfaced on about that timeframe, maybe a little less, with patch-ups in between.",
+      "url": "https://news.ycombinator.com/item?id=49974725",
+      "room": "Hacker News",
+      "date": "2026-10-06"
+     },
+     {
+      "text": "Patches over 40 KB on mailing lists, build",
+      "url": "https://news.ycombinator.com/item?id=49968940",
+      "room": "Hacker News",
+      "date": "2026-10-05"
+     }
+    ],
+    "board": [],
+    "ai_cves": [
+     {
+      "text": "[1] This is the daily reminder that in year 2026 Mythos still couldn't count.",
+      "url": "https://news.ycombinator.com/item?id=49975598",
+      "room": "Hacker News",
+      "date": "2026-10-06"
+     },
+     {
+      "text": "Anthropic claimed that Mythos was so good at finding vulnerabilities that it was too dangerous to release to the public.",
+      "url": "https://news.ycombinator.com/item?id=49952848",
+      "room": "Hacker News",
+      "date": "2026-10-04"
+     }
+    ],
+    "sprawl": [
+     {
+      "text": "Before we knew it there was a 'unix consolidation project' and I found myself grumpily using a HMC and bloody AIX.",
+      "url": "https://news.ycombinator.com/item?id=49799297",
+      "room": "Hacker News",
+      "date": "2026-09-22"
+     }
+    ],
+    "staffing": [],
+    "compliance": [
+     {
+      "text": "My code has been extensively audited by multiple AI-based security researchers, and while they found two minor issues with the DNS-over-TCP code in the recursive r",
+      "url": "https://news.ycombinator.com/item?id=49610011",
+      "room": "Hacker News",
+      "date": "2026-09-08"
+     }
+    ]
+   },
+   "brief": {},
+   "count": 55
   },
-  {
-   "name": "CISO Society",
-   "known": true,
-   "platform": "Membership network",
-   "audience": "CISOs",
-   "access": "apply",
-   "who": "CISO advisor. Marketing explores partner programs.",
-   "url": "https://www.thecisosociety.com/",
-   "score": 6.0,
-   "why": [
-    "+6 buyer fit (3 of 3)"
+  "ocean": {
+   "company": {
+    "name": "Ocean",
+    "category": "Email security",
+    "url": "https://ocean.security/",
+    "aliases": [
+     "ocean security",
+     "ocean.security",
+     "oceansecurity"
+    ]
+   },
+   "buyers": {
+    "leader": "Security leader",
+    "secops": "SOC & security engineer",
+    "email_admin": "Email & M365 admin",
+    "finance": "Finance & AP",
+    "msp": "MSP"
+   },
+   "topics_meta": {
+    "bec": {
+     "label": "BEC and payment fraud",
+     "fit": 3
+    },
+    "ai_phishing": {
+     "label": "Targeted phishing getting through",
+     "fit": 3
+    },
+    "trusted_senders": {
+     "label": "Compromised vendors and trusted senders",
+     "fit": 3
+    },
+    "report_triage": {
+     "label": "Phishing reports piling up",
+     "fit": 3
+    },
+    "seg": {
+     "label": "Replacing or adding to the email gateway",
+     "fit": 3
+    },
+    "false_positives": {
+     "label": "False positives and quarantined real email",
+     "fit": 2
+    },
+    "awareness": {
+     "label": "Security awareness and phishing tests",
+     "fit": 2
+    },
+    "account_takeover": {
+     "label": "Account takeover and MFA bypass",
+     "fit": 2
+    },
+    "deepfakes": {
+     "label": "Deepfake voice and video fraud",
+     "fit": 1
+    },
+    "authentication": {
+     "label": "DMARC, SPF and DKIM setup",
+     "fit": 1
+    }
+   },
+   "topics": [
+    {
+     "key": "bec",
+     "label": "BEC and payment fraud",
+     "fit": 3,
+     "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
+     "who": "Sales engineer",
+     "total": 1,
+     "recent": 1,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "Hacker News"
+     ],
+     "score": 6.0
+    },
+    {
+     "key": "ai_phishing",
+     "label": "Targeted phishing getting through",
+     "fit": 3,
+     "angle": "Pattern matching misses messages written fresh for each target. Investigate every email's context the way an analyst would.",
+     "who": "Research team",
+     "total": 0,
+     "recent": 0,
+     "prior": 0,
+     "change": 0,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [],
+     "score": 0.0
+    },
+    {
+     "key": "trusted_senders",
+     "label": "Compromised vendors and trusted senders",
+     "fit": 3,
+     "angle": "Trusted infrastructure is the new attack path. A known sender or a real DocuSign link doesn't make an email safe.",
+     "who": "Research team",
+     "total": 0,
+     "recent": 0,
+     "prior": 0,
+     "change": 0,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [],
+     "score": 0.0
+    },
+    {
+     "key": "report_triage",
+     "label": "Phishing reports piling up",
+     "fit": 3,
+     "angle": "Every user report deserves an answer. Close the loop with users automatically so the SOC only sees real threats.",
+     "who": "Sales engineer or customer success",
+     "total": 0,
+     "recent": 0,
+     "prior": 0,
+     "change": 0,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [],
+     "score": 0.0
+    },
+    {
+     "key": "seg",
+     "label": "Replacing or adding to the email gateway",
+     "fit": 3,
+     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
+     "who": "Account executive and sales engineer",
+     "total": 0,
+     "recent": 0,
+     "prior": 0,
+     "change": 0,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [],
+     "score": 0.0
+    },
+    {
+     "key": "false_positives",
+     "label": "False positives and quarantined real email",
+     "fit": 2,
+     "angle": "Explain each verdict in plain language so users trust the tool and stop asking for releases.",
+     "who": "Customer success",
+     "total": 0,
+     "recent": 0,
+     "prior": 0,
+     "change": 0,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [],
+     "score": 0.0
+    },
+    {
+     "key": "awareness",
+     "label": "Security awareness and phishing tests",
+     "fit": 2,
+     "angle": "Coaching people on the real email in front of them works better than an annual course.",
+     "who": "Content team",
+     "total": 0,
+     "recent": 0,
+     "prior": 0,
+     "change": 0,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [],
+     "score": 0.0
+    },
+    {
+     "key": "account_takeover",
+     "label": "Account takeover and MFA bypass",
+     "fit": 2,
+     "angle": "Email is where most takeovers start. Connect the phishing email to the session it stole.",
+     "who": "Research team",
+     "total": 0,
+     "recent": 0,
+     "prior": 0,
+     "change": 0,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [],
+     "score": 0.0
+    },
+    {
+     "key": "deepfakes",
+     "label": "Deepfake voice and video fraud",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 0,
+     "recent": 0,
+     "prior": 0,
+     "change": 0,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [],
+     "score": 0.0
+    },
+    {
+     "key": "authentication",
+     "label": "DMARC, SPF and DKIM setup",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 0,
+     "recent": 0,
+     "prior": 0,
+     "change": 0,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [],
+     "score": 0.0
+    }
    ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "CISO Executive Network",
-   "known": true,
-   "platform": "In-person chapters",
-   "audience": "Senior security executives",
-   "access": "apply",
-   "who": "Founder or CISO advisor. Sponsorship through partner programs.",
-   "url": "",
-   "score": 6.0,
-   "why": [
-    "+6 buyer fit (3 of 3)"
+   "emerging": [],
+   "emerging_date": "",
+   "rooms": [
+    {
+     "name": "r/cybersecurity",
+     "known": true,
+     "platform": "Reddit",
+     "audience": "Working security professionals and people entering the field",
+     "access": "open",
+     "who": "SEs and PMs answer questions in their own name. No pitching.",
+     "norms": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+     "url": "https://www.reddit.com/r/cybersecurity/",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "r/sysadmin",
+     "known": true,
+     "platform": "Reddit",
+     "audience": "IT and infrastructure teams who do the patching",
+     "access": "open",
+     "who": "SEs listen for remediation pain. Content team mines the language.",
+     "norms": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+     "url": "https://www.reddit.com/r/sysadmin/",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "r/AskNetsec",
+     "known": true,
+     "platform": "Reddit",
+     "audience": "Practitioners asking for tool and process advice",
+     "access": "open",
+     "who": "SEs answer evaluation questions honestly.",
+     "norms": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+     "url": "https://www.reddit.com/r/AskNetsec/",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "r/blueteamsec",
+     "known": true,
+     "platform": "Reddit",
+     "audience": "Defenders, detection and response engineers",
+     "access": "open",
+     "who": "Product and research teams share findings.",
+     "norms": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+     "url": "https://www.reddit.com/r/blueteamsec/",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "r/CISO",
+     "known": true,
+     "platform": "Reddit",
+     "audience": "Security leaders",
+     "access": "open",
+     "who": "Founders and the CISO advisor listen first, post rarely.",
+     "norms": "Small, senior and wary of vendors. Listen first and post rarely.",
+     "url": "https://www.reddit.com/r/CISO/",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "infosec.exchange",
+     "known": true,
+     "platform": "Mastodon",
+     "audience": "Security researchers and practitioners",
+     "access": "open",
+     "who": "Research team posts findings.",
+     "norms": "Research and findings travel. Product posts don't.",
+     "url": "https://infosec.exchange/",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "Black Hills Information Security Discord",
+     "known": true,
+     "platform": "Discord",
+     "audience": "Mid-level practitioners, threat hunters and pentesters",
+     "access": "open",
+     "who": "SEs listen and help. Webinar sponsorships through BHIS.",
+     "norms": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+     "url": "https://discord.gg/bhis",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "Threat Hunter Community Discord",
+     "known": true,
+     "platform": "Discord",
+     "audience": "Threat hunters and SOC analysts",
+     "access": "open",
+     "who": "Research team and SEs.",
+     "norms": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+     "url": "https://discord.gg/threathunter",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "Evanta CISO communities (Gartner)",
+     "known": true,
+     "platform": "In-person summits",
+     "audience": "Qualified security leaders, vendor-neutral with sponsors",
+     "access": "event",
+     "who": "Field marketing sponsors. AEs attend with an exec.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.evanta.com/",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "CISO Series",
+     "known": true,
+     "platform": "Podcasts and live events",
+     "audience": "CISOs and security leaders",
+     "access": "open",
+     "who": "Founder pitches guest spots. Marketing sponsors episodes.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://cisoseries.com/",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "BSides events",
+     "known": true,
+     "platform": "Local conferences",
+     "audience": "Practitioners in each city",
+     "access": "event",
+     "who": "Field marketing sponsors the cities with the most target accounts. SEs give talks.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://bsides.org/",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "r/Office365",
+     "known": true,
+     "platform": "Reddit",
+     "audience": "Microsoft 365 and Exchange admins",
+     "access": "open",
+     "who": "SEs answer mail flow and Defender questions.",
+     "norms": "Answer as a practitioner, say where you work, and skip the pitch. Moderators remove self-promotion.",
+     "url": "https://www.reddit.com/r/Office365/",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "r/msp",
+     "known": true,
+     "platform": "Reddit",
+     "audience": "Managed service providers running security for small businesses",
+     "access": "open",
+     "who": "Partner team and SEs. MSPs buy for many tenants at once.",
+     "norms": "MSPs are blunt about vendors. Disclose, answer directly and never DM-pitch.",
+     "url": "https://www.reddit.com/r/msp/",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "Security Stack Exchange",
+     "known": true,
+     "platform": "Q&A site",
+     "audience": "Practitioners asking precise technical questions",
+     "access": "open",
+     "who": "SEs and researchers answer in their own name.",
+     "norms": "Answers need to stand alone and be correct. Links to your product get downvoted.",
+     "url": "https://security.stackexchange.com/",
+     "score": 7.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+1 easy to join"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "Hacker News",
+     "known": true,
+     "platform": "Forum",
+     "audience": "Engineers and technical leaders",
+     "access": "open",
+     "who": "Founders and engineers post research and launches.",
+     "norms": "Engineers here punish marketing language. Add facts, data or code, and say where you work.",
+     "url": "https://news.ycombinator.com/",
+     "score": 6.2,
+     "why": [
+      "+2 audience fit (1 of 3)",
+      "+3.2 2 relevant conversations there",
+      "+1 easy to join"
+     ],
+     "hosted": 2,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "SANS CISO Network",
+     "known": true,
+     "platform": "Webinars and newsletter",
+     "audience": "CISOs and security executives",
+     "access": "apply",
+     "who": "CISO advisor or founder applies. Marketing sponsors sessions.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.sans.org/for-organizations/ciso-network",
+     "score": 6.0,
+     "why": [
+      "+6 audience fit (3 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "Gartner Peer Community",
+     "known": true,
+     "platform": "Online forum",
+     "audience": "Security and IT leaders",
+     "access": "invite",
+     "who": "Customer advocates answer polls. Marketing watches questions.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.gartner.com/peer-community/home",
+     "score": 6.0,
+     "why": [
+      "+6 audience fit (3 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "CISO Executive Network",
+     "known": true,
+     "platform": "In-person chapters",
+     "audience": "Senior security executives",
+     "access": "apply",
+     "who": "Founder or CISO advisor. Sponsorship through partner programs.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "",
+     "score": 6.0,
+     "why": [
+      "+6 audience fit (3 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "CISO Society",
+     "known": true,
+     "platform": "Membership network",
+     "audience": "CISOs",
+     "access": "apply",
+     "who": "CISO advisor. Marketing explores partner programs.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.thecisosociety.com/",
+     "score": 6.0,
+     "why": [
+      "+6 audience fit (3 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "CISO Network",
+     "known": true,
+     "platform": "Peer community",
+     "audience": "CISOs",
+     "access": "apply",
+     "who": "CISO advisor or founder.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.cisonetwork.com/",
+     "score": 6.0,
+     "why": [
+      "+6 audience fit (3 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "403 Circle",
+     "known": true,
+     "platform": "Slack and WhatsApp",
+     "audience": "CISOs, CTOs and security leads",
+     "access": "invite",
+     "who": "Founder requests an invite.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.getastra.com/the403circle-community-by-astra",
+     "score": 6.0,
+     "why": [
+      "+6 audience fit (3 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "IANS Research",
+     "known": true,
+     "platform": "Advisory network",
+     "audience": "Security leaders buying advice",
+     "access": "paid",
+     "who": "Product marketing briefs IANS faculty.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.iansresearch.com/",
+     "score": 6.0,
+     "why": [
+      "+6 audience fit (3 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "ISSA chapters",
+     "known": true,
+     "platform": "Local chapters",
+     "audience": "Security professionals at every level",
+     "access": "paid",
+     "who": "AEs and SEs in each territory join their local chapter.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.issa.org/",
+     "score": 6.0,
+     "why": [
+      "+6 audience fit (3 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "FIRST",
+     "known": true,
+     "platform": "Member organization",
+     "audience": "CSIRT and PSIRT teams",
+     "access": "paid",
+     "who": "Research team.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.first.org/",
+     "score": 6.0,
+     "why": [
+      "+6 audience fit (3 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "M3AAWG",
+     "known": true,
+     "platform": "Industry working group",
+     "audience": "Email, messaging and anti-abuse professionals",
+     "access": "paid",
+     "who": "Research team joins working groups.",
+     "norms": "A technical, member-run group. Contribute research and data.",
+     "url": "https://www.m3aawg.org/",
+     "score": 6.0,
+     "why": [
+      "+6 audience fit (3 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "APWG",
+     "known": true,
+     "platform": "Industry working group",
+     "audience": "Anti-phishing researchers, banks and security vendors",
+     "access": "paid",
+     "who": "Research team shares phishing data.",
+     "norms": "Data sharing is the currency. Bring findings.",
+     "url": "https://apwg.org/",
+     "score": 6.0,
+     "why": [
+      "+6 audience fit (3 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "ISACA Engage",
+     "known": true,
+     "platform": "Online community and chapters",
+     "audience": "IT audit, risk and security professionals",
+     "access": "paid",
+     "who": "Marketing watches compliance questions.",
+     "norms": "Join as a peer first. Sponsor or speak once you know the room.",
+     "url": "https://www.isaca.org/",
+     "score": 2.0,
+     "why": [
+      "+2 audience fit (1 of 3)"
+     ],
+     "hosted": 0,
+     "mentions": 0,
+     "evidence": []
+    }
    ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "CISO Network",
-   "known": true,
-   "platform": "Peer community",
-   "audience": "CISOs",
-   "access": "apply",
-   "who": "CISO advisor or founder.",
-   "url": "https://www.cisonetwork.com/",
-   "score": 6.0,
-   "why": [
-    "+6 buyer fit (3 of 3)"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "Gartner Peer Community",
-   "known": true,
-   "platform": "Online forum",
-   "audience": "Security and IT leaders",
-   "access": "invite",
-   "who": "Customer advocates answer polls. Marketing watches questions.",
-   "url": "https://www.gartner.com/peer-community/home",
-   "score": 6.0,
-   "why": [
-    "+6 buyer fit (3 of 3)"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "SANS CISO Network",
-   "known": true,
-   "platform": "Webinars and newsletter",
-   "audience": "CISOs and security executives",
-   "access": "apply",
-   "who": "CISO advisor or founder applies. Marketing sponsors sessions.",
-   "url": "https://www.sans.org/for-organizations/ciso-network",
-   "score": 6.0,
-   "why": [
-    "+6 buyer fit (3 of 3)"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "BSides events",
-   "known": true,
-   "platform": "Local conferences",
-   "audience": "Practitioners in each city",
-   "access": "event",
-   "who": "Field marketing sponsors the cities with the most target accounts. SEs give talks.",
-   "url": "https://bsides.org/",
-   "score": 5.0,
-   "why": [
-    "+4 buyer fit (2 of 3)",
-    "+1 easy to join"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "r/cybersecurity",
-   "known": true,
-   "platform": "Reddit",
-   "audience": "Working security professionals and people entering the field",
-   "access": "open",
-   "who": "SEs and PMs answer questions in their own name. No pitching.",
-   "url": "https://www.reddit.com/r/cybersecurity/",
-   "score": 5.0,
-   "why": [
-    "+4 buyer fit (2 of 3)",
-    "+1 easy to join"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "r/blueteamsec",
-   "known": true,
-   "platform": "Reddit",
-   "audience": "Defenders, detection and response engineers",
-   "access": "open",
-   "who": "Product and research teams share findings.",
-   "url": "https://www.reddit.com/r/blueteamsec/",
-   "score": 5.0,
-   "why": [
-    "+4 buyer fit (2 of 3)",
-    "+1 easy to join"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "r/AskNetsec",
-   "known": true,
-   "platform": "Reddit",
-   "audience": "Practitioners asking for tool and process advice",
-   "access": "open",
-   "who": "SEs answer evaluation questions honestly.",
-   "url": "https://www.reddit.com/r/AskNetsec/",
-   "score": 5.0,
-   "why": [
-    "+4 buyer fit (2 of 3)",
-    "+1 easy to join"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "r/sysadmin",
-   "known": true,
-   "platform": "Reddit",
-   "audience": "IT and infrastructure teams who do the patching",
-   "access": "open",
-   "who": "SEs listen for remediation pain. Content team mines the language.",
-   "url": "https://www.reddit.com/r/sysadmin/",
-   "score": 5.0,
-   "why": [
-    "+4 buyer fit (2 of 3)",
-    "+1 easy to join"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "Cloud Security Alliance",
-   "known": true,
-   "platform": "Working groups and chapters",
-   "audience": "Cloud security architects and practitioners",
-   "access": "open",
-   "who": "Product joins a working group.",
-   "url": "https://cloudsecurityalliance.org/",
-   "score": 5.0,
-   "why": [
-    "+4 buyer fit (2 of 3)",
-    "+1 easy to join"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "403 Circle",
-   "known": true,
-   "platform": "Slack and WhatsApp",
-   "audience": "CISOs, CTOs and security leads",
-   "access": "invite",
-   "who": "Founder requests an invite.",
-   "url": "https://www.getastra.com/the403circle-community-by-astra",
-   "score": 4.0,
-   "why": [
-    "+4 buyer fit (2 of 3)"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "ISSA chapters",
-   "known": true,
-   "platform": "Local chapters",
-   "audience": "Security professionals at every level",
-   "access": "paid",
-   "who": "AEs and SEs in each territory join their local chapter.",
-   "url": "https://www.issa.org/",
-   "score": 4.0,
-   "why": [
-    "+4 buyer fit (2 of 3)"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "Threat Hunter Community Discord",
-   "known": true,
-   "platform": "Discord",
-   "audience": "Threat hunters and SOC analysts",
-   "access": "open",
-   "who": "Research team and SEs.",
-   "url": "https://discord.gg/threathunter",
-   "score": 3.0,
-   "why": [
-    "+2 buyer fit (1 of 3)",
-    "+1 easy to join"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "Black Hills Information Security Discord",
-   "known": true,
-   "platform": "Discord",
-   "audience": "Mid-level practitioners, threat hunters and pentesters",
-   "access": "open",
-   "who": "SEs listen and help. Webinar sponsorships through BHIS.",
-   "url": "https://discord.gg/bhis",
-   "score": 3.0,
-   "why": [
-    "+2 buyer fit (1 of 3)",
-    "+1 easy to join"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "infosec.exchange",
-   "known": true,
-   "platform": "Mastodon",
-   "audience": "Security researchers and practitioners",
-   "access": "open",
-   "who": "Research team posts findings.",
-   "url": "https://infosec.exchange/",
-   "score": 3.0,
-   "why": [
-    "+2 buyer fit (1 of 3)",
-    "+1 easy to join"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "OWASP Slack",
-   "known": true,
-   "platform": "Slack",
-   "audience": "Application security engineers and developers",
-   "access": "open",
-   "who": "SEs join channels on AppSec and supply chain.",
-   "url": "https://owasp.org/slack/invite",
-   "score": 3.0,
-   "why": [
-    "+2 buyer fit (1 of 3)",
-    "+1 easy to join"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "FIRST",
-   "known": true,
-   "platform": "Member organization",
-   "audience": "CSIRT and PSIRT teams",
-   "access": "paid",
-   "who": "Research team.",
-   "url": "https://www.first.org/",
-   "score": 2.0,
-   "why": [
-    "+2 buyer fit (1 of 3)"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
-  },
-  {
-   "name": "ISACA Engage",
-   "known": true,
-   "platform": "Online community and chapters",
-   "audience": "IT audit, risk and security professionals",
-   "access": "paid",
-   "who": "Marketing watches compliance questions.",
-   "url": "https://www.isaca.org/",
-   "score": 2.0,
-   "why": [
-    "+2 buyer fit (1 of 3)"
-   ],
-   "mentions": 0,
-   "hosted": 0,
-   "evidence": []
+   "phrases": [],
+   "quotes": {
+    "bec": [
+     {
+      "text": "In the US, isn't hacking and avoiding security restrictions online going to be wire fraud, regardless of your intentions and actual damage?",
+      "url": "https://news.ycombinator.com/item?id=49906790",
+      "room": "Hacker News",
+      "date": "2026-09-30"
+     }
+    ]
+   },
+   "brief": {},
+   "count": 2
   }
- ],
+ },
  "conversations": [
+  {
+   "id": "cc25e09bb739",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "South Korea says AI agents appear to have been used to hack the country's banks",
+   "text": "I've been trying to get in touch with South Korea's government IT. Have got really severe vulnerabilities that could literally compromise national security. No response so far but maybe been emailing the wrong places. If anyone could point me a direction, please shoot me an email.",
+   "url": "https://news.ycombinator.com/item?id=49989375",
+   "date": "2026-10-07",
+   "kind": "comment",
+   "replies": null,
+   "found": "2026-10-08",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_security"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 4,
+     "why": [
+      "+1 listen-only topic: Securing AI and agents",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "ai_security"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "a0c1023e5d29",
    "source": "Hacker News",
@@ -873,7 +1959,29 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation",
+      "board"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   }
   },
   {
    "id": "1552987dccfa",
@@ -890,7 +1998,27 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_cves"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 7,
+     "why": [
+      "+4 adjacent topic: AI-found vulnerability surge",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Research team",
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "topic": "ai_cves"
+    }
+   }
   },
   {
    "id": "f83c83433899",
@@ -907,7 +2035,27 @@
    "pains": [],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 6,
+     "why": [
+      "+3 buyer: Security leader",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   },
   {
    "id": "c3493003f82d",
@@ -924,7 +2072,27 @@
    "pains": [],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 6,
+     "why": [
+      "+3 buyer: Security leader",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   },
   {
    "id": "2c82dcbf2320",
@@ -950,7 +2118,113 @@
      "url": "https://www.iansresearch.com/"
     }
    ],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 6,
+     "why": [
+      "+3 buyer: Security leader",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
+  },
+  {
+   "id": "8ca9a4b16612",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Show HN: MailAccess – the true Email OSINT framework",
+   "text": "Im a security engineer and i built mailaccess. When i started learning pentesting, i came across multiple lectures and notes of people listing out tools and websites, which gives the emails for a particular domain, and almost all of them mentioned that the tool might not stick, so its better to learn the methodology, rather than learning a tool- that stuck with me. As i was beginning to really get into pentesting i noticed a clear lack of email osint methodology through the tool itself - so i thought of building one myself. I researched email osint methodoliges and identity chaining in depth to really get this tool the exact brain that a human would use, the reasoning of each action and the scoring behind each of it. Then after learning i just put it all together, and people really liked ita nd supported it, because it gave the truth rather than just filling it with names, it doesnt give a list, it gives sections, where it came from and how. Thats exactly what i wouldve wanted when i was first learning, a tool that familiarizes with what each source gave, and what was found. Do check it out, i have made a hosted version so that people can route everything through that, and that als",
+   "url": "https://news.ycombinator.com/item?id=49977385",
+   "date": "2026-10-06",
+   "kind": "thread",
+   "replies": 0,
+   "found": "2026-10-08",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 9,
+     "why": [
+      "+2 buyer: Security engineer & SecOps",
+      "+4 nobody has answered",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    },
+    "ocean": {
+     "topics": [],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 10,
+     "why": [
+      "+3 buyer: SOC & security engineer",
+      "+4 nobody has answered",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "bbd009786501",
+   "source": "Press",
+   "room": "CRN",
+   "title": "Six Months After Mythos, Here’s How AI Is Shaking Up Vulnerability Management: Experts",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNVQxVG1UaFJJbGRhYjFWeHg3SHBONVlzTnlSR1pkSkhfU2h6aUF1M2g4OEZteWF5cE9nMnREQVNobU1rQkdzblNxYUZ1WGM5bzY5ZlFVRmljWkp5SmhVeFpsVG01MEJVWTBCMDBfYTJXbVRLdlN6Ul9ZTFVyN29RMHJyazUwMUc2aGJPNnh3Zi1ReHhGenVQcTNSdmVCYmVkdGIxQkt6bVhUeFRTX0JENWpjaEtEc0JTQ3VvTm5KWjI?oc=5",
+   "date": "2026-10-06",
+   "kind": "article",
+   "replies": null,
+   "found": "2026-10-08",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_cves"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 7,
+     "why": [
+      "+4 adjacent topic: AI-found vulnerability surge",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "Research team",
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "topic": "ai_cves"
+    }
+   },
+   "rooms": []
   },
   {
    "id": "f3aa55545a71",
@@ -967,24 +2241,28 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
-  },
-  {
-   "id": "9f3a5baa54c8",
-   "source": "Hacker News",
-   "room": "Hacker News",
-   "title": "The technology to eradicate mosquito-borne disease exists",
-   "text": "Food chain collapse happening elsewhere is a reason not to risk creating more of it. It makes ecosystems more fragile , not less. > If your alien species were unable to identify wheat as an important food source, one would question how they managed to figure out interstellar travel. Per your prior point: we are causing food chain collapse all over the globe. We are not an alien species with a good track record on this. > \"we don't know what might happen\" (a statement of the unintended consequences of science meddling with nature that goes back in fiction to at least Mary Shelley) Per your prior point: the unintended consequences of science meddling with nature also goes back in reality to the widespread food chain collapse that our science is already unintentionally causing all over the globe. The following two arguments are not ones that I've made, and aren't necessary to justify extreme caution. > And these are the arguments that condemn a million people a year to death. Obviously the people arguing against you believe there's a chance that altering course would be far, far worse than this already-not-good outcome. > I would be easily swayed by evidence of large-scale ecosystem d",
-   "url": "https://news.ycombinator.com/item?id=49968013",
-   "date": "2026-10-05",
-   "kind": "comment",
-   "personas": [],
-   "pains": [
-    "proving"
-   ],
-   "intent": false,
-   "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "score": 9,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 asking for help",
+      "+1 posted this week"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   }
   },
   {
    "id": "8a953660be36",
@@ -1001,7 +2279,28 @@
    "pains": [],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "score": 6,
+     "why": [
+      "+3 buyer: Security leader",
+      "+2 asking for help",
+      "+1 posted this week"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   },
   {
    "id": "27ad5733e58a",
@@ -1018,7 +2317,27 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_cves"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 5,
+     "why": [
+      "+4 adjacent topic: AI-found vulnerability surge",
+      "+1 posted this week"
+     ],
+     "band": "listen",
+     "who": "Research team",
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "topic": "ai_cves"
+    }
+   }
   },
   {
    "id": "e3911eb6c1ad",
@@ -1035,7 +2354,27 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_cves"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 5,
+     "why": [
+      "+4 adjacent topic: AI-found vulnerability surge",
+      "+1 posted this week"
+     ],
+     "band": "listen",
+     "who": "Research team",
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "topic": "ai_cves"
+    }
+   }
   },
   {
    "id": "c24a34bd9c31",
@@ -1052,7 +2391,28 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "score": 9,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 asking for help",
+      "+1 posted this week"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   }
   },
   {
    "id": "326ca678d07d",
@@ -1069,7 +2429,27 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 7,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+1 posted this week"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   }
   },
   {
    "id": "9b65d3b2420c",
@@ -1087,7 +2467,27 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_cves"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 5,
+     "why": [
+      "+4 adjacent topic: AI-found vulnerability surge",
+      "+1 posted this week"
+     ],
+     "band": "listen",
+     "who": "Research team",
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "topic": "ai_cves"
+    }
+   }
   },
   {
    "id": "e32c43e26eb7",
@@ -1104,7 +2504,27 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_cves"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 5,
+     "why": [
+      "+4 adjacent topic: AI-found vulnerability surge",
+      "+1 posted this week"
+     ],
+     "band": "listen",
+     "who": "Research team",
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "topic": "ai_cves"
+    }
+   }
   },
   {
    "id": "8c320dce9ec2",
@@ -1122,7 +2542,28 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_cves"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "score": 7,
+     "why": [
+      "+4 adjacent topic: AI-found vulnerability surge",
+      "+2 asking for help",
+      "+1 posted this week"
+     ],
+     "band": "worth",
+     "who": "Research team",
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "topic": "ai_cves"
+    }
+   }
   },
   {
    "id": "f611d6f29dd1",
@@ -1139,7 +2580,27 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_cves"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 5,
+     "why": [
+      "+4 adjacent topic: AI-found vulnerability surge",
+      "+1 posted this week"
+     ],
+     "band": "listen",
+     "who": "Research team",
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "topic": "ai_cves"
+    }
+   }
   },
   {
    "id": "c8cd05767457",
@@ -1156,7 +2617,27 @@
    "pains": [],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 4,
+     "why": [
+      "+3 buyer: Security leader",
+      "+1 posted this week"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   },
   {
    "id": "39f81210d469",
@@ -1173,7 +2654,27 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 7,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+1 posted this week"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   }
   },
   {
    "id": "e45bc13934a2",
@@ -1198,7 +2699,28 @@
      "url": "https://cisoseries.com/"
     }
    ],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader",
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 4,
+     "why": [
+      "+3 buyer: Security leader",
+      "+1 posted this week"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   },
   {
    "id": "e23596bded2f",
@@ -1215,7 +2737,45 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "score": 8,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 asking for help"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    },
+    "ocean": {
+     "topics": [
+      "bec"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "score": 8,
+     "why": [
+      "+6 core topic: BEC and payment fraud",
+      "+2 asking for help"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
+     "topic": "bec"
+    }
+   }
   },
   {
    "id": "2df5b269ae5b",
@@ -1234,7 +2794,29 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "board"
+     ],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 7,
+     "why": [
+      "+4 adjacent topic: Proving progress to the board",
+      "+3 buyer: Security leader"
+     ],
+     "band": "listen",
+     "who": "Founder or CISO advisor",
+     "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
+     "topic": "board"
+    }
+   }
   },
   {
    "id": "f6cc8c346508",
@@ -1251,7 +2833,27 @@
    "pains": [],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "score": 4,
+     "why": [
+      "+2 buyer: Security engineer & SecOps",
+      "+2 asking for help"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   },
   {
    "id": "3b7635e5304b",
@@ -1268,7 +2870,26 @@
    "pains": [],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 3,
+     "why": [
+      "+3 buyer: Security leader"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   },
   {
    "id": "f476a73d70d3",
@@ -1287,7 +2908,29 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_security"
+     ],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 4,
+     "why": [
+      "+1 listen-only topic: Securing AI and agents",
+      "+3 buyer: Security leader"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "ai_security"
+    }
+   }
   },
   {
    "id": "f41e4a2c11de",
@@ -1304,7 +2947,26 @@
    "pains": [],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 3,
+     "why": [
+      "+3 buyer: Security leader"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   },
   {
    "id": "84f7cc588eeb",
@@ -1321,7 +2983,26 @@
    "pains": [],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 3,
+     "why": [
+      "+3 buyer: Security leader"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   },
   {
    "id": "de484eb5328d",
@@ -1338,7 +3019,26 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 6,
+     "why": [
+      "+6 core topic: Getting fixes owned and done"
+     ],
+     "band": "listen",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   }
   },
   {
    "id": "42219da2c683",
@@ -1356,7 +3056,28 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation",
+      "board"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "score": 8,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 asking for help"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   }
   },
   {
    "id": "10a95e18b16d",
@@ -1373,7 +3094,26 @@
    "pains": [],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 3,
+     "why": [
+      "+3 buyer: Security leader"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   },
   {
    "id": "ccce9890ee4e",
@@ -1390,7 +3130,27 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "sprawl"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "score": 6,
+     "why": [
+      "+4 adjacent topic: Tool sprawl and consolidation",
+      "+2 asking for help"
+     ],
+     "band": "listen",
+     "who": "Founder",
+     "angle": "Get more out of the tools you already own before adding another.",
+     "topic": "sprawl"
+    }
+   }
   },
   {
    "id": "d2aebbe5f0d8",
@@ -1408,7 +3168,27 @@
    "pains": [],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader",
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 3,
+     "why": [
+      "+3 buyer: Security leader"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   },
   {
    "id": "a1eb6f19d876",
@@ -1425,7 +3205,26 @@
    "pains": [],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 3,
+     "why": [
+      "+3 buyer: Security leader"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   },
   {
    "id": "7bb1e16ce7ab",
@@ -1442,7 +3241,26 @@
    "pains": [],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 3,
+     "why": [
+      "+3 buyer: Security leader"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   },
   {
    "id": "571c813b1db6",
@@ -1459,7 +3277,26 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "board"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 4,
+     "why": [
+      "+4 adjacent topic: Proving progress to the board"
+     ],
+     "band": "listen",
+     "who": "Founder or CISO advisor",
+     "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
+     "topic": "board"
+    }
+   }
   },
   {
    "id": "647f3e3f6804",
@@ -1476,7 +3313,26 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 6,
+     "why": [
+      "+6 core topic: Getting fixes owned and done"
+     ],
+     "band": "listen",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   }
   },
   {
    "id": "d45cd7dc605c",
@@ -1493,7 +3349,26 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 6,
+     "why": [
+      "+6 core topic: Getting fixes owned and done"
+     ],
+     "band": "listen",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   }
   },
   {
    "id": "2b6e7815a41a",
@@ -1511,7 +3386,27 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation",
+      "staffing"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 6,
+     "why": [
+      "+6 core topic: Getting fixes owned and done"
+     ],
+     "band": "listen",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   }
   },
   {
    "id": "f6dbf76988dd",
@@ -1530,7 +3425,26 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 3,
+     "why": [
+      "+3 buyer: Security leader"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   },
   {
    "id": "6a244822b6d2",
@@ -1547,7 +3461,27 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "score": 8,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 asking for help"
+     ],
+     "band": "listen",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   }
   },
   {
    "id": "6b8eb8a6d408",
@@ -1566,7 +3500,27 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation",
+      "ai_cves"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 6,
+     "why": [
+      "+6 core topic: Getting fixes owned and done"
+     ],
+     "band": "listen",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   }
   },
   {
    "id": "53ea63bdc13b",
@@ -1583,7 +3537,26 @@
    "pains": [],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 3,
+     "why": [
+      "+3 buyer: Security leader"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   },
   {
    "id": "9b5353bfb70f",
@@ -1600,7 +3573,27 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "score": 8,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 asking for help"
+     ],
+     "band": "listen",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   }
   },
   {
    "id": "ba3dbdbff033",
@@ -1619,7 +3612,26 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 3,
+     "why": [
+      "+3 buyer: Security leader"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   },
   {
    "id": "b8f3416447f9",
@@ -1636,7 +3648,26 @@
    "pains": [],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 3,
+     "why": [
+      "+3 buyer: Security leader"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   },
   {
    "id": "4cc8ab0d2877",
@@ -1655,7 +3686,29 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_cves"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 6,
+     "why": [
+      "+4 adjacent topic: AI-found vulnerability surge",
+      "+2 buyer: Security engineer & SecOps"
+     ],
+     "band": "listen",
+     "who": "Research team",
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "topic": "ai_cves"
+    }
+   }
   },
   {
    "id": "33b0b195caed",
@@ -1672,7 +3725,27 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_cves"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "score": 6,
+     "why": [
+      "+4 adjacent topic: AI-found vulnerability surge",
+      "+2 asking for help"
+     ],
+     "band": "listen",
+     "who": "Research team",
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "topic": "ai_cves"
+    }
+   }
   },
   {
    "id": "16d9b09e8b96",
@@ -1689,7 +3762,26 @@
    "pains": [],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 3,
+     "why": [
+      "+3 buyer: Security leader"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   },
   {
    "id": "409564a7f670",
@@ -1708,7 +3800,29 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_cves"
+     ],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "score": 7,
+     "why": [
+      "+4 adjacent topic: AI-found vulnerability surge",
+      "+3 buyer: Security leader"
+     ],
+     "band": "listen",
+     "who": "Research team",
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "topic": "ai_cves"
+    }
+   }
   },
   {
    "id": "035f3c201ece",
@@ -1725,7 +3839,27 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "compliance"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "score": 6,
+     "why": [
+      "+4 adjacent topic: Directives and compliance deadlines",
+      "+2 asking for help"
+     ],
+     "band": "listen",
+     "who": "Content team",
+     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
+     "topic": "compliance"
+    }
+   }
   },
   {
    "id": "3d7f6e981dbf",
@@ -1742,7 +3876,27 @@
    ],
    "intent": true,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_cves"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": true,
+     "score": 6,
+     "why": [
+      "+4 adjacent topic: AI-found vulnerability surge",
+      "+2 shopping for tools"
+     ],
+     "band": "listen",
+     "who": "Research team",
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "topic": "ai_cves"
+    }
+   }
   },
   {
    "id": "331b1ba1b6d9",
@@ -1759,7 +3913,27 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_cves"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "score": 6,
+     "why": [
+      "+4 adjacent topic: AI-found vulnerability surge",
+      "+2 asking for help"
+     ],
+     "band": "listen",
+     "who": "Research team",
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "topic": "ai_cves"
+    }
+   }
   },
   {
    "id": "b7bd220d08f2",
@@ -1778,7 +3952,30 @@
    ],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "score": 10,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: Security engineer & SecOps",
+      "+2 asking for help"
+     ],
+     "band": "listen",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   }
   },
   {
    "id": "7a059645e5ac",
@@ -1795,7 +3992,27 @@
    "pains": [],
    "intent": false,
    "rooms": [],
-   "found": "2026-10-07"
+   "found": "2026-10-07",
+   "lens": {
+    "nagomi": {
+     "topics": [],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "score": 5,
+     "why": [
+      "+3 buyer: Security leader",
+      "+2 asking for help"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": null
+    }
+   }
   }
  ]
 }
