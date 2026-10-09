@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-08T16:05Z",
+ "generated": "2026-10-09T13:36Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 8,
+  "new": 4,
   "by_source": {
-   "Mastodon": 8
+   "Mastodon": 4
   }
  },
  "rooms_norms": {
@@ -102,10 +102,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 5,
-     "recent": 4,
+     "total": 8,
+     "recent": 7,
      "prior": 1,
-     "change": 300,
+     "change": 600,
      "weekly": [
       0,
       0,
@@ -118,7 +118,7 @@
       1,
       0,
       0,
-      4
+      7
      ],
      "open": 1,
      "open_examples": [
@@ -131,11 +131,11 @@
       }
      ],
      "rooms": [
-      "infosec.exchange",
       "mastodon.social",
+      "infosec.exchange",
       "c.im"
      ],
-     "score": 24.8
+     "score": 30.0
     },
     {
      "key": "prioritization",
@@ -143,8 +143,8 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 5,
-     "recent": 5,
+     "total": 8,
+     "recent": 8,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -159,7 +159,7 @@
       0,
       0,
       0,
-      5
+      8
      ],
      "open": 1,
      "open_examples": [
@@ -176,7 +176,7 @@
       "infosec.exchange",
       "c.im"
      ],
-     "score": 17.0
+     "score": 20.5
     },
     {
      "key": "board",
@@ -396,13 +396,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 8.2,
+     "score": 9.0,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+3.2 2 relevant conversations there",
+      "+4.0 3 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 2,
+     "hosted": 3,
      "mentions": 0,
      "evidence": []
     },
@@ -886,6 +886,14 @@
    "phrases": [
     {
      "phrase": "threataft com articles",
+     "count": 3
+    },
+    {
+     "phrase": "cybersecurity infosec",
+     "count": 2
+    },
+    {
+     "phrase": "infosec cve",
      "count": 2
     },
     {
@@ -904,30 +912,30 @@
    "quotes": {
     "prioritization": [
      {
+      "text": "Max CVSS 8.4, 3 high severity, CWE-200 info leaks top the list.",
+      "url": "https://mastodon.social/@hugovalters/117411114044229658",
+      "room": "mastodon.social",
+      "date": "2026-10-09"
+     },
+     {
       "text": "🚨 EUVD-2026-95032 📊 Score: 5.1/10 (CVSS v3.1) 📅 Updated: 2026-10-08 📝 A flaw was found in luksmeta.",
       "url": "https://mastodon.social/@EUVD_Bot/117406127161309451",
       "room": "mastodon.social",
-      "date": "2026-10-08"
-     },
-     {
-      "text": "IBM DataPower Gateway mass disclosure — 11 CVEs, two unauth RCEs at CVSS 9.8, one credential-stealing XSS at 9.3.",
-      "url": "https://infosec.exchange/@threataft/117406133787986464",
-      "room": "infosec.exchange",
       "date": "2026-10-08"
      }
     ],
     "remediation": [
      {
-      "text": "No workarounds — patch is the only fix.",
-      "url": "https://infosec.exchange/@threataft/117406133787986464",
-      "room": "infosec.exchange",
-      "date": "2026-10-08"
+      "text": "Encrypted chat still needs patch discipline.",
+      "url": "https://mastodon.social/@hugovalters/117411114044229658",
+      "room": "mastodon.social",
+      "date": "2026-10-09"
      },
      {
-      "text": "Affects all 8 self-hosted DC products: Bitbucket, Confluence, Jira, JSM, Bamboo, Crowd, Crucible, Fisheye.",
-      "url": "https://infosec.exchange/@threataft/117400625148639028",
-      "room": "infosec.exchange",
-      "date": "2026-10-07"
+      "text": "Patch to 1.36.10, 1.37.6, 1.38.4 or 1.39.1 now.",
+      "url": "https://mastodon.social/@hugovalters/117411074644649993",
+      "room": "mastodon.social",
+      "date": "2026-10-09"
      }
     ],
     "ai_cves": [
@@ -940,7 +948,7 @@
     ]
    },
    "brief": {},
-   "count": 9
+   "count": 12
   },
   "ocean": {
    "company": {
@@ -1009,8 +1017,8 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 3,
-     "recent": 3,
+     "total": 4,
+     "recent": 4,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -1025,7 +1033,7 @@
       0,
       0,
       0,
-      3
+      4
      ],
      "open": 1,
      "open_examples": [
@@ -1041,7 +1049,7 @@
       "mastodon.social",
       "git.sig-io.nl"
      ],
-     "score": 4.5
+     "score": 5.1
     },
     {
      "key": "bec",
@@ -1786,30 +1794,187 @@
    "phrases": [
     {
      "phrase": "spf dkim",
+     "count": 3
+    },
+    {
+     "phrase": "spf record",
      "count": 2
     }
    ],
    "quotes": {
     "authentication": [
      {
-      "text": "# EmailSecurity # DMARC # InfoSec https:// apify.com/redfoxscout/email-se curity-checker?utm_source=mastodon&utm_medium=social&utm_campaign=product",
-      "url": "https://mastodon.social/@tiktopdata/117399888542802826",
+      "text": "At # BaselOne26 , Adrian Etter & Kevin Illi turn 4 real incidents into practical lessons on SPF, DKIM, DMARC, MFA, password managers & # monitoring .",
+      "url": "https://mastodon.social/@BaselOne/117409748358987109",
       "room": "mastodon.social",
-      "date": "2026-10-07"
+      "date": "2026-10-09"
      },
      {
-      "text": "My Proton Bridge server reports the SPF, DKIM and DMARC verdicts on a message, and points out a From domain that doesn't match the Return-Path.",
-      "url": "https://mastodon.social/@Considus/117398982049107147",
+      "text": "# EmailSecurity # DMARC # InfoSec https:// apify.com/redfoxscout/email-se curity-checker?utm_source=mastodon&utm_medium=social&utm_campaign=product",
+      "url": "https://mastodon.social/@tiktopdata/117399888542802826",
       "room": "mastodon.social",
       "date": "2026-10-07"
      }
     ]
    },
    "brief": {},
-   "count": 3
+   "count": 4
   }
  },
  "conversations": [
+  {
+   "id": "687ce5ad9985",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 “Help, I’ve been spamming!” A blacklisted domain. An Apple voucher scam. A wide-open SPF record. A security expert who automated everything – then reset his own config. At # BaselOne26 , Adrian Etter & Kevin Illi turn 4 real incidents into practical lessons on SPF, DKIM, DMARC, MFA, password managers & # monitoring . No wall of RFCs. Just mistakes, fixes & lessons you can use. 👉 https:// baselone.org/#programm 🎟️ https:// eventfrog.ch/baselone26 # CyberSecurity # EmailSecurity # DevSecOps # BaselOne",
+   "url": "https://mastodon.social/@BaselOne/117409748358987109",
+   "date": "2026-10-09",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-09",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "dmarc",
+      "spf"
+     ],
+     "score": 4,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "6d8899279051",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Element (Matrix) has 18 CVEs with 100% unpatched and a C trust score. Max CVSS 8.4, 3 high severity, CWE-200 info leaks top the list. Encrypted chat still needs patch discipline. https://www. valtersit.com/vendors/element/ # cybersecurity # infosec # Element",
+   "url": "https://mastodon.social/@hugovalters/117411114044229658",
+   "date": "2026-10-09",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-09",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "7b128ee12c6a",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🔴 Dromara Skyeye — 2× CVSS 9.8, no patch, PoC public CVE-2026-107779 — missing auth in xxl-job-admin (CWE-306) → /jobinfo/addAndStart accepts GLUE_SHELL jobs unauthenticated → RCE on executor host CVE-2026-107780 — OS command injection in TTS endpoint (CWE-78) → /post/TtsController/textToSpeech, unsanitized format param → single quote → PowerShell escape → RCE as service account Affected: through commit 003549ae PoC: GitHub Issue #29 Fix: none confirmed Restrict or disable both endpoints now. https:// threataft.com/articles/dromara -skyeye-cve-2026-107779-107780-unauthenticated-rce # infosec # CVE # RCE # xxljob",
+   "url": "https://infosec.exchange/@threataft/117411101176419989",
+   "date": "2026-10-09",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-09",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": true,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 shopping for tools",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "63842c5db0d4",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-73551 Envoy path normalization bypass lets /user/..;foo=bar/admin reach /admin uncanonicalized. CVSS 5.3. Patch to 1.36.10, 1.37.6, 1.38.4 or 1.39.1 now. https://www. valtersit.com/cve/CVE-2026-735 51/ # Envoy # infosec # CVE",
+   "url": "https://mastodon.social/@hugovalters/117411074644649993",
+   "date": "2026-10-09",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-09",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "548c2b29d4fd",
    "source": "Mastodon",
@@ -2028,13 +2193,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
