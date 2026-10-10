@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-09T13:36Z",
+ "generated": "2026-10-10T13:31Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 4,
+  "new": 6,
   "by_source": {
-   "Mastodon": 4
+   "Mastodon": 6
   }
  },
  "rooms_norms": {
@@ -102,10 +102,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 8,
-     "recent": 7,
+     "total": 11,
+     "recent": 10,
      "prior": 1,
-     "change": 600,
+     "change": 900,
      "weekly": [
       0,
       0,
@@ -118,7 +118,7 @@
       1,
       0,
       0,
-      7
+      10
      ],
      "open": 1,
      "open_examples": [
@@ -135,7 +135,7 @@
       "infosec.exchange",
       "c.im"
      ],
-     "score": 30.0
+     "score": 33.8
     },
     {
      "key": "prioritization",
@@ -143,8 +143,8 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 8,
-     "recent": 8,
+     "total": 11,
+     "recent": 11,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -159,7 +159,7 @@
       0,
       0,
       0,
-      8
+      11
      ],
      "open": 1,
      "open_examples": [
@@ -176,7 +176,7 @@
       "infosec.exchange",
       "c.im"
      ],
-     "score": 20.5
+     "score": 23.0
     },
     {
      "key": "board",
@@ -208,6 +208,45 @@
      "score": 4.0
     },
     {
+     "key": "ai_security",
+     "label": "Securing AI and agents",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 2,
+     "recent": 2,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "open": 1,
+     "open_examples": [
+      {
+       "title": "AI Is Taking Over the SOC: What Happens When Cyber Defense Becomes Autonomous? https:// yo",
+       "url": "https://infosec.exchange/@cybersecboardrm/117412764135589569",
+       "room": "infosec.exchange",
+       "date": "2026-10-09",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "infosec.exchange"
+     ],
+     "score": 3.7
+    },
+    {
      "key": "ai_cves",
      "label": "AI-found vulnerability surge",
      "fit": 2,
@@ -237,35 +276,6 @@
       "Hacker News"
      ],
      "score": 3.2
-    },
-    {
-     "key": "ai_security",
-     "label": "Securing AI and agents",
-     "fit": 1,
-     "angle": "",
-     "who": "",
-     "total": 1,
-     "recent": 1,
-     "prior": 0,
-     "change": 100,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [],
-     "score": 2.0
     },
     {
      "key": "controls",
@@ -396,13 +406,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 9.0,
+     "score": 10.2,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+4.0 3 relevant conversations there",
+      "+5.2 5 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 3,
+     "hosted": 5,
      "mentions": 0,
      "evidence": []
     },
@@ -885,8 +895,24 @@
    ],
    "phrases": [
     {
+     "phrase": "valtersit com cve",
+     "count": 3
+    },
+    {
      "phrase": "threataft com articles",
      "count": 3
+    },
+    {
+     "phrase": "cve cve-2026-884",
+     "count": 2
+    },
+    {
+     "phrase": "cve-2026-884 cve",
+     "count": 2
+    },
+    {
+     "phrase": "cve infosec",
+     "count": 2
     },
     {
      "phrase": "cybersecurity infosec",
@@ -918,10 +944,10 @@
       "date": "2026-10-09"
      },
      {
-      "text": "🚨 EUVD-2026-95032 📊 Score: 5.1/10 (CVSS v3.1) 📅 Updated: 2026-10-08 📝 A flaw was found in luksmeta.",
-      "url": "https://mastodon.social/@EUVD_Bot/117406127161309451",
-      "room": "mastodon.social",
-      "date": "2026-10-08"
+      "text": "Today's brief: - Atlassian DC CVE-2026-21589 (CVSS 9.3): pre-auth file read, probed since Oct 6.",
+      "url": "https://infosec.exchange/@tpsecurity/117411371568646767",
+      "room": "infosec.exchange",
+      "date": "2026-10-09"
      }
     ],
     "remediation": [
@@ -938,6 +964,14 @@
       "date": "2026-10-09"
      }
     ],
+    "ai_security": [
+     {
+      "text": "https:// youtu.be/si7-9Ny8JAk # AgenticAI # Cybersecurity # SecurityOperations # AISecurity # SOC # CISO # AutonomousSOC",
+      "url": "https://infosec.exchange/@cybersecboardrm/117412764135589569",
+      "room": "infosec.exchange",
+      "date": "2026-10-09"
+     }
+    ],
     "ai_cves": [
      {
       "text": "(I blame the initial marketing hype around Claude Mythos for much of the unhelpful discourse.) And I don't just mean they're asking their AI the wrong questions, either.",
@@ -948,7 +982,7 @@
     ]
    },
    "brief": {},
-   "count": 12
+   "count": 16
   },
   "ocean": {
    "company": {
@@ -1017,8 +1051,8 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 4,
-     "recent": 4,
+     "total": 6,
+     "recent": 6,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -1033,7 +1067,7 @@
       0,
       0,
       0,
-      4
+      6
      ],
      "open": 1,
      "open_examples": [
@@ -1047,9 +1081,41 @@
      ],
      "rooms": [
       "mastodon.social",
+      "infosec.exchange",
       "git.sig-io.nl"
      ],
-     "score": 5.1
+     "score": 6.1
+    },
+    {
+     "key": "trusted_senders",
+     "label": "Compromised vendors and trusted senders",
+     "fit": 3,
+     "angle": "Trusted infrastructure is the new attack path. A known sender or a real DocuSign link doesn't make an email safe.",
+     "who": "Research team",
+     "total": 1,
+     "recent": 1,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "mastodon.social"
+     ],
+     "score": 6.0
     },
     {
      "key": "bec",
@@ -1085,35 +1151,6 @@
      "label": "Targeted phishing getting through",
      "fit": 3,
      "angle": "Pattern matching misses messages written fresh for each target. Investigate every email's context the way an analyst would.",
-     "who": "Research team",
-     "total": 0,
-     "recent": 0,
-     "prior": 0,
-     "change": 0,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [],
-     "score": 0.0
-    },
-    {
-     "key": "trusted_senders",
-     "label": "Compromised vendors and trusted senders",
-     "fit": 3,
-     "angle": "Trusted infrastructure is the new attack path. A known sender or a real DocuSign link doesn't make an email safe.",
      "who": "Research team",
      "total": 0,
      "recent": 0,
@@ -1317,6 +1354,25 @@
    "emerging_date": "",
    "rooms": [
     {
+     "name": "infosec.exchange",
+     "known": true,
+     "platform": "Mastodon",
+     "audience": "Security researchers and practitioners",
+     "access": "open",
+     "who": "Research team posts findings.",
+     "norms": "Research and findings travel. Product posts don't.",
+     "url": "https://infosec.exchange/",
+     "score": 9.0,
+     "why": [
+      "+6 audience fit (3 of 3)",
+      "+2.0 1 relevant conversations there",
+      "+1 easy to join"
+     ],
+     "hosted": 1,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
      "name": "r/cybersecurity",
      "known": true,
      "platform": "Reddit",
@@ -1397,24 +1453,6 @@
      "who": "Founders and the CISO advisor listen first, post rarely.",
      "norms": "Small, senior and wary of vendors. Listen first and post rarely.",
      "url": "https://www.reddit.com/r/CISO/",
-     "score": 7.0,
-     "why": [
-      "+6 audience fit (3 of 3)",
-      "+1 easy to join"
-     ],
-     "hosted": 0,
-     "mentions": 0,
-     "evidence": []
-    },
-    {
-     "name": "infosec.exchange",
-     "known": true,
-     "platform": "Mastodon",
-     "audience": "Security researchers and practitioners",
-     "access": "open",
-     "who": "Research team posts findings.",
-     "norms": "Research and findings travel. Product posts don't.",
-     "url": "https://infosec.exchange/",
      "score": 7.0,
      "why": [
       "+6 audience fit (3 of 3)",
@@ -1794,34 +1832,163 @@
    "phrases": [
     {
      "phrase": "spf dkim",
-     "count": 3
+     "count": 4
     },
     {
      "phrase": "spf record",
+     "count": 3
+    },
+    {
+     "phrase": "dkim and dmarc",
      "count": 2
     }
    ],
    "quotes": {
     "authentication": [
      {
-      "text": "At # BaselOne26 , Adrian Etter & Kevin Illi turn 4 real incidents into practical lessons on SPF, DKIM, DMARC, MFA, password managers & # monitoring .",
-      "url": "https://mastodon.social/@BaselOne/117409748358987109",
-      "room": "mastodon.social",
-      "date": "2026-10-09"
+      "text": "Plenty of domains I check publish DMARC at p=none and leave it there for years.",
+      "url": "https://infosec.exchange/@adrianhollister/117415657641799199",
+      "room": "infosec.exchange",
+      "date": "2026-10-10"
      },
      {
-      "text": "# EmailSecurity # DMARC # InfoSec https:// apify.com/redfoxscout/email-se curity-checker?utm_source=mastodon&utm_medium=social&utm_campaign=product",
-      "url": "https://mastodon.social/@tiktopdata/117399888542802826",
+      "text": "DMARC only protects anyone when the policy says quarantine or reject.",
+      "url": "https://infosec.exchange/@adrianhollister/117415657641799199",
+      "room": "infosec.exchange",
+      "date": "2026-10-10"
+     }
+    ],
+    "trusted_senders": [
+     {
+      "text": "Phishing now arrives from DocuSign, QuickBooks and Dropbox themselves - and passes SPF, DKIM and DMARC.",
+      "url": "https://mastodon.social/@threadlinqs/117413484528451409",
       "room": "mastodon.social",
-      "date": "2026-10-07"
+      "date": "2026-10-09"
      }
     ]
    },
    "brief": {},
-   "count": 4
+   "count": 6
   }
  },
  "conversations": [
+  {
+   "id": "a70433053f57",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Plenty of domains I check publish DMARC at p=none and leave it there for years. DMARC only protects anyone when the policy says quarantine or reject. Until then it is a reporting feed, telling you who else sends as you and doing nothing about it. The reports surface the newsletter platform and the payroll bureau that still send in your name. Then you align SPF and DKIM and tighten the policy in steps. Parked domains count as well. A domain that never sends mail should say so, with a reject policy and an empty SPF record. https://www. ncsc.gov.uk/collection/email-s ecurity-and-anti-spoofing # CyberSecurity # InfoSec # EmailSecurity",
+   "url": "https://infosec.exchange/@adrianhollister/117415657641799199",
+   "date": "2026-10-10",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-10",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [
+      "finance"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "dmarc",
+      "spf"
+     ],
+     "score": 6,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+2 buyer: Finance & AP",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "7df5a1db6dd9",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-88467: CRMEB Knowledge-Paid System 1.4.4 leaks sensitive info via a backend verification flaw. CVSS 6.2, no patch yet. Restrict access and monitor. Details: https://www. valtersit.com/cve/CVE-2026-884 67/ # CVE # infosec # CRMEB",
+   "url": "https://mastodon.social/@hugovalters/117416617785508156",
+   "date": "2026-10-10",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-10",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "af7b30ac2d9a",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-88404: RCE in Univer v1.0.0-alpha.2 via UniscriptExecutionService.execute(). CVSS 9.8, unpatched. Patch now. https://www. valtersit.com/cve/CVE-2026-884 04/ # CVE # infosec # cybersecurity",
+   "url": "https://mastodon.social/@hugovalters/117416264699333567",
+   "date": "2026-10-10",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-10",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "687ce5ad9985",
    "source": "Mastodon",
@@ -1976,6 +2143,125 @@
    "rooms": []
   },
   {
+   "id": "20d61acc9750",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "AI Is Taking Over the SOC: What Happens When Cyber Defense Becomes Autonomous? https:// youtu.be/si7-9Ny8JAk # AgenticAI # Cybersecurity # SecurityOperations # AISecurity # SOC # CISO # AutonomousSOC",
+   "url": "https://infosec.exchange/@cybersecboardrm/117412764135589569",
+   "date": "2026-10-09",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-10",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_security"
+     ],
+     "personas": [
+      "leader",
+      "secops"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "agentic"
+     ],
+     "score": 9,
+     "why": [
+      "+1 listen-only topic: Securing AI and agents",
+      "+3 buyer: Security leader",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "ai_security"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "1c0a4967b2ba",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Today's brief: - Atlassian DC CVE-2026-21589 (CVSS 9.3): pre-auth file read, probed since Oct 6. Patch (e.g. Confluence 9.2.26/10.2.19); check logs for URL-encoded .. - Citrix NetScaler CVE-2026-107406 (CVSS 9.5), SAML SP/IdP only. Fixed: 14.1-73.46, 13.1-64.29 - FortiBleed: hunt rogue FortiGate admins (e.g. support_fortinet), kill sessions - FBI-seized lookalikes: outlook3650[.]com, linkedinns[.]net https:// tp-security.com/news/cyber-bri ef-2026-10-09-atlassian-netscaler-fortibleed-flax-typhoon # InfoSec # PatchNow # BlueTeam # Phishing",
+   "url": "https://infosec.exchange/@tpsecurity/117411371568646767",
+   "date": "2026-10-09",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-10",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "f3e499f4d9a4",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Phishing now arrives from DocuSign, QuickBooks and Dropbox themselves - and passes SPF, DKIM and DMARC. 9 detections, 14 IOCs. Full analysis + IOCs: https:// intel.threadlinqs.com/threat/T L-2026-3167 # ThreatIntel # Smash # AnyDesk # ScreenConnect # Phishing # Dropbox",
+   "url": "https://mastodon.social/@threadlinqs/117413484528451409",
+   "date": "2026-10-09",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-10",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "trusted_senders",
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "dmarc",
+      "docusign",
+      "spf"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Compromised vendors and trusted senders",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Research team",
+     "angle": "Trusted infrastructure is the new attack path. A known sender or a real DocuSign link doesn't make an email safe.",
+     "topic": "trusted_senders"
+    }
+   },
+   "rooms": []
+  },
+  {
    "id": "548c2b29d4fd",
    "source": "Mastodon",
    "room": "mastodon.social",
@@ -2078,10 +2364,10 @@
       "jira",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2116,11 +2402,11 @@
       "dmarc",
       "spf"
      ],
-     "score": 6,
+     "score": 4,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -2155,10 +2441,10 @@
       "dmarc",
       "spf"
      ],
-     "score": 4,
+     "score": 2,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
