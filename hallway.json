@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-10T13:31Z",
+ "generated": "2026-10-11T13:32Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 6,
+  "new": 5,
   "by_source": {
-   "Mastodon": 6
+   "Mastodon": 5
   }
  },
  "rooms_norms": {
@@ -102,10 +102,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 11,
-     "recent": 10,
+     "total": 14,
+     "recent": 13,
      "prior": 1,
-     "change": 900,
+     "change": 1200,
      "weekly": [
       0,
       0,
@@ -118,7 +118,7 @@
       1,
       0,
       0,
-      10
+      13
      ],
      "open": 1,
      "open_examples": [
@@ -135,7 +135,7 @@
       "infosec.exchange",
       "c.im"
      ],
-     "score": 33.8
+     "score": 36.7
     },
     {
      "key": "prioritization",
@@ -143,8 +143,8 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 11,
-     "recent": 11,
+     "total": 15,
+     "recent": 15,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -159,7 +159,7 @@
       0,
       0,
       0,
-      11
+      15
      ],
      "open": 1,
      "open_examples": [
@@ -176,7 +176,38 @@
       "infosec.exchange",
       "c.im"
      ],
-     "score": 23.0
+     "score": 25.5
+    },
+    {
+     "key": "controls",
+     "label": "Security tools misconfigured or not covering everything",
+     "fit": 3,
+     "angle": "Most breaches hit companies that already owned a tool that could have stopped them. Check coverage and configuration before buying more.",
+     "who": "Founder or research team",
+     "total": 1,
+     "recent": 1,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "mastobot.ping.moi"
+     ],
+     "score": 6.0
     },
     {
      "key": "board",
@@ -205,6 +236,37 @@
      "open": 0,
      "open_examples": [],
      "rooms": [],
+     "score": 4.0
+    },
+    {
+     "key": "compliance",
+     "label": "Directives and compliance deadlines",
+     "fit": 2,
+     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
+     "who": "Content team",
+     "total": 1,
+     "recent": 1,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "mastodon.social"
+     ],
      "score": 4.0
     },
     {
@@ -278,69 +340,11 @@
      "score": 3.2
     },
     {
-     "key": "controls",
-     "label": "Security tools misconfigured or not covering everything",
-     "fit": 3,
-     "angle": "Most breaches hit companies that already owned a tool that could have stopped them. Check coverage and configuration before buying more.",
-     "who": "Founder or research team",
-     "total": 0,
-     "recent": 0,
-     "prior": 0,
-     "change": 0,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [],
-     "score": 0.0
-    },
-    {
      "key": "sprawl",
      "label": "Tool sprawl and consolidation",
      "fit": 2,
      "angle": "Get more out of the tools you already own before adding another.",
      "who": "Founder",
-     "total": 0,
-     "recent": 0,
-     "prior": 0,
-     "change": 0,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [],
-     "score": 0.0
-    },
-    {
-     "key": "compliance",
-     "label": "Directives and compliance deadlines",
-     "fit": 2,
-     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
-     "who": "Content team",
      "total": 0,
      "recent": 0,
      "prior": 0,
@@ -406,13 +410,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 10.2,
+     "score": 10.6,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+5.2 5 relevant conversations there",
+      "+5.6 6 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 5,
+     "hosted": 6,
      "mentions": 0,
      "evidence": []
     },
@@ -896,11 +900,51 @@
    "phrases": [
     {
      "phrase": "valtersit com cve",
-     "count": 3
+     "count": 5
     },
     {
      "phrase": "threataft com articles",
+     "count": 4
+    },
+    {
+     "phrase": "cve infosec",
+     "count": 4
+    },
+    {
+     "phrase": "cybersecurity infosec",
      "count": 3
+    },
+    {
+     "phrase": "command injection",
+     "count": 2
+    },
+    {
+     "phrase": "cvss patch",
+     "count": 2
+    },
+    {
+     "phrase": "cve cve-2026-252",
+     "count": 2
+    },
+    {
+     "phrase": "cve-2026-252 cve",
+     "count": 2
+    },
+    {
+     "phrase": "infosec qualcomm",
+     "count": 2
+    },
+    {
+     "phrase": "valtersit com vendors",
+     "count": 2
+    },
+    {
+     "phrase": "privilege escalation",
+     "count": 2
+    },
+    {
+     "phrase": "patch yet",
+     "count": 2
     },
     {
      "phrase": "cve cve-2026-884",
@@ -908,14 +952,6 @@
     },
     {
      "phrase": "cve-2026-884 cve",
-     "count": 2
-    },
-    {
-     "phrase": "cve infosec",
-     "count": 2
-    },
-    {
-     "phrase": "cybersecurity infosec",
      "count": 2
     },
     {
@@ -938,16 +974,16 @@
    "quotes": {
     "prioritization": [
      {
-      "text": "Max CVSS 8.4, 3 high severity, CWE-200 info leaks top the list.",
-      "url": "https://mastodon.social/@hugovalters/117411114044229658",
-      "room": "mastodon.social",
-      "date": "2026-10-09"
+      "text": "CVE-2026-108540 — OpenSpug Spug, CVSS 9.9 OS command injection in /exec/transfer.",
+      "url": "https://infosec.exchange/@threataft/117421869825952182",
+      "room": "infosec.exchange",
+      "date": "2026-10-11"
      },
      {
-      "text": "Today's brief: - Atlassian DC CVE-2026-21589 (CVSS 9.3): pre-auth file read, probed since Oct 6.",
-      "url": "https://infosec.exchange/@tpsecurity/117411371568646767",
-      "room": "infosec.exchange",
-      "date": "2026-10-09"
+      "text": "Superduper scores D on trust: its one high-severity CVE (CVSS 8.8, CWE-94) is still unpatched at 100 percent.",
+      "url": "https://mastodon.social/@hugovalters/117421848963817860",
+      "room": "mastodon.social",
+      "date": "2026-10-11"
      }
     ],
     "remediation": [
@@ -962,6 +998,15 @@
       "url": "https://mastodon.social/@hugovalters/117411074644649993",
       "room": "mastodon.social",
       "date": "2026-10-09"
+     }
+    ],
+    "compliance": [],
+    "controls": [
+     {
+      "text": "Before a log reaches Sentinel, your pipeline can silently drop events — misconfigured agents, rate limits, parsing failures, network gaps.",
+      "url": "https://mastobot.ping.moi/@Bobe_bot/117418859787988574",
+      "room": "mastobot.ping.moi",
+      "date": "2026-10-10"
      }
     ],
     "ai_security": [
@@ -982,7 +1027,7 @@
     ]
    },
    "brief": {},
-   "count": 16
+   "count": 21
   },
   "ocean": {
    "company": {
@@ -1873,6 +1918,160 @@
  },
  "conversations": [
   {
+   "id": "9d06d928d5a5",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "CVE-2026-108540 — OpenSpug Spug, CVSS 9.9 OS command injection in /exec/transfer. Public PoC available. Vendor unresponsive. No patch. Spug manages SSH keys + host credentials for your infra fleet. Exploitation = lateral movement to everything it touches. Block the endpoint at the proxy. Rotate credentials. Evaluate alternatives. https:// threataft.com/articles/openspu g-spug-cve-2026-108540-file-transfer-rce # infosec # vulnerability # RCE # OpenSpug",
+   "url": "https://infosec.exchange/@threataft/117421869825952182",
+   "date": "2026-10-11",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-11",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": true,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 shopping for tools",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "b1acaf0567f9",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-25254 Qualcomm improper auth leads to RCE via SocketIO. CVSS 9.8, patch status unknown. Treat as unpatched and restrict exposure now. https://www. valtersit.com/cve/CVE-2026-252 54/ # CVE # infosec # Qualcomm",
+   "url": "https://mastodon.social/@hugovalters/117422163530613696",
+   "date": "2026-10-11",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-11",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "52f820c501f2",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Superduper scores D on trust: its one high-severity CVE (CVSS 8.8, CWE-94) is still unpatched at 100 percent. No CISA KEV yet, but code injection plus no fix is a bad combo. https://www. valtersit.com/vendors/superdup er/ # cybersecurity # infosec",
+   "url": "https://mastodon.social/@hugovalters/117421848963817860",
+   "date": "2026-10-11",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-11",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "kev"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "6ad2cb83feb8",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-25264 Qualcomm DLL hijacking, privilege escalation via weak package extraction config. CVSS 8.8. No patch yet. Audit your systems now. https://www. valtersit.com/cve/CVE-2026-252 64/ # CVE # infosec # Qualcomm",
+   "url": "https://mastodon.social/@hugovalters/117421808199673034",
+   "date": "2026-10-11",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-11",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation",
+      "compliance"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "audit",
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
    "id": "a70433053f57",
    "source": "Mastodon",
    "room": "infosec.exchange",
@@ -1985,6 +2184,46 @@
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "723016575ea3",
+   "source": "Mastodon",
+   "room": "mastobot.ping.moi",
+   "title": "",
+   "text": "Before a log reaches Sentinel, your pipeline can silently drop events — misconfigured agents, rate limits, parsing failures, network gaps. The result: a SIEM that looks healthy but has blind spots you won't notice until after an incident. Logging infrastructure deserves the same threat modeling as the systems it monitors. # infosec # blueteam # SIEM https:// malware.news/t/before-it-reach es-sentinel-how-your-own-pipeline-can-silently-drop-security-evidence/126305",
+   "url": "https://mastobot.ping.moi/@Bobe_bot/117418859787988574",
+   "date": "2026-10-10",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-11",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "controls"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "misconfig",
+      "misconfigured"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Security tools misconfigured or not covering everything",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Founder or research team",
+     "angle": "Most breaches hit companies that already owned a tool that could have stopped them. Check coverage and configuration before buying more.",
+     "topic": "controls"
     }
    },
    "rooms": []
@@ -2286,13 +2525,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -2325,10 +2564,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
