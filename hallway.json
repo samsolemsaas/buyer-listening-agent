@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11T13:32Z",
+ "generated": "2026-10-12T13:47Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
@@ -102,10 +102,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 14,
-     "recent": 13,
+     "total": 19,
+     "recent": 18,
      "prior": 1,
-     "change": 1200,
+     "change": 1700,
      "weekly": [
       0,
       0,
@@ -117,11 +117,18 @@
       0,
       1,
       0,
-      0,
-      13
+      1,
+      17
      ],
-     "open": 1,
+     "open": 2,
      "open_examples": [
+      {
+       "title": "📰 Cisco and SonicWall Flaws Under Active Exploit; CISA Issues KEVs 🚨 CRITICAL PATCH NOW: A",
+       "url": "https://mastodon.social/@netsecio/117423977628674266",
+       "room": "mastodon.social",
+       "date": "2026-10-11",
+       "replies": 0
+      },
       {
        "title": "📰 Microsoft Patches High-Severity Exchange Privilege Escalation Flaw Microsoft issues out-",
        "url": "https://mastodon.social/@netsecio/117394438564644093",
@@ -135,7 +142,7 @@
       "infosec.exchange",
       "c.im"
      ],
-     "score": 36.7
+     "score": 41.9
     },
     {
      "key": "prioritization",
@@ -143,8 +150,8 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 15,
-     "recent": 15,
+     "total": 20,
+     "recent": 20,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -158,11 +165,18 @@
       0,
       0,
       0,
-      0,
-      15
+      1,
+      19
      ],
-     "open": 1,
+     "open": 2,
      "open_examples": [
+      {
+       "title": "📰 Cisco and SonicWall Flaws Under Active Exploit; CISA Issues KEVs 🚨 CRITICAL PATCH NOW: A",
+       "url": "https://mastodon.social/@netsecio/117423977628674266",
+       "room": "mastodon.social",
+       "date": "2026-10-11",
+       "replies": 0
+      },
       {
        "title": "📰 Microsoft Patches High-Severity Exchange Privilege Escalation Flaw Microsoft issues out-",
        "url": "https://mastodon.social/@netsecio/117394438564644093",
@@ -176,7 +190,7 @@
       "infosec.exchange",
       "c.im"
      ],
-     "score": 25.5
+     "score": 29.4
     },
     {
      "key": "controls",
@@ -289,8 +303,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       1
      ],
      "open": 1,
@@ -410,13 +424,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 10.6,
+     "score": 11.0,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+5.6 6 relevant conversations there",
+      "+6.0 7 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 6,
+     "hosted": 7,
      "mentions": 0,
      "evidence": []
     },
@@ -899,27 +913,47 @@
    ],
    "phrases": [
     {
+     "phrase": "cve infosec",
+     "count": 6
+    },
+    {
      "phrase": "valtersit com cve",
-     "count": 5
+     "count": 6
     },
     {
      "phrase": "threataft com articles",
-     "count": 4
-    },
-    {
-     "phrase": "cve infosec",
-     "count": 4
+     "count": 5
     },
     {
      "phrase": "cybersecurity infosec",
+     "count": 4
+    },
+    {
+     "phrase": "cvss patch",
+     "count": 3
+    },
+    {
+     "phrase": "valtersit com vendors",
      "count": 3
     },
     {
      "phrase": "command injection",
+     "count": 3
+    },
+    {
+     "phrase": "actively exploited",
      "count": 2
     },
     {
-     "phrase": "cvss patch",
+     "phrase": "max cvss",
+     "count": 2
+    },
+    {
+     "phrase": "path traversal",
+     "count": 2
+    },
+    {
+     "phrase": "public poc",
      "count": 2
     },
     {
@@ -935,7 +969,7 @@
      "count": 2
     },
     {
-     "phrase": "valtersit com vendors",
+     "phrase": "cisa kev",
      "count": 2
     },
     {
@@ -944,6 +978,42 @@
     },
     {
      "phrase": "patch yet",
+     "count": 2
+    },
+    {
+     "phrase": "cyber netsecops",
+     "count": 2
+    },
+    {
+     "phrase": "utm source",
+     "count": 2
+    },
+    {
+     "phrase": "source mastodon",
+     "count": 2
+    },
+    {
+     "phrase": "mastodon utm",
+     "count": 2
+    },
+    {
+     "phrase": "utm medium",
+     "count": 2
+    },
+    {
+     "phrase": "medium social",
+     "count": 2
+    },
+    {
+     "phrase": "social utm",
+     "count": 2
+    },
+    {
+     "phrase": "utm campaign",
+     "count": 2
+    },
+    {
+     "phrase": "campaign daily",
      "count": 2
     },
     {
@@ -961,43 +1031,35 @@
     {
      "phrase": "high-severity exchange",
      "count": 2
-    },
-    {
-     "phrase": "exchange server",
-     "count": 2
-    },
-    {
-     "phrase": "microsoft exchange",
-     "count": 2
     }
    ],
    "quotes": {
     "prioritization": [
      {
-      "text": "CVE-2026-108540 — OpenSpug Spug, CVSS 9.9 OS command injection in /exec/transfer.",
-      "url": "https://infosec.exchange/@threataft/117421869825952182",
-      "room": "infosec.exchange",
-      "date": "2026-10-11"
+      "text": "The issue, tracked as CVE-2026-102255 with a maximum CVSS score of 10.0, allowed remote attackers to direct the appliance to issue requests and reach internal functionality.",
+      "url": "https://mastodon.social/@hacksgr/117427678870040358",
+      "room": "mastodon.social",
+      "date": "2026-10-12"
      },
      {
-      "text": "Superduper scores D on trust: its one high-severity CVE (CVSS 8.8, CWE-94) is still unpatched at 100 percent.",
-      "url": "https://mastodon.social/@hugovalters/117421848963817860",
+      "text": "Thecodingmachine: 10 CVEs, max CVSS 9.8, yet 0% unpatched.",
+      "url": "https://mastodon.social/@hugovalters/117428024457546622",
       "room": "mastodon.social",
-      "date": "2026-10-11"
+      "date": "2026-10-12"
      }
     ],
     "remediation": [
      {
-      "text": "Encrypted chat still needs patch discipline.",
-      "url": "https://mastodon.social/@hugovalters/117411114044229658",
+      "text": "SonicWall released patches on October 6, 2026, in versions 12.4.3-03670 a… https:// en.hacks.gr/xekinisan-epithese is-se-syskeyes-sonicwall-liges-imeres-meta-ti-diorthosi-provlimatos-asfaleias/ # SonicWall # SSRF # Vulnerability # Patch",
+      "url": "https://mastodon.social/@hacksgr/117427678870040358",
       "room": "mastodon.social",
-      "date": "2026-10-09"
+      "date": "2026-10-12"
      },
      {
-      "text": "Patch to 1.36.10, 1.37.6, 1.38.4 or 1.39.1 now.",
-      "url": "https://mastodon.social/@hugovalters/117411074644649993",
+      "text": "Patch still under review - limit exposure now.",
+      "url": "https://mastodon.social/@hugovalters/117428179815336199",
       "room": "mastodon.social",
-      "date": "2026-10-09"
+      "date": "2026-10-12"
      }
     ],
     "compliance": [],
@@ -1027,7 +1089,7 @@
     ]
    },
    "brief": {},
-   "count": 21
+   "count": 26
   },
   "ocean": {
    "company": {
@@ -1111,8 +1173,8 @@
       0,
       0,
       0,
-      0,
-      6
+      1,
+      5
      ],
      "open": 1,
      "open_examples": [
@@ -1918,6 +1980,159 @@
  },
  "conversations": [
   {
+   "id": "ccfab3bdc711",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Threat actors actively exploited a critical pre-authenticated server-side request forgery flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. The issue, tracked as CVE-2026-102255 with a maximum CVSS score of 10.0, allowed remote attackers to direct the appliance to issue requests and reach internal functionality. SonicWall released patches on October 6, 2026, in versions 12.4.3-03670 a… https:// en.hacks.gr/xekinisan-epithese is-se-syskeyes-sonicwall-liges-imeres-meta-ti-diorthosi-provlimatos-asfaleias/ # SonicWall # SSRF # Vulnerability # Patch",
+   "url": "https://mastodon.social/@hacksgr/117427678870040358",
+   "date": "2026-10-12",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-12",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "66b72142285b",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-94404 MISP CSRF lets attackers alter threat-intel data via a logged-in user's browser. CVSS 6.5. Patch still under review - limit exposure now. https://www. valtersit.com/cve/CVE-2026-944 04/ # CVE # infosec # MISP",
+   "url": "https://mastodon.social/@hugovalters/117428179815336199",
+   "date": "2026-10-12",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-12",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "7935c8e7330c",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Thecodingmachine: 10 CVEs, max CVSS 9.8, yet 0% unpatched. Solid patch hygiene keeps trust at B. SSRF and path traversal lead its flaws. https://www. valtersit.com/vendors/thecodin gmachine/ # cybersecurity # infosec",
+   "url": "https://mastodon.social/@hugovalters/117428024457546622",
+   "date": "2026-10-12",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-12",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "b104033b2bf4",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "CVE-2026-108804 — CVSS 10.0 on three TRENDnet routers (TEW-751DR, 752DRU, 733GR) Unauthenticated OS command injection in pigwidgeon.cgi. Public PoC. Easy to exploit. EOL since 2011. Vendor has no way to test. No patch coming — ever. Replace or isolate. Details: https:// threataft.com/articles/trendne t-cve-2026-108804-command-injection # CVE # InfoSec # NetworkSecurity # RouterSecurity",
+   "url": "https://infosec.exchange/@threataft/117427865674764840",
+   "date": "2026-10-12",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-12",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": true,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 shopping for tools",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
    "id": "9d06d928d5a5",
    "source": "Mastodon",
    "room": "infosec.exchange",
@@ -2064,6 +2279,45 @@
       "+3 posted in the last 2 days"
      ],
      "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "7f902fee79fa",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "📰 Cisco and SonicWall Flaws Under Active Exploit; CISA Issues KEVs 🚨 CRITICAL PATCH NOW: Actively exploited zero-days in Cisco Catalyst SD-WAN Manager (CVE-2026-76504) & SonicWall SMA 1000 (CVE-2026-102255) added to CISA KEV. Flaws allow auth bypass & RCE. # Vulnerability # PatchTuesday # CISA 🔗 https:// cyber.netsecops.io/articles/ci sco-and-sonicwall-zero-day-vulnerabilities-actively-exploited/?utm_source=mastodon&utm_medium=social&utm_campaign=daily",
+   "url": "https://mastodon.social/@netsecio/117423977628674266",
+   "date": "2026-10-11",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-12",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "kev",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -2253,10 +2507,10 @@
       "dmarc",
       "spf"
      ],
-     "score": 4,
+     "score": 2,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -2291,10 +2545,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2329,13 +2583,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 shopping for tools",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -2368,10 +2622,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2407,12 +2661,12 @@
      "evidence": [
       "agentic"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+1 listen-only topic: Securing AI and agents",
       "+3 buyer: Security leader",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -2447,10 +2701,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2487,10 +2741,10 @@
       "docusign",
       "spf"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Compromised vendors and trusted senders",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Research team",
