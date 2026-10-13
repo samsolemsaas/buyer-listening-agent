@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-12T13:47Z",
+ "generated": "2026-10-13T13:42Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 5,
+  "new": 22,
   "by_source": {
-   "Mastodon": 5
+   "Mastodon": 22
   }
  },
  "rooms_norms": {
@@ -102,10 +102,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 19,
-     "recent": 18,
+     "total": 24,
+     "recent": 23,
      "prior": 1,
-     "change": 1700,
+     "change": 2200,
      "weekly": [
       0,
       0,
@@ -114,26 +114,33 @@
       0,
       0,
       0,
-      0,
       1,
       0,
-      1,
-      17
+      0,
+      2,
+      21
      ],
-     "open": 2,
+     "open": 4,
      "open_examples": [
+      {
+       "title": "Patch Tuesday Stress Drives CISOs to Avoid Work Patch Tuesday stress is taking a toll on c",
+       "url": "https://mastodon.social/@Analyst207/117432817460888598",
+       "room": "mastodon.social",
+       "date": "2026-10-13",
+       "replies": 0
+      },
+      {
+       "title": "📰 Cisco and SonicWall Flaws Under Active Exploit; CISA Issues KEVs 🚨 CRITICAL PATCH NOW: A",
+       "url": "https://mastodon.social/@netsecio/117428277049634772",
+       "room": "mastodon.social",
+       "date": "2026-10-12",
+       "replies": 0
+      },
       {
        "title": "📰 Cisco and SonicWall Flaws Under Active Exploit; CISA Issues KEVs 🚨 CRITICAL PATCH NOW: A",
        "url": "https://mastodon.social/@netsecio/117423977628674266",
        "room": "mastodon.social",
        "date": "2026-10-11",
-       "replies": 0
-      },
-      {
-       "title": "📰 Microsoft Patches High-Severity Exchange Privilege Escalation Flaw Microsoft issues out-",
-       "url": "https://mastodon.social/@netsecio/117394438564644093",
-       "room": "mastodon.social",
-       "date": "2026-10-06",
        "replies": 0
       }
      ],
@@ -142,7 +149,7 @@
       "infosec.exchange",
       "c.im"
      ],
-     "score": 41.9
+     "score": 47.8
     },
     {
      "key": "prioritization",
@@ -150,8 +157,8 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 20,
-     "recent": 20,
+     "total": 40,
+     "recent": 40,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -165,11 +172,18 @@
       0,
       0,
       0,
-      1,
-      19
+      2,
+      38
      ],
-     "open": 2,
+     "open": 3,
      "open_examples": [
+      {
+       "title": "📰 Cisco and SonicWall Flaws Under Active Exploit; CISA Issues KEVs 🚨 CRITICAL PATCH NOW: A",
+       "url": "https://mastodon.social/@netsecio/117428277049634772",
+       "room": "mastodon.social",
+       "date": "2026-10-12",
+       "replies": 0
+      },
       {
        "title": "📰 Cisco and SonicWall Flaws Under Active Exploit; CISA Issues KEVs 🚨 CRITICAL PATCH NOW: A",
        "url": "https://mastodon.social/@netsecio/117423977628674266",
@@ -190,7 +204,7 @@
       "infosec.exchange",
       "c.im"
      ],
-     "score": 29.4
+     "score": 36.6
     },
     {
      "key": "controls",
@@ -284,15 +298,46 @@
      "score": 4.0
     },
     {
+     "key": "ai_cves",
+     "label": "AI-found vulnerability surge",
+     "fit": 2,
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "who": "Research team",
+     "total": 2,
+     "recent": 0,
+     "prior": 1,
+     "change": -100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "Hacker News"
+     ],
+     "score": 3.2
+    },
+    {
      "key": "ai_security",
      "label": "Securing AI and agents",
      "fit": 1,
      "angle": "",
      "who": "",
      "total": 2,
-     "recent": 2,
-     "prior": 0,
-     "change": 100,
+     "recent": 1,
+     "prior": 1,
+     "change": 0,
      "weekly": [
       0,
       0,
@@ -320,38 +365,7 @@
      "rooms": [
       "infosec.exchange"
      ],
-     "score": 3.7
-    },
-    {
-     "key": "ai_cves",
-     "label": "AI-found vulnerability surge",
-     "fit": 2,
-     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
-     "who": "Research team",
-     "total": 2,
-     "recent": 0,
-     "prior": 1,
-     "change": -100,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      1,
-      0,
-      0,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [
-      "Hacker News"
-     ],
-     "score": 3.2
+     "score": 2.1
     },
     {
      "key": "sprawl",
@@ -424,13 +438,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 11.0,
+     "score": 11.6,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+6.0 7 relevant conversations there",
+      "+6.6 9 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 7,
+     "hosted": 9,
      "mentions": 0,
      "evidence": []
     },
@@ -913,153 +927,153 @@
    ],
    "phrases": [
     {
+     "phrase": "cybersecurity infosec",
+     "count": 22
+    },
+    {
+     "phrase": "cve vulnerability",
+     "count": 19
+    },
+    {
+     "phrase": "score cvss",
+     "count": 18
+    },
+    {
+     "phrase": "euvd enisa",
+     "count": 18
+    },
+    {
+     "phrase": "enisa europa",
+     "count": 18
+    },
+    {
+     "phrase": "vulnerabi lity",
+     "count": 18
+    },
+    {
+     "phrase": "infosec euvd",
+     "count": 18
+    },
+    {
+     "phrase": "euvd cve",
+     "count": 18
+    },
+    {
+     "phrase": "vendor siemens",
+     "count": 17
+    },
+    {
+     "phrase": "updated vulnerability",
+     "count": 11
+    },
+    {
+     "phrase": "siemens published",
+     "count": 10
+    },
+    {
+     "phrase": "published updated",
+     "count": 10
+    },
+    {
+     "phrase": "product simatic",
+     "count": 8
+    },
+    {
+     "phrase": "siemens updated",
+     "count": 7
+    },
+    {
      "phrase": "cve infosec",
-     "count": 6
+     "count": 7
     },
     {
      "phrase": "valtersit com cve",
-     "count": 6
+     "count": 7
     },
     {
      "phrase": "threataft com articles",
+     "count": 6
+    },
+    {
+     "phrase": "simatic wincc",
      "count": 5
     },
     {
-     "phrase": "cybersecurity infosec",
+     "phrase": "versions simatic",
+     "count": 5
+    },
+    {
+     "phrase": "updated affected",
+     "count": 5
+    },
+    {
+     "phrase": "simatic s7-1500",
      "count": 4
     },
     {
-     "phrase": "cvss patch",
-     "count": 3
+     "phrase": "s7-1500 cpu",
+     "count": 4
     },
     {
-     "phrase": "valtersit com vendors",
-     "count": 3
+     "phrase": "affected devices",
+     "count": 4
     },
     {
-     "phrase": "command injection",
-     "count": 3
-    },
-    {
-     "phrase": "actively exploited",
-     "count": 2
-    },
-    {
-     "phrase": "max cvss",
-     "count": 2
-    },
-    {
-     "phrase": "path traversal",
-     "count": 2
-    },
-    {
-     "phrase": "public poc",
-     "count": 2
-    },
-    {
-     "phrase": "cve cve-2026-252",
-     "count": 2
-    },
-    {
-     "phrase": "cve-2026-252 cve",
-     "count": 2
-    },
-    {
-     "phrase": "infosec qualcomm",
-     "count": 2
-    },
-    {
-     "phrase": "cisa kev",
-     "count": 2
-    },
-    {
-     "phrase": "privilege escalation",
-     "count": 2
-    },
-    {
-     "phrase": "patch yet",
-     "count": 2
-    },
-    {
-     "phrase": "cyber netsecops",
-     "count": 2
+     "phrase": "trace files",
+     "count": 4
     },
     {
      "phrase": "utm source",
-     "count": 2
+     "count": 4
     },
     {
      "phrase": "source mastodon",
-     "count": 2
+     "count": 4
     },
     {
      "phrase": "mastodon utm",
-     "count": 2
+     "count": 4
     },
     {
      "phrase": "utm medium",
-     "count": 2
+     "count": 4
     },
     {
      "phrase": "medium social",
-     "count": 2
-    },
-    {
-     "phrase": "social utm",
-     "count": 2
-    },
-    {
-     "phrase": "utm campaign",
-     "count": 2
-    },
-    {
-     "phrase": "campaign daily",
-     "count": 2
-    },
-    {
-     "phrase": "cve cve-2026-884",
-     "count": 2
-    },
-    {
-     "phrase": "cve-2026-884 cve",
-     "count": 2
+     "count": 4
     },
     {
      "phrase": "infosec cve",
-     "count": 2
-    },
-    {
-     "phrase": "high-severity exchange",
-     "count": 2
+     "count": 3
     }
    ],
    "quotes": {
     "prioritization": [
      {
-      "text": "The issue, tracked as CVE-2026-102255 with a maximum CVSS score of 10.0, allowed remote attackers to direct the appliance to issue requests and reach internal functionality.",
-      "url": "https://mastodon.social/@hacksgr/117427678870040358",
+      "text": "🚨 EUVD-2025-106750 📊 Score: 8.6/10 (CVSS v3.1) 📦 Product: LOGO!",
+      "url": "https://mastodon.social/@EUVD_Bot/117433263352160611",
       "room": "mastodon.social",
-      "date": "2026-10-12"
+      "date": "2026-10-13"
      },
      {
-      "text": "Thecodingmachine: 10 CVEs, max CVSS 9.8, yet 0% unpatched.",
-      "url": "https://mastodon.social/@hugovalters/117428024457546622",
+      "text": "🚨 EUVD-2025-106749 📊 Score: 7.2/10 (CVSS v3.1) 📦 Product: SIPLUS LOGO!",
+      "url": "https://mastodon.social/@EUVD_Bot/117433263318830195",
       "room": "mastodon.social",
-      "date": "2026-10-12"
+      "date": "2026-10-13"
      }
     ],
     "remediation": [
      {
-      "text": "SonicWall released patches on October 6, 2026, in versions 12.4.3-03670 a… https:// en.hacks.gr/xekinisan-epithese is-se-syskeyes-sonicwall-liges-imeres-meta-ti-diorthosi-provlimatos-asfaleias/ # SonicWall # SSRF # Vulnerability # Patch",
-      "url": "https://mastodon.social/@hacksgr/117427678870040358",
-      "room": "mastodon.social",
-      "date": "2026-10-12"
+      "text": "GitLab Issues Emergency Patch for Maximum-Severity Code Execution Vulnerability GitLab released emergency security updates to fix a maximum-severity vulnerability (CVE-2026-97229) that allows unauthenticated remote code execution on self-managed servers.",
+      "url": "https://infosec.exchange/@beyondmachines1/117433493724214951",
+      "room": "infosec.exchange",
+      "date": "2026-10-13"
      },
      {
-      "text": "Patch still under review - limit exposure now.",
-      "url": "https://mastodon.social/@hugovalters/117428179815336199",
-      "room": "mastodon.social",
-      "date": "2026-10-12"
+      "text": "GitLab.com cloud users are already patched.",
+      "url": "https://infosec.exchange/@beyondmachines1/117433493724214951",
+      "room": "infosec.exchange",
+      "date": "2026-10-13"
      }
     ],
     "compliance": [],
@@ -1089,7 +1103,7 @@
     ]
    },
    "brief": {},
-   "count": 26
+   "count": 48
   },
   "ocean": {
    "company": {
@@ -1980,6 +1994,824 @@
  },
  "conversations": [
   {
+   "id": "7a02941bfbf0",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🚨 Wavlink router cluster — 3 CVEs, peak CVSS 10.0, public exploits, no patches CVE-2026-109109 (10.0) strcpy overflow, ExportAllSettings.cgi, WL-WN530BE1-A CVE-2026-109110 (10.0) wmapd daemon cmd injection, WL-WN592AX6 CVE-2026-109108 (9.9) popen injection, uploadVpn.cgi, WL-WN530BE1-A Unauthenticated. Remote. PoC public on all three. https:// threataft.com/articles/wavlink -router-cluster-cve-2026-109109-109110-109108 # infosec # CVE # vulnerability # router",
+   "url": "https://infosec.exchange/@threataft/117433862190575878",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": true,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 shopping for tools",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "a015aee6ba68",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "GitLab Issues Emergency Patch for Maximum-Severity Code Execution Vulnerability GitLab released emergency security updates to fix a maximum-severity vulnerability (CVE-2026-97229) that allows unauthenticated remote code execution on self-managed servers. **If you run your own GitLab server, update it ASAP to version 19.4.2, 19.3.5 or 19.2.8. GitLab.com cloud users are already patched. After patching, change all passwords, API keys and other secrets stored in GitLab, and check the logs for anything unusual. If you can't patch immediately, lock down who can edit CI/CD pipeline.** # cybersecurity # infosec # advisory # vulnerability https:// beyondmachines.net/event_detai ls/gitlab-issues-emergency-patch-for-maximum-severity-code-execution-vulnerability-i-y-t-9-y/gD2P6Ple2L",
+   "url": "https://infosec.exchange/@beyondmachines1/117433493724214951",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch",
+      "patching"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "0f133fe25a3e",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2024-43834 📊 Score: 8.4/10 (CVSS v3.1) 📦 Product: SIMOCODE ES V19, SIMATIC WinCC V19, SIMATIC STEP 7 Safety V16 (+36 more) 🏢 Vendor: Siemens 📅 Published: 2024-12-10 | Updated: 2026-10-13 📝 A vulnerability has been identified in SIMATIC S7-PLCSIM V16 (All versions), SIMATIC S7-PLCSIM V17 (All versions), SIMATIC STEP 7 Safety V16 (All versions), SIMATIC STEP... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2024-43834 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117433266952297787",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "b38e6493c638",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2024-46099 📊 Score: 7.0/10 (CVSS v3.1) 📦 Product: SIMATIC STEP 7 Safety V18, SIMATIC STEP 7 V17, SIMOCODE ES V18 (+31 more) 🏢 Vendor: Siemens 📅 Published: 2024-12-10 | Updated: 2026-10-13 📝 A vulnerability has been identified in SIMATIC S7-PLCSIM V17 (All versions), SIMATIC S7-PLCSIM V18 (All versions), SIMATIC STEP 7 Safety V17 (All versions < V17 Update ... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2024-46099 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117433266925870494",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "451b33ecd817",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2024-54862 📊 Score: 8.6/10 (CVSS v3.1) 📦 Product: SIMATIC PCS neo V4.1, SIRIUS Safety ES V18 (TIA Portal), SIMATIC WinCC V19 (+34 more) 🏢 Vendor: Siemens 📅 Published: 2025-08-12 | Updated: 2026-10-13 📝 A vulnerability has been identified in SIMATIC PCS neo V4.1 (All versions), SIMATIC PCS neo V5.0 (All versions), SIMATIC PCS neo V6.0 (All versions < V6.0 S... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2024-54862 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117433266899606654",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "ffec6e967c7e",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2025-24250 📊 Score: 8.5/10 (CVSS v3.1) 📦 Product: SIMATIC WinCC Visualization Architect (SiVArc) V19, SIMATIC ProSave V19, SIMATIC PCS 7 Advanced Process Functions V2.1 (+136 more) 🏢 Vendor: Siemens 📅 Published: 2025-08-12 | Updated: 2026-10-13 📝 The affected setup component is vulnerable to DLL hijacking. This could allow an attacker to execute arbitrary ... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2025-24250 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117433266846721856",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "c1e625f11e70",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2025-24240 📊 Score: 8.5/10 (CVSS v3.1) 📦 Product: SIMOTION SCOUT TIA V5.5, SIRIUS Soft Starter ES V20 (TIA Portal), SIMATIC WinCC V17 (+30 more) 🏢 Vendor: Siemens 📅 Published: 2025-08-12 | Updated: 2026-10-13 📝 A vulnerability has been identified in SIMATIC S7-PLCSIM V17 (All versions), SIMATIC STEP 7 V17 (All versions < V17 Update 9), SIMATIC STEP 7 V18 (... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2025-24240 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117433266798344997",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "17f35dbe43e4",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2025-106750 📊 Score: 8.6/10 (CVSS v3.1) 📦 Product: LOGO! 230RCE, LOGO! 24RCEo, LOGO! 12/24RCE (+13 more) 🏢 Vendor: Siemens 📅 Published: 2025-11-11 | Updated: 2026-10-13 📝 A vulnerability has been identified in LOGO! 12/24RCE (6ED1052-1MD08-0BA2) (All versions < V1.84.05), LOGO! 12/24RCEo (6ED1052-2MD08-0BA2) (All versions < V1.84.05), LOGO! 230RCE (6ED105... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2025-106750 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117433263352160611",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "128f52fd2322",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2025-106749 📊 Score: 7.2/10 (CVSS v3.1) 📦 Product: SIPLUS LOGO! 230RCEo, LOGO! 230RCE, LOGO! 24CEo (+13 more) 🏢 Vendor: Siemens 📅 Published: 2025-11-11 | Updated: 2026-10-13 📝 A vulnerability has been identified in LOGO! 12/24RCE (6ED1052-1MD08-0BA2) (All versions < V1.84.05), LOGO! 12/24RCEo (6ED1052-2MD08-0BA2) (All versions < V1.84.05), LOGO! 230RCE (6... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2025-106749 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117433263318830195",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "0ac2989b6546",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2025-106748 📊 Score: 7.1/10 (CVSS v3.1) 📦 Product: LOGO! 12/24RCEo, SIPLUS LOGO! 24CEo, LOGO! 24RCEo (+13 more) 🏢 Vendor: Siemens 📅 Published: 2025-11-11 | Updated: 2026-10-13 📝 A vulnerability has been identified in LOGO! 12/24RCE (6ED1052-1MD08-0BA2) (All versions < V1.84.05), LOGO! 12/24RCEo (6ED1052-2MD08-0BA2) (All versions < V1.84.05), LOGO! 230RCE ... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2025-106748 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117433263304511296",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "d1dc7b0b0d94",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2025-209779 📊 Score: 7.2/10 (CVSS v3.1) 📦 Product: blueplanet 125 TL3 GEN2, blueplanet 92.0 TL3, blueplanet 92.0 TL3 GEN2 (+20 more) 🏢 Vendor: Siemens 📅 Published: 2026-05-12 | Updated: 2026-10-13 📝 A vulnerability has been identified in blueplanet 100 NX3 M8 (All versions), blueplanet 100 TL3 GEN2 (All versions < V6.1.4.9), blueplanet 105 TL3 (All versio... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2025-209779 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117433263288785309",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "62098a18d8a0",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-29433 📊 Score: 5.9/10 (CVSS v3.1) 📦 Product: blueplanet 155 TL3 GEN2, blueplanet 165 TL3 GEN2, blueplanet 105 TL3 GEN2 (+19 more) 🏢 Vendor: Siemens 📅 Published: 2026-05-12 | Updated: 2026-10-13 📝 A vulnerability has been identified in blueplanet 100 NX3 M8 (All versions), blueplanet 100 TL3 GEN2 (All versions), blueplanet 105 TL3 (All versions < V3.92... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-29433 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117433263237546457",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "4e79ab3f4dc6",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-98378 📊 Score: 6.9/10 (CVSS v3.1) 📦 Product: Industrial Edge Virtual Device (IEVD), Industrial Edge Device Kit - arm64 V1.12, Industrial Edge Device Kit - arm64 V1.9 (+60 more) 🏢 Vendor: Siemens 📅 Updated: 2026-10-13 📝 A vulnerability has been identified in Industrial Edge Cloud Device (IECD), Industrial Edge Device Kit - arm64 V1.10, Industrial Edge ... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-98378 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117433263206282883",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "2552871ad9d0",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-98379 📊 Score: 8.9/10 (CVSS v3.1) 📦 Product: Industrial Edge Device Kit - arm64 V1.19, Industrial Edge Device Kit - arm64 V1.7, SIMATIC HMI MTP1200 Comfort Pro for stand (expandable, flange at the bottom) (+95 more) 🏢 Vendor: Siemens 📅 Updated: 2026-10-13 📝 Affected systems do not properly restrict access to internal APIs and paths for authenticated u... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-98379 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117433263187586425",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "af2d79287aa4",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-98380 📊 Score: 8.7/10 (CVSS v3.1) 📦 Product: SIMATIC WinCC V8.0, SIMATIC WinCC V8.1, SIMATIC WinCC V7.5 🏢 Vendor: Siemens 📅 Updated: 2026-10-13 📝 A vulnerability has been identified in SIMATIC WinCC V7.5 (All versions), SIMATIC WinCC V8.0 (All versions < V8.0 Update 11), SIMATIC WinCC V8.1 (All versions < V8.1 Update 7). The affected application does ... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-98380 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117433263164629855",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "611f1415137a",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-98381 📊 Score: 9.4/10 (CVSS v3.1) 📦 Product: SIMATIC S7-1500 ET 200pro: CPU 1516PRO-2 PN, SIMATIC S7-1500 CPU 1518T-3 PN, SIMATIC S7-1500 CPU 1518-3 PN (+100 more) 🏢 Vendor: Siemens 📅 Updated: 2026-10-13 📝 Affected devices do not properly restrict executable content contained in imported trace files. This could allow an attacker to social engineer ... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-98381 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117433263148940568",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "fe5c240e27b4",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-98382 📊 Score: 5.3/10 (CVSS v3.1) 📦 Product: SIMATIC S7-1500 CPU 1513pro-2 PN, SIMATIC S7-1500 CPU 1517-3 PN, SIMATIC S7-1500 CPU 1517F-3 PN/DP (+100 more) 🏢 Vendor: Siemens 📅 Updated: 2026-10-13 📝 Affected devices do not properly validate and sanitize visual properties of calculated signals contained in imported CSV trace files before rendering them ... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-98382 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117433263125897699",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "c093cd39983f",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-98383 📊 Score: 5.3/10 (CVSS v3.1) 📦 Product: SIMATIC S7-1500 CPU 1513F-1 PN, SIMATIC S7-1500 CPU 1511T-1 PN, SIMATIC S7-1500 CPU 1518-3 PN (+100 more) 🏢 Vendor: Siemens 📅 Updated: 2026-10-13 📝 Affected devices do not properly sanitize calculated signal data contained in imported CSV trace files before rendering it on the Trace page. This could allo... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-98383 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117433259505913321",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "1375740a412d",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-98384 📊 Score: 9.4/10 (CVSS v3.1) 📦 Product: SIMATIC S7-1500 CPU 1515TF-2 PN, SIPLUS ET 200SP CPU 1512SP-1 PN RAIL, SIPLUS S7-1500 CPU 1516-3 PN/DP (+100 more) 🏢 Vendor: Siemens 📅 Updated: 2026-10-13 📝 Affected devices do not properly sanitize comment fields contained in imported trace files before rendering them on the Trace page. This could allow... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-98384 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117433259471067066",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "51545e0917e7",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Patch Tuesday Stress Drives CISOs to Avoid Work Patch Tuesday stress is taking a toll on cybersecurity leaders, with one in five admitting they've called in sick or booked holiday time to avoid the monthly chaos. The pressure is real, with 41% working overtime and 37% burning the midnight oil to deploy patches. https:// osintsights.com/patch-tuesday- stress-drives-cisos-to-avoid-work?utm_source=mastodon&utm_medium=social # PatchTuesday # Cisos # CybersecurityLeadership # StressManagement # PatchManagement",
+   "url": "https://mastodon.social/@Analyst207/117432817460888598",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "leader",
+      "it"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 14,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 buyer: Security leader",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "6e5a3cacca1c",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-52743: GoCD prior to 26.1.0 leaks job data across pipelines via unvalidated IDs in /jobStatus.json. CVSS 4.3. No official patch yet. Track and watch for 26.1.0 at https://www. valtersit.com/cve/CVE-2026-527 43/ # CVE # infosec # GoCD",
+   "url": "https://mastodon.social/@hugovalters/117433723808220202",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
    "id": "ccfab3bdc711",
    "source": "Mastodon",
    "room": "mastodon.social",
@@ -2122,6 +2954,45 @@
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 shopping for tools",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "22ca73b3feb0",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "📰 Cisco and SonicWall Flaws Under Active Exploit; CISA Issues KEVs 🚨 CRITICAL PATCH NOW: Actively exploited zero-days in Cisco Catalyst SD-WAN Manager (CVE-2026-76504) & SonicWall SMA 1000 (CVE-2026-102255) added to CISA KEV. Flaws allow auth bypass & RCE. # Vulnerability # PatchTuesday # CISA 🔗 https:// cyber.netsecops.io/articles/ci sco-and-sonicwall-zero-day-vulnerabilities-actively-exploited/?utm_source=mastodon&utm_medium=social&utm_campaign=daily",
+   "url": "https://mastodon.social/@netsecio/117428277049634772",
+   "date": "2026-10-12",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-13",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "kev",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 asking for help",
       "+3 posted in the last 2 days"
      ],
      "band": "today",
@@ -2352,11 +3223,11 @@
       "dmarc",
       "spf"
      ],
-     "score": 6,
+     "score": 4,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+2 buyer: Finance & AP",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -2391,10 +3262,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2429,10 +3300,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2468,13 +3339,13 @@
       "misconfig",
       "misconfigured"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Security tools misconfigured or not covering everything",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Founder or research team",
      "angle": "Most breaches hit companies that already owned a tool that could have stopped them. Check coverage and configuration before buying more.",
      "topic": "controls"
@@ -3010,10 +3881,9 @@
       "dkim",
       "spf"
      ],
-     "score": 2,
+     "score": 1,
      "why": [
-      "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+1 posted this week"
+      "+1 listen-only topic: DMARC, SPF and DKIM setup"
      ],
      "band": "listen",
      "who": "",
@@ -3049,12 +3919,11 @@
       "patch",
       "patching"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
