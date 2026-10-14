@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-13T13:42Z",
+ "generated": "2026-10-14T13:49Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 22,
+  "new": 30,
   "by_source": {
-   "Mastodon": 22
+   "Mastodon": 30
   }
  },
  "rooms_norms": {
@@ -102,10 +102,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 24,
-     "recent": 23,
-     "prior": 1,
-     "change": 2200,
+     "total": 48,
+     "recent": 47,
+     "prior": 0,
+     "change": 100,
      "weekly": [
       0,
       0,
@@ -117,39 +117,39 @@
       1,
       0,
       0,
-      2,
-      21
+      3,
+      44
      ],
-     "open": 4,
+     "open": 11,
      "open_examples": [
       {
-       "title": "Patch Tuesday Stress Drives CISOs to Avoid Work Patch Tuesday stress is taking a toll on c",
-       "url": "https://mastodon.social/@Analyst207/117432817460888598",
+       "title": "Microsoft Discloses Record 1411 CVEs in October Patch Update Microsoft just dropped a reco",
+       "url": "https://mastodon.social/@Analyst207/117438480044242037",
        "room": "mastodon.social",
-       "date": "2026-10-13",
+       "date": "2026-10-14",
        "replies": 0
       },
       {
-       "title": "📰 Cisco and SonicWall Flaws Under Active Exploit; CISA Issues KEVs 🚨 CRITICAL PATCH NOW: A",
-       "url": "https://mastodon.social/@netsecio/117428277049634772",
+       "title": "Microsoft Disrupts 1,413 Vulnerabilities, Fixes Exploited Windows Shell Bug Microsoft just",
+       "url": "https://mastodon.social/@Analyst207/117437536329474690",
        "room": "mastodon.social",
-       "date": "2026-10-12",
+       "date": "2026-10-14",
        "replies": 0
       },
       {
-       "title": "📰 Cisco and SonicWall Flaws Under Active Exploit; CISA Issues KEVs 🚨 CRITICAL PATCH NOW: A",
-       "url": "https://mastodon.social/@netsecio/117423977628674266",
-       "room": "mastodon.social",
-       "date": "2026-10-11",
+       "title": "Microsoft corrige plus de 1 400 vulnérabilités en un seul mois — après un record à 972 en ",
+       "url": "https://mastobot.ping.moi/@Bobe_bot/117437262191133618",
+       "room": "mastobot.ping.moi",
+       "date": "2026-10-14",
        "replies": 0
       }
      ],
      "rooms": [
       "mastodon.social",
       "infosec.exchange",
-      "c.im"
+      "mamot.fr"
      ],
-     "score": 47.8
+     "score": 50.2
     },
     {
      "key": "prioritization",
@@ -157,8 +157,8 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 40,
-     "recent": 40,
+     "total": 48,
+     "recent": 48,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -172,8 +172,8 @@
       0,
       0,
       0,
-      2,
-      38
+      3,
+      45
      ],
      "open": 3,
      "open_examples": [
@@ -202,9 +202,9 @@
      "rooms": [
       "mastodon.social",
       "infosec.exchange",
-      "c.im"
+      "bsky.brid.gy"
      ],
-     "score": 36.6
+     "score": 38.2
     },
     {
      "key": "controls",
@@ -212,8 +212,8 @@
      "fit": 3,
      "angle": "Most breaches hit companies that already owned a tool that could have stopped them. Check coverage and configuration before buying more.",
      "who": "Founder or research team",
-     "total": 1,
-     "recent": 1,
+     "total": 2,
+     "recent": 2,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -228,14 +228,55 @@
       0,
       0,
       0,
-      1
+      2
      ],
      "open": 0,
      "open_examples": [],
      "rooms": [
+      "infosec.exchange",
       "mastobot.ping.moi"
      ],
-     "score": 6.0
+     "score": 9.5
+    },
+    {
+     "key": "ai_security",
+     "label": "Securing AI and agents",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 3,
+     "recent": 2,
+     "prior": 1,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2
+     ],
+     "open": 1,
+     "open_examples": [
+      {
+       "title": "AI Is Taking Over the SOC: What Happens When Cyber Defense Becomes Autonomous? https:// yo",
+       "url": "https://infosec.exchange/@cybersecboardrm/117412764135589569",
+       "room": "infosec.exchange",
+       "date": "2026-10-09",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "ieji.de",
+      "infosec.exchange"
+     ],
+     "score": 4.5
     },
     {
      "key": "board",
@@ -257,13 +298,44 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0
      ],
      "open": 0,
      "open_examples": [],
      "rooms": [],
+     "score": 4.0
+    },
+    {
+     "key": "sprawl",
+     "label": "Tool sprawl and consolidation",
+     "fit": 2,
+     "angle": "Get more out of the tools you already own before adding another.",
+     "who": "Founder",
+     "total": 1,
+     "recent": 1,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "infosec.exchange"
+     ],
      "score": 4.0
     },
     {
@@ -305,8 +377,8 @@
      "who": "Research team",
      "total": 2,
      "recent": 0,
-     "prior": 1,
-     "change": -100,
+     "prior": 0,
+     "change": 0,
      "weekly": [
       0,
       0,
@@ -314,8 +386,8 @@
       0,
       0,
       0,
-      0,
-      2,
+      1,
+      1,
       0,
       0,
       0,
@@ -327,74 +399,6 @@
       "Hacker News"
      ],
      "score": 3.2
-    },
-    {
-     "key": "ai_security",
-     "label": "Securing AI and agents",
-     "fit": 1,
-     "angle": "",
-     "who": "",
-     "total": 2,
-     "recent": 1,
-     "prior": 1,
-     "change": 0,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      1
-     ],
-     "open": 1,
-     "open_examples": [
-      {
-       "title": "AI Is Taking Over the SOC: What Happens When Cyber Defense Becomes Autonomous? https:// yo",
-       "url": "https://infosec.exchange/@cybersecboardrm/117412764135589569",
-       "room": "infosec.exchange",
-       "date": "2026-10-09",
-       "replies": 0
-      }
-     ],
-     "rooms": [
-      "infosec.exchange"
-     ],
-     "score": 2.1
-    },
-    {
-     "key": "sprawl",
-     "label": "Tool sprawl and consolidation",
-     "fit": 2,
-     "angle": "Get more out of the tools you already own before adding another.",
-     "who": "Founder",
-     "total": 0,
-     "recent": 0,
-     "prior": 0,
-     "change": 0,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [],
-     "score": 0.0
     },
     {
      "key": "staffing",
@@ -438,13 +442,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 11.6,
+     "score": 13.9,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+6.6 9 relevant conversations there",
+      "+8.9 21 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 9,
+     "hosted": 21,
      "mentions": 0,
      "evidence": []
     },
@@ -931,6 +935,10 @@
      "count": 22
     },
     {
+     "phrase": "patch tuesday",
+     "count": 19
+    },
+    {
      "phrase": "cve vulnerability",
      "count": 19
     },
@@ -967,6 +975,18 @@
      "count": 11
     },
     {
+     "phrase": "utm source",
+     "count": 10
+    },
+    {
+     "phrase": "utm medium",
+     "count": 10
+    },
+    {
+     "phrase": "windows shell",
+     "count": 10
+    },
+    {
      "phrase": "siemens published",
      "count": 10
     },
@@ -975,15 +995,43 @@
      "count": 10
     },
     {
+     "phrase": "source mastodon",
+     "count": 9
+    },
+    {
+     "phrase": "mastodon utm",
+     "count": 9
+    },
+    {
+     "phrase": "cve infosec",
+     "count": 9
+    },
+    {
+     "phrase": "october patch",
+     "count": 8
+    },
+    {
+     "phrase": "medium social",
+     "count": 8
+    },
+    {
+     "phrase": "threataft com articles",
+     "count": 8
+    },
+    {
      "phrase": "product simatic",
      "count": 8
     },
     {
-     "phrase": "siemens updated",
+     "phrase": "patchtuesday microsoft",
      "count": 7
     },
     {
-     "phrase": "cve infosec",
+     "phrase": "cisa kev",
+     "count": 7
+    },
+    {
+     "phrase": "siemens updated",
      "count": 7
     },
     {
@@ -991,93 +1039,68 @@
      "count": 7
     },
     {
-     "phrase": "threataft com articles",
-     "count": 6
-    },
-    {
-     "phrase": "simatic wincc",
+     "phrase": "social patchtuesday",
      "count": 5
     },
     {
-     "phrase": "versions simatic",
+     "phrase": "command injection",
      "count": 5
     },
     {
-     "phrase": "updated affected",
+     "phrase": "actively exploited",
      "count": 5
-    },
-    {
-     "phrase": "simatic s7-1500",
-     "count": 4
-    },
-    {
-     "phrase": "s7-1500 cpu",
-     "count": 4
-    },
-    {
-     "phrase": "affected devices",
-     "count": 4
-    },
-    {
-     "phrase": "trace files",
-     "count": 4
-    },
-    {
-     "phrase": "utm source",
-     "count": 4
-    },
-    {
-     "phrase": "source mastodon",
-     "count": 4
-    },
-    {
-     "phrase": "mastodon utm",
-     "count": 4
-    },
-    {
-     "phrase": "utm medium",
-     "count": 4
-    },
-    {
-     "phrase": "medium social",
-     "count": 4
-    },
-    {
-     "phrase": "infosec cve",
-     "count": 3
     }
    ],
    "quotes": {
-    "prioritization": [
-     {
-      "text": "🚨 EUVD-2025-106750 📊 Score: 8.6/10 (CVSS v3.1) 📦 Product: LOGO!",
-      "url": "https://mastodon.social/@EUVD_Bot/117433263352160611",
-      "room": "mastodon.social",
-      "date": "2026-10-13"
-     },
-     {
-      "text": "🚨 EUVD-2025-106749 📊 Score: 7.2/10 (CVSS v3.1) 📦 Product: SIPLUS LOGO!",
-      "url": "https://mastodon.social/@EUVD_Bot/117433263318830195",
-      "room": "mastodon.social",
-      "date": "2026-10-13"
-     }
-    ],
     "remediation": [
      {
-      "text": "GitLab Issues Emergency Patch for Maximum-Severity Code Execution Vulnerability GitLab released emergency security updates to fix a maximum-severity vulnerability (CVE-2026-97229) that allows unauthenticated remote code execution on self-managed servers.",
-      "url": "https://infosec.exchange/@beyondmachines1/117433493724214951",
+      "text": "Patch Tuesday – Octobre 2026 : 1 407 failles corrigées, dont trois failles zero-day https://www.",
+      "url": "https://mamot.fr/@benzogaga33/117438598625138869",
+      "room": "mamot.fr",
+      "date": "2026-10-14"
+     },
+     {
+      "text": "it-connect.fr/patch-tuesday-oc tobre-2026-recapitulatif/ # ActuCybersécurité # Cybersécurité # PatchTuesday # Microsoft",
+      "url": "https://mamot.fr/@benzogaga33/117438598625138869",
+      "room": "mamot.fr",
+      "date": "2026-10-14"
+     }
+    ],
+    "prioritization": [
+     {
+      "text": "CVE-2026-96951 (CVSS 8.8), a Windows Shell command injection that bypasses Mark of the Web defenses, is exploited in the wild.",
+      "url": "https://infosec.exchange/@cloud/117438362145138062",
+      "room": "infosec.exchange",
+      "date": "2026-10-14"
+     },
+     {
+      "text": "Aktívan kihasznált: CVE-2026-96951 (Windows Shell, CVSS 8.8) — bekerült a CISA KEV listájára, szövetségi határidő: 2026-10-16.",
+      "url": "https://mastodon.social/@linuxmint_hun/117439428658042992",
+      "room": "mastodon.social",
+      "date": "2026-10-14"
+     }
+    ],
+    "ai_security": [
+     {
+      "text": "Volledig unrelated, behalve dat het om # ciso praat gaat, gisteren ook een webinar over ai agents van proofpoint.",
+      "url": "https://ieji.de/@hanscees/117438312067275913",
+      "room": "ieji.de",
+      "date": "2026-10-14"
+     },
+     {
+      "text": "Een overzicht van volwassenheid van verdediging tegen roque agents of shadow ai # infosec",
+      "url": "https://ieji.de/@hanscees/117438312067275913",
+      "room": "ieji.de",
+      "date": "2026-10-14"
+     }
+    ],
+    "controls": [
+     {
+      "text": "A common argument for vendor consolidation is coverage gaps caused by tools that don’t share data.",
+      "url": "https://infosec.exchange/@Netcraft/117434628213655608",
       "room": "infosec.exchange",
       "date": "2026-10-13"
      },
-     {
-      "text": "GitLab.com cloud users are already patched.",
-      "url": "https://infosec.exchange/@beyondmachines1/117433493724214951",
-      "room": "infosec.exchange",
-      "date": "2026-10-13"
-     }
-    ],
-    "compliance": [],
-    "controls": [
      {
       "text": "Before a log reaches Sentinel, your pipeline can silently drop events — misconfigured agents, rate limits, parsing failures, network gaps.",
       "url": "https://mastobot.ping.moi/@Bobe_bot/117418859787988574",
@@ -1085,14 +1108,21 @@
       "date": "2026-10-10"
      }
     ],
-    "ai_security": [
+    "sprawl": [
      {
-      "text": "https:// youtu.be/si7-9Ny8JAk # AgenticAI # Cybersecurity # SecurityOperations # AISecurity # SOC # CISO # AutonomousSOC",
-      "url": "https://infosec.exchange/@cybersecboardrm/117412764135589569",
+      "text": "Read more about the debate around cybersecurity vendor consolidation here: https://www.",
+      "url": "https://infosec.exchange/@Netcraft/117434628213655608",
       "room": "infosec.exchange",
-      "date": "2026-10-09"
+      "date": "2026-10-13"
+     },
+     {
+      "text": "netcraft.com/blog/when-is-secu rity-vendor-consolidation-a-good-idea # InfoSec # CyberSecurity # CISO # SecurityStrategy",
+      "url": "https://infosec.exchange/@Netcraft/117434628213655608",
+      "room": "infosec.exchange",
+      "date": "2026-10-13"
      }
     ],
+    "compliance": [],
     "ai_cves": [
      {
       "text": "(I blame the initial marketing hype around Claude Mythos for much of the unhelpful discourse.) And I don't just mean they're asking their AI the wrong questions, either.",
@@ -1103,7 +1133,7 @@
     ]
    },
    "brief": {},
-   "count": 48
+   "count": 74
   },
   "ocean": {
    "company": {
@@ -1167,6 +1197,53 @@
    },
    "topics": [
     {
+     "key": "bec",
+     "label": "BEC and payment fraud",
+     "fit": 3,
+     "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
+     "who": "Sales engineer",
+     "total": 4,
+     "recent": 4,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+     ],
+     "open": 2,
+     "open_examples": [
+      {
+       "title": "Conférence de POLAR: “What Are We Doing Here? ” (EN will follow) Pour cette 4e édition de ",
+       "url": "https://infosec.exchange/@polar/117439036778313629",
+       "room": "infosec.exchange",
+       "date": "2026-10-14",
+       "replies": 0
+      },
+      {
+       "title": "Conférence de POLAR: “Zéro Budget, Zéro Excuse : la naissance d'un département cyber ” (EN",
+       "url": "https://infosec.exchange/@polar/117439009262278863",
+       "room": "infosec.exchange",
+       "date": "2026-10-14",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "infosec.exchange",
+      "mastodon.social"
+     ],
+     "score": 16.9
+    },
+    {
      "key": "authentication",
      "label": "DMARC, SPF and DKIM setup",
      "fit": 1,
@@ -1187,8 +1264,8 @@
       0,
       0,
       0,
-      1,
-      5
+      3,
+      3
      ],
      "open": 1,
      "open_examples": [
@@ -1239,15 +1316,15 @@
      "score": 6.0
     },
     {
-     "key": "bec",
-     "label": "BEC and payment fraud",
+     "key": "seg",
+     "label": "Replacing or adding to the email gateway",
      "fit": 3,
-     "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
-     "who": "Sales engineer",
-     "total": 0,
-     "recent": 0,
+     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
+     "who": "Account executive and sales engineer",
+     "total": 1,
+     "recent": 1,
      "prior": 0,
-     "change": 0,
+     "change": 100,
      "weekly": [
       0,
       0,
@@ -1260,12 +1337,84 @@
       0,
       0,
       0,
-      0
+      1
      ],
      "open": 0,
      "open_examples": [],
-     "rooms": [],
-     "score": 0.0
+     "rooms": [
+      "ieji.de"
+     ],
+     "score": 6.0
+    },
+    {
+     "key": "awareness",
+     "label": "Security awareness and phishing tests",
+     "fit": 2,
+     "angle": "Coaching people on the real email in front of them works better than an annual course.",
+     "who": "Content team",
+     "total": 1,
+     "recent": 1,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "open": 1,
+     "open_examples": [
+      {
+       "title": "The human element played a role in 62% of breaches, according to the Verizon 2026 Data Bre",
+       "url": "https://mastodon.social/@ninecloudnavigators/117438323319329881",
+       "room": "mastodon.social",
+       "date": "2026-10-14",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "mastodon.social"
+     ],
+     "score": 5.0
+    },
+    {
+     "key": "deepfakes",
+     "label": "Deepfake voice and video fraud",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 1,
+     "recent": 1,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "mastodon.social"
+     ],
+     "score": 2.0
     },
     {
      "key": "ai_phishing",
@@ -1326,69 +1475,11 @@
      "score": 0.0
     },
     {
-     "key": "seg",
-     "label": "Replacing or adding to the email gateway",
-     "fit": 3,
-     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
-     "who": "Account executive and sales engineer",
-     "total": 0,
-     "recent": 0,
-     "prior": 0,
-     "change": 0,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [],
-     "score": 0.0
-    },
-    {
      "key": "false_positives",
      "label": "False positives and quarantined real email",
      "fit": 2,
      "angle": "Explain each verdict in plain language so users trust the tool and stop asking for releases.",
      "who": "Customer success",
-     "total": 0,
-     "recent": 0,
-     "prior": 0,
-     "change": 0,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [],
-     "score": 0.0
-    },
-    {
-     "key": "awareness",
-     "label": "Security awareness and phishing tests",
-     "fit": 2,
-     "angle": "Coaching people on the real email in front of them works better than an annual course.",
-     "who": "Content team",
      "total": 0,
      "recent": 0,
      "prior": 0,
@@ -1440,35 +1531,6 @@
      "open_examples": [],
      "rooms": [],
      "score": 0.0
-    },
-    {
-     "key": "deepfakes",
-     "label": "Deepfake voice and video fraud",
-     "fit": 1,
-     "angle": "",
-     "who": "",
-     "total": 0,
-     "recent": 0,
-     "prior": 0,
-     "change": 0,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [],
-     "score": 0.0
     }
    ],
    "emerging": [],
@@ -1483,13 +1545,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 9.0,
+     "score": 11.6,
      "why": [
       "+6 audience fit (3 of 3)",
-      "+2.0 1 relevant conversations there",
+      "+4.6 4 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 1,
+     "hosted": 4,
      "mentions": 0,
      "evidence": []
     },
@@ -1956,15 +2018,161 @@
      "count": 4
     },
     {
+     "phrase": "utm source",
+     "count": 3
+    },
+    {
+     "phrase": "utm medium",
+     "count": 3
+    },
+    {
+     "phrase": "utm campaign",
+     "count": 3
+    },
+    {
      "phrase": "spf record",
      "count": 3
     },
     {
-     "phrase": "dkim and dmarc",
+     "phrase": "conf rence",
+     "count": 2
+    },
+    {
+     "phrase": "follow pour",
+     "count": 2
+    },
+    {
+     "phrase": "pour cette",
+     "count": 2
+    },
+    {
+     "phrase": "cette dition",
+     "count": 2
+    },
+    {
+     "phrase": "notre conf",
+     "count": 2
+    },
+    {
+     "phrase": "rence polar",
+     "count": 2
+    },
+    {
+     "phrase": "polar pour",
+     "count": 2
+    },
+    {
+     "phrase": "pour ciso",
+     "count": 2
+    },
+    {
+     "phrase": "ciso gestionnaires",
+     "count": 2
+    },
+    {
+     "phrase": "gestionnaires directeurs",
+     "count": 2
+    },
+    {
+     "phrase": "leaders techniques",
+     "count": 2
+    },
+    {
+     "phrase": "cybers curit",
+     "count": 2
+    },
+    {
+     "phrase": "octobre nous",
+     "count": 2
+    },
+    {
+     "phrase": "nous aurons",
+     "count": 2
+    },
+    {
+     "phrase": "manquez pas",
+     "count": 2
+    },
+    {
+     "phrase": "pas cette",
+     "count": 2
+    },
+    {
+     "phrase": "cette occasion",
+     "count": 2
+    },
+    {
+     "phrase": "vous joindre",
+     "count": 2
+    },
+    {
+     "phrase": "joindre nous",
+     "count": 2
+    },
+    {
+     "phrase": "nous pour",
+     "count": 2
+    },
+    {
+     "phrase": "cette journ",
+     "count": 2
+    },
+    {
+     "phrase": "bec plus",
+     "count": 2
+    },
+    {
+     "phrase": "plus d'informations",
+     "count": 2
+    },
+    {
+     "phrase": "billets ici",
+     "count": 2
+    },
+    {
+     "phrase": "polar utm",
      "count": 2
     }
    ],
    "quotes": {
+    "bec": [
+     {
+      "text": "Don't miss this opportunity to join us at our 1-day banquet conference at the Salle Le Confessional - Le Capitole in Québec City.",
+      "url": "https://infosec.exchange/@polar/117439036778313629",
+      "room": "infosec.exchange",
+      "date": "2026-10-14"
+     },
+     {
+      "text": "Ne manquez pas cette occasion de vous joindre à nous pour cette journée à la Salle Le Confessionnal - Le Capitole de Québec.",
+      "url": "https://infosec.exchange/@polar/117439009262278863",
+      "room": "infosec.exchange",
+      "date": "2026-10-14"
+     }
+    ],
+    "seg": [
+     {
+      "text": "Volledig unrelated, behalve dat het om # ciso praat gaat, gisteren ook een webinar over ai agents van proofpoint.",
+      "url": "https://ieji.de/@hanscees/117438312067275913",
+      "room": "ieji.de",
+      "date": "2026-10-14"
+     }
+    ],
+    "awareness": [
+     {
+      "text": "🔒 That's why annual security awareness training is mandatory for our whole team, as part of our ISO 27001 certification.",
+      "url": "https://mastodon.social/@ninecloudnavigators/117438323319329881",
+      "room": "mastodon.social",
+      "date": "2026-10-14"
+     }
+    ],
+    "deepfakes": [
+     {
+      "text": "Tycoon2FA got taken down, but BEC and Teams vishing are surging.",
+      "url": "https://mastodon.social/@threadlinqs/117437909538104605",
+      "room": "mastodon.social",
+      "date": "2026-10-14"
+     }
+    ],
     "authentication": [
      {
       "text": "Plenty of domains I check publish DMARC at p=none and leave it there for years.",
@@ -1989,10 +2197,772 @@
     ]
    },
    "brief": {},
-   "count": 6
+   "count": 12
   }
  },
  "conversations": [
+  {
+   "id": "8f344ef94011",
+   "source": "Mastodon",
+   "room": "mamot.fr",
+   "title": "",
+   "text": "Patch Tuesday – Octobre 2026 : 1 407 failles corrigées, dont trois failles zero-day https://www. it-connect.fr/patch-tuesday-oc tobre-2026-recapitulatif/ # ActuCybersécurité # Cybersécurité # PatchTuesday # Microsoft",
+   "url": "https://mamot.fr/@benzogaga33/117438598625138869",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "a3d150e9ef62",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Microsoft Discloses Record 1411 CVEs in October Patch Update Microsoft just dropped a record-breaking 1,411 security updates in its October Patch Tuesday release, outpacing the total number of fixes issued in all of 2025. This massive haul was made possible by the company's new AI-driven scanning tools that supercharge vulnerability detection. https:// osintsights.com/microsoft-disc loses-record-1411-cves-in-october-patch-update?utm_source=mastodon&utm_medium=social # PatchTuesday # Microsoft # Cve202696951 # ZeroDay # AidrivenScanning",
+   "url": "https://mastodon.social/@Analyst207/117438480044242037",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "secops",
+      "it"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 13,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: Security engineer & SecOps",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "932af43925fe",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🤖 Record Patch Tuesday: Microsoft patched 1,413 flaws, 78 critical. CVE-2026-96951 (CVSS 8.8), a Windows Shell command injection that bypasses Mark of the Web defenses, is exploited in the wild. Two more zero-days were publicly disclosed: CVE-2026-108398 (.NET) and CVE-2026-92707. 🔗 https:// thehackernews.com/2026/10/micr osoft-patches-record-1413-flaws.html # CVE # CyberSec # Exploit # PatchTuesday",
+   "url": "https://infosec.exchange/@cloud/117438362145138062",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "d1547eb2c594",
+   "source": "Mastodon",
+   "room": "mstdn.social",
+   "title": "",
+   "text": "Microsoft fixed 1,413 security flaws in its October Patch Tuesday update, including an actively exploited Windows Shell zero-day that can bypass Mark of the Web protections. Listen/Read: https:// hackread.com/microsoft-fix-vul nerabilities-october-patch-tuesday-update/ # Microsoft # PatchTuesday # Cybersecurity # Windows # Vulnerability",
+   "url": "https://mstdn.social/@Hackread/117438347531465128",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "c3d2780483b5",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "The October 2026 Microsoft Patch Tuesday update fixes a record 1,411 vulnerabilities, including 70 critical flaws and three zero-day bugs in Windows. # PatchTuesday # Windows11 # Windows10 # ZeroDay # Cybersecurity https:// dailytechnow.com/microsoft-oct ober-2026-patch-tuesday/",
+   "url": "https://infosec.exchange/@DailyCyberSecurity/117438284739415083",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "0146026e3fbd",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Patch Tuesday Oktober 2026: Microsoft schließt 1.417 Sicherheitslücken Eine Lücke war bereits vor dem Patch Tuesday öffentlich bekannt, eine weitere, CVE-2026-96951 in der Windows-Shell, wird schon ausgenutzt. Administratoren sollten diesen Fehler zuerst beheben, denn die CISA-Frist endet am 16. Oktober. https://www. all-about-security.de/patch-tu esday-oktober-2026-microsoft-schliesst-1-417-sicherheitsluecken/ # patchTuesday # microsoft",
+   "url": "https://mastodon.social/@allaboutsecurity/117437751867684060",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "4d75418e742c",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Microsoft Disrupts 1,413 Vulnerabilities, Fixes Exploited Windows Shell Bug Microsoft just dropped a record-breaking Patch Tuesday update, tackling a whopping 1,413 vulnerabilities - and yes, that includes a critical Windows Shell bug that's already being exploited. This massive release underscores a new normal in cybersecurity: hundreds of fixes are no longer an exception, but the baseline. https:// osintsights.com/microsoft-disr upts-1413-vulnerabilities-fixes-exploited-windows-shell-bug?utm_source=mastodon&utm_medium=social # PatchTuesday # Microsoft # ZeroDayInitiative # Zdi # Windows",
+   "url": "https://mastodon.social/@Analyst207/117437536329474690",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 13,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "522813670391",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🔴 Microsoft October 2026 Patch Tuesday — 1,413 CVEs Active exploitation confirmed: CVE-2026-96951 (8.8) Windows Shell command injection → Mark of the Web bypass. CISA KEV deadline Oct 16. Peak severity: CVE-2026-96207 (10.0) Partner Center certificate bypass. Also patched: 5 Outlook preview pane RCEs, SharePoint deserialization RCE (8.7), .NET Framework bypass publicly disclosed. https:// threataft.com/articles/microso ft-october-2026-patch-tuesday-cve-2026-96207 # PatchTuesday # Microsoft # InfoSec # ZeroDay # CISA",
+   "url": "https://infosec.exchange/@threataft/117437500670554366",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "kev",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "5207ba253bcb",
+   "source": "Mastodon",
+   "room": "mastobot.ping.moi",
+   "title": "",
+   "text": "Microsoft corrige plus de 1 400 vulnérabilités en un seul mois — après un record à 972 en septembre. La cadence de patching explose, mais la vraie question reste : quel est le délai réel de déploiement côté organisations ? Un patch publié n'est pas un patch appliqué. # infosec # Microsoft # PatchTuesday https://www. techmeme.com/261013/p51#a26101 3p51",
+   "url": "https://mastobot.ping.moi/@Bobe_bot/117437262191133618",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "patch",
+      "patching"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "23611c793bc9",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🚨 Adobe ColdFusion October 2026 — 5 critical CVEs, peak CVSS 10.0 CVE-2026-105899 (10.0) unrestricted upload RCE — unauthenticated CVE-2026-106624 (10.0) code injection RCE CVE-2026-106622 (10.0) SSRF → privilege escalation CVE-2026-106612 (9.9) incorrect auth RCE CVE-2026-105903 (9.9) code injection, low-priv No exploits yet. Patch: 2025.0.14 / 2023.0.26 https:// threataft.com/articles/adobe-c oldfusion-october-2026-cluster-cve-2026-105899 # infosec # CVE # Adobe # ColdFusion # PatchTuesday",
+   "url": "https://infosec.exchange/@threataft/117437212303506095",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "a85352ebee6a",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "The October 2026 Patch Tuesday fixes 1,414 flaws and three zero-day vulnerabilities, including an exploited Windows Shell bypass. Patch now. # PatchTuesday # Microsoft # CVE202696951 # CVE2026108398 # ZeroDay # Windows # PatchNow # CyberSecurity https:// securityonline.info/october-20 26-patch-tuesday/?utm_source=mastodon&utm_medium=jetpack_social",
+   "url": "https://infosec.exchange/@DailyCyberSecurity/117436698452925069",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 13,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "290c92a3f3a8",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Conférence de POLAR: “What Are We Doing Here? ” (EN will follow) Pour cette 4e édition de notre conférence POLAR pour CISO, gestionnaires, directeurs et leaders techniques en cybersécurité le 29 octobre, nous aurons le privilège d'entendre Jeff Man Ne manquez pas cette occasion de vous joindre à nous pour cette journée à la Salle Le Confessionnal - Le Capitole de Québec. Plus d'informations et achats de billets ICI: https:// hackfest.ca/polar/?utm_source= twitter&utm_medium=socmed&utm_campaign=polarSpeakers # infosec # ciso # cisos # cisolife # cisoadvisor # cisoseries # cybersecurite # polqc # polcan # canada # quebec # conference # cybersecuritymanagement # hacking # redteam # blueteam # management # summit # securityindustry ===== Talk at POLAR: “What Are We Doing Here? ” For this fourth POLAR edition for CISO, managers, directors and tech leads in cybersecurity on October 29th, we will have the privilege to hear Jeff Man talk on this subject. Don't miss this opportunity to join us at our 1-day banquet conference at the Salle Le Confessional - Le Capitole in Québec City. To have more info or buy tickets: https:// hackfest.ca/en/polar/?utm_sour ce=twitter&utm_medium=socmed&utm_ca",
+   "url": "https://infosec.exchange/@polar/117439036778313629",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "ticket"
+     ],
+     "score": 14,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 buyer: Security leader",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    },
+    "ocean": {
+     "topics": [
+      "bec"
+     ],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "bec"
+     ],
+     "score": 14,
+     "why": [
+      "+6 core topic: BEC and payment fraud",
+      "+3 buyer: Security leader",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
+     "topic": "bec"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "f70ec2eb3be5",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Conférence de POLAR: “Zéro Budget, Zéro Excuse : la naissance d'un département cyber ” (EN will follow) Pour cette 4e édition de notre conférence POLAR pour CISO, gestionnaires, directeurs et leaders techniques en cybersécurité le 29 octobre, nous aurons le privilège d'entendre Dominic Villeneuve. Ne manquez pas cette occasion de vous joindre à nous pour cette journée à la Salle Le Confessionnal - Le Capitole de Québec. Plus d'informations et achats de billets ICI: https:// hackfest.ca/polar/?utm_source= twitter&utm_medium=socmed&utm_campaign=polarSpeakers # infosec # ciso # cisos # cisolife # cisoadvisor # cisoseries # cybersecurite # polqc # polcan # canada # quebec # conference # cybersecuritymanagement # hacking # redteam # blueteam # management # summit # securityindustry ===== Talk at POLAR: “Zéro Budget, Zéro Excuse : la naissance d'un département cyber ” For this fourth POLAR edition for CISO, managers, directors and tech leads in cybersecurity on October 29th, we will have the privilege to hear Dominic Villeneuve talk on this subject. Don't miss this opportunity to join us at our 1-day banquet conference at the Salle Le Confessional - Le Capitole in Québec City. To have mo",
+   "url": "https://infosec.exchange/@polar/117439009262278863",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "bec"
+     ],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "bec"
+     ],
+     "score": 14,
+     "why": [
+      "+6 core topic: BEC and payment fraud",
+      "+3 buyer: Security leader",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
+     "topic": "bec"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "841a64f2a3c9",
+   "source": "Mastodon",
+   "room": "ieji.de",
+   "title": "",
+   "text": "@ queen_fennec Deze week had ik extra wandeltijd en dus weer wat podcasts geluisterd. De tips voor awareness vond ik leuk: creeer fomo, iedereen moet wat winnen en prijsjes meenemen. Volledig unrelated, behalve dat het om # ciso praat gaat, gisteren ook een webinar over ai agents van proofpoint. Een overzicht van volwassenheid van verdediging tegen roque agents of shadow ai # infosec",
+   "url": "https://ieji.de/@hanscees/117438312067275913",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_security"
+     ],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "ai agents",
+      "shadow ai"
+     ],
+     "score": 7,
+     "why": [
+      "+1 listen-only topic: Securing AI and agents",
+      "+3 buyer: Security leader",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "ai_security"
+    },
+    "ocean": {
+     "topics": [
+      "seg"
+     ],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "proofpoint"
+     ],
+     "score": 12,
+     "why": [
+      "+6 core topic: Replacing or adding to the email gateway",
+      "+3 buyer: Security leader",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Account executive and sales engineer",
+     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
+     "topic": "seg"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "e04c74ae184d",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "The human element played a role in 62% of breaches, according to the Verizon 2026 Data Breach Investigations Report. 🔒 That's why annual security awareness training is mandatory for our whole team, as part of our ISO 27001 certification. Typical triggers: a convincing phishing email, a careless click or a reused password. What's the best security tip you still stick to? 💬 # cybersecuritymonth # security # iso27001 # phishing # nine",
+   "url": "https://mastodon.social/@ninecloudnavigators/117438323319329881",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "awareness"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "awareness training",
+      "security awareness"
+     ],
+     "score": 9,
+     "why": [
+      "+4 adjacent topic: Security awareness and phishing tests",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Content team",
+     "angle": "Coaching people on the real email in front of them works better than an annual course.",
+     "topic": "awareness"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "5a8b7d9d543e",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Tycoon2FA got taken down, but BEC and Teams vishing are surging. Q2 phishing, mapped. 9 detections, 27 IOCs. Full analysis + IOCs: https:// intel.threadlinqs.com/threat/T L-2026-3474 # ThreatIntel # Tycoon2FA # June # Phishing # BEC # Teams",
+   "url": "https://mastodon.social/@threadlinqs/117437909538104605",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "bec",
+      "deepfakes"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "bec",
+      "vishing"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: BEC and payment fraud",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
+     "topic": "bec"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "ee5528e9cb4a",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CW: sebezhetőség(ek) — Microsoft októberi Patch Tuesday: 1 413 javítás, ebből 1 102 Windows-hoz. Aktívan kihasznált: CVE-2026-96951 (Windows Shell, CVSS 8.8) — bekerült a CISA KEV listájára, szövetségi határidő: 2026-10-16. Figyelem még: CVE-2026-108398 (.NET, WDAC kerülés). Részletek: https:// linuxmint.hu/hir/2026/10/rekor dot-dontott-a-microsoft-1-413-sebezhetoseget-foltoztak-koztuk-egy-aktivan # Windows # CVE # infosec # cybersecurity",
+   "url": "https://mastodon.social/@linuxmint_hun/117439428658042992",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "kev",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "6fcc2a723dde",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "⚠️ CRITICAL: Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days Microsoft patched 1,411 vulnerabilities in October 2026, including three zero-days: CVE-2026-96951 (Windows Shell, actively exploited) and CVE-2026-108398 (.NET Framework, publicly disclosed). CVE-2026-108398 allows attackers to bypass Windows Defender Application Control and execute unauthorized a… https:// threatnoir.com/focus # infosec # cybersecurity 🤖 AI generated summary",
+   "url": "https://infosec.exchange/@threatnoir/117439407296557940",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "secops",
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "7a02941bfbf0",
    "source": "Mastodon",
@@ -2812,6 +3782,480 @@
    "rooms": []
   },
   {
+   "id": "d1c97c484355",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🤖 Microsoft October 2026 Patch Tuesday fixes a record 1,411 flaws, including 1 zero-day exploited in the wild and 2 publicly disclosed. Windows 10 KB5126657 (ESU) and Windows 11 KB5127648/KB5126653 cumulative updates are out. 🔗 https://www. bleepingcomputer.com/news/micr osoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/ # CVE # PatchTuesday # CyberSec # InfoSec",
+   "url": "https://infosec.exchange/@cloud/117435473791583203",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "719947c77c1d",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Microsoft Patch Tuesday Disrupts 1,411 Flaws, Zero-Day Exploits Microsoft's October Patch Tuesday update is a doozy, tackling a staggering 1,411 vulnerabilities in one fell swoop! This record-breaking release includes fixes for a massive number of flaws across the company's software portfolio. https:// osintsights.com/microsoft-patc h-tuesday-disrupts-1411-flaws-zero-day-exploits?utm_source=mastodon&utm_medium=social # PatchTuesday # Microsoft # ZeroDay # EmergingThreats # VulnerabilityManagement",
+   "url": "https://mastodon.social/@Analyst207/117435412711625912",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 13,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "47ddd31f24d8",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Placeholder CISA blog post about Ivanti Connect Secure zero-day CVE-2026-104935 and Microsoft Windows Shell Security Feature Bypass zero-day CVE-2026-96951 https://www. cisa.gov/news-events/alerts/20 26/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog # CISA # KEV # eitw # zeroday # PatchTuesday",
+   "url": "https://infosec.exchange/@ssvc/117435389161785482",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "kev",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "8e05ebcfd8e9",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Windows Shell zero-day strips Mark of the Web warnings - now exploited and in CISA KEV. 9 detections, 10 IOCs. Full analysis + IOCs: https:// intel.threadlinqs.com/threat/T L-2026-3443 # ThreatIntel # CVE_2026_96951 # CVE_2026_108398 # October # PatchTuesday # MotWBypass",
+   "url": "https://mastodon.social/@threadlinqs/117435320090419847",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "kev",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "a3ec126b8303",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "two of my findings are in today's Microsoft Patch Tuesday. CVE-2026-88156, Outlook RCE, 9.8 critical. stack-based buffer overflow, no click needed: previewing the mail in the reading pane is enough. https:// msrc.microsoft.com/update-guid e/vulnerability/CVE-2026-88156 CVE-2026-70343, MPEG-2 Video Extension RCE, 8.8. heap-based buffer overflow, the user has to open a crafted file. https:// msrc.microsoft.com/update-guid e/vulnerability/CVE-2026-70343 # InfoSec # PatchTuesday # CVE # Outlook # microsoft # vulnerability # cybersecurity # security",
+   "url": "https://infosec.exchange/@moltenbit/117435317090613923",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "a2e8d89cc72e",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🖥️ Windows 11 : le Patch Tuesday d’octobre 2026 est disponible (KB5127648) 👉 https://www. justgeek.fr/patch-tuesday-octo bre-2026-windows-11-159557/ # Windows11 # PatchTuesday # KB5127648 # Microsoft # WindowsUpdate # MàJ",
+   "url": "https://mastodon.social/@JustGeek/117435179767463029",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "564b0c6d13ad",
+   "source": "Mastodon",
+   "room": "bsky.brid.gy",
+   "title": "",
+   "text": "It's a busy .NET update day today with 46 updates. Given the large number of CVEs I'm not going to go through each one, instead this month I'm going to highlight ones you may be concerned about and give recommendations for patch prioritization. #dotnet #patchTuesday #cve #infosec",
+   "url": "https://bsky.brid.gy/r/https://bsky.app/profile/did:plc:hfgp6pj3akhqxntgqwramlbg/post/3mxrq5t3ijs2m",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": true,
+     "evidence": [
+      "patch",
+      "prioritiz"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 shopping for tools",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "53f125a23b3e",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Microsoft Patch Tuesday with an exploited zero-day: CVE-2026-96951 (8.8 high) Windows Shell Security Feature Bypass Vulnerability https:// msrc.microsoft.com/update-guid e/en-US/advisory/CVE-2026-96951 Looks like 1408 CVEs for Patch Tuesday. # microsoft # zeroday # CVE # PatchTuesday # eitw",
+   "url": "https://infosec.exchange/@ssvc/117435156408671626",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 1,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "e37a55f41621",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Microsoft's record Patch Tuesday now ships risk cohorts - triage by shared exposure, not CVSS. 9 detections, 4 IOCs. Full analysis + IOCs: https:// intel.threadlinqs.com/threat/T L-2026-3435 # ThreatIntel # October # Microsoft # PatchTuesday # Windows # RDP",
+   "url": "https://mastodon.social/@threadlinqs/117435096869259513",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [
+      "secops",
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "f8fa4cd5944d",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Microsoft Releases Mandatory Windows 11 Updates to Fix Hundreds of Vulnerabilities Microsoft just dropped some crucial updates for Windows 11, tackling hundreds of vulnerabilities with its October 2026 Patch Tuesday release - and they're mandatory, so you'll want to grab them ASAP! Simply head to Settings > Windows Update and click \"Check for Updates\" to get the fixes. https:// osintsights.com/microsoft-rele ases-mandatory-windows-11-updates-to-fix-hundreds-of-vulnerabiliti?utm_source=mastodon&utm_medium=social # PatchTuesday # Windows11 # MandatoryUpdates # VulnerabilityPatches # Kb5127648",
+   "url": "https://mastodon.social/@Analyst207/117434943257280368",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 13,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "f029e774c725",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "A common argument for vendor consolidation is coverage gaps caused by tools that don’t share data. Strong integrations can address that directly without trading specialist capability for a platform feature. That requirement runs both ways: cybersecurity specialist software and services should show measurable performance in the areas that matter and integrate cleanly with the rest of the stack. Read more about the debate around cybersecurity vendor consolidation here: https://www. netcraft.com/blog/when-is-secu rity-vendor-consolidation-a-good-idea # InfoSec # CyberSecurity # CISO # SecurityStrategy",
+   "url": "https://infosec.exchange/@Netcraft/117434628213655608",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "controls",
+      "sprawl"
+     ],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "consolidat",
+      "coverage gap"
+     ],
+     "score": 12,
+     "why": [
+      "+6 core topic: Security tools misconfigured or not covering everything",
+      "+3 buyer: Security leader",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Founder or research team",
+     "angle": "Most breaches hit companies that already owned a tool that could have stopped them. Check coverage and configuration before buying more.",
+     "topic": "controls"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "8bc0321b0c58",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Business email compromises where the threat actors manipulates the IBAN/Account Number on invoices are now pretty common. The cooler version is doing this on the users client... ...in memory ...by developing your own document parser Stay tuned # BEC # ThruntersAnonymous # ByAnyMeans",
+   "url": "https://infosec.exchange/@g0rb/117434303746862883",
+   "date": "2026-10-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-14",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "bec"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "bec",
+      "business email compromise"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: BEC and payment fraud",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
+     "topic": "bec"
+    }
+   },
+   "rooms": []
+  },
+  {
    "id": "ccfab3bdc711",
    "source": "Mastodon",
    "room": "mastodon.social",
@@ -3028,13 +4472,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 shopping for tools",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3067,10 +4511,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3104,10 +4548,10 @@
       "cvss",
       "kev"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3144,10 +4588,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3182,13 +4626,13 @@
       "kev",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3843,11 +5287,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "worth",
      "who": "Sales engineer",
