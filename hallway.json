@@ -1,12 +1,13 @@
 {
- "generated": "2026-10-14T13:49Z",
+ "generated": "2026-10-15T13:54Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 30,
+  "new": 12,
   "by_source": {
-   "Mastodon": 30
+   "Hacker News": 1,
+   "Mastodon": 11
   }
  },
  "rooms_norms": {
@@ -102,8 +103,8 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 48,
-     "recent": 47,
+     "total": 53,
+     "recent": 52,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -117,10 +118,10 @@
       1,
       0,
       0,
-      3,
-      44
+      4,
+      48
      ],
-     "open": 11,
+     "open": 13,
      "open_examples": [
       {
        "title": "Microsoft Discloses Record 1411 CVEs in October Patch Update Microsoft just dropped a reco",
@@ -149,7 +150,7 @@
       "infosec.exchange",
       "mamot.fr"
      ],
-     "score": 50.2
+     "score": 54.0
     },
     {
      "key": "prioritization",
@@ -157,8 +158,8 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 48,
-     "recent": 48,
+     "total": 54,
+     "recent": 54,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -172,11 +173,18 @@
       0,
       0,
       0,
-      3,
-      45
+      5,
+      49
      ],
-     "open": 3,
+     "open": 4,
      "open_examples": [
+      {
+       "title": "Attackers are exploiting CVE-2026-76519 (CVSS 9.8), a critical Cisco Secure Email Gateway ",
+       "url": "https://infosec.exchange/@DailyCyberSecurity/117441656804622326",
+       "room": "infosec.exchange",
+       "date": "2026-10-14",
+       "replies": 0
+      },
       {
        "title": "📰 Cisco and SonicWall Flaws Under Active Exploit; CISA Issues KEVs 🚨 CRITICAL PATCH NOW: A",
        "url": "https://mastodon.social/@netsecio/117428277049634772",
@@ -190,13 +198,6 @@
        "room": "mastodon.social",
        "date": "2026-10-11",
        "replies": 0
-      },
-      {
-       "title": "📰 Microsoft Patches High-Severity Exchange Privilege Escalation Flaw Microsoft issues out-",
-       "url": "https://mastodon.social/@netsecio/117394438564644093",
-       "room": "mastodon.social",
-       "date": "2026-10-06",
-       "replies": 0
       }
      ],
      "rooms": [
@@ -204,7 +205,7 @@
       "infosec.exchange",
       "bsky.brid.gy"
      ],
-     "score": 38.2
+     "score": 40.7
     },
     {
      "key": "controls",
@@ -237,6 +238,69 @@
       "mastobot.ping.moi"
      ],
      "score": 9.5
+    },
+    {
+     "key": "board",
+     "label": "Proving progress to the board",
+     "fit": 2,
+     "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
+     "who": "Founder or CISO advisor",
+     "total": 3,
+     "recent": 2,
+     "prior": 1,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "mastodon.social"
+     ],
+     "score": 8.0
+    },
+    {
+     "key": "compliance",
+     "label": "Directives and compliance deadlines",
+     "fit": 2,
+     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
+     "who": "Content team",
+     "total": 2,
+     "recent": 2,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "swecyb.com",
+      "mastodon.social"
+     ],
+     "score": 6.3
     },
     {
      "key": "ai_security",
@@ -279,35 +343,6 @@
      "score": 4.5
     },
     {
-     "key": "board",
-     "label": "Proving progress to the board",
-     "fit": 2,
-     "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
-     "who": "Founder or CISO advisor",
-     "total": 1,
-     "recent": 1,
-     "prior": 0,
-     "change": 100,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [],
-     "score": 4.0
-    },
-    {
      "key": "sprawl",
      "label": "Tool sprawl and consolidation",
      "fit": 2,
@@ -335,37 +370,6 @@
      "open_examples": [],
      "rooms": [
       "infosec.exchange"
-     ],
-     "score": 4.0
-    },
-    {
-     "key": "compliance",
-     "label": "Directives and compliance deadlines",
-     "fit": 2,
-     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
-     "who": "Content team",
-     "total": 1,
-     "recent": 1,
-     "prior": 0,
-     "change": 100,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [
-      "mastodon.social"
      ],
      "score": 4.0
     },
@@ -442,13 +446,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 13.9,
+     "score": 14.4,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+8.9 21 relevant conversations there",
+      "+9.4 25 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 21,
+     "hosted": 25,
      "mentions": 0,
      "evidence": []
     },
@@ -932,54 +936,70 @@
    "phrases": [
     {
      "phrase": "cybersecurity infosec",
-     "count": 22
+     "count": 25
+    },
+    {
+     "phrase": "cve vulnerability",
+     "count": 21
+    },
+    {
+     "phrase": "score cvss",
+     "count": 20
+    },
+    {
+     "phrase": "euvd enisa",
+     "count": 20
+    },
+    {
+     "phrase": "enisa europa",
+     "count": 20
+    },
+    {
+     "phrase": "vulnerabi lity",
+     "count": 20
+    },
+    {
+     "phrase": "infosec euvd",
+     "count": 20
+    },
+    {
+     "phrase": "euvd cve",
+     "count": 20
     },
     {
      "phrase": "patch tuesday",
      "count": 19
     },
     {
-     "phrase": "cve vulnerability",
-     "count": 19
-    },
-    {
-     "phrase": "score cvss",
-     "count": 18
-    },
-    {
-     "phrase": "euvd enisa",
-     "count": 18
-    },
-    {
-     "phrase": "enisa europa",
-     "count": 18
-    },
-    {
-     "phrase": "vulnerabi lity",
-     "count": 18
-    },
-    {
-     "phrase": "infosec euvd",
-     "count": 18
-    },
-    {
-     "phrase": "euvd cve",
-     "count": 18
-    },
-    {
      "phrase": "vendor siemens",
      "count": 17
+    },
+    {
+     "phrase": "utm source",
+     "count": 12
+    },
+    {
+     "phrase": "utm medium",
+     "count": 12
+    },
+    {
+     "phrase": "published updated",
+     "count": 11
+    },
+    {
+     "phrase": "source mastodon",
+     "count": 11
+    },
+    {
+     "phrase": "mastodon utm",
+     "count": 11
     },
     {
      "phrase": "updated vulnerability",
      "count": 11
     },
     {
-     "phrase": "utm source",
-     "count": 10
-    },
-    {
-     "phrase": "utm medium",
+     "phrase": "cve infosec",
      "count": 10
     },
     {
@@ -991,20 +1011,16 @@
      "count": 10
     },
     {
-     "phrase": "published updated",
-     "count": 10
-    },
-    {
-     "phrase": "source mastodon",
+     "phrase": "threataft com articles",
      "count": 9
     },
     {
-     "phrase": "mastodon utm",
-     "count": 9
+     "phrase": "cisa kev",
+     "count": 8
     },
     {
-     "phrase": "cve infosec",
-     "count": 9
+     "phrase": "valtersit com cve",
+     "count": 8
     },
     {
      "phrase": "october patch",
@@ -1012,10 +1028,6 @@
     },
     {
      "phrase": "medium social",
-     "count": 8
-    },
-    {
-     "phrase": "threataft com articles",
      "count": 8
     },
     {
@@ -1027,59 +1039,60 @@
      "count": 7
     },
     {
-     "phrase": "cisa kev",
-     "count": 7
-    },
-    {
      "phrase": "siemens updated",
      "count": 7
     },
     {
-     "phrase": "valtersit com cve",
-     "count": 7
+     "phrase": "actively exploited",
+     "count": 6
+    },
+    {
+     "phrase": "infosec cve",
+     "count": 5
     },
     {
      "phrase": "social patchtuesday",
      "count": 5
-    },
-    {
-     "phrase": "command injection",
-     "count": 5
-    },
-    {
-     "phrase": "actively exploited",
-     "count": 5
     }
    ],
    "quotes": {
-    "remediation": [
-     {
-      "text": "Patch Tuesday – Octobre 2026 : 1 407 failles corrigées, dont trois failles zero-day https://www.",
-      "url": "https://mamot.fr/@benzogaga33/117438598625138869",
-      "room": "mamot.fr",
-      "date": "2026-10-14"
-     },
-     {
-      "text": "it-connect.fr/patch-tuesday-oc tobre-2026-recapitulatif/ # ActuCybersécurité # Cybersécurité # PatchTuesday # Microsoft",
-      "url": "https://mamot.fr/@benzogaga33/117438598625138869",
-      "room": "mamot.fr",
-      "date": "2026-10-14"
-     }
-    ],
     "prioritization": [
+     {
+      "text": "🔴 Palo Alto PAN-OS — CVE-2026-0322, CVSS 8.6, CISA KEV Authenticated code injection → root on the firewall.",
+      "url": "https://infosec.exchange/@threataft/117445177171516335",
+      "room": "infosec.exchange",
+      "date": "2026-10-15"
+     },
      {
       "text": "CVE-2026-96951 (CVSS 8.8), a Windows Shell command injection that bypasses Mark of the Web defenses, is exploited in the wild.",
       "url": "https://infosec.exchange/@cloud/117438362145138062",
       "room": "infosec.exchange",
       "date": "2026-10-14"
-     },
-     {
-      "text": "Aktívan kihasznált: CVE-2026-96951 (Windows Shell, CVSS 8.8) — bekerült a CISA KEV listájára, szövetségi határidő: 2026-10-16.",
-      "url": "https://mastodon.social/@linuxmint_hun/117439428658042992",
-      "room": "mastodon.social",
-      "date": "2026-10-14"
      }
     ],
+    "board": [
+     {
+      "text": "Repeated queries to non-existent endpoints inflate metrics storage and processing, consuming excessive resources.",
+      "url": "https://mastodon.social/@EUVD_Bot/117444815514748186",
+      "room": "mastodon.social",
+      "date": "2026-10-15"
+     }
+    ],
+    "remediation": [
+     {
+      "text": "Affects: PA-Series, VM-Series, Panorama Not affected: Cloud NGFW, Prisma Access Patches across PAN-OS 10.2 / 11.1 / 11.2 / 12.1 / 12.2 branches.",
+      "url": "https://infosec.exchange/@threataft/117445177171516335",
+      "room": "infosec.exchange",
+      "date": "2026-10-15"
+     },
+     {
+      "text": "If your mgmt interface faces the internet: patch now, then restrict access.",
+      "url": "https://infosec.exchange/@threataft/117445177171516335",
+      "room": "infosec.exchange",
+      "date": "2026-10-15"
+     }
+    ],
+    "compliance": [],
     "ai_security": [
      {
       "text": "Volledig unrelated, behalve dat het om # ciso praat gaat, gisteren ook een webinar over ai agents van proofpoint.",
@@ -1122,7 +1135,6 @@
       "date": "2026-10-13"
      }
     ],
-    "compliance": [],
     "ai_cves": [
      {
       "text": "(I blame the initial marketing hype around Claude Mythos for much of the unhelpful discourse.) And I don't just mean they're asking their AI the wrong questions, either.",
@@ -1133,7 +1145,7 @@
     ]
    },
    "brief": {},
-   "count": 74
+   "count": 82
   },
   "ocean": {
    "company": {
@@ -1202,8 +1214,8 @@
      "fit": 3,
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "who": "Sales engineer",
-     "total": 4,
-     "recent": 4,
+     "total": 7,
+     "recent": 7,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -1218,9 +1230,9 @@
       0,
       0,
       0,
-      4
+      7
      ],
-     "open": 2,
+     "open": 5,
      "open_examples": [
       {
        "title": "Conférence de POLAR: “What Are We Doing Here? ” (EN will follow) Pour cette 4e édition de ",
@@ -1235,13 +1247,61 @@
        "room": "infosec.exchange",
        "date": "2026-10-14",
        "replies": 0
+      },
+      {
+       "title": "Conférence de POLAR: “AI Security needs Cloud security” (EN will follow) Pour cette 4e édi",
+       "url": "https://infosec.exchange/@polar/117441820558207112",
+       "room": "infosec.exchange",
+       "date": "2026-10-14",
+       "replies": 0
       }
      ],
      "rooms": [
       "infosec.exchange",
       "mastodon.social"
      ],
-     "score": 16.9
+     "score": 25.5
+    },
+    {
+     "key": "seg",
+     "label": "Replacing or adding to the email gateway",
+     "fit": 3,
+     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
+     "who": "Account executive and sales engineer",
+     "total": 3,
+     "recent": 3,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3
+     ],
+     "open": 1,
+     "open_examples": [
+      {
+       "title": "Attackers are exploiting CVE-2026-76519 (CVSS 9.8), a critical Cisco Secure Email Gateway ",
+       "url": "https://infosec.exchange/@DailyCyberSecurity/117441656804622326",
+       "room": "infosec.exchange",
+       "date": "2026-10-14",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "ieji.de",
+      "Hacker News",
+      "infosec.exchange"
+     ],
+     "score": 13.5
     },
     {
      "key": "authentication",
@@ -1249,8 +1309,8 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 6,
-     "recent": 6,
+     "total": 7,
+     "recent": 7,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -1265,10 +1325,17 @@
       0,
       0,
       3,
-      3
+      4
      ],
-     "open": 1,
+     "open": 2,
      "open_examples": [
+      {
+       "title": "Can someone send email pretending to be your domain? Our free check looks at SPF, DMARC, D",
+       "url": "https://mastodon.world/@makeprivacy/117442457286111384",
+       "room": "mastodon.world",
+       "date": "2026-10-15",
+       "replies": 0
+      },
       {
        "title": "New tool: Email Security Checker. Paste a list of domains and get each one's email provide",
        "url": "https://mastodon.social/@tiktopdata/117399888542802826",
@@ -1279,10 +1346,10 @@
      ],
      "rooms": [
       "mastodon.social",
-      "infosec.exchange",
-      "git.sig-io.nl"
+      "mastodon.world",
+      "infosec.exchange"
      ],
-     "score": 6.1
+     "score": 7.0
     },
     {
      "key": "trusted_senders",
@@ -1312,37 +1379,6 @@
      "open_examples": [],
      "rooms": [
       "mastodon.social"
-     ],
-     "score": 6.0
-    },
-    {
-     "key": "seg",
-     "label": "Replacing or adding to the email gateway",
-     "fit": 3,
-     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
-     "who": "Account executive and sales engineer",
-     "total": 1,
-     "recent": 1,
-     "prior": 0,
-     "change": 100,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [
-      "ieji.de"
      ],
      "score": 6.0
     },
@@ -1545,13 +1581,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 11.6,
+     "score": 13.3,
      "why": [
       "+6 audience fit (3 of 3)",
-      "+4.6 4 relevant conversations there",
+      "+6.3 8 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 4,
+     "hosted": 8,
      "mentions": 0,
      "evidence": []
     },
@@ -1985,12 +2021,13 @@
      "who": "Founders and engineers post research and launches.",
      "norms": "Engineers here punish marketing language. Add facts, data or code, and say where you work.",
      "url": "https://news.ycombinator.com/",
-     "score": 3.0,
+     "score": 5.0,
      "why": [
       "+2 audience fit (1 of 3)",
+      "+2.0 1 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 0,
+     "hosted": 1,
      "mentions": 0,
      "evidence": []
     },
@@ -2014,127 +2051,141 @@
    ],
    "phrases": [
     {
-     "phrase": "spf dkim",
-     "count": 4
-    },
-    {
      "phrase": "utm source",
-     "count": 3
+     "count": 7
     },
     {
      "phrase": "utm medium",
-     "count": 3
+     "count": 7
     },
     {
      "phrase": "utm campaign",
-     "count": 3
-    },
-    {
-     "phrase": "spf record",
-     "count": 3
+     "count": 6
     },
     {
      "phrase": "conf rence",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "follow pour",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "pour cette",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "cette dition",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "notre conf",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "rence polar",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "polar pour",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "pour ciso",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "ciso gestionnaires",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "gestionnaires directeurs",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "leaders techniques",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "cybers curit",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "octobre nous",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "nous aurons",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "manquez pas",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "pas cette",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "cette occasion",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "vous joindre",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "joindre nous",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "nous pour",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "cette journ",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "bec plus",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "plus d'informations",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "billets ici",
-     "count": 2
+     "count": 5
     },
     {
      "phrase": "polar utm",
-     "count": 2
+     "count": 5
+    },
+    {
+     "phrase": "medium socmed",
+     "count": 5
+    },
+    {
+     "phrase": "socmed utm",
+     "count": 5
     }
    ],
    "quotes": {
+    "authentication": [
+     {
+      "text": "Our free check looks at SPF, DMARC, DKIM, MX, MTA-STS and DNSSEC and says what to fix in plain words.",
+      "url": "https://mastodon.world/@makeprivacy/117442457286111384",
+      "room": "mastodon.world",
+      "date": "2026-10-15"
+     },
+     {
+      "text": "https:// makeprivacy.org/tools/email-ch eck/ # EmailSecurity # DMARC # InfoSec # Sysadmin",
+      "url": "https://mastodon.world/@makeprivacy/117442457286111384",
+      "room": "mastodon.world",
+      "date": "2026-10-15"
+     }
+    ],
     "bec": [
      {
       "text": "Don't miss this opportunity to join us at our 1-day banquet conference at the Salle Le Confessional - Le Capitole in Québec City.",
@@ -2155,6 +2206,12 @@
       "url": "https://ieji.de/@hanscees/117438312067275913",
       "room": "ieji.de",
       "date": "2026-10-14"
+     },
+     {
+      "text": "Attackers are exploiting CVE-2026-76519 (CVSS 9.8), a critical Cisco Secure Email Gateway vulnerability allowing root RCE via attachments.",
+      "url": "https://infosec.exchange/@DailyCyberSecurity/117441656804622326",
+      "room": "infosec.exchange",
+      "date": "2026-10-14"
      }
     ],
     "awareness": [
@@ -2173,20 +2230,6 @@
       "date": "2026-10-14"
      }
     ],
-    "authentication": [
-     {
-      "text": "Plenty of domains I check publish DMARC at p=none and leave it there for years.",
-      "url": "https://infosec.exchange/@adrianhollister/117415657641799199",
-      "room": "infosec.exchange",
-      "date": "2026-10-10"
-     },
-     {
-      "text": "DMARC only protects anyone when the policy says quarantine or reject.",
-      "url": "https://infosec.exchange/@adrianhollister/117415657641799199",
-      "room": "infosec.exchange",
-      "date": "2026-10-10"
-     }
-    ],
     "trusted_senders": [
      {
       "text": "Phishing now arrives from DocuSign, QuickBooks and Dropbox themselves - and passes SPF, DKIM and DMARC.",
@@ -2197,10 +2240,245 @@
     ]
    },
    "brief": {},
-   "count": 12
+   "count": 18
   }
  },
  "conversations": [
+  {
+   "id": "0b7fb032ea6e",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-102028 📊 Score: 9.3/10 (CVSS v3.1) 📦 Product: Mang Board WP 🏢 Vendor: Kitae Park 📅 Updated: 2026-10-15 📝 Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Kitae Park Mang Board WP mangboard allows SQL Injection.This issue affects Mang Board WP: from n/a through 2.4.4. 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-102028 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117445051713841794",
+   "date": "2026-10-15",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-15",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "board"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "board",
+      "cvss"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "f68687a96b7f",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2025-8735 📊 Score: 7.5/10 (CVSS v3.1) 📅 Published: 2025-03-31 | Updated: 2026-10-15 📝 A flaw was found in the OpenShift Lightspeed Service, which is vulnerable to unauthenticated API request flooding. Repeated queries to non-existent endpoints inflate metrics storage and processing, consuming excessive resources. This issue can lead to monitoring system deg... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2025-8735 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117444815514748186",
+   "date": "2026-10-15",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-15",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "board"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "metrics"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "dc8185a0369f",
+   "source": "Mastodon",
+   "room": "mastodon.world",
+   "title": "",
+   "text": "Can someone send email pretending to be your domain? Our free check looks at SPF, DMARC, DKIM, MX, MTA-STS and DNSSEC and says what to fix in plain words. It also covers spare domains you never send from: they should be locked down too. https:// makeprivacy.org/tools/email-ch eck/ # EmailSecurity # DMARC # InfoSec # Sysadmin",
+   "url": "https://mastodon.world/@makeprivacy/117442457286111384",
+   "date": "2026-10-15",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-15",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [
+      "email_admin"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "dmarc",
+      "spf"
+     ],
+     "score": 9,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+3 buyer: Email & M365 admin",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "68d14c38844e",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🔴 Palo Alto PAN-OS — CVE-2026-0322, CVSS 8.6, CISA KEV Authenticated code injection → root on the firewall. Actively exploited. IoCs published. No workarounds. Affects: PA-Series, VM-Series, Panorama Not affected: Cloud NGFW, Prisma Access Patches across PAN-OS 10.2 / 11.1 / 11.2 / 12.1 / 12.2 branches. If your mgmt interface faces the internet: patch now, then restrict access. https:// threataft.com/articles/palo-al to-pan-os-cve-2026-0322-code-injection-zero-day # PaloAlto # PANOS # InfoSec # CVE # CISAKEV # ZeroDay",
+   "url": "https://infosec.exchange/@threataft/117445177171516335",
+   "date": "2026-10-15",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-15",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "kev",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "ca9a7a6f18e8",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-55159 OpenWrt luci-app-adblock-fast lets a delegated ACL user inject root cron entries via CRLF. CVSS 8.8. Patch still under review, restrict write ACLs now. https://www. valtersit.com/cve/CVE-2026-551 59/ # CVE # infosec # OpenWrt",
+   "url": "https://mastodon.social/@hugovalters/117445166810542554",
+   "date": "2026-10-15",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-15",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "cadfbfef9869",
+   "source": "Mastodon",
+   "room": "swecyb.com",
+   "title": "",
+   "text": "(greynoise.io) Residential Proxies and Proxyjacking: How Adversaries Exploit Legitimate Infrastructure to Evade Detection In brief - This article discusses how adversaries use residential proxies to obfuscate their identities and bypass traditional geolocation-based security detections, highlighting a specific case of proxyjacking. Technically - This article details the abuse of residential proxy networks, specifically the Pawns.app software, to mask malicious traffic as legitimate home user activity. It describes 'proxyjacking' campaigns where attackers exploit vulnerabilities in network edge devices, such as DVRs and NVRs from brands like Hikvision and Dahua, to forcibly install proxyware. The analysis notes that attackers may also implement SSH key authentication for persistent access and recommends monitoring authentication logs for multiple enterprise users originating from a single residential IP, as well as auditing for mismatches in User-Agent strings and device identifiers. Source: https://www. greynoise.io/blog/proxyjacking -edge-devices-residential-proxies # ThreatIntelligence # ThreatIntel # Cybersecurity # Infosec",
+   "url": "https://swecyb.com/@orlysec/117445057961710756",
+   "date": "2026-10-15",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-15",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "compliance"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": true,
+     "evidence": [
+      "audit"
+     ],
+     "score": 11,
+     "why": [
+      "+4 adjacent topic: Directives and compliance deadlines",
+      "+2 buyer: Security engineer & SecOps",
+      "+2 shopping for tools",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Content team",
+     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
+     "topic": "compliance"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "8f344ef94011",
    "source": "Mastodon",
@@ -2959,6 +3237,290 @@
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "7492fbff598d",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
+   "text": "",
+   "url": "https://news.ycombinator.com/item?id=50095061",
+   "date": "2026-10-14",
+   "kind": "thread",
+   "replies": 0,
+   "found": "2026-10-15",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "seg"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "email gateway",
+      "secure email gateway"
+     ],
+     "score": 13,
+     "why": [
+      "+6 core topic: Replacing or adding to the email gateway",
+      "+4 nobody has answered",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Account executive and sales engineer",
+     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
+     "topic": "seg"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "817c1d2e8b03",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Conférence de POLAR: “AI Security needs Cloud security” (EN will follow) Pour cette 4e édition de notre conférence POLAR pour CISO, gestionnaires, directeurs et leaders techniques en cybersécurité le 29 octobre, nous aurons le privilège d'entendre Mark Pilon Ne manquez pas cette occasion de vous joindre à nous pour cette journée à la Salle Le Confessionnal - Le Capitole de Québec. Plus d'informations et achats de billets ICI: https:// hackfest.ca/polar/?utm_source= mastodon&utm_medium=socmed&utm_campaign=polarSpeakers # infosec # ciso # cisos # cisolife # cisoadvisor # cisoseries # cybersecurite # polqc # polcan # canada # quebec # conference # cybersecuritymanagement # hacking # redteam # blueteam # management # summit # securityindustry ===== Talk at POLAR: “AI Security needs Cloud security” For this fourth POLAR edition for CISO, managers, directors and tech leads in cybersecurity on October 29th, we will have the privilege to hear Mark Pilon talk on this subject. Don't miss this opportunity to join us at our 1-day banquet conference at the Salle Le Confessional - Le Capitole in Québec City. To have more info or buy tickets: https:// hackfest.ca/en/polar/?utm_sour ce=mastodon&ut",
+   "url": "https://infosec.exchange/@polar/117441820558207112",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-15",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "ticket"
+     ],
+     "score": 14,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 buyer: Security leader",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    },
+    "ocean": {
+     "topics": [
+      "bec"
+     ],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "bec"
+     ],
+     "score": 14,
+     "why": [
+      "+6 core topic: BEC and payment fraud",
+      "+3 buyer: Security leader",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
+     "topic": "bec"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "602278f34aa1",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Conférence de POLAR: “Sécuriser l'écosystème de l'IA agentique : de la chaîne d'approvisionnement aux points de terminaison ” (EN will follow) Pour cette 4e édition de notre conférence POLAR pour CISO, gestionnaires, directeurs et leaders techniques en cybersécurité le 29 octobre, nous aurons le privilège d'entendre Karim Benhamouche Ne manquez pas cette occasion de vous joindre à nous pour cette journée à la Salle Le Confessionnal - Le Capitole de Québec. Plus d'informations et achats de billets ICI: https:// hackfest.ca/polar/?utm_source= mastodon&utm_medium=socmed&utm_campaign=polarSpeakers # infosec # ciso # cisos # cisolife # cisoadvisor # cisoseries # cybersecurite # polqc # polcan # canada # quebec # conference # cybersecuritymanagement # hacking # redteam # blueteam # management # summit # securityindustry ===== Talk at POLAR: “Sécuriser l'écosystème de l'IA agentique : de la chaîne d'approvisionnement aux points de terminaison ” For this fourth POLAR edition for CISO, managers, directors and tech leads in cybersecurity on October 29th, we will have the privilege to hear Karim Benhamouche talk on this subject. Don't miss this opportunity to join us at our 1-day banquet conf",
+   "url": "https://infosec.exchange/@polar/117441816098359341",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-15",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "bec"
+     ],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "bec"
+     ],
+     "score": 14,
+     "why": [
+      "+6 core topic: BEC and payment fraud",
+      "+3 buyer: Security leader",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
+     "topic": "bec"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "eeae36c7e5dc",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Conférence de POLAR: “Panel : Acquisition d'entreprise : comment amener les TI à la table des négociations ? ” (EN will follow) Pour cette 4e édition de notre conférence POLAR pour CISO, gestionnaires, directeurs et leaders techniques en cybersécurité le 29 octobre, nous aurons le privilège d'entendre Samuel Bonneau, Éric Hébert, Régis Desmeules Ne manquez pas cette occasion de vous joindre à nous pour cette journée à la Salle Le Confessionnal - Le Capitole de Québec. Plus d'informations et achats de billets ICI: https:// hackfest.ca/polar/?utm_source= mastodon&utm_medium=socmed&utm_campaign=polarSpeakers # infosec # ciso # cisos # cisolife # cisoadvisor # cisoseries # cybersecurite # polqc # polcan # canada # quebec # conference # cybersecuritymanagement # hacking # redteam # blueteam # management # summit # securityindustry ===== Talk at POLAR: “Panel : Acquisition d'entreprise : comment amener les TI à la table des négociations ? ” For this fourth POLAR edition for CISO, managers, directors and tech leads in cybersecurity on October 29th, we will have the privilege to hear Samuel Bonneau, Éric Hébert, Régis Desmeules talk on this subject. Don't miss this opportunity to join us a",
+   "url": "https://infosec.exchange/@polar/117441733890818386",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-15",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "bec"
+     ],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "bec"
+     ],
+     "score": 14,
+     "why": [
+      "+6 core topic: BEC and payment fraud",
+      "+3 buyer: Security leader",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
+     "topic": "bec"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "267d9468d3d5",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Today's brief: - Ivanti Connect Secure CVE-2026-104935 (CVSS 8.6) exploited, chained with an unpatched root privesc. KEV due Oct 16. Integrity Checker misses it; hunt welcome.cgi + mismatched X-DSCGI-PATH, /data/.icscap/ - Windows CVE-2026-96951 (CVSS 8.8) MotW bypass, exploited - Fake WatchGuard VPN via SEO: watchguard-vpn[.]net, watchguard-ssl[.]online - Norway fines Xandr NOK 92M https:// tp-security.com/news/cyber-bri ef-2026-10-14-ivanti-windows-patch-tuesday-watchguard # InfoSec # PatchNow # BlueTeam # Phishing",
+   "url": "https://infosec.exchange/@tpsecurity/117440000087698122",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-15",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "kev",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "4f02de9a158d",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Attackers are exploiting CVE-2026-76519 (CVSS 9.8), a critical Cisco Secure Email Gateway vulnerability allowing root RCE via attachments. Patch right now. # CVE202676519 # Cisco # EmailSecurity # AsyncOS # RCE # ZeroDay # Cybersecurity https:// securityonline.info/cisco-secu re-email-gateway-cve-2026-76519-exploited/?utm_source=mastodon&utm_medium=jetpack_social",
+   "url": "https://infosec.exchange/@DailyCyberSecurity/117441656804622326",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-15",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    },
+    "ocean": {
+     "topics": [
+      "seg"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "email gateway",
+      "secure email gateway"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Replacing or adding to the email gateway",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Account executive and sales engineer",
+     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
+     "topic": "seg"
     }
    },
    "rooms": []
@@ -4280,10 +4842,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4318,10 +4880,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4356,10 +4918,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4394,13 +4956,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 shopping for tools",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4433,13 +4995,13 @@
       "kev",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -5172,12 +5734,11 @@
       "jira",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -5210,11 +5771,10 @@
       "dmarc",
       "spf"
      ],
-     "score": 4,
+     "score": 3,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "listen",
      "who": "",
@@ -5249,10 +5809,9 @@
       "dmarc",
       "spf"
      ],
-     "score": 2,
+     "score": 1,
      "why": [
-      "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+1 posted this week"
+      "+1 listen-only topic: DMARC, SPF and DKIM setup"
      ],
      "band": "listen",
      "who": "",
