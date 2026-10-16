@@ -1,13 +1,13 @@
 {
- "generated": "2026-10-15T13:54Z",
+ "generated": "2026-10-16T13:52Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 12,
+  "new": 15,
   "by_source": {
-   "Hacker News": 1,
-   "Mastodon": 11
+   "Mastodon": 14,
+   "Press": 1
   }
  },
  "rooms_norms": {
@@ -103,8 +103,8 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 53,
-     "recent": 52,
+     "total": 65,
+     "recent": 64,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -118,10 +118,10 @@
       1,
       0,
       0,
-      4,
-      48
+      8,
+      56
      ],
-     "open": 13,
+     "open": 15,
      "open_examples": [
       {
        "title": "Microsoft Discloses Record 1411 CVEs in October Patch Update Microsoft just dropped a reco",
@@ -146,11 +146,11 @@
       }
      ],
      "rooms": [
-      "mastodon.social",
       "infosec.exchange",
+      "mastodon.social",
       "mamot.fr"
      ],
-     "score": 54.0
+     "score": 58.8
     },
     {
      "key": "prioritization",
@@ -158,8 +158,8 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 54,
-     "recent": 54,
+     "total": 61,
+     "recent": 61,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -173,10 +173,10 @@
       0,
       0,
       0,
-      5,
-      49
+      9,
+      52
      ],
-     "open": 4,
+     "open": 5,
      "open_examples": [
       {
        "title": "Attackers are exploiting CVE-2026-76519 (CVSS 9.8), a critical Cisco Secure Email Gateway ",
@@ -186,17 +186,17 @@
        "replies": 0
       },
       {
-       "title": "📰 Cisco and SonicWall Flaws Under Active Exploit; CISA Issues KEVs 🚨 CRITICAL PATCH NOW: A",
-       "url": "https://mastodon.social/@netsecio/117428277049634772",
+       "title": "📰 Microsoft's Record October Patch Tuesday Fixes 1,413 Flaws, 1 Exploited Zero-Day Microso",
+       "url": "https://mastodon.social/@netsecio/117439627895987632",
        "room": "mastodon.social",
-       "date": "2026-10-12",
+       "date": "2026-10-14",
        "replies": 0
       },
       {
        "title": "📰 Cisco and SonicWall Flaws Under Active Exploit; CISA Issues KEVs 🚨 CRITICAL PATCH NOW: A",
-       "url": "https://mastodon.social/@netsecio/117423977628674266",
+       "url": "https://mastodon.social/@netsecio/117428277049634772",
        "room": "mastodon.social",
-       "date": "2026-10-11",
+       "date": "2026-10-12",
        "replies": 0
       }
      ],
@@ -205,7 +205,7 @@
       "infosec.exchange",
       "bsky.brid.gy"
      ],
-     "score": 40.7
+     "score": 43.2
     },
     {
      "key": "controls",
@@ -240,6 +240,71 @@
      "score": 9.5
     },
     {
+     "key": "compliance",
+     "label": "Directives and compliance deadlines",
+     "fit": 2,
+     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
+     "who": "Content team",
+     "total": 4,
+     "recent": 4,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "infosec.exchange",
+      "swecyb.com",
+      "mastodon.social"
+     ],
+     "score": 9.3
+    },
+    {
+     "key": "ai_cves",
+     "label": "AI-found vulnerability surge",
+     "fit": 2,
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "who": "Research team",
+     "total": 3,
+     "recent": 1,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "infosec.exchange",
+      "Hacker News"
+     ],
+     "score": 8.0
+    },
+    {
      "key": "board",
      "label": "Proving progress to the board",
      "fit": 2,
@@ -271,38 +336,6 @@
      "score": 8.0
     },
     {
-     "key": "compliance",
-     "label": "Directives and compliance deadlines",
-     "fit": 2,
-     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
-     "who": "Content team",
-     "total": 2,
-     "recent": 2,
-     "prior": 0,
-     "change": 100,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [
-      "swecyb.com",
-      "mastodon.social"
-     ],
-     "score": 6.3
-    },
-    {
      "key": "ai_security",
      "label": "Securing AI and agents",
      "fit": 1,
@@ -323,8 +356,8 @@
       0,
       0,
       1,
-      0,
-      2
+      1,
+      1
      ],
      "open": 1,
      "open_examples": [
@@ -374,37 +407,6 @@
      "score": 4.0
     },
     {
-     "key": "ai_cves",
-     "label": "AI-found vulnerability surge",
-     "fit": 2,
-     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
-     "who": "Research team",
-     "total": 2,
-     "recent": 0,
-     "prior": 0,
-     "change": 0,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      1,
-      0,
-      0,
-      0,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [
-      "Hacker News"
-     ],
-     "score": 3.2
-    },
-    {
      "key": "staffing",
      "label": "Too few people",
      "fit": 1,
@@ -446,13 +448,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 14.4,
+     "score": 15.2,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+9.4 25 relevant conversations there",
+      "+10.2 33 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 25,
+     "hosted": 33,
      "mentions": 0,
      "evidence": []
     },
@@ -936,7 +938,11 @@
    "phrases": [
     {
      "phrase": "cybersecurity infosec",
-     "count": 25
+     "count": 27
+    },
+    {
+     "phrase": "patch tuesday",
+     "count": 23
     },
     {
      "phrase": "cve vulnerability",
@@ -967,31 +973,43 @@
      "count": 20
     },
     {
-     "phrase": "patch tuesday",
-     "count": 19
-    },
-    {
      "phrase": "vendor siemens",
      "count": 17
     },
     {
      "phrase": "utm source",
-     "count": 12
+     "count": 14
     },
     {
      "phrase": "utm medium",
+     "count": 14
+    },
+    {
+     "phrase": "windows shell",
+     "count": 13
+    },
+    {
+     "phrase": "source mastodon",
+     "count": 13
+    },
+    {
+     "phrase": "mastodon utm",
+     "count": 13
+    },
+    {
+     "phrase": "cve infosec",
      "count": 12
+    },
+    {
+     "phrase": "threataft com articles",
+     "count": 11
     },
     {
      "phrase": "published updated",
      "count": 11
     },
     {
-     "phrase": "source mastodon",
-     "count": 11
-    },
-    {
-     "phrase": "mastodon utm",
+     "phrase": "october patch",
      "count": 11
     },
     {
@@ -999,11 +1017,11 @@
      "count": 11
     },
     {
-     "phrase": "cve infosec",
+     "phrase": "cisa kev",
      "count": 10
     },
     {
-     "phrase": "windows shell",
+     "phrase": "medium social",
      "count": 10
     },
     {
@@ -1011,23 +1029,15 @@
      "count": 10
     },
     {
-     "phrase": "threataft com articles",
+     "phrase": "valtersit com cve",
      "count": 9
     },
     {
-     "phrase": "cisa kev",
+     "phrase": "actively exploited",
      "count": 8
     },
     {
-     "phrase": "valtersit com cve",
-     "count": 8
-    },
-    {
-     "phrase": "october patch",
-     "count": 8
-    },
-    {
-     "phrase": "medium social",
+     "phrase": "patchtuesday microsoft",
      "count": 8
     },
     {
@@ -1035,37 +1045,65 @@
      "count": 8
     },
     {
-     "phrase": "patchtuesday microsoft",
-     "count": 7
-    },
-    {
      "phrase": "siemens updated",
      "count": 7
     },
     {
-     "phrase": "actively exploited",
+     "phrase": "infosec cve",
      "count": 6
     },
     {
-     "phrase": "infosec cve",
-     "count": 5
-    },
-    {
-     "phrase": "social patchtuesday",
-     "count": 5
+     "phrase": "utm campaign",
+     "count": 6
     }
    ],
    "quotes": {
-    "prioritization": [
+    "remediation": [
      {
-      "text": "🔴 Palo Alto PAN-OS — CVE-2026-0322, CVSS 8.6, CISA KEV Authenticated code injection → root on the firewall.",
-      "url": "https://infosec.exchange/@threataft/117445177171516335",
-      "room": "infosec.exchange",
-      "date": "2026-10-15"
+      "text": "Microsoft Patch Tuesday Ekim 2026: 3 0-day açığı kapatıldı # Microsoft # PatchTuesday # 0day https:// webrecord.media/microsoft-patc h-tuesday-ekim-2026-3-0-day-acigi-kapatildi/",
+      "url": "https://mastodon.social/@webRecord_Media/117450258250291384",
+      "room": "mastodon.social",
+      "date": "2026-10-16"
      },
      {
-      "text": "CVE-2026-96951 (CVSS 8.8), a Windows Shell command injection that bypasses Mark of the Web defenses, is exploited in the wild.",
-      "url": "https://infosec.exchange/@cloud/117438362145138062",
+      "text": "🔗 https:// threataft.com/articles/microso ft-office-october-2026-cluster-cve-2026-108426 # Microsoft # PatchTuesday # CVE # InfoSec",
+      "url": "https://infosec.exchange/@threataft/117448302956445380",
+      "room": "infosec.exchange",
+      "date": "2026-10-16"
+     }
+    ],
+    "prioritization": [
+     {
+      "text": "🚨 Microsoft Office October cluster — 21 CVEs, peak CVSS 8.8.",
+      "url": "https://infosec.exchange/@threataft/117448302956445380",
+      "room": "infosec.exchange",
+      "date": "2026-10-16"
+     },
+     {
+      "text": "With a reported CVSS score of 9.3, this is a serious cloud isolation concern.",
+      "url": "https://infosec.exchange/@thecybersecguru/117450706988442038",
+      "room": "infosec.exchange",
+      "date": "2026-10-16"
+     }
+    ],
+    "ai_cves": [
+     {
+      "text": "(I blame the initial marketing hype around Claude Mythos for much of the unhelpful discourse.) And I don't just mean they're asking their AI the wrong questions, either.",
+      "url": "https://news.ycombinator.com/item?id=49717978",
+      "room": "Hacker News",
+      "date": "2026-09-15"
+     }
+    ],
+    "compliance": [
+     {
+      "text": "It's the open source command-line client for ZEN SecDB: CVE lookup, SSVC, and auditing of packages, SBOMs, dependency manifests, Linux hosts and Docker images.",
+      "url": "https://infosec.exchange/@secdb/117450519064818123",
+      "room": "infosec.exchange",
+      "date": "2026-10-16"
+     },
+     {
+      "text": "Microsoft rolls out the Windows 10 ESU update KB5126657 for versions 22H2 and 21H2, fixing File History backups, Storage Spaces Direct, and ReFS auditing.",
+      "url": "https://infosec.exchange/@DailyCyberSecurity/117440172181922522",
       "room": "infosec.exchange",
       "date": "2026-10-14"
      }
@@ -1078,21 +1116,6 @@
       "date": "2026-10-15"
      }
     ],
-    "remediation": [
-     {
-      "text": "Affects: PA-Series, VM-Series, Panorama Not affected: Cloud NGFW, Prisma Access Patches across PAN-OS 10.2 / 11.1 / 11.2 / 12.1 / 12.2 branches.",
-      "url": "https://infosec.exchange/@threataft/117445177171516335",
-      "room": "infosec.exchange",
-      "date": "2026-10-15"
-     },
-     {
-      "text": "If your mgmt interface faces the internet: patch now, then restrict access.",
-      "url": "https://infosec.exchange/@threataft/117445177171516335",
-      "room": "infosec.exchange",
-      "date": "2026-10-15"
-     }
-    ],
-    "compliance": [],
     "ai_security": [
      {
       "text": "Volledig unrelated, behalve dat het om # ciso praat gaat, gisteren ook een webinar over ai agents van proofpoint.",
@@ -1134,18 +1157,10 @@
       "room": "infosec.exchange",
       "date": "2026-10-13"
      }
-    ],
-    "ai_cves": [
-     {
-      "text": "(I blame the initial marketing hype around Claude Mythos for much of the unhelpful discourse.) And I don't just mean they're asking their AI the wrong questions, either.",
-      "url": "https://news.ycombinator.com/item?id=49717978",
-      "room": "Hacker News",
-      "date": "2026-09-15"
-     }
     ]
    },
    "brief": {},
-   "count": 82
+   "count": 95
   },
   "ocean": {
    "company": {
@@ -1268,8 +1283,8 @@
      "fit": 3,
      "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
      "who": "Account executive and sales engineer",
-     "total": 3,
-     "recent": 3,
+     "total": 5,
+     "recent": 5,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -1284,7 +1299,7 @@
       0,
       0,
       0,
-      3
+      5
      ],
      "open": 1,
      "open_examples": [
@@ -1297,11 +1312,11 @@
       }
      ],
      "rooms": [
+      "infosec.exchange",
       "ieji.de",
-      "Hacker News",
-      "infosec.exchange"
+      "Hacker News"
      ],
-     "score": 13.5
+     "score": 17.0
     },
     {
      "key": "authentication",
@@ -1324,8 +1339,8 @@
       0,
       0,
       0,
-      3,
-      4
+      5,
+      2
      ],
      "open": 2,
      "open_examples": [
@@ -1372,8 +1387,8 @@
       0,
       0,
       0,
-      0,
-      1
+      1,
+      0
      ],
      "open": 0,
      "open_examples": [],
@@ -1581,13 +1596,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 13.3,
+     "score": 13.6,
      "why": [
       "+6 audience fit (3 of 3)",
-      "+6.3 8 relevant conversations there",
+      "+6.6 9 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 8,
+     "hosted": 9,
      "mentions": 0,
      "evidence": []
     },
@@ -2186,6 +2201,20 @@
       "date": "2026-10-15"
      }
     ],
+    "seg": [
+     {
+      "text": "🔴 Cisco Secure Email Gateway — CVE-2026-76519, CISA KEV, Oct 17 deadline Unauthenticated path traversal → root RCE via crafted email attachment.",
+      "url": "https://infosec.exchange/@threataft/117445966236733519",
+      "room": "infosec.exchange",
+      "date": "2026-10-15"
+     },
+     {
+      "text": "https:// threataft.com/articles/cisco-s ecure-email-gateway-cve-2026-76519-zero-day # Cisco # SEG # InfoSec # CVE # CISAKEV # EmailSecurity # ZeroDay",
+      "url": "https://infosec.exchange/@threataft/117445966236733519",
+      "room": "infosec.exchange",
+      "date": "2026-10-15"
+     }
+    ],
     "bec": [
      {
       "text": "Don't miss this opportunity to join us at our 1-day banquet conference at the Salle Le Confessional - Le Capitole in Québec City.",
@@ -2196,20 +2225,6 @@
      {
       "text": "Ne manquez pas cette occasion de vous joindre à nous pour cette journée à la Salle Le Confessionnal - Le Capitole de Québec.",
       "url": "https://infosec.exchange/@polar/117439009262278863",
-      "room": "infosec.exchange",
-      "date": "2026-10-14"
-     }
-    ],
-    "seg": [
-     {
-      "text": "Volledig unrelated, behalve dat het om # ciso praat gaat, gisteren ook een webinar over ai agents van proofpoint.",
-      "url": "https://ieji.de/@hanscees/117438312067275913",
-      "room": "ieji.de",
-      "date": "2026-10-14"
-     },
-     {
-      "text": "Attackers are exploiting CVE-2026-76519 (CVSS 9.8), a critical Cisco Secure Email Gateway vulnerability allowing root RCE via attachments.",
-      "url": "https://infosec.exchange/@DailyCyberSecurity/117441656804622326",
       "room": "infosec.exchange",
       "date": "2026-10-14"
      }
@@ -2240,10 +2255,317 @@
     ]
    },
    "brief": {},
-   "count": 18
+   "count": 20
   }
  },
  "conversations": [
+  {
+   "id": "dcbaa360114a",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Microsoft Patch Tuesday Ekim 2026: 3 0-day açığı kapatıldı # Microsoft # PatchTuesday # 0day https:// webrecord.media/microsoft-patc h-tuesday-ekim-2026-3-0-day-acigi-kapatildi/",
+   "url": "https://mastodon.social/@webRecord_Media/117450258250291384",
+   "date": "2026-10-16",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "79dbb6b17d3c",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🚨 Microsoft Office October cluster — 21 CVEs, peak CVSS 8.8. Word: heap/stack overflows, UAF, numeric truncation — all network-exploitable RCE. SharePoint: path traversal → authorized RCE (CVE-2026-108452, 8.8). Outlook + Excel: one each. No public exploits yet. Patch window is open. 🔗 https:// threataft.com/articles/microso ft-office-october-2026-cluster-cve-2026-108426 # Microsoft # PatchTuesday # CVE # InfoSec",
+   "url": "https://infosec.exchange/@threataft/117448302956445380",
+   "date": "2026-10-16",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "f434c3bdd909",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "An AI editing agent wiped all the footage for season two of the Swedish version of The Challenge, pushing its release into 2027. On today's Breach Please, @ Secitup and @ malwarejake break down how this almost certainly happened, the confused-deputy problem with AI agent logging, and Bank of America's thousand-contractor vulnerability-patching push after running Anthropic's Mythos model against its own code. https:// youtu.be/f_-R5YahSuQ # infosec # cybersecurity # AIagents",
+   "url": "https://infosec.exchange/@breachplease/117450854370096119",
+   "date": "2026-10-16",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation",
+      "ai_cves"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "mythos",
+      "patch",
+      "patching"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "feb187513885",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-77166: unvalidated emoji field allows layout injection that can hide sidebar items. CVSS 2.4, low severity. Patch status unknown. Details: https://www. valtersit.com/cve/CVE-2026-771 66/ # CVE # infosec",
+   "url": "https://mastodon.social/@hugovalters/117450709685084951",
+   "date": "2026-10-16",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "eac604b7c4ac",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🚨 PwnEscape (CVE-2026-99999): Critical Linux kernel VM escape vulnerability. A flaw in Linux kernel checksum handling can expose host memory, crash the host, and potentially enable guest-to-host compromise. With a reported CVSS score of 9.3, this is a serious cloud isolation concern. Technical breakdown + patch details: https:// thecybersecguru.com/exploits/p wnescape-cve-2026-99999-linux-kernel-vm-escape/ # Linux # InfoSec # CVE",
+   "url": "https://infosec.exchange/@thecybersecguru/117450706988442038",
+   "date": "2026-10-16",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "8c7f783c2472",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🚨 BeyondTrust Remote Support — CVE-2026-102764 (CVSS 4.0 9.3) China-nexus ARMORY CASTLE exploited this zero-day for 7 weeks. Root access in minutes, secrets database harvested, SAWFLY web shell + BARECLAW SOCKS5 tunneler deployed, logs deleted to cover tracks. Self-hosted ≤26.2.3 → apply BT26-05-RS patch now. Internet-reachable during the window → assume compromise. https:// threataft.com/articles/beyondt rust-remote-support-cve-2026-102764-zero-day # BeyondTrust # ZeroDay # CyberSecurity # InfoSec # ThreatIntel # Patching",
+   "url": "https://infosec.exchange/@threataft/117450678023398724",
+   "date": "2026-10-16",
+   "kind": "post",
+   "replies": 1,
+   "found": "2026-10-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch",
+      "patching"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "b416f2e85165",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Quickjs-Ng: 1 CVE, zero patched, 100% unpatched. CVSS 7.3, Trust Score D. CWE-94 code injection in the wild. Check your stack. https://www. valtersit.com/vendors/quickjs- ng/ # cybersecurity # infosec # quickjs",
+   "url": "https://mastodon.social/@hugovalters/117450556326625556",
+   "date": "2026-10-16",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "7ae4b5f4559c",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🛡️ secdb-cli 0.7.0 is out. It's the open source command-line client for ZEN SecDB: CVE lookup, SSVC, and auditing of packages, SBOMs, dependency manifests, Linux hosts and Docker images. What's new: - secdb search: full-text search across CVEs, CWEs, security advisories, NASL plugins and ExploitDB entries. Filter by record type and by date, combine terms with OR, exclude them, search exact phrases. CVEs in the CISA KEV catalog are marked, and every result links to its record. - --jq: filter the JSON output of any command with a jq expression, without installing jq. Handy in CI images and on Windows. - Safer terminal output: control characters coming from third-party feed data are stripped before they reach your terminal. Examples: secdb search fortinet kev:true --since 30d secdb search '\"remote code execution\"' --type cve secdb audit sbom --file bom.json --fail-on high --jq '.[].advisories[].id' 💾 Binaries for Linux, macOS and Windows: https:// github.com/giterlizzi/secdb-cl i/releases/tag/v0.7.0 # InfoSec # VulnerabilityManagement # OpenSource # Golang # CVE # NTTDATA # ZENSecDB",
+   "url": "https://infosec.exchange/@secdb/117450519064818123",
+   "date": "2026-10-16",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "compliance"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "audit",
+      "kev"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "0b7fb032ea6e",
    "source": "Mastodon",
@@ -2475,6 +2797,120 @@
      "who": "Content team",
      "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
      "topic": "compliance"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "a3e647e19041",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "October 2026 Patch Tuesday sets a Microsoft record with 1,411 fixed flaws, including an exploited Windows Shell bug. See what to patch first. # October2026PatchTuesday # PatchTuesday # CVE202696951 # WindowsShell # DotNetFramework # Windows11 # CISA https:// dailytechnow.com/october-2026- patch-tuesday/",
+   "url": "https://infosec.exchange/@DailyCyberSecurity/117446306812767254",
+   "date": "2026-10-15",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "798ddfd9a81f",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🔴 Cisco Secure Email Gateway — CVE-2026-76519, CISA KEV, Oct 17 deadline Unauthenticated path traversal → root RCE via crafted email attachment. No credentials needed. No user interaction. Actively exploited. No workarounds. If compromised: root can wipe local logs. Hunt via external telemetry, not just system logs. https:// threataft.com/articles/cisco-s ecure-email-gateway-cve-2026-76519-zero-day # Cisco # SEG # InfoSec # CVE # CISAKEV # EmailSecurity # ZeroDay",
+   "url": "https://infosec.exchange/@threataft/117445966236733519",
+   "date": "2026-10-15",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-16",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "seg"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "email gateway",
+      "secure email gateway",
+      "seg"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Replacing or adding to the email gateway",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Account executive and sales engineer",
+     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
+     "topic": "seg"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "0e6f3d9daed9",
+   "source": "Press",
+   "room": "SC Media",
+   "title": "Cisco warns critical Secure Email Gateway bug exploited in the wild",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQODNFUXdiell5dVhXNXFoaWxhdEJYOTdxa2VGdUc5eDVtTTFkX0Y3SzdvNEJhbGxBSnEtZW1uRHVOYjlIUERPQUxKeEFzSFNpdkZXWmVCbUdEdE1QLUZBOWg2RjBmVnBGMkFsUlk3Vk1MRDFwYllxeUh5NUgzSFJHY3psTnFIZnVzOU5XVzh6dDRLQ3RfQnpPSzJPbTA?oc=5",
+   "date": "2026-10-15",
+   "kind": "article",
+   "replies": null,
+   "found": "2026-10-16",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "seg"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "email gateway",
+      "secure email gateway"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Replacing or adding to the email gateway",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "Account executive and sales engineer",
+     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
+     "topic": "seg"
     }
    },
    "rooms": []
@@ -3526,6 +3962,163 @@
    "rooms": []
   },
   {
+   "id": "afb822dedd1e",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Microsoft Discloses 1,413 Vulnerabilities, Including Actively Exploited Zero-Day Microsoft just revealed a staggering 1,413 vulnerabilities in its October 2026 Patch Tuesday update, shattering its previous record of 1,261 set in 2020. Among these defects is a particularly concerning actively exploited zero-day flaw in Windows Shell, CVE-2026-96951. https:// osintsights.com/microsoft-disc loses-1413-vulnerabilities-including-actively-exploited-zero-day?utm_source=mastodon&utm_medium=social # ZeroDay # Microsoft # Cve202696951 # PatchTuesday # VulnerabilityDisclosure",
+   "url": "https://mastodon.social/@Analyst207/117441075468068155",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 13,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "3deb0970273c",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Microsoft rolls out the Windows 10 ESU update KB5126657 for versions 22H2 and 21H2, fixing File History backups, Storage Spaces Direct, and ReFS auditing. # Windows10 # PatchTuesday # Microsoft # WindowsUpdate # SecureBoot https:// dailytechnow.com/windows-10-kb 5126657-esu-update-fixes/",
+   "url": "https://infosec.exchange/@DailyCyberSecurity/117440172181922522",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation",
+      "compliance"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "audit",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "38d74021c0ab",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "# PatchTuesday 2026-10 Patching experience in my test lab (#homelab). Windows 11 - No issues on any test machines / VMs. A physical workstation had 1 minor issue. Windows 10 - ESU enabled physical system updated normally, but there was another update to the Recovery Environment (KB5131595). No updates for non-ESU test VMs. Windows Server 2016 - Normal, Servicing Stack Update (KB5126649). New Servicing Stack every month now, I guess. Windows Server 2019 - Normal, uneventful. Windows Server 2022 - Normal, uneventful. Windows Server 2025 - Normal, uneventful. Note: 1411 fixes, 3 zero-days, per bleepingcomputer. Giant set of fixes, but uneventful in my homelab. https://www. bleepingcomputer.com/news/micr osoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/ Note2: Within 24 hours, one of my physical Windows 11 systems randomly rebooted w/ a fatal hardware error reported by component: Processor Core (Machine Check Exception / Cache Heirarchy Error), might be nothing or random.",
+   "url": "https://infosec.exchange/@tw000/117439951105721726",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch",
+      "patching"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "764c72ff9c21",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "📰 Microsoft's Record October Patch Tuesday Fixes 1,413 Flaws, 1 Exploited Zero-Day Microsoft's October 2026 Patch Tuesday is a record-breaker, fixing 1,413 vulnerabilities. Includes patch for actively exploited zero-day CVE-2026-96951 (Windows Shell MotW bypass). CISA KEV added. # PatchTuesday # CyberSecurity # ZeroDay 🔗 https:// cyber.netsecops.io/articles/mi crosoft-october-2026-patch-tuesday-fixes-1413-flaws-one-exploited-zero-day/?utm_source=mastodon&utm_medium=social&utm_campaign=daily",
+   "url": "https://mastodon.social/@netsecio/117439627895987632",
+   "date": "2026-10-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "kev",
+      "patch"
+     ],
+     "score": 13,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: IT & infrastructure",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
    "id": "7a02941bfbf0",
    "source": "Mastodon",
    "room": "infosec.exchange",
@@ -3550,13 +4143,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 shopping for tools",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3588,10 +4181,10 @@
       "patch",
       "patching"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3626,13 +4219,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3665,13 +4258,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3704,13 +4297,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3743,13 +4336,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3782,13 +4375,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3821,13 +4414,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3860,13 +4453,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3899,13 +4492,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3938,13 +4531,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3977,13 +4570,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4016,13 +4609,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4055,13 +4648,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4094,13 +4687,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4133,13 +4726,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4172,13 +4765,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4211,13 +4804,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4250,13 +4843,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4290,12 +4883,12 @@
      "evidence": [
       "patch"
      ],
-     "score": 14,
+     "score": 12,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+3 buyer: Security leader",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -4330,10 +4923,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4368,13 +4961,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4407,12 +5000,12 @@
      "evidence": [
       "patch"
      ],
-     "score": 13,
+     "score": 11,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -4447,10 +5040,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4487,13 +5080,13 @@
       "kev",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4526,13 +5119,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4565,13 +5158,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4604,13 +5197,13 @@
       "patch",
       "prioritiz"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 shopping for tools",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4643,13 +5236,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4685,13 +5278,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4724,12 +5317,12 @@
      "evidence": [
       "patch"
      ],
-     "score": 13,
+     "score": 11,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -4766,13 +5359,13 @@
       "consolidat",
       "coverage gap"
      ],
-     "score": 12,
+     "score": 10,
      "why": [
       "+6 core topic: Security tools misconfigured or not covering everything",
       "+3 buyer: Security leader",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Founder or research team",
      "angle": "Most breaches hit companies that already owned a tool that could have stopped them. Check coverage and configuration before buying more.",
      "topic": "controls"
@@ -4804,10 +5397,10 @@
       "bec",
       "business email compromise"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: BEC and payment fraud",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -5656,11 +6249,10 @@
      "evidence": [
       "cvss"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 buyer: Security engineer & SecOps",
-      "+1 posted this week"
+      "+2 buyer: Security engineer & SecOps"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -5695,12 +6287,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
