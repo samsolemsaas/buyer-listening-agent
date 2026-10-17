@@ -1,13 +1,12 @@
 {
- "generated": "2026-10-16T13:52Z",
+ "generated": "2026-10-17T13:41Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 15,
+  "new": 5,
   "by_source": {
-   "Mastodon": 14,
-   "Press": 1
+   "Mastodon": 5
   }
  },
  "rooms_norms": {
@@ -103,8 +102,8 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 65,
-     "recent": 64,
+     "total": 68,
+     "recent": 67,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -118,8 +117,8 @@
       1,
       0,
       0,
-      8,
-      56
+      10,
+      57
      ],
      "open": 15,
      "open_examples": [
@@ -146,11 +145,11 @@
       }
      ],
      "rooms": [
-      "infosec.exchange",
       "mastodon.social",
+      "infosec.exchange",
       "mamot.fr"
      ],
-     "score": 58.8
+     "score": 59.2
     },
     {
      "key": "prioritization",
@@ -158,8 +157,8 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 61,
-     "recent": 61,
+     "total": 63,
+     "recent": 63,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -173,7 +172,7 @@
       0,
       0,
       0,
-      9,
+      11,
       52
      ],
      "open": 5,
@@ -205,7 +204,7 @@
       "infosec.exchange",
       "bsky.brid.gy"
      ],
-     "score": 43.2
+     "score": 43.5
     },
     {
      "key": "controls",
@@ -228,8 +227,8 @@
       0,
       0,
       0,
-      0,
-      2
+      1,
+      1
      ],
      "open": 0,
      "open_examples": [],
@@ -448,13 +447,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 15.2,
+     "score": 15.3,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+10.2 33 relevant conversations there",
+      "+10.3 34 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 33,
+     "hosted": 34,
      "mentions": 0,
      "evidence": []
     },
@@ -985,6 +984,10 @@
      "count": 14
     },
     {
+     "phrase": "cve infosec",
+     "count": 13
+    },
+    {
      "phrase": "windows shell",
      "count": 13
     },
@@ -997,12 +1000,8 @@
      "count": 13
     },
     {
-     "phrase": "cve infosec",
-     "count": 12
-    },
-    {
      "phrase": "threataft com articles",
-     "count": 11
+     "count": 12
     },
     {
      "phrase": "published updated",
@@ -1017,6 +1016,10 @@
      "count": 11
     },
     {
+     "phrase": "valtersit com cve",
+     "count": 10
+    },
+    {
      "phrase": "cisa kev",
      "count": 10
     },
@@ -1027,10 +1030,6 @@
     {
      "phrase": "siemens published",
      "count": 10
-    },
-    {
-     "phrase": "valtersit com cve",
-     "count": 9
     },
     {
      "phrase": "actively exploited",
@@ -1058,20 +1057,6 @@
     }
    ],
    "quotes": {
-    "remediation": [
-     {
-      "text": "Microsoft Patch Tuesday Ekim 2026: 3 0-day açığı kapatıldı # Microsoft # PatchTuesday # 0day https:// webrecord.media/microsoft-patc h-tuesday-ekim-2026-3-0-day-acigi-kapatildi/",
-      "url": "https://mastodon.social/@webRecord_Media/117450258250291384",
-      "room": "mastodon.social",
-      "date": "2026-10-16"
-     },
-     {
-      "text": "🔗 https:// threataft.com/articles/microso ft-office-october-2026-cluster-cve-2026-108426 # Microsoft # PatchTuesday # CVE # InfoSec",
-      "url": "https://infosec.exchange/@threataft/117448302956445380",
-      "room": "infosec.exchange",
-      "date": "2026-10-16"
-     }
-    ],
     "prioritization": [
      {
       "text": "🚨 Microsoft Office October cluster — 21 CVEs, peak CVSS 8.8.",
@@ -1084,6 +1069,20 @@
       "url": "https://infosec.exchange/@thecybersecguru/117450706988442038",
       "room": "infosec.exchange",
       "date": "2026-10-16"
+     }
+    ],
+    "remediation": [
+     {
+      "text": "🖥️ FreeRDP — patch to 3.32.0 CVE-2026-111380 (8.8): macOS/iOS — integer overflow in audin buffer calc → heap OOB write.",
+      "url": "https://infosec.exchange/@threataft/117456277255025863",
+      "room": "infosec.exchange",
+      "date": "2026-10-17"
+     },
+     {
+      "text": "https:// threataft.com/articles/freerdp -cluster-cve-2026-111380-111375 # FreeRDP # InfoSec # RDP # CVE # Patching",
+      "url": "https://infosec.exchange/@threataft/117456277255025863",
+      "room": "infosec.exchange",
+      "date": "2026-10-17"
      }
     ],
     "ai_cves": [
@@ -1160,7 +1159,7 @@
     ]
    },
    "brief": {},
-   "count": 95
+   "count": 98
   },
   "ocean": {
    "company": {
@@ -1283,8 +1282,8 @@
      "fit": 3,
      "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
      "who": "Account executive and sales engineer",
-     "total": 5,
-     "recent": 5,
+     "total": 6,
+     "recent": 6,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -1299,7 +1298,7 @@
       0,
       0,
       0,
-      5
+      6
      ],
      "open": 1,
      "open_examples": [
@@ -1316,7 +1315,7 @@
       "ieji.de",
       "Hacker News"
      ],
-     "score": 17.0
+     "score": 18.3
     },
     {
      "key": "authentication",
@@ -1324,8 +1323,8 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 7,
-     "recent": 7,
+     "total": 8,
+     "recent": 8,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -1339,7 +1338,7 @@
       0,
       0,
       0,
-      5,
+      6,
       2
      ],
      "open": 2,
@@ -1361,10 +1360,10 @@
      ],
      "rooms": [
       "mastodon.social",
-      "mastodon.world",
-      "infosec.exchange"
+      "bsd.network",
+      "mastodon.world"
      ],
-     "score": 7.0
+     "score": 7.3
     },
     {
      "key": "trusted_senders",
@@ -1596,13 +1595,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 13.6,
+     "score": 13.9,
      "why": [
       "+6 audience fit (3 of 3)",
-      "+6.6 9 relevant conversations there",
+      "+6.9 10 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 9,
+     "hosted": 10,
      "mentions": 0,
      "evidence": []
     },
@@ -2078,6 +2077,10 @@
      "count": 6
     },
     {
+     "phrase": "spf dkim",
+     "count": 5
+    },
+    {
      "phrase": "conf rence",
      "count": 5
     },
@@ -2180,10 +2183,6 @@
     {
      "phrase": "medium socmed",
      "count": 5
-    },
-    {
-     "phrase": "socmed utm",
-     "count": 5
     }
    ],
    "quotes": {
@@ -2203,13 +2202,13 @@
     ],
     "seg": [
      {
-      "text": "🔴 Cisco Secure Email Gateway — CVE-2026-76519, CISA KEV, Oct 17 deadline Unauthenticated path traversal → root RCE via crafted email attachment.",
-      "url": "https://infosec.exchange/@threataft/117445966236733519",
+      "text": "🔴 EXPLOITED CVE-2026-76519 is a critical arbitrary file write flaw in Cisco Secure Email Gateway, letting an unauthenticated remote attacker run commands as root.",
+      "url": "https://infosec.exchange/@suriq/117455908997732338",
       "room": "infosec.exchange",
-      "date": "2026-10-15"
+      "date": "2026-10-17"
      },
      {
-      "text": "https:// threataft.com/articles/cisco-s ecure-email-gateway-cve-2026-76519-zero-day # Cisco # SEG # InfoSec # CVE # CISAKEV # EmailSecurity # ZeroDay",
+      "text": "🔴 Cisco Secure Email Gateway — CVE-2026-76519, CISA KEV, Oct 17 deadline Unauthenticated path traversal → root RCE via crafted email attachment.",
       "url": "https://infosec.exchange/@threataft/117445966236733519",
       "room": "infosec.exchange",
       "date": "2026-10-15"
@@ -2255,10 +2254,201 @@
     ]
    },
    "brief": {},
-   "count": 20
+   "count": 22
   }
  },
  "conversations": [
+  {
+   "id": "0f43e7bde0a6",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "New in the known-exploited catalogue: CVE-2026-88772 in netscaler_application_delivery_controller. Exploited in the wild — the only phrase in this field that still means exactly what it says. Patch the edge appliance. It is always the edge appliance. # KEV # vulnerability",
+   "url": "https://mastodon.social/@ninjaintelgroup/117454956315933338",
+   "date": "2026-10-17",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-17",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "kev",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "21e9e38a6c01",
+   "source": "Mastodon",
+   "room": "bsd.network",
+   "title": "",
+   "text": "New on mimedefang.org: the MIMEDefang Filter Generator Writing a mimedefang-filter by hand is no longer required to get started. Choose what you need and the generator writes a ready-to-use Perl filter: - SpamAssassin or Rspamd - ClamAV virus scanning - Dangerous attachment blocking, including inside ZIP files - SPF, DKIM verification and signing, Authentication-Results - DNS blocklists, greylisting and recipient verification It runs entirely in your browser, nothing is sent to a server, and you can load a generated filter back to tweak its options later. Try it: https:// mimedefang.org/filter-generato r # MIMEDefang # EmailSecurity # OpenSource # Antispam # SpamAssassin # Rspamd # ClamAV # Sysadmin",
+   "url": "https://bsd.network/@gbechis/117456404457871155",
+   "date": "2026-10-17",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-17",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [
+      "email_admin"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "spf"
+     ],
+     "score": 7,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+3 buyer: Email & M365 admin",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "0c5d02e4b589",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🖥️ FreeRDP — patch to 3.32.0 CVE-2026-111380 (8.8): macOS/iOS — integer overflow in audin buffer calc → heap OOB write. Bypasses CVE-2026-91962 fix. CVE-2026-111375 (4.8): Windows — RAIL client heap over-read via non-NUL-terminated window title. Both need a malicious RDP server. No public PoC. https:// threataft.com/articles/freerdp -cluster-cve-2026-111380-111375 # FreeRDP # InfoSec # RDP # CVE # Patching",
+   "url": "https://infosec.exchange/@threataft/117456277255025863",
+   "date": "2026-10-17",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-17",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": true,
+     "evidence": [
+      "patch",
+      "patching"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 shopping for tools",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "fad9e50871c0",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-81469: unquoted search path in Dell Inventory Collector Client under 15.0.0 lets a local low-priv attacker run code and escalate privileges. CVSS 7.8, no patch yet. Isolate or remove the client until Dell ships a fix. https://www. valtersit.com/cve/CVE-2026-814 69/ # CVE # infosec # Dell",
+   "url": "https://mastodon.social/@hugovalters/117456255314178669",
+   "date": "2026-10-17",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-17",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "aa1286d16b65",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🔴 EXPLOITED CVE-2026-76519 is a critical arbitrary file write flaw in Cisco Secure Email Gateway, letting an unauthenticated remote attacker run commands as root. Cisco confirms active exploitation; it is listed in CISA KEV, due October 17, 2026. Update Content Scanner Tools to 25.3.0.5525 or later. https:// sec.cloudapps.cisco.com/securi ty/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp # CISAKEV # infosec # cybersecurity",
+   "url": "https://infosec.exchange/@suriq/117455908997732338",
+   "date": "2026-10-17",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-17",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "seg"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "email gateway",
+      "secure email gateway"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Replacing or adding to the email gateway",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Account executive and sales engineer",
+     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
+     "topic": "seg"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "dcbaa360114a",
    "source": "Mastodon",
@@ -2940,13 +3130,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -2980,12 +3170,12 @@
      "evidence": [
       "patch"
      ],
-     "score": 13,
+     "score": 11,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: Security engineer & SecOps",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -3022,13 +3212,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3061,13 +3251,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3100,13 +3290,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3139,13 +3329,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3178,12 +3368,12 @@
      "evidence": [
       "patch"
      ],
-     "score": 13,
+     "score": 11,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -3220,13 +3410,13 @@
       "kev",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3258,13 +3448,13 @@
       "patch",
       "patching"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3297,10 +3487,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3335,12 +3525,12 @@
      "evidence": [
       "patch"
      ],
-     "score": 13,
+     "score": 11,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -3375,12 +3565,12 @@
      "evidence": [
       "ticket"
      ],
-     "score": 14,
+     "score": 12,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+3 buyer: Security leader",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -3400,12 +3590,12 @@
      "evidence": [
       "bec"
      ],
-     "score": 14,
+     "score": 12,
      "why": [
       "+6 core topic: BEC and payment fraud",
       "+3 buyer: Security leader",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -3440,12 +3630,12 @@
      "evidence": [
       "bec"
      ],
-     "score": 14,
+     "score": 12,
      "why": [
       "+6 core topic: BEC and payment fraud",
       "+3 buyer: Security leader",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -3481,11 +3671,11 @@
       "ai agents",
       "shadow ai"
      ],
-     "score": 7,
+     "score": 5,
      "why": [
       "+1 listen-only topic: Securing AI and agents",
       "+3 buyer: Security leader",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -3505,13 +3695,13 @@
      "evidence": [
       "proofpoint"
      ],
-     "score": 12,
+     "score": 10,
      "why": [
       "+6 core topic: Replacing or adding to the email gateway",
       "+3 buyer: Security leader",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Account executive and sales engineer",
      "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
      "topic": "seg"
@@ -3543,11 +3733,11 @@
       "awareness training",
       "security awareness"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+4 adjacent topic: Security awareness and phishing tests",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Content team",
@@ -3582,10 +3772,10 @@
       "bec",
       "vishing"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: BEC and payment fraud",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3623,13 +3813,13 @@
       "kev",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3663,13 +3853,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3701,11 +3891,11 @@
       "email gateway",
       "secure email gateway"
      ],
-     "score": 13,
+     "score": 11,
      "why": [
       "+6 core topic: Replacing or adding to the email gateway",
       "+4 nobody has answered",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Account executive and sales engineer",
@@ -3740,12 +3930,12 @@
      "evidence": [
       "ticket"
      ],
-     "score": 14,
+     "score": 12,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+3 buyer: Security leader",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -3765,12 +3955,12 @@
      "evidence": [
       "bec"
      ],
-     "score": 14,
+     "score": 12,
      "why": [
       "+6 core topic: BEC and payment fraud",
       "+3 buyer: Security leader",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -3805,12 +3995,12 @@
      "evidence": [
       "bec"
      ],
-     "score": 14,
+     "score": 12,
      "why": [
       "+6 core topic: BEC and payment fraud",
       "+3 buyer: Security leader",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -3845,12 +4035,12 @@
      "evidence": [
       "bec"
      ],
-     "score": 14,
+     "score": 12,
      "why": [
       "+6 core topic: BEC and payment fraud",
       "+3 buyer: Security leader",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -3886,10 +4076,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3924,13 +4114,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3947,13 +4137,13 @@
       "email gateway",
       "secure email gateway"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Replacing or adding to the email gateway",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Account executive and sales engineer",
      "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
      "topic": "seg"
@@ -3986,12 +4176,12 @@
      "evidence": [
       "patch"
      ],
-     "score": 13,
+     "score": 11,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -4026,10 +4216,10 @@
       "audit",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4063,10 +4253,10 @@
       "patch",
       "patching"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4103,12 +4293,12 @@
       "kev",
       "patch"
      ],
-     "score": 13,
+     "score": 11,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: IT & infrastructure",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -5977,10 +6167,9 @@
       "dmarc",
       "spf"
      ],
-     "score": 2,
+     "score": 1,
      "why": [
-      "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+1 posted this week"
+      "+1 listen-only topic: DMARC, SPF and DKIM setup"
      ],
      "band": "listen",
      "who": "",
@@ -6015,12 +6204,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -6053,11 +6241,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 shopping for tools",
-      "+1 posted this week"
+      "+2 shopping for tools"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -6092,12 +6279,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -6131,12 +6317,11 @@
      "evidence": [
       "agentic"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
       "+1 listen-only topic: Securing AI and agents",
       "+3 buyer: Security leader",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "listen",
      "who": "",
@@ -6171,12 +6356,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -6211,12 +6395,11 @@
       "docusign",
       "spf"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Compromised vendors and trusted senders",
-      "+1 posted this week"
+      "+6 core topic: Compromised vendors and trusted senders"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Research team",
      "angle": "Trusted infrastructure is the new attack path. A known sender or a real DocuSign link doesn't make an email safe.",
      "topic": "trusted_senders"
