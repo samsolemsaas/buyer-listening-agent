@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-17T13:41Z",
+ "generated": "2026-10-18T13:42Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 5,
+  "new": 3,
   "by_source": {
-   "Mastodon": 5
+   "Mastodon": 3
   }
  },
  "rooms_norms": {
@@ -102,8 +102,8 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 68,
-     "recent": 67,
+     "total": 71,
+     "recent": 70,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -117,8 +117,8 @@
       1,
       0,
       0,
-      10,
-      57
+      14,
+      56
      ],
      "open": 15,
      "open_examples": [
@@ -149,7 +149,7 @@
       "infosec.exchange",
       "mamot.fr"
      ],
-     "score": 59.2
+     "score": 59.5
     },
     {
      "key": "prioritization",
@@ -157,8 +157,8 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 63,
-     "recent": 63,
+     "total": 66,
+     "recent": 66,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -172,8 +172,8 @@
       0,
       0,
       0,
-      11,
-      52
+      16,
+      50
      ],
      "open": 5,
      "open_examples": [
@@ -204,7 +204,7 @@
       "infosec.exchange",
       "bsky.brid.gy"
      ],
-     "score": 43.5
+     "score": 43.9
     },
     {
      "key": "controls",
@@ -259,8 +259,8 @@
       0,
       0,
       0,
-      0,
-      4
+      1,
+      3
      ],
      "open": 0,
      "open_examples": [],
@@ -937,43 +937,47 @@
    "phrases": [
     {
      "phrase": "cybersecurity infosec",
-     "count": 27
+     "count": 29
+    },
+    {
+     "phrase": "cve vulnerability",
+     "count": 23
     },
     {
      "phrase": "patch tuesday",
      "count": 23
     },
     {
-     "phrase": "cve vulnerability",
-     "count": 21
-    },
-    {
      "phrase": "score cvss",
-     "count": 20
+     "count": 22
     },
     {
      "phrase": "euvd enisa",
-     "count": 20
+     "count": 22
     },
     {
      "phrase": "enisa europa",
-     "count": 20
+     "count": 22
     },
     {
      "phrase": "vulnerabi lity",
-     "count": 20
+     "count": 22
     },
     {
      "phrase": "infosec euvd",
-     "count": 20
+     "count": 22
     },
     {
      "phrase": "euvd cve",
-     "count": 20
+     "count": 22
     },
     {
      "phrase": "vendor siemens",
      "count": 17
+    },
+    {
+     "phrase": "cve infosec",
+     "count": 14
     },
     {
      "phrase": "utm source",
@@ -982,10 +986,6 @@
     {
      "phrase": "utm medium",
      "count": 14
-    },
-    {
-     "phrase": "cve infosec",
-     "count": 13
     },
     {
      "phrase": "windows shell",
@@ -1004,6 +1004,10 @@
      "count": 12
     },
     {
+     "phrase": "valtersit com cve",
+     "count": 11
+    },
+    {
      "phrase": "published updated",
      "count": 11
     },
@@ -1014,10 +1018,6 @@
     {
      "phrase": "updated vulnerability",
      "count": 11
-    },
-    {
-     "phrase": "valtersit com cve",
-     "count": 10
     },
     {
      "phrase": "cisa kev",
@@ -1059,30 +1059,30 @@
    "quotes": {
     "prioritization": [
      {
-      "text": "🚨 Microsoft Office October cluster — 21 CVEs, peak CVSS 8.8.",
-      "url": "https://infosec.exchange/@threataft/117448302956445380",
-      "room": "infosec.exchange",
-      "date": "2026-10-16"
+      "text": "CVE-2026-49453 Joplin path traversal CVSS 7: synced resource metadata lets attacker-controlled blobs write outside the resource dir.",
+      "url": "https://mastodon.social/@hugovalters/117462192841355159",
+      "room": "mastodon.social",
+      "date": "2026-10-18"
      },
      {
-      "text": "With a reported CVSS score of 9.3, this is a serious cloud isolation concern.",
-      "url": "https://infosec.exchange/@thecybersecguru/117450706988442038",
+      "text": "🚨 Microsoft Office October cluster — 21 CVEs, peak CVSS 8.8.",
+      "url": "https://infosec.exchange/@threataft/117448302956445380",
       "room": "infosec.exchange",
       "date": "2026-10-16"
      }
     ],
     "remediation": [
      {
-      "text": "🖥️ FreeRDP — patch to 3.32.0 CVE-2026-111380 (8.8): macOS/iOS — integer overflow in audin buffer calc → heap OOB write.",
-      "url": "https://infosec.exchange/@threataft/117456277255025863",
-      "room": "infosec.exchange",
-      "date": "2026-10-17"
+      "text": "The PATCH /api/base/:baseId/node/folder/:folderId endpoint checks base|...",
+      "url": "https://mastodon.social/@EUVD_Bot/117462050549424716",
+      "room": "mastodon.social",
+      "date": "2026-10-18"
      },
      {
-      "text": "https:// threataft.com/articles/freerdp -cluster-cve-2026-111380-111375 # FreeRDP # InfoSec # RDP # CVE # Patching",
-      "url": "https://infosec.exchange/@threataft/117456277255025863",
-      "room": "infosec.exchange",
-      "date": "2026-10-17"
+      "text": "Patch under review, update when ready.",
+      "url": "https://mastodon.social/@hugovalters/117462192841355159",
+      "room": "mastodon.social",
+      "date": "2026-10-18"
      }
     ],
     "ai_cves": [
@@ -1159,7 +1159,7 @@
     ]
    },
    "brief": {},
-   "count": 98
+   "count": 101
   },
   "ocean": {
    "company": {
@@ -2259,6 +2259,120 @@
  },
  "conversations": [
   {
+   "id": "8513722cf4f0",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-103454 📊 Score: 8.6/10 (CVSS v3.1) 📦 Product: ProjectSend 🏢 Vendor: projectsend 📅 Updated: 2026-10-18 📝 ProjectSend 2.0.0 before 2.7.0 contains an incorrect authorization vulnerability that allows restricted API token holders to change the token owner's credentials via PATCH /api/v1/users/{user}. Attackers with a token limited to manage_users and edi... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-103454 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117462054233504679",
+   "date": "2026-10-18",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-18",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "bc2e8121a877",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-103457 📊 Score: 2.3/10 (CVSS v3.1) 📦 Product: teable 🏢 Vendor: teableio 📅 Updated: 2026-10-18 📝 Teable before 2026-10-12T12-45-53Z.3331 contains an authorization bypass vulnerability that allows authenticated users to rename folders in other bases by supplying a foreign folderId. The PATCH /api/base/:baseId/node/folder/:folderId endpoint checks base|... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-103457 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117462050549424716",
+   "date": "2026-10-18",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-18",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "f867480e88b1",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-49453 Joplin path traversal CVSS 7: synced resource metadata lets attacker-controlled blobs write outside the resource dir. Patch under review, update when ready. https://www. valtersit.com/cve/CVE-2026-494 53/ # CVE # infosec # Joplin",
+   "url": "https://mastodon.social/@hugovalters/117462192841355159",
+   "date": "2026-10-18",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-18",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
    "id": "0f43e7bde0a6",
    "source": "Mastodon",
    "room": "mastodon.social",
@@ -2781,10 +2895,10 @@
       "board",
       "cvss"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2819,10 +2933,10 @@
       "cvss",
       "metrics"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2859,12 +2973,12 @@
       "dmarc",
       "spf"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+3 buyer: Email & M365 admin",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -2900,10 +3014,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2938,10 +3052,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2976,14 +3090,14 @@
      "evidence": [
       "audit"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+4 adjacent topic: Directives and compliance deadlines",
       "+2 buyer: Security engineer & SecOps",
       "+2 shopping for tools",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Content team",
      "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
      "topic": "compliance"
@@ -3016,13 +3130,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3055,10 +3169,10 @@
       "secure email gateway",
       "seg"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Replacing or adding to the email gateway",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Account executive and sales engineer",
@@ -3092,10 +3206,10 @@
       "email gateway",
       "secure email gateway"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Replacing or adding to the email gateway",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "Account executive and sales engineer",
@@ -6012,11 +6126,10 @@
       "dmarc",
       "spf"
      ],
-     "score": 4,
+     "score": 3,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+2 buyer: Finance & AP",
-      "+1 posted this week"
+      "+2 buyer: Finance & AP"
      ],
      "band": "listen",
      "who": "",
@@ -6051,12 +6164,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -6089,12 +6201,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -6128,11 +6239,10 @@
       "misconfig",
       "misconfigured"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Security tools misconfigured or not covering everything",
-      "+2 buyer: Security engineer & SecOps",
-      "+1 posted this week"
+      "+2 buyer: Security engineer & SecOps"
      ],
      "band": "worth",
      "who": "Founder or research team",
