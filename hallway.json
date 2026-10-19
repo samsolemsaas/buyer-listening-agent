@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-18T13:42Z",
+ "generated": "2026-10-19T13:59Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 3,
+  "new": 2,
   "by_source": {
-   "Mastodon": 3
+   "Mastodon": 2
   }
  },
  "rooms_norms": {
@@ -102,8 +102,8 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 71,
-     "recent": 70,
+     "total": 73,
+     "recent": 72,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -116,9 +116,9 @@
       0,
       1,
       0,
-      0,
-      14,
-      56
+      1,
+      18,
+      53
      ],
      "open": 15,
      "open_examples": [
@@ -149,7 +149,7 @@
       "infosec.exchange",
       "mamot.fr"
      ],
-     "score": 59.5
+     "score": 59.8
     },
     {
      "key": "prioritization",
@@ -157,8 +157,8 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 66,
-     "recent": 66,
+     "total": 68,
+     "recent": 68,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -171,9 +171,9 @@
       0,
       0,
       0,
-      0,
-      16,
-      50
+      1,
+      20,
+      47
      ],
      "open": 5,
      "open_examples": [
@@ -204,7 +204,7 @@
       "infosec.exchange",
       "bsky.brid.gy"
      ],
-     "score": 43.9
+     "score": 44.2
     },
     {
      "key": "controls",
@@ -353,8 +353,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       1,
       1
      ],
@@ -450,10 +450,10 @@
      "score": 15.3,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+10.3 34 relevant conversations there",
+      "+10.3 35 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 34,
+     "hosted": 35,
      "mentions": 0,
      "evidence": []
     },
@@ -977,7 +977,7 @@
     },
     {
      "phrase": "cve infosec",
-     "count": 14
+     "count": 15
     },
     {
      "phrase": "utm source",
@@ -1000,11 +1000,15 @@
      "count": 13
     },
     {
+     "phrase": "valtersit com cve",
+     "count": 12
+    },
+    {
      "phrase": "threataft com articles",
      "count": 12
     },
     {
-     "phrase": "valtersit com cve",
+     "phrase": "cisa kev",
      "count": 11
     },
     {
@@ -1020,10 +1024,6 @@
      "count": 11
     },
     {
-     "phrase": "cisa kev",
-     "count": 10
-    },
-    {
      "phrase": "medium social",
      "count": 10
     },
@@ -1033,7 +1033,7 @@
     },
     {
      "phrase": "actively exploited",
-     "count": 8
+     "count": 9
     },
     {
      "phrase": "patchtuesday microsoft",
@@ -1048,27 +1048,27 @@
      "count": 7
     },
     {
-     "phrase": "infosec cve",
+     "phrase": "command injection",
      "count": 6
     },
     {
-     "phrase": "utm campaign",
+     "phrase": "infosec cve",
      "count": 6
     }
    ],
    "quotes": {
     "prioritization": [
      {
-      "text": "CVE-2026-49453 Joplin path traversal CVSS 7: synced resource metadata lets attacker-controlled blobs write outside the resource dir.",
-      "url": "https://mastodon.social/@hugovalters/117462192841355159",
+      "text": "CVE-2026-94034: reflected XSS in SourceCodester Drug Recommendation System 1.0 password change page, CVSS 3.5.",
+      "url": "https://mastodon.social/@hugovalters/117467735888175508",
       "room": "mastodon.social",
-      "date": "2026-10-18"
+      "date": "2026-10-19"
      },
      {
-      "text": "🚨 Microsoft Office October cluster — 21 CVEs, peak CVSS 8.8.",
-      "url": "https://infosec.exchange/@threataft/117448302956445380",
+      "text": "🤖 CVE-2026-106931 (CVSS 8.5): OS command injection in SiteGuard Server Edition (WAF).",
+      "url": "https://infosec.exchange/@cloud/117467692780839220",
       "room": "infosec.exchange",
-      "date": "2026-10-16"
+      "date": "2026-10-19"
      }
     ],
     "remediation": [
@@ -1159,7 +1159,7 @@
     ]
    },
    "brief": {},
-   "count": 101
+   "count": 103
   },
   "ocean": {
    "company": {
@@ -1337,8 +1337,8 @@
       0,
       0,
       0,
-      0,
-      6,
+      1,
+      5,
       2
      ],
      "open": 2,
@@ -2259,6 +2259,84 @@
  },
  "conversations": [
   {
+   "id": "007cdf324893",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-94034: reflected XSS in SourceCodester Drug Recommendation System 1.0 password change page, CVSS 3.5. Public exploit, no patch yet. Review input handling now. # CVE # infosec https://www. valtersit.com/cve/CVE-2026-940 34/",
+   "url": "https://mastodon.social/@hugovalters/117467735888175508",
+   "date": "2026-10-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": true,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 shopping for tools",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "5779ea497ac5",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🤖 CVE-2026-106931 (CVSS 8.5): OS command injection in SiteGuard Server Edition (WAF). Attackers exploit it to run commands as root/SYSTEM. Actively exploited in the wild, not in CISA KEV yet. Patch per vendor advisory. 🔗 https:// nvd.nist.gov/vuln/detail/CVE-2 026-106931 # CVE # Exploit # CyberSec # WAF # InfoSec",
+   "url": "https://infosec.exchange/@cloud/117467692780839220",
+   "date": "2026-10-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "kev",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
    "id": "8513722cf4f0",
    "source": "Mastodon",
    "room": "mastodon.social",
@@ -2588,13 +2666,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -2627,10 +2705,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2666,10 +2744,10 @@
       "patch",
       "patching"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2704,10 +2782,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2742,10 +2820,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2781,10 +2859,10 @@
       "patch",
       "patching"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2819,10 +2897,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2857,10 +2935,10 @@
       "audit",
       "kev"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -5931,11 +6009,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 shopping for tools",
-      "+1 posted this week"
+      "+2 shopping for tools"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -5970,12 +6047,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -6007,12 +6083,11 @@
       "cvss",
       "kev"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -6047,12 +6122,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -6085,11 +6159,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "worth",
      "who": "Sales engineer",
