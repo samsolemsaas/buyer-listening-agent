@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-19T13:59Z",
+ "generated": "2026-10-20T13:54Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 2,
+  "new": 8,
   "by_source": {
-   "Mastodon": 2
+   "Mastodon": 8
   }
  },
  "rooms_norms": {
@@ -102,10 +102,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 73,
-     "recent": 72,
-     "prior": 0,
-     "change": 100,
+     "total": 77,
+     "recent": 75,
+     "prior": 1,
+     "change": 7400,
      "weekly": [
       0,
       0,
@@ -113,15 +113,22 @@
       0,
       0,
       0,
-      0,
       1,
       0,
-      1,
-      18,
-      53
+      0,
+      2,
+      31,
+      43
      ],
-     "open": 15,
+     "open": 16,
      "open_examples": [
+      {
+       "title": "Microsoft Fixes Audio Decoding Issue Behind Windows 11 App Crashes Microsoft has fixed a f",
+       "url": "https://mastodon.social/@Analyst207/117468270577451041",
+       "room": "mastodon.social",
+       "date": "2026-10-19",
+       "replies": 0
+      },
       {
        "title": "Microsoft Discloses Record 1411 CVEs in October Patch Update Microsoft just dropped a reco",
        "url": "https://mastodon.social/@Analyst207/117438480044242037",
@@ -135,13 +142,6 @@
        "room": "mastodon.social",
        "date": "2026-10-14",
        "replies": 0
-      },
-      {
-       "title": "Microsoft corrige plus de 1 400 vulnérabilités en un seul mois — après un record à 972 en ",
-       "url": "https://mastobot.ping.moi/@Bobe_bot/117437262191133618",
-       "room": "mastobot.ping.moi",
-       "date": "2026-10-14",
-       "replies": 0
       }
      ],
      "rooms": [
@@ -149,7 +149,7 @@
       "infosec.exchange",
       "mamot.fr"
      ],
-     "score": 59.8
+     "score": 80.6
     },
     {
      "key": "prioritization",
@@ -157,10 +157,10 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 68,
-     "recent": 68,
-     "prior": 0,
-     "change": 100,
+     "total": 70,
+     "recent": 69,
+     "prior": 1,
+     "change": 6800,
      "weekly": [
       0,
       0,
@@ -171,9 +171,9 @@
       0,
       0,
       0,
-      1,
-      20,
-      47
+      2,
+      42,
+      26
      ],
      "open": 5,
      "open_examples": [
@@ -204,7 +204,40 @@
       "infosec.exchange",
       "bsky.brid.gy"
      ],
-     "score": 44.2
+     "score": 62.8
+    },
+    {
+     "key": "compliance",
+     "label": "Directives and compliance deadlines",
+     "fit": 2,
+     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
+     "who": "Content team",
+     "total": 5,
+     "recent": 5,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      4
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "infosec.exchange",
+      "swecyb.com",
+      "mastodon.social"
+     ],
+     "score": 10.3
     },
     {
      "key": "controls",
@@ -227,8 +260,8 @@
       0,
       0,
       0,
-      1,
-      1
+      2,
+      0
      ],
      "open": 0,
      "open_examples": [],
@@ -239,15 +272,15 @@
      "score": 9.5
     },
     {
-     "key": "compliance",
-     "label": "Directives and compliance deadlines",
-     "fit": 2,
-     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
-     "who": "Content team",
-     "total": 4,
+     "key": "ai_security",
+     "label": "Securing AI and agents",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 5,
      "recent": 4,
-     "prior": 0,
-     "change": 100,
+     "prior": 1,
+     "change": 300,
      "weekly": [
       0,
       0,
@@ -257,19 +290,34 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       1,
       3
      ],
-     "open": 0,
-     "open_examples": [],
+     "open": 2,
+     "open_examples": [
+      {
+       "title": "Are AI agents the new \"insider threat\"? For months, the enterprise focus has been on build",
+       "url": "https://c.im/@psoheil/117473477658714608",
+       "room": "c.im",
+       "date": "2026-10-20",
+       "replies": 0
+      },
+      {
+       "title": "AI Is Taking Over the SOC: What Happens When Cyber Defense Becomes Autonomous? https:// yo",
+       "url": "https://infosec.exchange/@cybersecboardrm/117412764135589569",
+       "room": "infosec.exchange",
+       "date": "2026-10-09",
+       "replies": 0
+      }
+     ],
      "rooms": [
       "infosec.exchange",
-      "swecyb.com",
-      "mastodon.social"
+      "c.im",
+      "ieji.de"
      ],
-     "score": 9.3
+     "score": 8.8
     },
     {
      "key": "ai_cves",
@@ -288,8 +336,8 @@
       0,
       0,
       0,
-      1,
-      1,
+      2,
+      0,
       0,
       0,
       0,
@@ -335,46 +383,6 @@
      "score": 8.0
     },
     {
-     "key": "ai_security",
-     "label": "Securing AI and agents",
-     "fit": 1,
-     "angle": "",
-     "who": "",
-     "total": 3,
-     "recent": 2,
-     "prior": 1,
-     "change": 100,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      1,
-      1
-     ],
-     "open": 1,
-     "open_examples": [
-      {
-       "title": "AI Is Taking Over the SOC: What Happens When Cyber Defense Becomes Autonomous? https:// yo",
-       "url": "https://infosec.exchange/@cybersecboardrm/117412764135589569",
-       "room": "infosec.exchange",
-       "date": "2026-10-09",
-       "replies": 0
-      }
-     ],
-     "rooms": [
-      "ieji.de",
-      "infosec.exchange"
-     ],
-     "score": 4.5
-    },
-    {
      "key": "sprawl",
      "label": "Tool sprawl and consolidation",
      "fit": 2,
@@ -395,8 +403,8 @@
       0,
       0,
       0,
-      0,
-      1
+      1,
+      0
      ],
      "open": 0,
      "open_examples": [],
@@ -447,13 +455,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 15.3,
+     "score": 15.6,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+10.3 35 relevant conversations there",
+      "+10.6 38 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 35,
+     "hosted": 38,
      "mentions": 0,
      "evidence": []
     },
@@ -940,11 +948,11 @@
      "count": 29
     },
     {
-     "phrase": "cve vulnerability",
-     "count": 23
+     "phrase": "patch tuesday",
+     "count": 24
     },
     {
-     "phrase": "patch tuesday",
+     "phrase": "cve vulnerability",
      "count": 23
     },
     {
@@ -977,30 +985,34 @@
     },
     {
      "phrase": "cve infosec",
-     "count": 15
+     "count": 16
     },
     {
      "phrase": "utm source",
-     "count": 14
+     "count": 16
     },
     {
      "phrase": "utm medium",
-     "count": 14
+     "count": 16
+    },
+    {
+     "phrase": "source mastodon",
+     "count": 15
+    },
+    {
+     "phrase": "mastodon utm",
+     "count": 15
+    },
+    {
+     "phrase": "valtersit com cve",
+     "count": 13
     },
     {
      "phrase": "windows shell",
      "count": 13
     },
     {
-     "phrase": "source mastodon",
-     "count": 13
-    },
-    {
-     "phrase": "mastodon utm",
-     "count": 13
-    },
-    {
-     "phrase": "valtersit com cve",
+     "phrase": "october patch",
      "count": 12
     },
     {
@@ -1012,20 +1024,16 @@
      "count": 11
     },
     {
-     "phrase": "published updated",
+     "phrase": "medium social",
      "count": 11
     },
     {
-     "phrase": "october patch",
+     "phrase": "published updated",
      "count": 11
     },
     {
      "phrase": "updated vulnerability",
      "count": 11
-    },
-    {
-     "phrase": "medium social",
-     "count": 10
     },
     {
      "phrase": "siemens published",
@@ -1044,45 +1052,73 @@
      "count": 8
     },
     {
+     "phrase": "utm campaign",
+     "count": 7
+    },
+    {
      "phrase": "siemens updated",
      "count": 7
     },
     {
-     "phrase": "command injection",
-     "count": 6
-    },
-    {
-     "phrase": "infosec cve",
+     "phrase": "infosec cybersecurity",
      "count": 6
     }
    ],
    "quotes": {
-    "prioritization": [
+    "ai_security": [
      {
-      "text": "CVE-2026-94034: reflected XSS in SourceCodester Drug Recommendation System 1.0 password change page, CVSS 3.5.",
-      "url": "https://mastodon.social/@hugovalters/117467735888175508",
-      "room": "mastodon.social",
-      "date": "2026-10-19"
+      "text": "Are AI agents the new \"insider threat\"?",
+      "url": "https://c.im/@psoheil/117473477658714608",
+      "room": "c.im",
+      "date": "2026-10-20"
      },
      {
-      "text": "🤖 CVE-2026-106931 (CVSS 8.5): OS command injection in SiteGuard Server Edition (WAF).",
-      "url": "https://infosec.exchange/@cloud/117467692780839220",
+      "text": "For months, the enterprise focus has been on building autonomous AI agents to automate workflows.",
+      "url": "https://c.im/@psoheil/117473477658714608",
+      "room": "c.im",
+      "date": "2026-10-20"
+     }
+    ],
+    "prioritization": [
+     {
+      "text": "BeyondTrust Remote Support, now shipping with Beyond Trust™ authentication CVE-2026-102764 , CVSS 9.3.",
+      "url": "https://infosec.exchange/@k3ym0/117473530769578109",
       "room": "infosec.exchange",
-      "date": "2026-10-19"
+      "date": "2026-10-20"
+     },
+     {
+      "text": "CVSS 6.6, exploit public, no patch.",
+      "url": "https://mastodon.social/@hugovalters/117473280889127191",
+      "room": "mastodon.social",
+      "date": "2026-10-20"
      }
     ],
     "remediation": [
      {
-      "text": "The PATCH /api/base/:baseId/node/folder/:folderId endpoint checks base|...",
-      "url": "https://mastodon.social/@EUVD_Bot/117462050549424716",
-      "room": "mastodon.social",
-      "date": "2026-10-18"
+      "text": "CISA URGES YOU TO PATCH .",
+      "url": "https://infosec.exchange/@k3ym0/117473530769578109",
+      "room": "infosec.exchange",
+      "date": "2026-10-20"
      },
      {
-      "text": "Patch under review, update when ready.",
-      "url": "https://mastodon.social/@hugovalters/117462192841355159",
-      "room": "mastodon.social",
-      "date": "2026-10-18"
+      "text": "# CISAUrgesYou # infosec # BeyondTrust # PatchYourShit # OnTheKEV",
+      "url": "https://infosec.exchange/@k3ym0/117473530769578109",
+      "room": "infosec.exchange",
+      "date": "2026-10-20"
+     }
+    ],
+    "compliance": [
+     {
+      "text": "Stdio MCP servers go through an audit proxy.",
+      "url": "https://infosec.exchange/@agentmetry/117473360301254436",
+      "room": "infosec.exchange",
+      "date": "2026-10-20"
+     },
+     {
+      "text": "It's the open source command-line client for ZEN SecDB: CVE lookup, SSVC, and auditing of packages, SBOMs, dependency manifests, Linux hosts and Docker images.",
+      "url": "https://infosec.exchange/@secdb/117450519064818123",
+      "room": "infosec.exchange",
+      "date": "2026-10-16"
      }
     ],
     "ai_cves": [
@@ -1093,40 +1129,12 @@
       "date": "2026-09-15"
      }
     ],
-    "compliance": [
-     {
-      "text": "It's the open source command-line client for ZEN SecDB: CVE lookup, SSVC, and auditing of packages, SBOMs, dependency manifests, Linux hosts and Docker images.",
-      "url": "https://infosec.exchange/@secdb/117450519064818123",
-      "room": "infosec.exchange",
-      "date": "2026-10-16"
-     },
-     {
-      "text": "Microsoft rolls out the Windows 10 ESU update KB5126657 for versions 22H2 and 21H2, fixing File History backups, Storage Spaces Direct, and ReFS auditing.",
-      "url": "https://infosec.exchange/@DailyCyberSecurity/117440172181922522",
-      "room": "infosec.exchange",
-      "date": "2026-10-14"
-     }
-    ],
     "board": [
      {
       "text": "Repeated queries to non-existent endpoints inflate metrics storage and processing, consuming excessive resources.",
       "url": "https://mastodon.social/@EUVD_Bot/117444815514748186",
       "room": "mastodon.social",
       "date": "2026-10-15"
-     }
-    ],
-    "ai_security": [
-     {
-      "text": "Volledig unrelated, behalve dat het om # ciso praat gaat, gisteren ook een webinar over ai agents van proofpoint.",
-      "url": "https://ieji.de/@hanscees/117438312067275913",
-      "room": "ieji.de",
-      "date": "2026-10-14"
-     },
-     {
-      "text": "Een overzicht van volwassenheid van verdediging tegen roque agents of shadow ai # infosec",
-      "url": "https://ieji.de/@hanscees/117438312067275913",
-      "room": "ieji.de",
-      "date": "2026-10-14"
      }
     ],
     "controls": [
@@ -1159,7 +1167,7 @@
     ]
    },
    "brief": {},
-   "count": 103
+   "count": 109
   },
   "ocean": {
    "company": {
@@ -1243,8 +1251,8 @@
       0,
       0,
       0,
-      0,
-      7
+      1,
+      6
      ],
      "open": 5,
      "open_examples": [
@@ -1323,10 +1331,10 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 8,
+     "total": 9,
      "recent": 8,
-     "prior": 0,
-     "change": 100,
+     "prior": 1,
+     "change": 700,
      "weekly": [
       0,
       0,
@@ -1339,10 +1347,17 @@
       0,
       1,
       5,
-      2
+      3
      ],
-     "open": 2,
+     "open": 3,
      "open_examples": [
+      {
+       "title": "🚀 How Email Works: SMTP, IMAP, SPF, DKIM, and DMARC Explained Email is older than the web ",
+       "url": "https://mastodon.social/@zyvop/117471762665649202",
+       "room": "mastodon.social",
+       "date": "2026-10-20",
+       "replies": 0
+      },
       {
        "title": "Can someone send email pretending to be your domain? Our free check looks at SPF, DMARC, D",
        "url": "https://mastodon.world/@makeprivacy/117442457286111384",
@@ -1363,7 +1378,7 @@
       "bsd.network",
       "mastodon.world"
      ],
-     "score": 7.3
+     "score": 11.5
     },
     {
      "key": "trusted_senders",
@@ -2066,19 +2081,27 @@
    "phrases": [
     {
      "phrase": "utm source",
-     "count": 7
+     "count": 8
     },
     {
      "phrase": "utm medium",
-     "count": 7
+     "count": 8
     },
     {
      "phrase": "utm campaign",
-     "count": 6
+     "count": 7
     },
     {
      "phrase": "spf dkim",
-     "count": 5
+     "count": 6
+    },
+    {
+     "phrase": "source mastodon",
+     "count": 6
+    },
+    {
+     "phrase": "mastodon utm",
+     "count": 6
     },
     {
      "phrase": "conf rence",
@@ -2175,29 +2198,21 @@
     {
      "phrase": "billets ici",
      "count": 5
-    },
-    {
-     "phrase": "polar utm",
-     "count": 5
-    },
-    {
-     "phrase": "medium socmed",
-     "count": 5
     }
    ],
    "quotes": {
     "authentication": [
      {
-      "text": "Our free check looks at SPF, DMARC, DKIM, MX, MTA-STS and DNSSEC and says what to fix in plain words.",
-      "url": "https://mastodon.world/@makeprivacy/117442457286111384",
-      "room": "mastodon.world",
-      "date": "2026-10-15"
+      "text": "🚀 How Email Works: SMTP, IMAP, SPF, DKIM, and DMARC Explained Email is older than the web and was built to trust everyone.",
+      "url": "https://mastodon.social/@zyvop/117471762665649202",
+      "room": "mastodon.social",
+      "date": "2026-10-20"
      },
      {
-      "text": "https:// makeprivacy.org/tools/email-ch eck/ # EmailSecurity # DMARC # InfoSec # Sysadmin",
-      "url": "https://mastodon.world/@makeprivacy/117442457286111384",
-      "room": "mastodon.world",
-      "date": "2026-10-15"
+      "text": "Read more: https:// zyvop.com/how-email-works-smtp -imap-spf-dkim-and-dmarc-explained-k9j7e?utm_source=mastodon&utm_medium=social&utm_campaign=crosspost # dmarc # dns # Email # emailsecurity",
+      "url": "https://mastodon.social/@zyvop/117471762665649202",
+      "room": "mastodon.social",
+      "date": "2026-10-20"
      }
     ],
     "seg": [
@@ -2254,10 +2269,243 @@
     ]
    },
    "brief": {},
-   "count": 22
+   "count": 24
   }
  },
  "conversations": [
+  {
+   "id": "df9430cc05f4",
+   "source": "Mastodon",
+   "room": "c.im",
+   "title": "",
+   "text": "Are AI agents the new \"insider threat\"? For months, the enterprise focus has been on building autonomous AI agents to automate workflows. But as these bots gain the power to access databases, call APIs, and execute code, a critical question has emerged: Who is policing the AI? At the latest rollout, Microsoft dropped a paradigm shift in cybersecurity. Instead of trying to make frontier models perfectly safe from the inside out, they are treating AI agents exactly like human insider threats. As Satya Nadella put it, we need \"outside controls\" essentially building a cage around autonomous systems. Here are the major security tools Microsoft just launched to tackle this: • Microsoft Execution Containers (MXC): A secure control boundary (or \"cage\") that completely isolates agent activity so rogue code can't escalate privileges or leak backend data. • Entra Agent ID & Dynamic Permissions: AI bots will no longer blindly inherit a human user's access level. Their permissions will dynamically scale down if their risk score rises. • Microsoft Defender for AI Agents: Continuous monitoring that treats AI anomalies—like prompt injections (XPIA) or unauthorized data oversharing—with the same ur",
+   "url": "https://c.im/@psoheil/117473477658714608",
+   "date": "2026-10-20",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-20",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_security"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "ai agents",
+      "prompt injection"
+     ],
+     "score": 8,
+     "why": [
+      "+1 listen-only topic: Securing AI and agents",
+      "+2 buyer: Security engineer & SecOps",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "ai_security"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "46d47988bcef",
+   "source": "Mastodon",
+   "room": "social.raytec.co",
+   "title": "",
+   "text": "Scammers Abuse Frame.io Notifications to Steal Microsoft 365 Credentials Ocean Security found a phishing campaign, dubbed Phantom Preview, that abused legitimate Frame.io notifications and hidden PDF links… Pulse ID: 6ad764fff558ebe35d1fbee9 Pulse Link: https:// otx.alienvault.com/pulse/6ad76 4fff558ebe35d1fbee9 Pulse Author: CyberHunter_NL Created: 2026-10-20 12:56:30 Be advised, this data is unverified and should be considered preliminary. Always do further verification. # Microsoft # PDF # Phishing # OTX # CyberHunter_NL",
+   "url": "https://social.raytec.co/@techbot/117473369820149929",
+   "date": "2026-10-20",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-20",
+   "lens": {
+    "ocean": {
+     "topics": [],
+     "personas": [
+      "email_admin"
+     ],
+     "mentions": true,
+     "asking": false,
+     "shopping": false,
+     "evidence": [],
+     "score": 11,
+     "why": [
+      "+3 buyer: Email & M365 admin",
+      "+3 posted in the last 2 days",
+      "+5 mentions Ocean"
+     ],
+     "band": "today",
+     "who": "Founder or account executive",
+     "angle": "They're asking about you by name. Answer plainly, say you work there, and offer specifics.",
+     "topic": null
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "91db0462b50e",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚀 How Email Works: SMTP, IMAP, SPF, DKIM, and DMARC Explained Email is older than the web and was built to trust everyone. Follow a message from outbox to inbox through SMTP, MX records and IMAP, then see how SPF, DKIM and DMARC catch forged senders, and how to set them up for your own domain. Read more: https:// zyvop.com/how-email-works-smtp -imap-spf-dkim-and-dmarc-explained-k9j7e?utm_source=mastodon&utm_medium=social&utm_campaign=crosspost # dmarc # dns # Email # emailsecurity",
+   "url": "https://mastodon.social/@zyvop/117471762665649202",
+   "date": "2026-10-20",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-20",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "dmarc",
+      "spf"
+     ],
+     "score": 6,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "8bbfbee833c0",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "BeyondTrust Remote Support, now shipping with Beyond Trust™ authentication CVE-2026-102764 , CVSS 9.3. The appliance simply did not check where messages came from. Unauth file ops, zero clicks, zero fucks given. Exploited since August. Patched in October. That's a zero-day with a seven week head start. Second critical of 2026 after February's RCE-to-ransomware speedrun . It's not PAM, it's a PAMphlet on how not to do auth. CISA URGES YOU TO PATCH . The product name was a warning label this whole time. # CISAUrgesYou # infosec # BeyondTrust # PatchYourShit # OnTheKEV",
+   "url": "https://infosec.exchange/@k3ym0/117473530769578109",
+   "date": "2026-10-20",
+   "kind": "post",
+   "replies": 1,
+   "found": "2026-10-20",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "724aa5acbf1c",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Launched today: Agentmetry, a local-first endpoint sensor for AI coding agents. Open source, Apache-2.0. The problem: coding agents now run shell commands, read files and call MCP tools with the developer's own permissions. The transcript is a conversation, not a record, and EDR sees a process start a process, which is exactly what a working agent looks like. How it works: - Hooks at the tool boundary of Claude Code, Cursor, Codex, GitHub Copilot, Antigravity, Qwen, Kimi, Qoder and CodeBuddy. Stdio MCP servers go through an audit proxy. - Every tool call lands in a hash-chained JSONL trail on your machine. Edit one record and agentmetry verify fails. agentmetry anchor publishes a checkpoint the host cannot rewrite. - Arguments are hashed inside the hook by default. DLP matches record the rule id, never the secret. - Sequence detections, not single-event alerts: a credential read followed by network egress is one finding. Labelled with MITRE ATT&CK, and ATLAS where it adds something. - MCP rug-pull detection: tools/list is fingerprinted per tool, so a listing that moves while the config stays the same is flagged (ATLAS AML.T0109). - Forwards to Splunk, Elastic, Google SecOps or Micr",
+   "url": "https://infosec.exchange/@agentmetry/117473360301254436",
+   "date": "2026-10-20",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-20",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "compliance",
+      "ai_security"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "audit",
+      "copilot",
+      "mcp server"
+     ],
+     "score": 9,
+     "why": [
+      "+4 adjacent topic: Directives and compliance deadlines",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Content team",
+     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
+     "topic": "compliance"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "22a65b81ee47",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-94048 CodeAstro QR Code Attendance 1.0 allows remote privilege escalation via role_id in UserController.php. CVSS 6.6, exploit public, no patch. Restrict access and monitor for privilege abuse. # CVE # infosec # cybersecurity https://www. valtersit.com/cve/CVE-2026-940 48/",
+   "url": "https://mastodon.social/@hugovalters/117473280889127191",
+   "date": "2026-10-20",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-20",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "007cdf324893",
    "source": "Mastodon",
@@ -2332,6 +2580,86 @@
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "d1ab46d2faa8",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Microsoft Fixes Audio Decoding Issue Behind Windows 11 App Crashes Microsoft has fixed a frustrating issue that caused some Windows 11 apps and games to crash or shut down unexpectedly, thanks to a problem with AC-3 audio decoding. The fix is now available in the October 2026 Patch Tuesday cumulative update. https:// osintsights.com/microsoft-fixe s-audio-decoding-issue-behind-windows-11-app-crashes?utm_source=mastodon&utm_medium=social # Windows11 # Ac3Decoding # DolbyDigital # PatchTuesday # Kb5124010",
+   "url": "https://mastodon.social/@Analyst207/117468270577451041",
+   "date": "2026-10-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-20",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 13,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "0a3b6de391bc",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "POLAR 2026: Plus que 10 jours avant l'événement! Achetez votre billet dès maintenant! (EN will follow) La journée des décideurs en cybersécurité : conférences, panels et réseautage entre pairs. 120 places seulement, et il en reste peu. Pour qui, pourquoi - Pour les décideurs: CISO, directeurs TI, gestionnaires de risque et leaders techniques. - Une journée entre pairs: Les dirigeants y partagent leurs défis, leurs réussites et leurs échecs. - Des décisions concrètes: Des risques réels, des perspectives concrètes, des choix éclairés. - 120 participants en 2025: Des occasions d'affaires, des embauches et un réseautage exceptionnel. Voyez l'horaire et achetez votre billet ICI: https:// hackfest.ca/polar/?utm_source= mastodon&utm_medium=socmed&utm_campaign=polar ===== POLAR 2026: Only 10 days left until the event! Get your ticket now! The cybersecurity decision-makers’ day: talks, panels and peer networking. Only 120 seats, and few remain. Who it’s for, and why - For decision-makers: CISOs, IT directors, risk managers and technical leaders. - A day among peers: Leaders share their challenges, their wins and their failures. - Concrete decisions: Real risks, practical insights, informed ",
+   "url": "https://infosec.exchange/@polar/117470284125144369",
+   "date": "2026-10-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-20",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "leader",
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "ticket"
+     ],
+     "score": 12,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 buyer: Security leader",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
     }
    },
    "rooms": []
@@ -2475,10 +2803,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2514,11 +2842,11 @@
       "dkim",
       "spf"
      ],
-     "score": 7,
+     "score": 5,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+3 buyer: Email & M365 admin",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -2552,13 +2880,13 @@
       "patch",
       "patching"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 shopping for tools",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -2591,10 +2919,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2628,10 +2956,10 @@
       "email gateway",
       "secure email gateway"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Replacing or adding to the email gateway",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Account executive and sales engineer",
@@ -5817,12 +6145,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -5855,12 +6182,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -5893,12 +6219,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -5931,11 +6256,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 shopping for tools",
-      "+1 posted this week"
+      "+2 shopping for tools"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -5970,11 +6294,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "worth",
      "who": "Sales engineer",
