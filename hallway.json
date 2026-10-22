@@ -1,12 +1,14 @@
 {
- "generated": "2026-10-21T13:53Z",
+ "generated": "2026-10-22T13:56Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 12,
+  "new": 15,
   "by_source": {
-   "Mastodon": 12
+   "Hacker News": 3,
+   "Mastodon": 11,
+   "Press": 1
   }
  },
  "rooms_norms": {
@@ -102,10 +104,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 84,
-     "recent": 81,
-     "prior": 2,
-     "change": 3950,
+     "total": 93,
+     "recent": 89,
+     "prior": 3,
+     "change": 2867,
      "weekly": [
       0,
       0,
@@ -116,11 +118,11 @@
       1,
       0,
       0,
-      3,
-      51,
-      29
+      4,
+      53,
+      35
      ],
-     "open": 17,
+     "open": 18,
      "open_examples": [
       {
        "title": "⚠️ PATCH NOW Two critical PHP core flaws (CVE-2026-109618/619, CVSS 9.2) leaked before the",
@@ -130,26 +132,26 @@
        "replies": 0
       },
       {
+       "title": "Ask HN: How do you handle AI security for automated vulnerability management?",
+       "url": "https://news.ycombinator.com/item?id=50186510",
+       "room": "Hacker News",
+       "date": "2026-10-21",
+       "replies": 0
+      },
+      {
        "title": "Microsoft Fixes Audio Decoding Issue Behind Windows 11 App Crashes Microsoft has fixed a f",
        "url": "https://mastodon.social/@Analyst207/117468270577451041",
        "room": "mastodon.social",
        "date": "2026-10-19",
-       "replies": 0
-      },
-      {
-       "title": "Microsoft Discloses Record 1411 CVEs in October Patch Update Microsoft just dropped a reco",
-       "url": "https://mastodon.social/@Analyst207/117438480044242037",
-       "room": "mastodon.social",
-       "date": "2026-10-14",
        "replies": 0
       }
      ],
      "rooms": [
       "mastodon.social",
       "infosec.exchange",
-      "techhub.social"
+      "Hacker News"
      ],
-     "score": 83.2
+     "score": 86.0
     },
     {
      "key": "prioritization",
@@ -157,10 +159,10 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 75,
-     "recent": 73,
-     "prior": 2,
-     "change": 3550,
+     "total": 79,
+     "recent": 76,
+     "prior": 3,
+     "change": 2433,
      "weekly": [
       0,
       0,
@@ -171,8 +173,8 @@
       0,
       0,
       0,
-      3,
-      48,
+      5,
+      50,
       24
      ],
      "open": 6,
@@ -202,9 +204,9 @@
      "rooms": [
       "mastodon.social",
       "infosec.exchange",
-      "techhub.social"
+      "swecyb.com"
      ],
-     "score": 65.2
+     "score": 65.9
     },
     {
      "key": "compliance",
@@ -212,8 +214,8 @@
      "fit": 2,
      "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
      "who": "Content team",
-     "total": 5,
-     "recent": 5,
+     "total": 6,
+     "recent": 6,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -227,17 +229,17 @@
       0,
       0,
       0,
-      2,
+      3,
       3
      ],
      "open": 0,
      "open_examples": [],
      "rooms": [
       "infosec.exchange",
-      "swecyb.com",
-      "mastodon.social"
+      "mastodon.social",
+      "swecyb.com"
      ],
-     "score": 10.3
+     "score": 11.2
     },
     {
      "key": "ai_security",
@@ -379,8 +381,8 @@
       0,
       1,
       0,
-      0,
-      2
+      2,
+      0
      ],
      "open": 0,
      "open_examples": [],
@@ -462,13 +464,32 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 15.7,
+     "score": 15.8,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+10.7 40 relevant conversations there",
+      "+10.8 41 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 40,
+     "hosted": 41,
+     "mentions": 0,
+     "evidence": []
+    },
+    {
+     "name": "Hacker News",
+     "known": true,
+     "platform": "Forum",
+     "audience": "Engineers and technical leaders",
+     "access": "open",
+     "who": "Founders and engineers post research and launches.",
+     "norms": "Engineers here punish marketing language. Add facts, data or code, and say where you work.",
+     "url": "https://news.ycombinator.com/",
+     "score": 7.6,
+     "why": [
+      "+2 audience fit (1 of 3)",
+      "+4.6 4 relevant conversations there",
+      "+1 easy to join"
+     ],
+     "hosted": 4,
      "mentions": 0,
      "evidence": []
     },
@@ -736,25 +757,6 @@
      "evidence": []
     },
     {
-     "name": "Hacker News",
-     "known": true,
-     "platform": "Forum",
-     "audience": "Engineers and technical leaders",
-     "access": "open",
-     "who": "Founders and engineers post research and launches.",
-     "norms": "Engineers here punish marketing language. Add facts, data or code, and say where you work.",
-     "url": "https://news.ycombinator.com/",
-     "score": 5.0,
-     "why": [
-      "+2 audience fit (1 of 3)",
-      "+2.0 1 relevant conversations there",
-      "+1 easy to join"
-     ],
-     "hosted": 1,
-     "mentions": 0,
-     "evidence": []
-    },
-    {
      "name": "Black Hills Information Security Discord",
      "known": true,
      "platform": "Discord",
@@ -952,43 +954,43 @@
    "phrases": [
     {
      "phrase": "cybersecurity infosec",
-     "count": 29
+     "count": 32
+    },
+    {
+     "phrase": "cve vulnerability",
+     "count": 25
+    },
+    {
+     "phrase": "score cvss",
+     "count": 24
+    },
+    {
+     "phrase": "euvd enisa",
+     "count": 24
+    },
+    {
+     "phrase": "enisa europa",
+     "count": 24
+    },
+    {
+     "phrase": "vulnerabi lity",
+     "count": 24
+    },
+    {
+     "phrase": "infosec euvd",
+     "count": 24
+    },
+    {
+     "phrase": "euvd cve",
+     "count": 24
     },
     {
      "phrase": "patch tuesday",
      "count": 24
     },
     {
-     "phrase": "cve vulnerability",
-     "count": 23
-    },
-    {
-     "phrase": "score cvss",
-     "count": 22
-    },
-    {
-     "phrase": "euvd enisa",
-     "count": 22
-    },
-    {
-     "phrase": "enisa europa",
-     "count": 22
-    },
-    {
-     "phrase": "vulnerabi lity",
-     "count": 22
-    },
-    {
-     "phrase": "infosec euvd",
-     "count": 22
-    },
-    {
-     "phrase": "euvd cve",
-     "count": 22
-    },
-    {
      "phrase": "cve infosec",
-     "count": 17
+     "count": 18
     },
     {
      "phrase": "utm source",
@@ -1012,7 +1014,7 @@
     },
     {
      "phrase": "valtersit com cve",
-     "count": 14
+     "count": 15
     },
     {
      "phrase": "windows shell",
@@ -1072,46 +1074,32 @@
     }
    ],
    "quotes": {
+    "remediation": [
+     {
+      "text": "17—four days before patches shipped and three days before any public disclosure.",
+      "url": "https://mastodon.social/@schuler/117484796879568911",
+      "room": "mastodon.social",
+      "date": "2026-10-22"
+     },
+     {
+      "text": "Attackers who know customer and address UUIDs can send POST, PATCH,...",
+      "url": "https://mastodon.social/@EUVD_Bot/117484455688207484",
+      "room": "mastodon.social",
+      "date": "2026-10-22"
+     }
+    ],
     "prioritization": [
+     {
+      "text": "Technically - This article details CVE-2026-109618 and CVE-2026-109619, both carrying CVSS scores of 9.2.",
+      "url": "https://swecyb.com/@orlysec/117484751060543927",
+      "room": "swecyb.com",
+      "date": "2026-10-22"
+     },
      {
       "text": "PHP2Shell: two critical PHP core flaws (CVE-2026-109618, CVE-2026-109619, CVSS 9.2) let unauthenticated attackers run code on PHP servers.",
       "url": "https://techhub.social/@cyberkendra/117478942825491523",
       "room": "techhub.social",
       "date": "2026-10-21"
-     },
-     {
-      "text": "CVE-2026-87095: A CRITICAL auth bypass in Acronis Cyber Infrastructure (pre-6.0.1-112/6.1.1-64/6.2.1-71) risks data disclosure & tampering (CVSS 9.1).",
-      "url": "https://infosec.exchange/@offseq/117478786622087622",
-      "room": "infosec.exchange",
-      "date": "2026-10-21"
-     }
-    ],
-    "remediation": [
-     {
-      "text": "Emergency patch lands 14:00 UTC today.",
-      "url": "https://techhub.social/@cyberkendra/117478942825491523",
-      "room": "techhub.social",
-      "date": "2026-10-21"
-     },
-     {
-      "text": "# Cybersecurity # PatchTuesday # Microsoft # Infosec # ActiveDirectory # ExchangeServer # WindowsSecurity # SysAdmin # DevOps # ITOperations # TechiesJournal https://www.",
-      "url": "https://mastodon.social/@techiesjournal/117476967126608749",
-      "room": "mastodon.social",
-      "date": "2026-10-21"
-     }
-    ],
-    "ai_security": [
-     {
-      "text": "Are AI agents the new \"insider threat\"?",
-      "url": "https://c.im/@psoheil/117473477658714608",
-      "room": "c.im",
-      "date": "2026-10-20"
-     },
-     {
-      "text": "For months, the enterprise focus has been on building autonomous AI agents to automate workflows.",
-      "url": "https://c.im/@psoheil/117473477658714608",
-      "room": "c.im",
-      "date": "2026-10-20"
      }
     ],
     "compliance": [
@@ -1126,6 +1114,20 @@
       "url": "https://infosec.exchange/@secdb/117450519064818123",
       "room": "infosec.exchange",
       "date": "2026-10-16"
+     }
+    ],
+    "ai_security": [
+     {
+      "text": "Are AI agents the new \"insider threat\"?",
+      "url": "https://c.im/@psoheil/117473477658714608",
+      "room": "c.im",
+      "date": "2026-10-20"
+     },
+     {
+      "text": "For months, the enterprise focus has been on building autonomous AI agents to automate workflows.",
+      "url": "https://c.im/@psoheil/117473477658714608",
+      "room": "c.im",
+      "date": "2026-10-20"
      }
     ],
     "ai_cves": [
@@ -1174,7 +1176,7 @@
     ]
    },
    "brief": {},
-   "count": 117
+   "count": 127
   },
   "ocean": {
    "company": {
@@ -1243,8 +1245,8 @@
      "fit": 3,
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "who": "Sales engineer",
-     "total": 9,
-     "recent": 9,
+     "total": 11,
+     "recent": 11,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -1259,7 +1261,7 @@
       0,
       0,
       7,
-      2
+      4
      ],
      "open": 7,
      "open_examples": [
@@ -1289,7 +1291,7 @@
       "infosec.exchange",
       "mastodon.social"
      ],
-     "score": 30.4
+     "score": 32.0
     },
     {
      "key": "seg",
@@ -1312,8 +1314,8 @@
       0,
       0,
       0,
-      3,
-      3
+      5,
+      1
      ],
      "open": 1,
      "open_examples": [
@@ -1338,10 +1340,10 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 10,
+     "total": 12,
      "recent": 9,
-     "prior": 1,
-     "change": 800,
+     "prior": 3,
+     "change": 200,
      "weekly": [
       0,
       0,
@@ -1353,8 +1355,8 @@
       0,
       0,
       3,
-      3,
-      4
+      4,
+      5
      ],
      "open": 3,
      "open_examples": [
@@ -1385,7 +1387,39 @@
       "bsd.network",
       "mastodon.world"
      ],
-     "score": 11.9
+     "score": 12.6
+    },
+    {
+     "key": "ai_phishing",
+     "label": "Targeted phishing getting through",
+     "fit": 3,
+     "angle": "Pattern matching misses messages written fresh for each target. Investigate every email's context the way an analyst would.",
+     "who": "Research team",
+     "total": 2,
+     "recent": 2,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange"
+     ],
+     "score": 9.5
     },
     {
      "key": "trusted_senders",
@@ -1418,6 +1452,38 @@
       "mastodon.social"
      ],
      "score": 9.5
+    },
+    {
+     "key": "account_takeover",
+     "label": "Account takeover and MFA bypass",
+     "fit": 2,
+     "angle": "Email is where most takeovers start. Connect the phishing email to the session it stole.",
+     "who": "Research team",
+     "total": 2,
+     "recent": 2,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange"
+     ],
+     "score": 6.3
     },
     {
      "key": "awareness",
@@ -1498,35 +1564,6 @@
      "score": 3.7
     },
     {
-     "key": "ai_phishing",
-     "label": "Targeted phishing getting through",
-     "fit": 3,
-     "angle": "Pattern matching misses messages written fresh for each target. Investigate every email's context the way an analyst would.",
-     "who": "Research team",
-     "total": 0,
-     "recent": 0,
-     "prior": 0,
-     "change": 0,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [],
-     "score": 0.0
-    },
-    {
      "key": "report_triage",
      "label": "Phishing reports piling up",
      "fit": 3,
@@ -1583,35 +1620,6 @@
      "open_examples": [],
      "rooms": [],
      "score": 0.0
-    },
-    {
-     "key": "account_takeover",
-     "label": "Account takeover and MFA bypass",
-     "fit": 2,
-     "angle": "Email is where most takeovers start. Connect the phishing email to the session it stole.",
-     "who": "Research team",
-     "total": 0,
-     "recent": 0,
-     "prior": 0,
-     "change": 0,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [],
-     "score": 0.0
     }
    ],
    "emerging": [],
@@ -1626,13 +1634,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 13.9,
+     "score": 14.2,
      "why": [
       "+6 audience fit (3 of 3)",
-      "+6.9 10 relevant conversations there",
+      "+7.2 11 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 10,
+     "hosted": 11,
      "mentions": 0,
      "evidence": []
     },
@@ -2108,16 +2116,20 @@
      "count": 8
     },
     {
-     "phrase": "mastodon utm",
-     "count": 7
+     "phrase": "spf dkim",
+     "count": 8
     },
     {
-     "phrase": "spf dkim",
+     "phrase": "mastodon utm",
      "count": 7
     },
     {
      "phrase": "utm campaign",
      "count": 7
+    },
+    {
+     "phrase": "dkim and dmarc",
+     "count": 6
     },
     {
      "phrase": "conf rence",
@@ -2210,28 +2222,59 @@
     {
      "phrase": "plus d'informations",
      "count": 5
-    },
-    {
-     "phrase": "billets ici",
-     "count": 5
     }
    ],
    "quotes": {
     "bec": [
+     {
+      "text": "Especially important for changed bank details or urgent login requests.",
+      "url": "https://mastodon.social/@coreblueprint/117484606145413858",
+      "room": "mastodon.social",
+      "date": "2026-10-22"
+     },
+     {
+      "text": "Full analysis + IOCs: https:// intel.threadlinqs.com/threat/T L-2026-4143 # ThreatIntel # M365 # AITM # TokenReplay # MFABypass # BEC",
+      "url": "https://mastodon.social/@threadlinqs/117484744384247531",
+      "room": "mastodon.social",
+      "date": "2026-10-22"
+     }
+    ],
+    "authentication": [
+     {
+      "text": "Phishing that passes DKIM and DMARC: attackers make Staples, Dell and GitHub send the lure for them.",
+      "url": "https://mastodon.social/@threadlinqs/117484324929722574",
+      "room": "mastodon.social",
+      "date": "2026-10-22"
+     },
+     {
+      "text": "ICYMI: EasyDMARC and GMO GlobalSign tie DMARC enforcement to inbox brand logos: Verified Mark and Common Mark Certificates join SPF, DKIM and DMARC tools for GlobalSign customers in three regions.",
+      "url": "https://mastodon.social/@ppcland/117480319115544838",
+      "room": "mastodon.social",
+      "date": "2026-10-21"
+     }
+    ],
+    "ai_phishing": [
+     {
+      "text": "AiTM-stolen M365 tokens bypassed MFA - then rogue devices and hidden inbox rules hid payroll mail.",
+      "url": "https://mastodon.social/@threadlinqs/117484744384247531",
+      "room": "mastodon.social",
+      "date": "2026-10-22"
+     },
+     {
+      "text": "The bigger concern is what attackers can do with millions of real account records: targeted phishing, account takeover attempts and cross-platform profiling.",
+      "url": "https://infosec.exchange/@thecybersecguru/117484811716202197",
+      "room": "infosec.exchange",
+      "date": "2026-10-22"
+     }
+    ],
+    "account_takeover": [],
+    "deepfakes": [
      {
       "text": "Suspicious emails, smishing, vishing, fake websites and payment fraud.",
       "url": "https://mastodon.social/@carelearninguk/117479024594262775",
       "room": "mastodon.social",
       "date": "2026-10-21"
      },
-     {
-      "text": "https:// osintsights.com/generative-ai- erodes-email-securitys-behavioral-tells?utm_source=mastodon&utm_medium=social # GenerativeAi # EmailSecurity # BusinessEmailCompromise # Bec # EmergingThreats",
-      "url": "https://mastodon.social/@Analyst207/117479009022605443",
-      "room": "mastodon.social",
-      "date": "2026-10-21"
-     }
-    ],
-    "deepfakes": [
      {
       "text": "Tycoon2FA got taken down, but BEC and Teams vishing are surging.",
       "url": "https://mastodon.social/@threadlinqs/117437909538104605",
@@ -2251,20 +2294,6 @@
       "url": "https://mastodon.social/@threadlinqs/117413484528451409",
       "room": "mastodon.social",
       "date": "2026-10-09"
-     }
-    ],
-    "authentication": [
-     {
-      "text": "🚀 How Email Works: SMTP, IMAP, SPF, DKIM, and DMARC Explained Email is older than the web and was built to trust everyone.",
-      "url": "https://mastodon.social/@zyvop/117471762665649202",
-      "room": "mastodon.social",
-      "date": "2026-10-20"
-     },
-     {
-      "text": "Read more: https:// zyvop.com/how-email-works-smtp -imap-spf-dkim-and-dmarc-explained-k9j7e?utm_source=mastodon&utm_medium=social&utm_campaign=crosspost # dmarc # dns # Email # emailsecurity",
-      "url": "https://mastodon.social/@zyvop/117471762665649202",
-      "room": "mastodon.social",
-      "date": "2026-10-20"
      }
     ],
     "seg": [
@@ -2291,10 +2320,437 @@
     ]
    },
    "brief": {},
-   "count": 28
+   "count": 33
   }
  },
  "conversations": [
+  {
+   "id": "ff5a882eb66d",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Amazon's honeypot network detected PHP2Shell exploitation attempts on Oct. 17—four days before patches shipped and three days before any public disclosure. The attempt came from an anonymized IP, suggesting deliberate reconnaissance. Defenders should assume compromise risk from Oct. 17 onward, not from public disclosure dates. https://www. implicator.ai/amazon-logged-a- php2shell-exploit-attempt-four-days-before-disclosure/ # infosec # vulnerability # php",
+   "url": "https://mastodon.social/@schuler/117484796879568911",
+   "date": "2026-10-22",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-22",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "f592aaf15657",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2024-55822 📊 Score: 8.7/10 (CVSS v3.1) 📦 Product: CPAS Audit Management System 🏢 Vendor: YouDataSum 📅 Updated: 2026-10-22 📝 YouDataSum CPAS Audit Management System V4 contains a path traversal vulnerability that allows unauthenticated attackers to read arbitrary files by manipulating the fileId parameter. Attackers can send GET requests to /cpasm4/plugInMa... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2024-55822 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117484459551290643",
+   "date": "2026-10-22",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-22",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "compliance"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "audit",
+      "cvss"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "f7745b7f8d90",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-108125 📊 Score: 6.9/10 (CVSS v3.1) 📦 Product: EverShop 🏢 Vendor: evershopcommerce 📅 Updated: 2026-10-22 📝 EverShop 1.2.2 before 2.2.1 contains a missing authorization vulnerability in the customer address API that allows unauthenticated attackers to manage other customers' addresses. Attackers who know customer and address UUIDs can send POST, PATCH,... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-108125 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117484455688207484",
+   "date": "2026-10-22",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-22",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "c1d2b23bc286",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Good spelling, a familiar logo or even a known email account does not prove that a message is genuine. Before clicking, paying or sharing credentials: pause, inspect the request, verify it through a separate trusted channel, then decide. Especially important for changed bank details or urgent login requests. Practical examples and what to do after an accidental click: https:// coreblueprint.io/blog/is-this- email-real/ # Cybersecurity # Phishing",
+   "url": "https://mastodon.social/@coreblueprint/117484606145413858",
+   "date": "2026-10-22",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-22",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "bec"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "bank details",
+      "changed bank details"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: BEC and payment fraud",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
+     "topic": "bec"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "f18b02300cb3",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Phishing that passes DKIM and DMARC: attackers make Staples, Dell and GitHub send the lure for them. 9 detections, 10 IOCs. Full analysis + IOCs: https:// intel.threadlinqs.com/threat/T L-2026-4137 # ThreatIntel # Parasitizing # Legitimate # PlatformasaProxy # Phishing",
+   "url": "https://mastodon.social/@threadlinqs/117484324929722574",
+   "date": "2026-10-22",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-22",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "dmarc"
+     ],
+     "score": 4,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "e4701400d913",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "AiTM-stolen M365 tokens bypassed MFA - then rogue devices and hidden inbox rules hid payroll mail. 9 detections, 16 IOCs. Full analysis + IOCs: https:// intel.threadlinqs.com/threat/T L-2026-4143 # ThreatIntel # M365 # AITM # TokenReplay # MFABypass # BEC",
+   "url": "https://mastodon.social/@threadlinqs/117484744384247531",
+   "date": "2026-10-22",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-22",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "bec",
+      "ai_phishing",
+      "account_takeover"
+     ],
+     "personas": [
+      "email_admin",
+      "finance"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "aitm",
+      "bec",
+      "bypassed",
+      "inbox rule"
+     ],
+     "score": 12,
+     "why": [
+      "+6 core topic: BEC and payment fraud",
+      "+3 buyer: Email & M365 admin",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
+     "topic": "bec"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "4d1d4bd04bb0",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Capcom's CAPCOM ID breach exposed 11.7 Million records. The part that stands out: 196 accounts had their passwords changed without authorization. Exposed data includes email addresses, IP addresses, last-login timestamps and login counts. Capcom says credit card data wasn't involved. It has not confirmed that users' original passwords were compromised. The bigger concern is what attackers can do with millions of real account records: targeted phishing, account takeover attempts and cross-platform profiling. The root cause remains unconfirmed. IDOR, session abuse and account recovery flaws are possibilities, not established findings. Technical breakdown 👇 https:// thecybersecguru.com/news/capco m-id-breach-2026/ # InfoSec # CyberSecurity # DataBreach",
+   "url": "https://infosec.exchange/@thecybersecguru/117484811716202197",
+   "date": "2026-10-22",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-22",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "ai_phishing",
+      "account_takeover"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "account takeover",
+      "targeted phishing"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Targeted phishing getting through",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Research team",
+     "angle": "Pattern matching misses messages written fresh for each target. Investigate every email's context the way an analyst would.",
+     "topic": "ai_phishing"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "af2faca2f68c",
+   "source": "Mastodon",
+   "room": "swecyb.com",
+   "title": "",
+   "text": "(truesec.com) Critical Remote Code Execution Vulnerabilities in PHP: CVE-2026-109618 and CVE-2026-109619 In brief - This article alerts users to two critical remote code execution (RCE) vulnerabilities in PHP and urges immediate updates to patched versions to prevent unauthenticated attacks. Technically - This article details CVE-2026-109618 and CVE-2026-109619, both carrying CVSS scores of 9.2. CVE-2026-109618 involves an out-of-memory handling flaw where partially initialized request data is treated as valid during cleanup, while CVE-2026-109619 stems from request-owned internal state persisting after memory is freed, allowing subsequent workers to use stale state. Impacted environments include PHP-FPM, Apache mod_php, php-cgi, FrankenPHP, and LiteSpeed, with Apache mod_php being the highest risk. Recommended mitigations include setting memory_limit=-1 and disabling session.upload_progress.enabled, though updating to PHP versions 8.2.35, 8.3.36, 8.4.27, or 8.5.12 is the primary remediation. Source: https://www. truesec.com/hub/blog/php-secur ity-release-addresses-critical-rces # ThreatIntelligence # ThreatIntel # Cybersecurity # Infosec",
+   "url": "https://swecyb.com/@orlysec/117484751060543927",
+   "date": "2026-10-22",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-22",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": true,
+     "evidence": [
+      "cvss",
+      "patch",
+      "remediation"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 shopping for tools",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "bebbba9bc806",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-88856: Authenticated RCE in OrdaSoft Joomla Gallery (Joomla < 6.2.7). CVSS 7.2, no patch yet. Update immediately. # CVE # infosec # Joomla https://www. valtersit.com/cve/CVE-2026-888 56/",
+   "url": "https://mastodon.social/@hugovalters/117484722779329993",
+   "date": "2026-10-22",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-22",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "e020a87dbb7d",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "PHP2Shell: patch now. Patching takes days, attacks took hours. How bifrost security covers the gap: → Our CVE prioritisation engine shows every running instance of vulnerable PHP in your clusters → Enforced runtime profiles block shells, tool downloads, dropped binaries and credential theft → Every blocked attempt is a high-confidence alert Hardened before the patch. The deep dive, with what to look for while you patch: https:// bifrostsec.com/blog/2026/php2s hell-security-advisory/ # PHP2Shell # Kubernetes # infosec # RuntimeSecurity",
+   "url": "https://infosec.exchange/@bifrostsec/117484552377235276",
+   "date": "2026-10-22",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-22",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch",
+      "patching"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "4b7e1161b151",
+   "source": "Press",
+   "room": "Cyber Daily",
+   "title": "The industry reacts: PHP2shell, patching drama, and advice for CISOs",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLVZCdWZKNldaeTNjZ0wwN0M0NFZVYUNMdHpHc0MwOGJKdGo1NVZhUDZWeEpvTGdqd1VNbUI5b2g4RUtqR3Nwb1FzWlhoXzdHWXhwQ21Yb3NTSWxEZGhIMElBdWN5RmlLNUJWX3NxSDJyaVYxRVhMbl9MeHdWSWNwZmVfYXBaQUVTdVJDYldjbHRHMHhRb1gybUdLZ3dySGlBMGFMaDM2d0xoUQ?oc=5",
+   "date": "2026-10-22",
+   "kind": "article",
+   "replies": null,
+   "found": "2026-10-22",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch",
+      "patching"
+     ],
+     "score": 12,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 buyer: Security leader",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "a7bdb9d2edb7",
    "source": "Mastodon",
@@ -2681,6 +3137,161 @@
    "rooms": []
   },
   {
+   "id": "3384de9d8646",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Ask HN: How do you handle AI security for automated vulnerability management?",
+   "text": "Hello World! So I am new to the world of cybersecurity, and after some back and forth with AI, I chose to use a specific tool that was recommended for automated vulnerability detection & patching, but I think the issue I encountered is something common to all similar platforms that provide AI security fixes in 2026. It proposed a fix to an issue labeled 'critical'. I gave the specific file and the fix to Gemini, and, it disagreed strongly. My trust in the platform immediately degraded. It shows in my thinking that AI security platforms for repositories are unreliable, unless you cross check every critical/high vulnerability as a human with another AI tool as well. For example, for another issue labeled 'High', the fix, I cross-checked, was correct in that case. But that that one 'critical' issue, which turned out to be not a bug at all, and certainly not critical at all, has degraded my trust strongly in AI security platforms for automated vulnerability detection & patching. Note, to prevent confusion, with automated patching I mean automated pull requests with AI-proposed fixes, pending explicit human merging. Now, I wonder what you guys use (instead, if at all), and how reliable ",
+   "url": "https://news.ycombinator.com/item?id=50186510",
+   "date": "2026-10-21",
+   "kind": "thread",
+   "replies": 0,
+   "found": "2026-10-22",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": true,
+     "evidence": [
+      "patch",
+      "patching"
+     ],
+     "score": 19,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: Security engineer & SecOps",
+      "+2 asking for help",
+      "+2 shopping for tools",
+      "+4 nobody has answered",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "8a5c0b9d7997",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+   "text": "> How can we help identify and fix vulnerabilities in downstream packages while upstream fixes are pending, or backport fixes to older versions that no longer receive security updates? Is the company selling a magical code generation machine really asking how it can backport a fix to an older version of the same software? Is this for real?",
+   "url": "https://news.ycombinator.com/item?id=50182564",
+   "date": "2026-10-21",
+   "kind": "comment",
+   "replies": null,
+   "found": "2026-10-22",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "44b308251e1a",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+   "text": "It seems like OpenAI are trying to frame this as if AI did all the work here, but it's not really true given what Calif say ( https://calif.io/php2shell/ ): > How did we find this? > No special harness, or access to models that weren't generally available to everyone were used in the initial bug discovery. I focused on something I had a background in, knew its vulnerability history well, and held a theory that specific bugs lurk within the codebase. This shows that \"know your target\" is still as applicable as ever, even in the LLM dominated VR age. No model is simply capable of unearthing \"all bugs\" with simple prompts. At least for now. > There are some practical research implications here. LLMs may have ingested public historical vuln data, but in their default variant analysis tends to move from the newest and most prominent bugs toward nearby older code. They do not reliably begin with obscure twenty-year-old exploitation primitives. Keeping your own mental catalog of a target's vulnerability history lets you prompt that direction explicitly.",
+   "url": "https://news.ycombinator.com/item?id=50181666",
+   "date": "2026-10-21",
+   "kind": "comment",
+   "replies": null,
+   "found": "2026-10-22",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "03eb5ddee98c",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "ICYMI: EasyDMARC and GMO GlobalSign tie DMARC enforcement to inbox brand logos: Verified Mark and Common Mark Certificates join SPF, DKIM and DMARC tools for GlobalSign customers in three regions. Pricing and supported inboxes stay unknown. https:// ppc.land/easydmarc-and-gmo-glo balsign-tie-dmarc-enforcement-to-inbox-brand-logos/ # DMARC # EmailSecurity # BrandProtection # CyberSecurity # DigitalMarketing",
+   "url": "https://mastodon.social/@ppcland/117480319115544838",
+   "date": "2026-10-21",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-22",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "dmarc",
+      "spf"
+     ],
+     "score": 4,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
    "id": "df9430cc05f4",
    "source": "Mastodon",
    "room": "c.im",
@@ -3016,13 +3627,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 shopping for tools",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3056,10 +3667,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3094,12 +3705,12 @@
      "evidence": [
       "patch"
      ],
-     "score": 13,
+     "score": 11,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -3135,13 +3746,13 @@
      "evidence": [
       "ticket"
      ],
-     "score": 12,
+     "score": 10,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+3 buyer: Security leader",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4135,11 +4746,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4175,14 +4785,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: Security engineer & SecOps",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4217,11 +4826,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4256,11 +4864,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4295,11 +4902,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4334,11 +4940,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4373,14 +4978,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4415,11 +5019,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4453,11 +5056,10 @@
       "patch",
       "patching"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4492,12 +5094,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4530,14 +5131,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4570,12 +5170,11 @@
      "evidence": [
       "ticket"
      ],
-     "score": 12,
+     "score": 11,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+3 buyer: Security leader",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -4595,12 +5194,11 @@
      "evidence": [
       "bec"
      ],
-     "score": 12,
+     "score": 11,
      "why": [
       "+6 core topic: BEC and payment fraud",
       "+3 buyer: Security leader",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -4635,12 +5233,11 @@
      "evidence": [
       "bec"
      ],
-     "score": 12,
+     "score": 11,
      "why": [
       "+6 core topic: BEC and payment fraud",
       "+3 buyer: Security leader",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -4676,11 +5273,10 @@
       "ai agents",
       "shadow ai"
      ],
-     "score": 5,
+     "score": 4,
      "why": [
       "+1 listen-only topic: Securing AI and agents",
-      "+3 buyer: Security leader",
-      "+1 posted this week"
+      "+3 buyer: Security leader"
      ],
      "band": "listen",
      "who": "",
@@ -4700,11 +5296,10 @@
      "evidence": [
       "proofpoint"
      ],
-     "score": 10,
+     "score": 9,
      "why": [
       "+6 core topic: Replacing or adding to the email gateway",
-      "+3 buyer: Security leader",
-      "+1 posted this week"
+      "+3 buyer: Security leader"
      ],
      "band": "worth",
      "who": "Account executive and sales engineer",
@@ -4738,13 +5333,12 @@
       "awareness training",
       "security awareness"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
       "+4 adjacent topic: Security awareness and phishing tests",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Content team",
      "angle": "Coaching people on the real email in front of them works better than an annual course.",
      "topic": "awareness"
@@ -4777,12 +5371,11 @@
       "bec",
       "vishing"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: BEC and payment fraud",
-      "+1 posted this week"
+      "+6 core topic: BEC and payment fraud"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "topic": "bec"
@@ -4818,11 +5411,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4858,11 +5450,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: Security engineer & SecOps",
-      "+1 posted this week"
+      "+2 buyer: Security engineer & SecOps"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4896,13 +5487,12 @@
       "email gateway",
       "secure email gateway"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Replacing or adding to the email gateway",
-      "+4 nobody has answered",
-      "+1 posted this week"
+      "+4 nobody has answered"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Account executive and sales engineer",
      "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
      "topic": "seg"
@@ -4935,12 +5525,11 @@
      "evidence": [
       "ticket"
      ],
-     "score": 12,
+     "score": 11,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+3 buyer: Security leader",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -4960,12 +5549,11 @@
      "evidence": [
       "bec"
      ],
-     "score": 12,
+     "score": 11,
      "why": [
       "+6 core topic: BEC and payment fraud",
       "+3 buyer: Security leader",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -5000,12 +5588,11 @@
      "evidence": [
       "bec"
      ],
-     "score": 12,
+     "score": 11,
      "why": [
       "+6 core topic: BEC and payment fraud",
       "+3 buyer: Security leader",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -5040,12 +5627,11 @@
      "evidence": [
       "bec"
      ],
-     "score": 12,
+     "score": 11,
      "why": [
       "+6 core topic: BEC and payment fraud",
       "+3 buyer: Security leader",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -5081,12 +5667,11 @@
       "kev",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -5119,11 +5704,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -5142,11 +5726,10 @@
       "email gateway",
       "secure email gateway"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Replacing or adding to the email gateway",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "worth",
      "who": "Account executive and sales engineer",
@@ -5181,14 +5764,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -5221,12 +5803,11 @@
       "audit",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Getting fixes owned and done",
-      "+1 posted this week"
+      "+6 core topic: Getting fixes owned and done"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -5258,12 +5839,11 @@
       "patch",
       "patching"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Getting fixes owned and done",
-      "+1 posted this week"
+      "+6 core topic: Getting fixes owned and done"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -5298,14 +5878,13 @@
       "kev",
       "patch"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: IT & infrastructure",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
