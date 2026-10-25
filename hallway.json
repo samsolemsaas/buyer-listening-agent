@@ -1,13 +1,13 @@
 {
- "generated": "2026-10-24T13:43Z",
+ "generated": "2026-10-25T13:43Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 8,
+  "new": 7,
   "by_source": {
-   "Mastodon": 7,
-   "Press": 1
+   "Hacker News": 2,
+   "Mastodon": 5
   }
  },
  "rooms_norms": {
@@ -103,10 +103,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 102,
-     "recent": 93,
-     "prior": 8,
-     "change": 1062,
+     "total": 107,
+     "recent": 96,
+     "prior": 10,
+     "change": 860,
      "weekly": [
       0,
       0,
@@ -117,12 +117,19 @@
       1,
       0,
       0,
-      10,
-      57,
-      34
+      14,
+      56,
+      36
      ],
-     "open": 18,
+     "open": 19,
      "open_examples": [
+      {
+       "title": "New blog post by me: https:// nheinz.eu/blog/2026/10/contain er-vulnerability-management/?",
+       "url": "https://infosec.exchange/@niclas/117501558174904892",
+       "room": "infosec.exchange",
+       "date": "2026-10-25",
+       "replies": 0
+      },
       {
        "title": "⚠️ PATCH NOW Two critical PHP core flaws (CVE-2026-109618/619, CVSS 9.2) leaked before the",
        "url": "https://infosec.exchange/@suriq/117479156315324187",
@@ -136,13 +143,6 @@
        "room": "Hacker News",
        "date": "2026-10-21",
        "replies": 0
-      },
-      {
-       "title": "Microsoft Fixes Audio Decoding Issue Behind Windows 11 App Crashes Microsoft has fixed a f",
-       "url": "https://mastodon.social/@Analyst207/117468270577451041",
-       "room": "mastodon.social",
-       "date": "2026-10-19",
-       "replies": 0
       }
      ],
      "rooms": [
@@ -150,7 +150,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 87.2
+     "score": 89.3
     },
     {
      "key": "prioritization",
@@ -158,10 +158,10 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 83,
-     "recent": 74,
-     "prior": 9,
-     "change": 722,
+     "total": 86,
+     "recent": 75,
+     "prior": 11,
+     "change": 582,
      "weekly": [
       0,
       0,
@@ -172,8 +172,8 @@
       0,
       0,
       0,
-      11,
-      52,
+      16,
+      50,
       20
      ],
      "open": 6,
@@ -205,7 +205,7 @@
       "infosec.exchange",
       "swecyb.com"
      ],
-     "score": 66.5
+     "score": 67.0
     },
     {
      "key": "board",
@@ -245,8 +245,8 @@
      "fit": 2,
      "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
      "who": "Content team",
-     "total": 6,
-     "recent": 6,
+     "total": 7,
+     "recent": 7,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -259,50 +259,18 @@
       0,
       0,
       0,
-      0,
-      4,
-      2
+      1,
+      3,
+      3
      ],
      "open": 0,
      "open_examples": [],
      "rooms": [
-      "infosec.exchange",
       "mastodon.social",
+      "infosec.exchange",
       "swecyb.com"
      ],
-     "score": 11.2
-    },
-    {
-     "key": "controls",
-     "label": "Security tools misconfigured or not covering everything",
-     "fit": 3,
-     "angle": "Most breaches hit companies that already owned a tool that could have stopped them. Check coverage and configuration before buying more.",
-     "who": "Founder or research team",
-     "total": 2,
-     "recent": 2,
-     "prior": 0,
-     "change": 100,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      1,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [
-      "infosec.exchange",
-      "mastobot.ping.moi"
-     ],
-     "score": 9.5
+     "score": 12.0
     },
     {
      "key": "ai_cves",
@@ -310,8 +278,8 @@
      "fit": 2,
      "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
      "who": "Research team",
-     "total": 4,
-     "recent": 2,
+     "total": 5,
+     "recent": 3,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -326,15 +294,15 @@
       0,
       0,
       1,
-      1
+      2
      ],
      "open": 0,
      "open_examples": [],
      "rooms": [
-      "infosec.exchange",
-      "Hacker News"
+      "Hacker News",
+      "infosec.exchange"
      ],
-     "score": 9.3
+     "score": 10.3
     },
     {
      "key": "ai_security",
@@ -390,6 +358,38 @@
       "mastodon.social"
      ],
      "score": 7.1
+    },
+    {
+     "key": "controls",
+     "label": "Security tools misconfigured or not covering everything",
+     "fit": 3,
+     "angle": "Most breaches hit companies that already owned a tool that could have stopped them. Check coverage and configuration before buying more.",
+     "who": "Founder or research team",
+     "total": 2,
+     "recent": 1,
+     "prior": 1,
+     "change": 0,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "infosec.exchange",
+      "mastobot.ping.moi"
+     ],
+     "score": 4.8
     },
     {
      "key": "sprawl",
@@ -464,13 +464,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 16.0,
+     "score": 16.2,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+11.0 45 relevant conversations there",
+      "+11.2 47 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 45,
+     "hosted": 47,
      "mentions": 0,
      "evidence": []
     },
@@ -483,15 +483,21 @@
      "who": "Founders and engineers post research and launches.",
      "norms": "Engineers here punish marketing language. Add facts, data or code, and say where you work.",
      "url": "https://news.ycombinator.com/",
-     "score": 7.6,
+     "score": 9.0,
      "why": [
       "+2 audience fit (1 of 3)",
-      "+4.6 4 relevant conversations there",
+      "+6.0 6 relevant conversations there, mentioned in 1",
       "+1 easy to join"
      ],
-     "hosted": 4,
-     "mentions": 0,
-     "evidence": []
+     "hosted": 6,
+     "mentions": 1,
+     "evidence": [
+      {
+       "title": "Sam Altman: 'I No Longer Think We're Gonna Be Able to Just Patch All the Bugs'",
+       "url": "https://news.ycombinator.com/item?id=50223499",
+       "date": "2026-10-24"
+      }
+     ]
     },
     {
      "name": "r/cybersecurity",
@@ -961,11 +967,11 @@
    "phrases": [
     {
      "phrase": "cybersecurity infosec",
-     "count": 34
+     "count": 36
     },
     {
      "phrase": "cve vulnerability",
-     "count": 26
+     "count": 27
     },
     {
      "phrase": "patch tuesday",
@@ -973,31 +979,35 @@
     },
     {
      "phrase": "score cvss",
-     "count": 24
+     "count": 25
     },
     {
      "phrase": "euvd enisa",
-     "count": 24
+     "count": 25
     },
     {
      "phrase": "enisa europa",
-     "count": 24
+     "count": 25
     },
     {
      "phrase": "vulnerabi lity",
-     "count": 24
+     "count": 25
     },
     {
      "phrase": "infosec euvd",
-     "count": 24
+     "count": 25
     },
     {
      "phrase": "euvd cve",
-     "count": 24
+     "count": 25
     },
     {
      "phrase": "cve infosec",
-     "count": 19
+     "count": 20
+    },
+    {
+     "phrase": "valtersit com cve",
+     "count": 17
     },
     {
      "phrase": "utm source",
@@ -1010,10 +1020,6 @@
     {
      "phrase": "vendor siemens",
      "count": 17
-    },
-    {
-     "phrase": "valtersit com cve",
-     "count": 16
     },
     {
      "phrase": "source mastodon",
@@ -1064,6 +1070,10 @@
      "count": 9
     },
     {
+     "phrase": "infosec cybersecurity",
+     "count": 8
+    },
+    {
      "phrase": "product simatic",
      "count": 8
     },
@@ -1074,27 +1084,9 @@
     {
      "phrase": "infosec cve",
      "count": 7
-    },
-    {
-     "phrase": "infosec cybersecurity",
-     "count": 7
     }
    ],
    "quotes": {
-    "remediation": [
-     {
-      "text": "Please patch your PHP installations immediately; active exploitation is ongoing at scale and the window for orderly remediation has passed.",
-      "url": "https://infosec.exchange/@security_crawler_carl/117495635487245241",
-      "room": "infosec.exchange",
-      "date": "2026-10-24"
-     },
-     {
-      "text": "reuters.com/world/asia-pacific /cloudflare-sees-millions-exploit-attempts-after-php-disclosure-2026-10-22 # CyberSecurity # PHP # ZeroDay # Vulnerability # InfoSec # PatchedOrPerish (3/3)",
-      "url": "https://infosec.exchange/@security_crawler_carl/117495635487245241",
-      "room": "infosec.exchange",
-      "date": "2026-10-24"
-     }
-    ],
     "prioritization": [
      {
       "text": "Allegra scores D on trust: 24 CVEs, 7 critical, max CVSS 9.8, and 100% unpatched.",
@@ -1109,14 +1101,6 @@
       "date": "2026-10-23"
      }
     ],
-    "board": [
-     {
-      "text": "Repeated queries to non-existent endpoints inflate metrics storage and processing, consuming excessive resources.",
-      "url": "https://mastodon.social/@EUVD_Bot/117444815514748186",
-      "room": "mastodon.social",
-      "date": "2026-10-15"
-     }
-    ],
     "compliance": [
      {
       "text": "Stdio MCP servers go through an audit proxy.",
@@ -1129,6 +1113,28 @@
       "url": "https://infosec.exchange/@secdb/117450519064818123",
       "room": "infosec.exchange",
       "date": "2026-10-16"
+     }
+    ],
+    "remediation": [
+     {
+      "text": "Patch under review, so restrict API keys and watch for updates now.",
+      "url": "https://mastodon.social/@hugovalters/117501748971032031",
+      "room": "mastodon.social",
+      "date": "2026-10-25"
+     },
+     {
+      "text": "Please patch your PHP installations immediately; active exploitation is ongoing at scale and the window for orderly remediation has passed.",
+      "url": "https://infosec.exchange/@security_crawler_carl/117495635487245241",
+      "room": "infosec.exchange",
+      "date": "2026-10-24"
+     }
+    ],
+    "board": [
+     {
+      "text": "Repeated queries to non-existent endpoints inflate metrics storage and processing, consuming excessive resources.",
+      "url": "https://mastodon.social/@EUVD_Bot/117444815514748186",
+      "room": "mastodon.social",
+      "date": "2026-10-15"
      }
     ],
     "ai_security": [
@@ -1183,7 +1189,7 @@
     ]
    },
    "brief": {},
-   "count": 136
+   "count": 142
   },
   "ocean": {
    "company": {
@@ -1451,10 +1457,10 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 13,
+     "total": 14,
      "recent": 8,
-     "prior": 5,
-     "change": 60,
+     "prior": 6,
+     "change": 33,
      "weekly": [
       0,
       0,
@@ -1467,7 +1473,7 @@
       0,
       6,
       2,
-      5
+      6
      ],
      "open": 3,
      "open_examples": [
@@ -1498,7 +1504,7 @@
       "bsd.network",
       "mastodon.world"
      ],
-     "score": 7.6
+     "score": 6.7
     },
     {
      "key": "awareness",
@@ -1545,8 +1551,8 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 2,
-     "recent": 2,
+     "total": 3,
+     "recent": 3,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -1561,7 +1567,7 @@
       0,
       0,
       1,
-      1
+      2
      ],
      "open": 1,
      "open_examples": [
@@ -1576,7 +1582,7 @@
      "rooms": [
       "mastodon.social"
      ],
-     "score": 3.7
+     "score": 4.5
     },
     {
      "key": "report_triage",
@@ -2240,17 +2246,17 @@
     }
    ],
    "quotes": {
-    "trusted_senders": [
+    "deepfakes": [
      {
-      "text": "Attackers leverage SharePoint, Docusign, and Microsoft 365 themes, employing credential harvesting pages disguised as document-sharing portals.",
-      "url": "https://social.raytec.co/@techbot/117490240940443645",
-      "room": "social.raytec.co",
-      "date": "2026-10-23"
+      "text": "bazmac.me/blog/a-fake-met-poli ce-detective-called-me-how-the-scam-works # Phishing # Vishing # ScamAwareness # Fraud # CyberSecurity # InfoSec # EmailSecurity # SocialEngineering # ScamAlert # PoliceScam # UKScams # FraudPrevention # DMARC",
+      "url": "https://mastodon.social/@bazcurtis/117496222426459241",
+      "room": "mastodon.social",
+      "date": "2026-10-24"
      },
      {
-      "text": "Wazza features dynamic capabilities including 19 different phishing themes impersonating services like Adobe, DocuSign, and OneDrive, along with six corporate decoy websites.",
-      "url": "https://social.raytec.co/@techbot/117477632858639986",
-      "room": "social.raytec.co",
+      "text": "Suspicious emails, smishing, vishing, fake websites and payment fraud.",
+      "url": "https://mastodon.social/@carelearninguk/117479024594262775",
+      "room": "mastodon.social",
       "date": "2026-10-21"
      }
     ],
@@ -2266,6 +2272,20 @@
       "url": "https://mastodon.social/@ppcland/117491647527752004",
       "room": "mastodon.social",
       "date": "2026-10-23"
+     }
+    ],
+    "trusted_senders": [
+     {
+      "text": "Attackers leverage SharePoint, Docusign, and Microsoft 365 themes, employing credential harvesting pages disguised as document-sharing portals.",
+      "url": "https://social.raytec.co/@techbot/117490240940443645",
+      "room": "social.raytec.co",
+      "date": "2026-10-23"
+     },
+     {
+      "text": "Wazza features dynamic capabilities including 19 different phishing themes impersonating services like Adobe, DocuSign, and OneDrive, along with six corporate decoy websites.",
+      "url": "https://social.raytec.co/@techbot/117477632858639986",
+      "room": "social.raytec.co",
+      "date": "2026-10-21"
      }
     ],
     "bec": [
@@ -2310,20 +2330,6 @@
       "date": "2026-10-22"
      }
     ],
-    "deepfakes": [
-     {
-      "text": "Suspicious emails, smishing, vishing, fake websites and payment fraud.",
-      "url": "https://mastodon.social/@carelearninguk/117479024594262775",
-      "room": "mastodon.social",
-      "date": "2026-10-21"
-     },
-     {
-      "text": "Tycoon2FA got taken down, but BEC and Teams vishing are surging.",
-      "url": "https://mastodon.social/@threadlinqs/117437909538104605",
-      "room": "mastodon.social",
-      "date": "2026-10-14"
-     }
-    ],
     "seg": [
      {
       "text": "🔴 EXPLOITED CVE-2026-76519 is a critical arbitrary file write flaw in Cisco Secure Email Gateway, letting an unauthenticated remote attacker run commands as root.",
@@ -2348,10 +2354,162 @@
     ]
    },
    "brief": {},
-   "count": 36
+   "count": 37
   }
  },
  "conversations": [
+  {
+   "id": "9a36b0e27834",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-109383 📊 Score: 6.9/10 (CVSS v3.1) 📦 Product: niubigeo 🏢 Vendor: Albert-Weasker 📅 Updated: 2026-10-25 📝 NiubiGEO before 0.3.2 contains an unauthenticated server-side request forgery vulnerability that allows remote attackers to make the server fetch internal addresses by supplying a crafted domain value to POST /audit-plan. Attackers can submit IP li... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-109383 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117501674784145171",
+   "date": "2026-10-25",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-25",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "compliance"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "audit",
+      "cvss"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "1b95967dc4d8",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "New blog post by me: https:// nheinz.eu/blog/2026/10/contain er-vulnerability-management/?ref=mastodon How I manage my Containers and their Vulnerability Management across infrastructure and how the patching of PHP2SHELL looked like # selfhosting # selfhosted # container # kubernetes # vulnerability # vulnerabilitymanagement # homelab # renovate # trivy # forgejo # forgejoactions # harbor # security",
+   "url": "https://infosec.exchange/@niclas/117501558174904892",
+   "date": "2026-10-25",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-25",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "patch",
+      "patching"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "632bce9783fb",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-94381 MISP privilege escalation: read-only API keys can regain full account permissions, up to admin. CVSS 8.8. Patch under review, so restrict API keys and watch for updates now. # CVE # infosec # cybersecurity https://www. valtersit.com/cve/CVE-2026-943 81/",
+   "url": "https://mastodon.social/@hugovalters/117501748971032031",
+   "date": "2026-10-25",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-25",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "1993cfeb5670",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "PHP2Shell: What Is Easy and What Is Hard to Exploit PHP2Shell (CVE-2026-109618 and CVE-2026-109619, CVSS 9.2) is a pair of pre-authentication RCE flaws in PHP's request parser, reachable through any PHP endpoint on default configs (session upload progress and file uploads). Crashing a worker is trivial but reliable code execution needs per-build memory offsets. The problem is that one calibrated exploit works on every identical stock image like default docker images. **If your website or application runs on PHP, update right now to PHP 8.2.35, 8.3.36, 8.4.27 or 8.5.12 and restart all PHP and web server workers, because a patched server with old workers still running is still vulnerable. If you can't patch immediately, set `session.upload_progress.enabled = Off` as a temporary stopgap (it blocks only one of the two attack paths), restart all workers, and watch your logs for memory errors, crashes and web processes starting shells, since a successful attack can look like a perfectly normal request.** # cybersecurity # infosec # knowledge # awareness https:// beyondmachines.net/event_detai ls/obstacles-to-weaponizing-php2shell-likely-constrain-immediate-widespread-exploitation-0-3-u-e",
+   "url": "https://infosec.exchange/@beyondmachines1/117501441010110024",
+   "date": "2026-10-25",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-25",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "5c6eba4041a7",
    "source": "Mastodon",
@@ -2461,6 +2619,126 @@
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "364b42e21d05",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Sam Altman: 'I No Longer Think We're Gonna Be Able to Just Patch All the Bugs'",
+   "text": "Ok. I was sympathetic to that historically for all the reasons you stated. If you put the effort in, why are you constrained. I think we are in a different world now. So what would you do in my thought experiment? You are the QA head and the new model could literally find and exploit ANY bug? Would you release the model? Genuinely curious. Its not totally science fiction. I think there is a difference in a couple smart people punishing 1 sloppy company that underinvested in security. The internet is a stack of protocols, hardware, infrastructure, applications etc. It could be the case that almost everyone has capabilities on par with yours. Great you say, security will improve! However, there will be a meltdown in the middle where potentially digital currency is exploited, exchanges, banks, utilities. It isn't just a team working for 3 months, finding some issues in a company. Or is this way overblown?",
+   "url": "https://news.ycombinator.com/item?id=50224192",
+   "date": "2026-10-24",
+   "kind": "comment",
+   "replies": null,
+   "found": "2026-10-25",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "6e79327619e5",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Sam Altman: 'I No Longer Think We're Gonna Be Able to Just Patch All the Bugs'",
+   "text": "\"Altman seems to be scolding these organizations for not taking the situation seriously enough or considering that models might evolve and improve, but seems to have less interest in reflecting on whether or not he might have undersold the issue while pushing forward\" Meanwhile, look back at the old Mythos and Glasswing threads and all of the AI haters on Hacker News were lambasting Anthropic for hyping up the next token generators that could never find a bug not in their training data...",
+   "url": "https://news.ycombinator.com/item?id=50223499",
+   "date": "2026-10-24",
+   "kind": "comment",
+   "replies": null,
+   "found": "2026-10-25",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation",
+      "ai_cves"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "mythos",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": [
+    {
+     "name": "Hacker News",
+     "known": true,
+     "platform": "Forum",
+     "url": "https://news.ycombinator.com/"
+    }
+   ]
+  },
+  {
+   "id": "b1769da89ff7",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Following on from yesterday’s post about the fake Met Police detective who rang me, I’ve written it up on my blog. He already knew my email and sent a “confirmation” with his badge and crime number. The headers show it came via Mailgun from sophiawestfall.com, not met.police.uk. Full header analysis in the post. https://www. bazmac.me/blog/a-fake-met-poli ce-detective-called-me-how-the-scam-works # Phishing # Vishing # ScamAwareness # Fraud # CyberSecurity # InfoSec # EmailSecurity # SocialEngineering # ScamAlert # PoliceScam # UKScams # FraudPrevention # DMARC",
+   "url": "https://mastodon.social/@bazcurtis/117496222426459241",
+   "date": "2026-10-24",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-25",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "deepfakes",
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "dmarc",
+      "vishing"
+     ],
+     "score": 4,
+     "why": [
+      "+1 listen-only topic: Deepfake voice and video fraud",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "deepfakes"
     }
    },
    "rooms": []
@@ -2812,13 +3090,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -2851,10 +3129,10 @@
       "audit",
       "cvss"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2889,10 +3167,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2926,10 +3204,10 @@
       "bank details",
       "changed bank details"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: BEC and payment fraud",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2963,10 +3241,10 @@
       "dkim",
       "dmarc"
      ],
-     "score": 4,
+     "score": 2,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -3007,13 +3285,13 @@
       "bypassed",
       "inbox rule"
      ],
-     "score": 12,
+     "score": 10,
      "why": [
       "+6 core topic: BEC and payment fraud",
       "+3 buyer: Email & M365 admin",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "topic": "bec"
@@ -3046,10 +3324,10 @@
       "account takeover",
       "targeted phishing"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Targeted phishing getting through",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Research team",
@@ -3085,13 +3363,13 @@
       "patch",
       "remediation"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 shopping for tools",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3124,10 +3402,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3161,10 +3439,10 @@
       "patch",
       "patching"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3200,11 +3478,11 @@
       "patch",
       "patching"
      ],
-     "score": 12,
+     "score": 10,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+3 buyer: Security leader",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "Sales engineer",
@@ -3242,12 +3520,12 @@
       "bec",
       "inbox rule"
      ],
-     "score": 14,
+     "score": 12,
      "why": [
       "+6 core topic: BEC and payment fraud",
       "+3 buyer: Email & M365 admin",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -4405,12 +4683,11 @@
       "kev",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4444,11 +4721,10 @@
       "dkim",
       "spf"
      ],
-     "score": 5,
+     "score": 4,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+3 buyer: Email & M365 admin",
-      "+1 posted this week"
+      "+3 buyer: Email & M365 admin"
      ],
      "band": "listen",
      "who": "",
@@ -4482,11 +4758,10 @@
       "patch",
       "patching"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 shopping for tools",
-      "+1 posted this week"
+      "+2 shopping for tools"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4521,12 +4796,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4558,12 +4832,11 @@
       "email gateway",
       "secure email gateway"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Replacing or adding to the email gateway",
-      "+1 posted this week"
+      "+6 core topic: Replacing or adding to the email gateway"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Account executive and sales engineer",
      "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
      "topic": "seg"
@@ -8160,7 +8433,7 @@
       "+6 core topic: Security tools misconfigured or not covering everything",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Founder or research team",
      "angle": "Most breaches hit companies that already owned a tool that could have stopped them. Check coverage and configuration before buying more.",
      "topic": "controls"
