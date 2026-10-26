@@ -1,13 +1,12 @@
 {
- "generated": "2026-10-25T13:43Z",
+ "generated": "2026-10-26T19:21Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
   "new": 7,
   "by_source": {
-   "Hacker News": 2,
-   "Mastodon": 5
+   "Mastodon": 7
   }
  },
  "rooms_norms": {
@@ -103,10 +102,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 107,
+     "total": 111,
      "recent": 96,
-     "prior": 10,
-     "change": 860,
+     "prior": 14,
+     "change": 586,
      "weekly": [
       0,
       0,
@@ -116,9 +115,9 @@
       0,
       1,
       0,
-      0,
-      14,
-      56,
+      1,
+      18,
+      55,
       36
      ],
      "open": 19,
@@ -150,7 +149,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 89.3
+     "score": 89.8
     },
     {
      "key": "prioritization",
@@ -158,10 +157,10 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 86,
-     "recent": 75,
-     "prior": 11,
-     "change": 582,
+     "total": 90,
+     "recent": 74,
+     "prior": 16,
+     "change": 362,
      "weekly": [
       0,
       0,
@@ -171,10 +170,10 @@
       0,
       0,
       0,
-      0,
-      16,
-      50,
-      20
+      1,
+      20,
+      47,
+      22
      ],
      "open": 6,
      "open_examples": [
@@ -205,7 +204,40 @@
       "infosec.exchange",
       "swecyb.com"
      ],
-     "score": 67.0
+     "score": 67.6
+    },
+    {
+     "key": "compliance",
+     "label": "Directives and compliance deadlines",
+     "fit": 2,
+     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
+     "who": "Content team",
+     "total": 7,
+     "recent": 6,
+     "prior": 1,
+     "change": 500,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      3,
+      3
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange",
+      "swecyb.com"
+     ],
+     "score": 18.0
     },
     {
      "key": "board",
@@ -238,39 +270,6 @@
       "infosec.exchange"
      ],
      "score": 13.9
-    },
-    {
-     "key": "compliance",
-     "label": "Directives and compliance deadlines",
-     "fit": 2,
-     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
-     "who": "Content team",
-     "total": 7,
-     "recent": 7,
-     "prior": 0,
-     "change": 100,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      3,
-      3
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [
-      "mastodon.social",
-      "infosec.exchange",
-      "swecyb.com"
-     ],
-     "score": 12.0
     },
     {
      "key": "ai_cves",
@@ -322,8 +321,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       1,
       1,
       3
@@ -464,13 +463,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 16.2,
+     "score": 16.3,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+11.2 47 relevant conversations there",
+      "+11.3 49 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 47,
+     "hosted": 49,
      "mentions": 0,
      "evidence": []
     },
@@ -967,39 +966,39 @@
    "phrases": [
     {
      "phrase": "cybersecurity infosec",
-     "count": 36
+     "count": 37
     },
     {
      "phrase": "cve vulnerability",
-     "count": 27
+     "count": 28
     },
     {
      "phrase": "patch tuesday",
-     "count": 26
+     "count": 27
     },
     {
      "phrase": "score cvss",
-     "count": 25
+     "count": 26
     },
     {
      "phrase": "euvd enisa",
-     "count": 25
+     "count": 26
     },
     {
      "phrase": "enisa europa",
-     "count": 25
+     "count": 26
     },
     {
      "phrase": "vulnerabi lity",
-     "count": 25
+     "count": 26
     },
     {
      "phrase": "infosec euvd",
-     "count": 25
+     "count": 26
     },
     {
      "phrase": "euvd cve",
-     "count": 25
+     "count": 26
     },
     {
      "phrase": "cve infosec",
@@ -1030,6 +1029,10 @@
      "count": 16
     },
     {
+     "phrase": "october patch",
+     "count": 13
+    },
+    {
      "phrase": "threataft com articles",
      "count": 13
     },
@@ -1039,10 +1042,6 @@
     },
     {
      "phrase": "medium social",
-     "count": 12
-    },
-    {
-     "phrase": "october patch",
      "count": 12
     },
     {
@@ -1089,16 +1088,30 @@
    "quotes": {
     "prioritization": [
      {
-      "text": "Allegra scores D on trust: 24 CVEs, 7 critical, max CVSS 9.8, and 100% unpatched.",
-      "url": "https://mastodon.social/@hugovalters/117495890316846657",
-      "room": "mastodon.social",
-      "date": "2026-10-24"
+      "text": "Daily brief, Oct 26: - PHP2Shell CVE-2026-109618/-109619 (CVSS 9.2): PAN-OS mgmt UI hotfixes 10.2.18-h13/11.1.16-h4/11.2.10-h16 out, rest Oct 27-30.",
+      "url": "https://infosec.exchange/@tpsecurity/117508593302491056",
+      "room": "infosec.exchange",
+      "date": "2026-10-26"
      },
      {
-      "text": "Today's brief: - PHP2Shell CVE-2026-109618/-109619 (CVSS v4 9.2): fixed 8.5.12/8.4.27/8.3.36/8.2.35.",
-      "url": "https://infosec.exchange/@tpsecurity/117490611978269902",
-      "room": "infosec.exchange",
-      "date": "2026-10-23"
+      "text": "It creates three tiers: Tier 0 for exploited or KEV‑listed bugs, Tier 1 for critical RCEs without a cohort, and Tier 2 for the rest.",
+      "url": "https://mastodon.social/@Newfortech/117503942668351761",
+      "room": "mastodon.social",
+      "date": "2026-10-25"
+     }
+    ],
+    "remediation": [
+     {
+      "text": "Patch under review, so restrict API keys and watch for updates now.",
+      "url": "https://mastodon.social/@hugovalters/117501748971032031",
+      "room": "mastodon.social",
+      "date": "2026-10-25"
+     },
+     {
+      "text": "We’ve released a Python triage script for the October 2026 Patch Tuesday CVEs.",
+      "url": "https://mastodon.social/@Newfortech/117503942668351761",
+      "room": "mastodon.social",
+      "date": "2026-10-25"
      }
     ],
     "compliance": [
@@ -1113,20 +1126,6 @@
       "url": "https://infosec.exchange/@secdb/117450519064818123",
       "room": "infosec.exchange",
       "date": "2026-10-16"
-     }
-    ],
-    "remediation": [
-     {
-      "text": "Patch under review, so restrict API keys and watch for updates now.",
-      "url": "https://mastodon.social/@hugovalters/117501748971032031",
-      "room": "mastodon.social",
-      "date": "2026-10-25"
-     },
-     {
-      "text": "Please patch your PHP installations immediately; active exploitation is ongoing at scale and the window for orderly remediation has passed.",
-      "url": "https://infosec.exchange/@security_crawler_carl/117495635487245241",
-      "room": "infosec.exchange",
-      "date": "2026-10-24"
      }
     ],
     "board": [
@@ -1189,7 +1188,7 @@
     ]
    },
    "brief": {},
-   "count": 142
+   "count": 146
   },
   "ocean": {
    "company": {
@@ -1258,8 +1257,8 @@
      "fit": 3,
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "who": "Sales engineer",
-     "total": 12,
-     "recent": 12,
+     "total": 13,
+     "recent": 13,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -1274,10 +1273,17 @@
       0,
       0,
       7,
-      5
+      6
      ],
-     "open": 8,
+     "open": 9,
      "open_examples": [
+      {
+       "title": "Is this email really from who you think? One letter in a domain can cost lakhs. • yourbusi",
+       "url": "https://mastodon.social/@NexonEnterprise/117507221454492076",
+       "room": "mastodon.social",
+       "date": "2026-10-26",
+       "replies": 0
+      },
       {
        "title": "A token replay attack hit 79 organizations, bypassing MFA to set up Microsoft 365 BEC with",
        "url": "https://infosec.exchange/@DailyCyberSecurity/117485099900600698",
@@ -1291,20 +1297,13 @@
        "room": "mastodon.social",
        "date": "2026-10-21",
        "replies": 0
-      },
-      {
-       "title": "Generative AI Erodes Email Security's Behavioral Tells Generative AI is making email secur",
-       "url": "https://mastodon.social/@Analyst207/117479009022605443",
-       "room": "mastodon.social",
-       "date": "2026-10-21",
-       "replies": 0
       }
      ],
      "rooms": [
       "infosec.exchange",
       "mastodon.social"
      ],
-     "score": 34.2
+     "score": 36.3
     },
     {
      "key": "seg",
@@ -1457,10 +1456,10 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 14,
-     "recent": 8,
+     "total": 16,
+     "recent": 10,
      "prior": 6,
-     "change": 33,
+     "change": 67,
      "weekly": [
       0,
       0,
@@ -1470,13 +1469,20 @@
       0,
       0,
       0,
-      0,
-      6,
+      1,
+      5,
       2,
-      6
+      8
      ],
-     "open": 3,
+     "open": 4,
      "open_examples": [
+      {
+       "title": "Is this email really from who you think? One letter in a domain can cost lakhs. • yourbusi",
+       "url": "https://mastodon.social/@NexonEnterprise/117507221454492076",
+       "room": "mastodon.social",
+       "date": "2026-10-26",
+       "replies": 0
+      },
       {
        "title": "🚀 How Email Works: SMTP, IMAP, SPF, DKIM, and DMARC Explained Email is older than the web ",
        "url": "https://mastodon.social/@zyvop/117471762665649202",
@@ -1490,21 +1496,14 @@
        "room": "mastodon.world",
        "date": "2026-10-15",
        "replies": 0
-      },
-      {
-       "title": "New tool: Email Security Checker. Paste a list of domains and get each one's email provide",
-       "url": "https://mastodon.social/@tiktopdata/117399888542802826",
-       "room": "mastodon.social",
-       "date": "2026-10-07",
-       "replies": 0
       }
      ],
      "rooms": [
       "mastodon.social",
-      "bsd.network",
-      "mastodon.world"
+      "infosec.exchange",
+      "bsd.network"
      ],
-     "score": 6.7
+     "score": 8.8
     },
     {
      "key": "awareness",
@@ -1512,8 +1511,8 @@
      "fit": 2,
      "angle": "Coaching people on the real email in front of them works better than an annual course.",
      "who": "Content team",
-     "total": 1,
-     "recent": 1,
+     "total": 2,
+     "recent": 2,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -1528,7 +1527,7 @@
       0,
       0,
       1,
-      0
+      1
      ],
      "open": 1,
      "open_examples": [
@@ -1541,9 +1540,10 @@
       }
      ],
      "rooms": [
+      "infosec.exchange",
       "mastodon.social"
      ],
-     "score": 5.0
+     "score": 7.3
     },
     {
      "key": "deepfakes",
@@ -1655,13 +1655,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 14.4,
+     "score": 14.8,
      "why": [
       "+6 audience fit (3 of 3)",
-      "+7.4 12 relevant conversations there",
+      "+7.8 14 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 12,
+     "hosted": 14,
      "mentions": 0,
      "evidence": []
     },
@@ -2129,12 +2129,12 @@
      "count": 11
     },
     {
-     "phrase": "utm medium",
+     "phrase": "spf dkim",
      "count": 10
     },
     {
-     "phrase": "spf dkim",
-     "count": 9
+     "phrase": "utm medium",
+     "count": 10
     },
     {
      "phrase": "source mastodon",
@@ -2246,46 +2246,18 @@
     }
    ],
    "quotes": {
-    "deepfakes": [
+    "awareness": [
      {
-      "text": "bazmac.me/blog/a-fake-met-poli ce-detective-called-me-how-the-scam-works # Phishing # Vishing # ScamAwareness # Fraud # CyberSecurity # InfoSec # EmailSecurity # SocialEngineering # ScamAlert # PoliceScam # UKScams # FraudPrevention # DMARC",
-      "url": "https://mastodon.social/@bazcurtis/117496222426459241",
-      "room": "mastodon.social",
-      "date": "2026-10-24"
+      "text": "The @nyknicks recent # phishing test may rank among the worst ever, second only to the @GoDaddy debacle.",
+      "url": "https://infosec.exchange/@benrothke/117507971571886886",
+      "room": "infosec.exchange",
+      "date": "2026-10-26"
      },
      {
-      "text": "Suspicious emails, smishing, vishing, fake websites and payment fraud.",
-      "url": "https://mastodon.social/@carelearninguk/117479024594262775",
-      "room": "mastodon.social",
-      "date": "2026-10-21"
-     }
-    ],
-    "authentication": [
-     {
-      "text": "FYI: EasyDMARC and GMO GlobalSign tie DMARC enforcement to inbox brand logos: Verified Mark and Common Mark Certificates join SPF, DKIM and DMARC tools for GlobalSign customers in three regions.",
-      "url": "https://mastodon.social/@ppcland/117491647527752004",
-      "room": "mastodon.social",
-      "date": "2026-10-23"
-     },
-     {
-      "text": "https:// ppc.land/easydmarc-and-gmo-glo balsign-tie-dmarc-enforcement-to-inbox-brand-logos/ # DMARC # EmailSecurity # BrandProtection # SPF # DKIM",
-      "url": "https://mastodon.social/@ppcland/117491647527752004",
-      "room": "mastodon.social",
-      "date": "2026-10-23"
-     }
-    ],
-    "trusted_senders": [
-     {
-      "text": "Attackers leverage SharePoint, Docusign, and Microsoft 365 themes, employing credential harvesting pages disguised as document-sharing portals.",
-      "url": "https://social.raytec.co/@techbot/117490240940443645",
-      "room": "social.raytec.co",
-      "date": "2026-10-23"
-     },
-     {
-      "text": "Wazza features dynamic capabilities including 19 different phishing themes impersonating services like Adobe, DocuSign, and OneDrive, along with six corporate decoy websites.",
-      "url": "https://social.raytec.co/@techbot/117477632858639986",
-      "room": "social.raytec.co",
-      "date": "2026-10-21"
+      "text": "It confused security awareness with loyalty and risked destroying employee trust.",
+      "url": "https://infosec.exchange/@benrothke/117507971571886886",
+      "room": "infosec.exchange",
+      "date": "2026-10-26"
      }
     ],
     "bec": [
@@ -2300,6 +2272,48 @@
       "url": "https://mastodon.social/@threadlinqs/117484744384247531",
       "room": "mastodon.social",
       "date": "2026-10-22"
+     }
+    ],
+    "authentication": [
+     {
+      "text": "Some self promotion of a new project I made for DMARC analysis.",
+      "url": "https://infosec.exchange/@Ketavera/117502675367783811",
+      "room": "infosec.exchange",
+      "date": "2026-10-25"
+     },
+     {
+      "text": "Single container (rust, sqlite, web ui built in), reads the aggregate reports from an imap mailbox and recomputes spf / dkim alignment itself instead of trusting the reporter.",
+      "url": "https://infosec.exchange/@Ketavera/117502675367783811",
+      "room": "infosec.exchange",
+      "date": "2026-10-25"
+     }
+    ],
+    "deepfakes": [
+     {
+      "text": "bazmac.me/blog/a-fake-met-poli ce-detective-called-me-how-the-scam-works # Phishing # Vishing # ScamAwareness # Fraud # CyberSecurity # InfoSec # EmailSecurity # SocialEngineering # ScamAlert # PoliceScam # UKScams # FraudPrevention # DMARC",
+      "url": "https://mastodon.social/@bazcurtis/117496222426459241",
+      "room": "mastodon.social",
+      "date": "2026-10-24"
+     },
+     {
+      "text": "Suspicious emails, smishing, vishing, fake websites and payment fraud.",
+      "url": "https://mastodon.social/@carelearninguk/117479024594262775",
+      "room": "mastodon.social",
+      "date": "2026-10-21"
+     }
+    ],
+    "trusted_senders": [
+     {
+      "text": "Attackers leverage SharePoint, Docusign, and Microsoft 365 themes, employing credential harvesting pages disguised as document-sharing portals.",
+      "url": "https://social.raytec.co/@techbot/117490240940443645",
+      "room": "social.raytec.co",
+      "date": "2026-10-23"
+     },
+     {
+      "text": "Wazza features dynamic capabilities including 19 different phishing themes impersonating services like Adobe, DocuSign, and OneDrive, along with six corporate decoy websites.",
+      "url": "https://social.raytec.co/@techbot/117477632858639986",
+      "room": "social.raytec.co",
+      "date": "2026-10-21"
      }
     ],
     "ai_phishing": [
@@ -2343,21 +2357,165 @@
       "room": "infosec.exchange",
       "date": "2026-10-15"
      }
-    ],
-    "awareness": [
-     {
-      "text": "🔒 That's why annual security awareness training is mandatory for our whole team, as part of our ISO 27001 certification.",
-      "url": "https://mastodon.social/@ninecloudnavigators/117438323319329881",
-      "room": "mastodon.social",
-      "date": "2026-10-14"
-     }
     ]
    },
    "brief": {},
-   "count": 37
+   "count": 40
   }
  },
  "conversations": [
+  {
+   "id": "61d418cce255",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-109910 📊 Score: 8.2/10 (CVSS v3.1) 📦 Product: netty-tcnative 🏢 Vendor: netty 📅 Updated: 2026-10-26 📝 netty-tcnative 2.0.66.Final before 2.0.84.Final built against OpenSSL 3.x contains a use-after-free vulnerability in ssl_tlsext_ticket_key_cb during session ticket key rotation. Remote clients performing TLS handshakes while setSessionTicketKeys0 free... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-109910 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117508764710510920",
+   "date": "2026-10-26",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-26",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "ticket"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "e431f6dccc97",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Daily brief, Oct 26: - PHP2Shell CVE-2026-109618/-109619 (CVSS 9.2): PAN-OS mgmt UI hotfixes 10.2.18-h13/11.1.16-h4/11.2.10-h16 out, rest Oct 27-30. Patch PHP, session.upload_progress.enabled=0, hunt since Oct 17 - Gheist: hunt ci-sync-* branches, UA gheist; rotate all repo secrets - Tailscale SSH (no CVE/fix): per-pair grants, no forwarding - CVE-2026-111497: .NET 8.0.33/9.0.22/10.0.14; rebuild self-contained apps https:// tp-security.com/news/cyber-bri ef-2026-10-26-panos-gheist-tailscale-brotli # InfoSec # PatchNow # BlueTeam # DevSecOps",
+   "url": "https://infosec.exchange/@tpsecurity/117508593302491056",
+   "date": "2026-10-26",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-26",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "0694374a3172",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "The @nyknicks recent # phishing test may rank among the worst ever, second only to the @GoDaddy debacle. It confused security awareness with loyalty and risked destroying employee trust. Phishing tests should teach, not trick. HT @jbrodkin @ArsTechnica https:// arstechnica.com/tech-policy/20 26/10/knicks-sent-employees-fake-offer-of-championship-rings-in-phishing-test-report/",
+   "url": "https://infosec.exchange/@benrothke/117507971571886886",
+   "date": "2026-10-26",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-26",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "awareness"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "phishing test",
+      "security awareness"
+     ],
+     "score": 7,
+     "why": [
+      "+4 adjacent topic: Security awareness and phishing tests",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Content team",
+     "angle": "Coaching people on the real email in front of them works better than an annual course.",
+     "topic": "awareness"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "88e67808e4e4",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Is this email really from who you think? One letter in a domain can cost lakhs. • yourbusinness.com, yourbus1ness.com, yourbusiness.co • 'Our bank details changed' scams • Always check the full sender address • Confirm bank changes by phone • DMARC stops exact-domain fakes 🌐 https:// nexonenterprise.com 📲 WhatsApp: +91 95129 29896 # Phishing # CyberSecurity # ScamAlert # EmailSecurity",
+   "url": "https://mastodon.social/@NexonEnterprise/117507221454492076",
+   "date": "2026-10-26",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-26",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "bec",
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "bank details",
+      "dmarc"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: BEC and payment fraud",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
+     "topic": "bec"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "9a36b0e27834",
    "source": "Mastodon",
@@ -2506,6 +2664,129 @@
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "6b94cc10a47d",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "We’ve released a Python triage script for the October 2026 Patch Tuesday CVEs. It creates three tiers: Tier 0 for exploited or KEV‑listed bugs, Tier 1 for critical RCEs without a cohort, and Tier 2 for the rest. The script also highlights the 289 CVEs that Microsoft’s 15 risk cohorts don’t cover. https:// newfortech.com/news/microsoft- risk-cohorts-triage-matrix-and-script-for-admins # NewForTech # MicrosoftRisk # PatchTuesday # CVEManagement",
+   "url": "https://mastodon.social/@Newfortech/117503942668351761",
+   "date": "2026-10-25",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-26",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "kev",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "0503cf121071",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Weekly roundup, Oct 19–25: - PHP2Shell CVE-2026-109618/-109619 (CVSS 9.2): fixed 8.5.12/8.4.27/8.3.36/8.2.35; probes since Oct 17. After patching, hunt new .php files in upload/cache dirs and PHP_SESSION_UPLOAD_PROGRESS POSTs - KEV: Arista VCO CVE-2026-114625, Collabora CVE-2026-110447 - Node2Shell CVE-2026-111497: Node 22.23.4/24.22.1/26.12.1 - Okta lookalikes: riskified-okta[.]com, gladly-okta[.]com https:// tp-security.com/news/weekly-ro undup-2026-10-25-php2shell-edge-flaws # InfoSec # PatchNow # BlueTeam # Phishing",
+   "url": "https://infosec.exchange/@tpsecurity/117503619764848965",
+   "date": "2026-10-25",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-26",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "kev",
+      "patch",
+      "patching"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "d9eae0060f46",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Hi I am new here. A sysadmin / dev in Switzerland. Some self promotion of a new project I made for DMARC analysis. Marcan, a selfhosted dmarc analyzer. Single container (rust, sqlite, web ui built in), reads the aggregate reports from an imap mailbox and recomputes spf / dkim alignment itself instead of trusting the reporter. It splits into 4 categories - DMARC pass - Blocked by policy - Forwarded - Delivered failures And lets you analyze the actual failure reasons / failing senders. I made it cuz I had the task to get ahold of our email-security (disaster) and found existing tools lacked the sort of small scale MSP toolset I needed, and paid tools were to expensive for what is needed. It has been in development now for over 2 months, AI assisted, but also continuously tested on the entire set of domains. https:// marcan.kaitiaki.tech source: https:// github.com/mavgit1/marcan-dmarc # introduction # SelfHosted # DMARC # EmailSecurity # security",
+   "url": "https://infosec.exchange/@Ketavera/117502675367783811",
+   "date": "2026-10-25",
+   "kind": "post",
+   "replies": 1,
+   "found": "2026-10-26",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [
+      "email_admin",
+      "msp"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "dmarc",
+      "spf"
+     ],
+     "score": 7,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+3 buyer: Email & M365 admin",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
     }
    },
    "rooms": []
@@ -2768,10 +3049,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2806,13 +3087,13 @@
      "evidence": [
       "docusign"
      ],
-     "score": 12,
+     "score": 10,
      "why": [
       "+6 core topic: Compromised vendors and trusted senders",
       "+3 buyer: Email & M365 admin",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Research team",
      "angle": "Trusted infrastructure is the new attack path. A known sender or a real DocuSign link doesn't make an email safe.",
      "topic": "trusted_senders"
@@ -2845,10 +3126,10 @@
       "patch",
       "risk reduction"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2890,13 +3171,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -2936,13 +3217,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -2975,10 +3256,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3013,10 +3294,10 @@
       "dmarc",
       "spf"
      ],
-     "score": 4,
+     "score": 2,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -3051,11 +3332,11 @@
       "ai found",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "Sales engineer",
@@ -4569,12 +4850,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4607,12 +4887,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4645,12 +4924,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -8130,7 +8408,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 shopping for tools"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -8280,7 +8558,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
