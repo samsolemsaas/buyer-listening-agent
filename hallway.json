@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-26T19:21Z",
+ "generated": "2026-10-27T18:42Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 7,
+  "new": 4,
   "by_source": {
-   "Mastodon": 7
+   "Mastodon": 4
   }
  },
  "rooms_norms": {
@@ -102,22 +102,22 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 111,
-     "recent": 96,
-     "prior": 14,
-     "change": 586,
+     "total": 113,
+     "recent": 93,
+     "prior": 19,
+     "change": 389,
      "weekly": [
       0,
       0,
       0,
       0,
       0,
-      0,
       1,
       0,
-      1,
-      18,
-      55,
+      0,
+      2,
+      31,
+      43,
       36
      ],
      "open": 19,
@@ -149,7 +149,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 89.8
+     "score": 90.0
     },
     {
      "key": "prioritization",
@@ -157,10 +157,10 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 90,
-     "recent": 74,
-     "prior": 16,
-     "change": 362,
+     "total": 91,
+     "recent": 70,
+     "prior": 21,
+     "change": 233,
      "weekly": [
       0,
       0,
@@ -170,10 +170,10 @@
       0,
       0,
       0,
-      1,
-      20,
-      47,
-      22
+      2,
+      42,
+      26,
+      21
      ],
      "open": 6,
      "open_examples": [
@@ -204,7 +204,7 @@
       "infosec.exchange",
       "swecyb.com"
      ],
-     "score": 67.6
+     "score": 67.7
     },
     {
      "key": "compliance",
@@ -227,8 +227,8 @@
       0,
       0,
       1,
-      3,
-      3
+      4,
+      2
      ],
      "open": 0,
      "open_examples": [],
@@ -245,10 +245,10 @@
      "fit": 2,
      "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
      "who": "Founder or CISO advisor",
-     "total": 4,
-     "recent": 3,
+     "total": 5,
+     "recent": 4,
      "prior": 1,
-     "change": 200,
+     "change": 300,
      "weekly": [
       0,
       0,
@@ -261,15 +261,15 @@
       1,
       0,
       2,
-      1
+      2
      ],
      "open": 0,
      "open_examples": [],
      "rooms": [
-      "mastodon.social",
-      "infosec.exchange"
+      "infosec.exchange",
+      "mastodon.social"
      ],
-     "score": 13.9
+     "score": 15.5
     },
     {
      "key": "ai_cves",
@@ -287,8 +287,8 @@
       0,
       0,
       0,
-      1,
-      1,
+      2,
+      0,
       0,
       0,
       0,
@@ -311,8 +311,8 @@
      "who": "",
      "total": 6,
      "recent": 4,
-     "prior": 2,
-     "change": 100,
+     "prior": 1,
+     "change": 300,
      "weekly": [
       0,
       0,
@@ -324,8 +324,8 @@
       1,
       0,
       1,
-      1,
-      3
+      4,
+      0
      ],
      "open": 3,
      "open_examples": [
@@ -356,7 +356,7 @@
       "c.im",
       "mastodon.social"
      ],
-     "score": 7.1
+     "score": 9.9
     },
     {
      "key": "controls",
@@ -378,8 +378,8 @@
       0,
       0,
       0,
-      1,
-      1,
+      2,
+      0,
       0
      ],
      "open": 0,
@@ -410,8 +410,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0
      ],
      "open": 0,
@@ -466,10 +466,10 @@
      "score": 16.3,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+11.3 49 relevant conversations there",
+      "+11.3 50 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 49,
+     "hosted": 50,
      "mentions": 0,
      "evidence": []
     },
@@ -966,39 +966,39 @@
    "phrases": [
     {
      "phrase": "cybersecurity infosec",
-     "count": 37
+     "count": 38
     },
     {
      "phrase": "cve vulnerability",
-     "count": 28
+     "count": 29
+    },
+    {
+     "phrase": "score cvss",
+     "count": 27
+    },
+    {
+     "phrase": "euvd enisa",
+     "count": 27
+    },
+    {
+     "phrase": "enisa europa",
+     "count": 27
+    },
+    {
+     "phrase": "vulnerabi lity",
+     "count": 27
+    },
+    {
+     "phrase": "infosec euvd",
+     "count": 27
+    },
+    {
+     "phrase": "euvd cve",
+     "count": 27
     },
     {
      "phrase": "patch tuesday",
      "count": 27
-    },
-    {
-     "phrase": "score cvss",
-     "count": 26
-    },
-    {
-     "phrase": "euvd enisa",
-     "count": 26
-    },
-    {
-     "phrase": "enisa europa",
-     "count": 26
-    },
-    {
-     "phrase": "vulnerabi lity",
-     "count": 26
-    },
-    {
-     "phrase": "infosec euvd",
-     "count": 26
-    },
-    {
-     "phrase": "euvd cve",
-     "count": 26
     },
     {
      "phrase": "cve infosec",
@@ -1088,30 +1088,38 @@
    "quotes": {
     "prioritization": [
      {
+      "text": "🚨 EUVD-2026-111239 📊 Score: 6.5/10 (CVSS v3.1) 📦 Product: Patch, Patch, Patch 🏢 Vendor: Tanium 📅 Updated: 2026-10-27 📝 Tanium addressed a SQL injection vulnerability in Patch.",
+      "url": "https://mastodon.social/@EUVD_Bot/117514194609986812",
+      "room": "mastodon.social",
+      "date": "2026-10-27"
+     },
+     {
       "text": "Daily brief, Oct 26: - PHP2Shell CVE-2026-109618/-109619 (CVSS 9.2): PAN-OS mgmt UI hotfixes 10.2.18-h13/11.1.16-h4/11.2.10-h16 out, rest Oct 27-30.",
       "url": "https://infosec.exchange/@tpsecurity/117508593302491056",
       "room": "infosec.exchange",
       "date": "2026-10-26"
-     },
-     {
-      "text": "It creates three tiers: Tier 0 for exploited or KEV‑listed bugs, Tier 1 for critical RCEs without a cohort, and Tier 2 for the rest.",
-      "url": "https://mastodon.social/@Newfortech/117503942668351761",
-      "room": "mastodon.social",
-      "date": "2026-10-25"
      }
     ],
     "remediation": [
+     {
+      "text": "Defense therefore requires more than patching alone.",
+      "url": "https://mastodon.social/@thenewsink/117514234871236295",
+      "room": "mastodon.social",
+      "date": "2026-10-27"
+     },
      {
       "text": "Patch under review, so restrict API keys and watch for updates now.",
       "url": "https://mastodon.social/@hugovalters/117501748971032031",
       "room": "mastodon.social",
       "date": "2026-10-25"
-     },
+     }
+    ],
+    "board": [
      {
-      "text": "We’ve released a Python triage script for the October 2026 Patch Tuesday CVEs.",
-      "url": "https://mastodon.social/@Newfortech/117503942668351761",
+      "text": "Repeated queries to non-existent endpoints inflate metrics storage and processing, consuming excessive resources.",
+      "url": "https://mastodon.social/@EUVD_Bot/117444815514748186",
       "room": "mastodon.social",
-      "date": "2026-10-25"
+      "date": "2026-10-15"
      }
     ],
     "compliance": [
@@ -1126,14 +1134,6 @@
       "url": "https://infosec.exchange/@secdb/117450519064818123",
       "room": "infosec.exchange",
       "date": "2026-10-16"
-     }
-    ],
-    "board": [
-     {
-      "text": "Repeated queries to non-existent endpoints inflate metrics storage and processing, consuming excessive resources.",
-      "url": "https://mastodon.social/@EUVD_Bot/117444815514748186",
-      "room": "mastodon.social",
-      "date": "2026-10-15"
      }
     ],
     "ai_security": [
@@ -1188,7 +1188,7 @@
     ]
    },
    "brief": {},
-   "count": 146
+   "count": 149
   },
   "ocean": {
    "company": {
@@ -1271,8 +1271,8 @@
       0,
       0,
       0,
-      0,
-      7,
+      1,
+      6,
       6
      ],
      "open": 9,
@@ -1411,6 +1411,46 @@
      "score": 9.5
     },
     {
+     "key": "awareness",
+     "label": "Security awareness and phishing tests",
+     "fit": 2,
+     "angle": "Coaching people on the real email in front of them works better than an annual course.",
+     "who": "Content team",
+     "total": 3,
+     "recent": 3,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2
+     ],
+     "open": 1,
+     "open_examples": [
+      {
+       "title": "The human element played a role in 62% of breaches, according to the Verizon 2026 Data Bre",
+       "url": "https://mastodon.social/@ninecloudnavigators/117438323319329881",
+       "room": "mastodon.social",
+       "date": "2026-10-14",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "infosec.exchange",
+      "mastodon.social"
+     ],
+     "score": 9.0
+    },
+    {
      "key": "account_takeover",
      "label": "Account takeover and MFA bypass",
      "fit": 2,
@@ -1471,8 +1511,8 @@
       0,
       1,
       5,
-      2,
-      8
+      4,
+      6
      ],
      "open": 4,
      "open_examples": [
@@ -1504,46 +1544,6 @@
       "bsd.network"
      ],
      "score": 8.8
-    },
-    {
-     "key": "awareness",
-     "label": "Security awareness and phishing tests",
-     "fit": 2,
-     "angle": "Coaching people on the real email in front of them works better than an annual course.",
-     "who": "Content team",
-     "total": 2,
-     "recent": 2,
-     "prior": 0,
-     "change": 100,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      1
-     ],
-     "open": 1,
-     "open_examples": [
-      {
-       "title": "The human element played a role in 62% of breaches, according to the Verizon 2026 Data Bre",
-       "url": "https://mastodon.social/@ninecloudnavigators/117438323319329881",
-       "room": "mastodon.social",
-       "date": "2026-10-14",
-       "replies": 0
-      }
-     ],
-     "rooms": [
-      "infosec.exchange",
-      "mastodon.social"
-     ],
-     "score": 7.3
     },
     {
      "key": "deepfakes",
@@ -1655,13 +1655,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 14.8,
+     "score": 15.0,
      "why": [
       "+6 audience fit (3 of 3)",
-      "+7.8 14 relevant conversations there",
+      "+8.0 15 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 14,
+     "hosted": 15,
      "mentions": 0,
      "evidence": []
     },
@@ -2248,16 +2248,16 @@
    "quotes": {
     "awareness": [
      {
-      "text": "The @nyknicks recent # phishing test may rank among the worst ever, second only to the @GoDaddy debacle.",
-      "url": "https://infosec.exchange/@benrothke/117507971571886886",
+      "text": "New York Knicks championship ring # phishing test was a cybersecurity own goal.",
+      "url": "https://infosec.exchange/@benrothke/117513752494080221",
       "room": "infosec.exchange",
-      "date": "2026-10-26"
+      "date": "2026-10-27"
      },
      {
-      "text": "It confused security awareness with loyalty and risked destroying employee trust.",
-      "url": "https://infosec.exchange/@benrothke/117507971571886886",
+      "text": "Confusing security awareness w/ loyalty risks damaging the very security culture you’re trying to build.",
+      "url": "https://infosec.exchange/@benrothke/117513752494080221",
       "room": "infosec.exchange",
-      "date": "2026-10-26"
+      "date": "2026-10-27"
      }
     ],
     "bec": [
@@ -2360,10 +2360,122 @@
     ]
    },
    "brief": {},
-   "count": 40
+   "count": 41
   }
  },
  "conversations": [
+  {
+   "id": "26105f2e052b",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-111239 📊 Score: 6.5/10 (CVSS v3.1) 📦 Product: Patch, Patch, Patch 🏢 Vendor: Tanium 📅 Updated: 2026-10-27 📝 Tanium addressed a SQL injection vulnerability in Patch. 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-111239 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117514194609986812",
+   "date": "2026-10-27",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-27",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "84cf908c62b7",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "New York Knicks championship ring # phishing test was a cybersecurity own goal. Confusing security awareness w/ loyalty risks damaging the very security culture you’re trying to build. Phishing tests should teach, not punish. My take on @nyknicks debacle: https:// brothke.medium.com/the-knicks- championship-ring-phishing-test-was-a-security-own-goal-e8318c75798c",
+   "url": "https://infosec.exchange/@benrothke/117513752494080221",
+   "date": "2026-10-27",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-27",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "awareness"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "phishing test",
+      "security awareness"
+     ],
+     "score": 7,
+     "why": [
+      "+4 adjacent topic: Security awareness and phishing tests",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Content team",
+     "angle": "Coaching people on the real email in front of them works better than an annual course.",
+     "topic": "awareness"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "57983624bfae",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "A zero-day vulnerability becomes especially dangerous when attackers can exploit it before an official fix is available. The vulnerability is the flaw, the exploit is the technique used against it, and the attack is the real-world malicious use. Defense therefore requires more than patching alone. https:// thenewsink.com/zero-day-vulner abilities-explained/ # Cybersecurity # ZeroDay # InfoSec # Security",
+   "url": "https://mastodon.social/@thenewsink/117514234871236295",
+   "date": "2026-10-27",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-27",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch",
+      "patching"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "61d418cce255",
    "source": "Mastodon",
@@ -2512,6 +2624,45 @@
      "who": "Sales engineer",
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "topic": "bec"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "bc2caf6f598f",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🤝 PARTENAIRE PRINCIPAL POLAR 2026 : Palo Alto Networks Une édition de POLAR, ça ne se réalise pas sans nos partenaires, et cette année, on est super fiers de compter sur Palo Alto Networks comme partenaire PRINCIPAL! 🙌 Merci pour votre confiance et votre soutien exceptionnel, qui nous permettent de vous offrir une journée riche en contenu, en échanges et en rencontres avec la communauté cyber. 👉 Pour en savoir plus sur leur mission : https://www. paloaltonetworks.com/ # CISO # infosec # POLAR # HF2026 # cybersécurité # cybersecurity 🤝 POLAR 2026 MAIN SPONSOR: Palo Alto Networks The 4th edition of POLAR wouldn’t be possible without our sponsors, and this year, we’re thrilled to have Palo Alto Networks on board as our MAIN sponsor! 🙌 Thank you for your trust and outstanding support, which help us bring you a day packed with great content, conversations and community connections. 👉 Want to learn more about their mission? Visit https://www. paloaltonetworks.com/",
+   "url": "https://infosec.exchange/@polar/117509467017189310",
+   "date": "2026-10-26",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-27",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "board"
+     ],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "board"
+     ],
+     "score": 10,
+     "why": [
+      "+4 adjacent topic: Proving progress to the board",
+      "+3 buyer: Security leader",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Founder or CISO advisor",
+     "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
+     "topic": "board"
     }
    },
    "rooms": []
@@ -2815,10 +2966,10 @@
       "patch",
       "remediation"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2853,10 +3004,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2891,10 +3042,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2927,13 +3078,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -2966,10 +3117,10 @@
       "mythos",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3011,10 +3162,10 @@
       "dmarc",
       "vishing"
      ],
-     "score": 4,
+     "score": 2,
      "why": [
       "+1 listen-only topic: Deepfake voice and video fraud",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -4692,11 +4843,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 shopping for tools",
-      "+1 posted this week"
+      "+2 shopping for tools"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4732,12 +4882,11 @@
       "kev",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4770,14 +4919,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4811,11 +4959,10 @@
      "evidence": [
       "ticket"
      ],
-     "score": 10,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 buyer: Security leader",
-      "+1 posted this week"
+      "+3 buyer: Security leader"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -8332,7 +8479,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 shopping for tools"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -8370,7 +8517,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
