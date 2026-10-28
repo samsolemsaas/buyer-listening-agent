@@ -1,12 +1,13 @@
 {
- "generated": "2026-10-27T18:42Z",
+ "generated": "2026-10-28T18:52Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 4,
+  "new": 3,
   "by_source": {
-   "Mastodon": 4
+   "Mastodon": 2,
+   "Press": 1
   }
  },
  "rooms_norms": {
@@ -102,10 +103,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 113,
-     "recent": 93,
-     "prior": 19,
-     "change": 389,
+     "total": 116,
+     "recent": 82,
+     "prior": 33,
+     "change": 148,
      "weekly": [
       0,
       0,
@@ -115,10 +116,10 @@
       1,
       0,
       0,
-      2,
-      31,
-      43,
-      36
+      3,
+      51,
+      32,
+      29
      ],
      "open": 19,
      "open_examples": [
@@ -149,7 +150,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 90.0
+     "score": 79.6
     },
     {
      "key": "prioritization",
@@ -157,10 +158,10 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 91,
-     "recent": 70,
-     "prior": 21,
-     "change": 233,
+     "total": 93,
+     "recent": 49,
+     "prior": 44,
+     "change": 11,
      "weekly": [
       0,
       0,
@@ -170,10 +171,10 @@
       0,
       0,
       0,
-      2,
-      42,
-      26,
-      21
+      3,
+      48,
+      24,
+      18
      ],
      "open": 6,
      "open_examples": [
@@ -204,7 +205,7 @@
       "infosec.exchange",
       "swecyb.com"
      ],
-     "score": 67.7
+     "score": 30.8
     },
     {
      "key": "compliance",
@@ -226,8 +227,8 @@
       0,
       0,
       0,
-      1,
-      4,
+      2,
+      3,
       2
      ],
      "open": 0,
@@ -257,8 +258,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0,
       2,
       2
@@ -286,8 +287,8 @@
       0,
       0,
       0,
-      0,
-      2,
+      1,
+      1,
       0,
       0,
       0,
@@ -323,8 +324,8 @@
       0,
       1,
       0,
-      1,
-      4,
+      2,
+      3,
       0
      ],
      "open": 3,
@@ -365,9 +366,9 @@
      "angle": "Most breaches hit companies that already owned a tool that could have stopped them. Check coverage and configuration before buying more.",
      "who": "Founder or research team",
      "total": 2,
-     "recent": 1,
-     "prior": 1,
-     "change": 0,
+     "recent": 0,
+     "prior": 2,
+     "change": -100,
      "weekly": [
       0,
       0,
@@ -397,9 +398,9 @@
      "angle": "Get more out of the tools you already own before adding another.",
      "who": "Founder",
      "total": 1,
-     "recent": 1,
-     "prior": 0,
-     "change": 100,
+     "recent": 0,
+     "prior": 1,
+     "change": -100,
      "weekly": [
       0,
       0,
@@ -419,7 +420,7 @@
      "rooms": [
       "infosec.exchange"
      ],
-     "score": 4.0
+     "score": 2.0
     },
     {
      "key": "staffing",
@@ -463,13 +464,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 16.3,
+     "score": 16.4,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+11.3 50 relevant conversations there",
+      "+11.4 51 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 50,
+     "hosted": 51,
      "mentions": 0,
      "evidence": []
     },
@@ -1006,7 +1007,7 @@
     },
     {
      "phrase": "valtersit com cve",
-     "count": 17
+     "count": 18
     },
     {
      "phrase": "utm source",
@@ -1077,41 +1078,41 @@
      "count": 8
     },
     {
-     "phrase": "command injection",
+     "phrase": "cvss patch",
      "count": 7
     },
     {
-     "phrase": "infosec cve",
+     "phrase": "command injection",
      "count": 7
     }
    ],
    "quotes": {
     "prioritization": [
      {
+      "text": "🚨 Rapid Response: CVE-2026-101767 (CVSS 9.8) could allow unauthenticated takeover of Oracle E-Business Suite.",
+      "url": "https://infosec.exchange/@censys/117519860988630629",
+      "room": "infosec.exchange",
+      "date": "2026-10-28"
+     },
+     {
       "text": "🚨 EUVD-2026-111239 📊 Score: 6.5/10 (CVSS v3.1) 📦 Product: Patch, Patch, Patch 🏢 Vendor: Tanium 📅 Updated: 2026-10-27 📝 Tanium addressed a SQL injection vulnerability in Patch.",
       "url": "https://mastodon.social/@EUVD_Bot/117514194609986812",
       "room": "mastodon.social",
       "date": "2026-10-27"
-     },
-     {
-      "text": "Daily brief, Oct 26: - PHP2Shell CVE-2026-109618/-109619 (CVSS 9.2): PAN-OS mgmt UI hotfixes 10.2.18-h13/11.1.16-h4/11.2.10-h16 out, rest Oct 27-30.",
-      "url": "https://infosec.exchange/@tpsecurity/117508593302491056",
-      "room": "infosec.exchange",
-      "date": "2026-10-26"
      }
     ],
     "remediation": [
+     {
+      "text": "Patch and investigate: https:// censys.com/advisory/cve-2026-1 01767/ # CensysARC # Cybersecurity # VulnerabilityManagement # Oracle # InfoSec",
+      "url": "https://infosec.exchange/@censys/117519860988630629",
+      "room": "infosec.exchange",
+      "date": "2026-10-28"
+     },
      {
       "text": "Defense therefore requires more than patching alone.",
       "url": "https://mastodon.social/@thenewsink/117514234871236295",
       "room": "mastodon.social",
       "date": "2026-10-27"
-     },
-     {
-      "text": "Patch under review, so restrict API keys and watch for updates now.",
-      "url": "https://mastodon.social/@hugovalters/117501748971032031",
-      "room": "mastodon.social",
-      "date": "2026-10-25"
      }
     ],
     "board": [
@@ -1188,7 +1189,7 @@
     ]
    },
    "brief": {},
-   "count": 149
+   "count": 152
   },
   "ocean": {
    "company": {
@@ -1258,9 +1259,9 @@
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "who": "Sales engineer",
      "total": 13,
-     "recent": 13,
-     "prior": 0,
-     "change": 100,
+     "recent": 12,
+     "prior": 1,
+     "change": 1100,
      "weekly": [
       0,
       0,
@@ -1271,9 +1272,9 @@
       0,
       0,
       0,
-      1,
-      6,
-      6
+      7,
+      2,
+      4
      ],
      "open": 9,
      "open_examples": [
@@ -1303,7 +1304,7 @@
       "infosec.exchange",
       "mastodon.social"
      ],
-     "score": 36.3
+     "score": 47.8
     },
     {
      "key": "seg",
@@ -1325,8 +1326,8 @@
       0,
       0,
       0,
-      0,
-      6,
+      3,
+      3,
       0
      ],
      "open": 1,
@@ -1367,8 +1368,8 @@
       0,
       0,
       1,
-      0,
-      2
+      1,
+      1
      ],
      "open": 0,
      "open_examples": [],
@@ -1430,8 +1431,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       2
      ],
      "open": 1,
@@ -1509,10 +1510,10 @@
       0,
       0,
       0,
-      1,
+      3,
+      3,
       5,
-      4,
-      6
+      5
      ],
      "open": 4,
      "open_examples": [
@@ -1565,9 +1566,9 @@
       0,
       0,
       0,
-      0,
       1,
-      2
+      1,
+      1
      ],
      "open": 1,
      "open_examples": [
@@ -2365,6 +2366,122 @@
  },
  "conversations": [
   {
+   "id": "151e67483b91",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-92540: WordPress Import/Export Users plugin before 2.5.2 lacks a promote_users check on CSV import, letting create_users users spin up admin accounts. CVSS 7.2, patch status unknown. Update to 2.5.2 now. # CVE # WordPress # infosec https://www. valtersit.com/cve/CVE-2026-925 40/",
+   "url": "https://mastodon.social/@hugovalters/117519994158434718",
+   "date": "2026-10-28",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-28",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "999741a19717",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🚨 Rapid Response: CVE-2026-101767 (CVSS 9.8) could allow unauthenticated takeover of Oracle E-Business Suite. Censys identified 2,246 exposed web properties. Exposure does not confirm vulnerability. Patch and investigate: https:// censys.com/advisory/cve-2026-1 01767/ # CensysARC # Cybersecurity # VulnerabilityManagement # Oracle # InfoSec",
+   "url": "https://infosec.exchange/@censys/117519860988630629",
+   "date": "2026-10-28",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-28",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "721b1f8d3389",
+   "source": "Press",
+   "room": "Help Net Security",
+   "title": "Bellini Capital CISO on AI security governance and the limits of patching faster",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQS2k2VE1EVlA5dno0Mmg1cWZwU2lJRUE5YnY5QjliM2JSU3h2UE1ZN0NsZGlkcUxsS2ppMHB0Q2VzWldxV1JQZ3RPT092NTIxRmdyaWhxS1JBeFRKU1JNQVlyQjlUOThxM2JYVTgtX0Q3U09mb0dsOWFfQjBFcUJ4dGw4elR0SC04V0tCZkdPbm8zbHV2S3FlREg3akQ?oc=5",
+   "date": "2026-10-28",
+   "kind": "article",
+   "replies": null,
+   "found": "2026-10-28",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch",
+      "patching"
+     ],
+     "score": 12,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 buyer: Security leader",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
    "id": "26105f2e052b",
    "source": "Mastodon",
    "room": "mastodon.social",
@@ -2692,10 +2809,10 @@
       "audit",
       "cvss"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2729,13 +2846,13 @@
       "patch",
       "patching"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -2768,10 +2885,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2806,10 +2923,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2846,13 +2963,13 @@
       "kev",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -2887,10 +3004,10 @@
       "patch",
       "patching"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2928,11 +3045,11 @@
       "dmarc",
       "spf"
      ],
-     "score": 7,
+     "score": 5,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+3 buyer: Email & M365 admin",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -4533,12 +4650,11 @@
       "ai agents",
       "prompt injection"
      ],
-     "score": 6,
+     "score": 5,
      "why": [
       "+1 listen-only topic: Securing AI and agents",
       "+2 buyer: Security engineer & SecOps",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "listen",
      "who": "",
@@ -4569,10 +4685,9 @@
      "asking": false,
      "shopping": false,
      "evidence": [],
-     "score": 9,
+     "score": 8,
      "why": [
       "+3 buyer: Email & M365 admin",
-      "+1 posted this week",
       "+5 mentions Ocean"
      ],
      "band": "worth",
@@ -4608,11 +4723,10 @@
       "dmarc",
       "spf"
      ],
-     "score": 4,
+     "score": 3,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "listen",
      "who": "",
@@ -4647,12 +4761,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4688,13 +4801,12 @@
       "copilot",
       "mcp server"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
       "+4 adjacent topic: Directives and compliance deadlines",
-      "+2 buyer: Security engineer & SecOps",
-      "+1 posted this week"
+      "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Content team",
      "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
      "topic": "compliance"
@@ -4727,12 +4839,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4765,12 +4876,11 @@
      "evidence": [
       "ai governance"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
       "+1 listen-only topic: Securing AI and agents",
       "+3 buyer: Security leader",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "listen",
      "who": "",
@@ -4805,10 +4915,9 @@
       "dmarc",
       "spf"
      ],
-     "score": 2,
+     "score": 1,
      "why": [
-      "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+1 posted this week"
+      "+1 listen-only topic: DMARC, SPF and DKIM setup"
      ],
      "band": "listen",
      "who": "",
@@ -7109,7 +7218,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 shopping for tools"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7183,7 +7292,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7221,7 +7330,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7259,7 +7368,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7297,7 +7406,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7335,7 +7444,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7373,7 +7482,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7411,7 +7520,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7449,7 +7558,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7487,7 +7596,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7525,7 +7634,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7563,7 +7672,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7601,7 +7710,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7639,7 +7748,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7677,7 +7786,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7715,7 +7824,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7753,7 +7862,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7791,7 +7900,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7831,7 +7940,7 @@
       "+3 buyer: Security leader",
       "+2 asking for help"
      ],
-     "band": "today",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -7906,7 +8015,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -7945,7 +8054,7 @@
       "+2 buyer: IT & infrastructure",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -8022,7 +8131,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -8060,7 +8169,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -8098,7 +8207,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -8136,7 +8245,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 shopping for tools"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -8174,7 +8283,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -8215,7 +8324,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -8254,7 +8363,7 @@
       "+2 buyer: IT & infrastructure",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -8294,7 +8403,7 @@
       "+6 core topic: Security tools misconfigured or not covering everything",
       "+3 buyer: Security leader"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Founder or research team",
      "angle": "Most breaches hit companies that already owned a tool that could have stopped them. Check coverage and configuration before buying more.",
      "topic": "controls"
