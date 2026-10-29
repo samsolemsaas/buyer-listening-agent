@@ -1,13 +1,12 @@
 {
- "generated": "2026-10-28T18:52Z",
+ "generated": "2026-10-29T18:58Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 3,
+  "new": 1,
   "by_source": {
-   "Mastodon": 2,
-   "Press": 1
+   "Mastodon": 1
   }
  },
  "rooms_norms": {
@@ -103,10 +102,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 116,
-     "recent": 82,
-     "prior": 33,
-     "change": 148,
+     "total": 117,
+     "recent": 62,
+     "prior": 54,
+     "change": 15,
      "weekly": [
       0,
       0,
@@ -116,10 +115,10 @@
       1,
       0,
       0,
-      3,
-      51,
-      32,
-      29
+      4,
+      53,
+      35,
+      24
      ],
      "open": 19,
      "open_examples": [
@@ -150,7 +149,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 79.6
+     "score": 52.2
     },
     {
      "key": "prioritization",
@@ -158,10 +157,10 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 93,
-     "recent": 49,
-     "prior": 44,
-     "change": 11,
+     "total": 94,
+     "recent": 43,
+     "prior": 51,
+     "change": -16,
      "weekly": [
       0,
       0,
@@ -171,10 +170,10 @@
       0,
       0,
       0,
-      3,
-      48,
+      5,
+      50,
       24,
-      18
+      15
      ],
      "open": 6,
      "open_examples": [
@@ -205,7 +204,7 @@
       "infosec.exchange",
       "swecyb.com"
      ],
-     "score": 30.8
+     "score": 28.7
     },
     {
      "key": "compliance",
@@ -214,9 +213,9 @@
      "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
      "who": "Content team",
      "total": 7,
-     "recent": 6,
-     "prior": 1,
-     "change": 500,
+     "recent": 5,
+     "prior": 2,
+     "change": 150,
      "weekly": [
       0,
       0,
@@ -227,9 +226,9 @@
       0,
       0,
       0,
-      2,
       3,
-      2
+      3,
+      1
      ],
      "open": 0,
      "open_examples": [],
@@ -238,39 +237,7 @@
       "infosec.exchange",
       "swecyb.com"
      ],
-     "score": 18.0
-    },
-    {
-     "key": "board",
-     "label": "Proving progress to the board",
-     "fit": 2,
-     "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
-     "who": "Founder or CISO advisor",
-     "total": 5,
-     "recent": 4,
-     "prior": 1,
-     "change": 300,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      2,
-      2
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [
-      "infosec.exchange",
-      "mastodon.social"
-     ],
-     "score": 15.5
+     "score": 15.0
     },
     {
      "key": "ai_cves",
@@ -305,15 +272,47 @@
      "score": 10.3
     },
     {
+     "key": "board",
+     "label": "Proving progress to the board",
+     "fit": 2,
+     "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
+     "who": "Founder or CISO advisor",
+     "total": 5,
+     "recent": 4,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      2
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "infosec.exchange",
+      "mastodon.social"
+     ],
+     "score": 10.3
+    },
+    {
      "key": "ai_security",
      "label": "Securing AI and agents",
      "fit": 1,
      "angle": "",
      "who": "",
      "total": 6,
-     "recent": 4,
-     "prior": 1,
-     "change": 300,
+     "recent": 3,
+     "prior": 2,
+     "change": 50,
      "weekly": [
       0,
       0,
@@ -357,7 +356,7 @@
       "c.im",
       "mastodon.social"
      ],
-     "score": 9.9
+     "score": 5.7
     },
     {
      "key": "controls",
@@ -1003,11 +1002,11 @@
     },
     {
      "phrase": "cve infosec",
-     "count": 20
+     "count": 21
     },
     {
      "phrase": "valtersit com cve",
-     "count": 18
+     "count": 19
     },
     {
      "phrase": "utm source",
@@ -1062,16 +1061,16 @@
      "count": 10
     },
     {
+     "phrase": "infosec cybersecurity",
+     "count": 9
+    },
+    {
      "phrase": "patchtuesday microsoft",
      "count": 9
     },
     {
      "phrase": "actively exploited",
      "count": 9
-    },
-    {
-     "phrase": "infosec cybersecurity",
-     "count": 8
     },
     {
      "phrase": "product simatic",
@@ -1103,16 +1102,16 @@
     ],
     "remediation": [
      {
+      "text": "No patch info yet, so limit app permissions and track for updates.",
+      "url": "https://mastodon.social/@hugovalters/117525538610058384",
+      "room": "mastodon.social",
+      "date": "2026-10-29"
+     },
+     {
       "text": "Patch and investigate: https:// censys.com/advisory/cve-2026-1 01767/ # CensysARC # Cybersecurity # VulnerabilityManagement # Oracle # InfoSec",
       "url": "https://infosec.exchange/@censys/117519860988630629",
       "room": "infosec.exchange",
       "date": "2026-10-28"
-     },
-     {
-      "text": "Defense therefore requires more than patching alone.",
-      "url": "https://mastodon.social/@thenewsink/117514234871236295",
-      "room": "mastodon.social",
-      "date": "2026-10-27"
      }
     ],
     "board": [
@@ -1189,7 +1188,7 @@
     ]
    },
    "brief": {},
-   "count": 152
+   "count": 153
   },
   "ocean": {
    "company": {
@@ -1259,9 +1258,9 @@
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "who": "Sales engineer",
      "total": 13,
-     "recent": 12,
-     "prior": 1,
-     "change": 1100,
+     "recent": 6,
+     "prior": 7,
+     "change": -14,
      "weekly": [
       0,
       0,
@@ -1273,8 +1272,8 @@
       0,
       0,
       7,
-      2,
-      4
+      5,
+      1
      ],
      "open": 9,
      "open_examples": [
@@ -1304,48 +1303,7 @@
       "infosec.exchange",
       "mastodon.social"
      ],
-     "score": 47.8
-    },
-    {
-     "key": "seg",
-     "label": "Replacing or adding to the email gateway",
-     "fit": 3,
-     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
-     "who": "Account executive and sales engineer",
-     "total": 6,
-     "recent": 6,
-     "prior": 0,
-     "change": 100,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      3,
-      3,
-      0
-     ],
-     "open": 1,
-     "open_examples": [
-      {
-       "title": "Attackers are exploiting CVE-2026-76519 (CVSS 9.8), a critical Cisco Secure Email Gateway ",
-       "url": "https://infosec.exchange/@DailyCyberSecurity/117441656804622326",
-       "room": "infosec.exchange",
-       "date": "2026-10-14",
-       "replies": 0
-      }
-     ],
-     "rooms": [
-      "infosec.exchange",
-      "ieji.de",
-      "Hacker News"
-     ],
-     "score": 18.3
+     "score": 24.9
     },
     {
      "key": "trusted_senders",
@@ -1380,6 +1338,47 @@
      "score": 12.0
     },
     {
+     "key": "seg",
+     "label": "Replacing or adding to the email gateway",
+     "fit": 3,
+     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
+     "who": "Account executive and sales engineer",
+     "total": 6,
+     "recent": 3,
+     "prior": 3,
+     "change": 0,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      1,
+      0
+     ],
+     "open": 1,
+     "open_examples": [
+      {
+       "title": "Attackers are exploiting CVE-2026-76519 (CVSS 9.8), a critical Cisco Secure Email Gateway ",
+       "url": "https://infosec.exchange/@DailyCyberSecurity/117441656804622326",
+       "room": "infosec.exchange",
+       "date": "2026-10-14",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "infosec.exchange",
+      "ieji.de",
+      "Hacker News"
+     ],
+     "score": 9.9
+    },
+    {
      "key": "ai_phishing",
      "label": "Targeted phishing getting through",
      "fit": 3,
@@ -1400,8 +1399,8 @@
       0,
       0,
       0,
-      0,
-      2
+      2,
+      0
      ],
      "open": 0,
      "open_examples": [],
@@ -1418,8 +1417,8 @@
      "angle": "Coaching people on the real email in front of them works better than an annual course.",
      "who": "Content team",
      "total": 3,
-     "recent": 3,
-     "prior": 0,
+     "recent": 2,
+     "prior": 1,
      "change": 100,
      "weekly": [
       0,
@@ -1472,8 +1471,8 @@
       0,
       0,
       0,
-      0,
-      3
+      3,
+      0
      ],
      "open": 1,
      "open_examples": [
@@ -1511,9 +1510,9 @@
       0,
       0,
       3,
-      3,
+      4,
       5,
-      5
+      4
      ],
      "open": 4,
      "open_examples": [
@@ -1553,8 +1552,8 @@
      "angle": "",
      "who": "",
      "total": 3,
-     "recent": 3,
-     "prior": 0,
+     "recent": 2,
+     "prior": 1,
      "change": 100,
      "weekly": [
       0,
@@ -2366,6 +2365,44 @@
  },
  "conversations": [
   {
+   "id": "0c08b3ec2dc1",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-86551: Z80Ultra (NX741J) leaks Wi-Fi MAC address via https:// settings.secure factory_mac_address to non-privileged apps. CVSS 3.3. No patch info yet, so limit app permissions and track for updates. # CVE # infosec # cybersecurity https://www. valtersit.com/cve/CVE-2026-865 51/",
+   "url": "https://mastodon.social/@hugovalters/117525538610058384",
+   "date": "2026-10-29",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-29",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
    "id": "151e67483b91",
    "source": "Mastodon",
    "room": "mastodon.social",
@@ -2618,10 +2655,10 @@
       "cvss",
       "ticket"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2656,10 +2693,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2693,12 +2730,12 @@
       "phishing test",
       "security awareness"
      ],
-     "score": 7,
+     "score": 5,
      "why": [
       "+4 adjacent topic: Security awareness and phishing tests",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Content team",
      "angle": "Coaching people on the real email in front of them works better than an annual course.",
      "topic": "awareness"
@@ -2731,13 +2768,13 @@
       "bank details",
       "dmarc"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: BEC and payment fraud",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "topic": "bec"
@@ -2770,11 +2807,11 @@
      "evidence": [
       "board"
      ],
-     "score": 10,
+     "score": 8,
      "why": [
       "+4 adjacent topic: Proving progress to the board",
       "+3 buyer: Security leader",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Founder or CISO advisor",
@@ -4109,12 +4146,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4147,11 +4183,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4186,12 +4221,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4224,11 +4258,10 @@
       "payment fraud",
       "vishing"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: BEC and payment fraud",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4263,11 +4296,10 @@
      "evidence": [
       "docusign"
      ],
-     "score": 10,
+     "score": 9,
      "why": [
       "+6 core topic: Compromised vendors and trusted senders",
-      "+3 buyer: Email & M365 admin",
-      "+1 posted this week"
+      "+3 buyer: Email & M365 admin"
      ],
      "band": "worth",
      "who": "Research team",
@@ -4302,11 +4334,10 @@
      "evidence": [
       "remediation"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: Security engineer & SecOps",
-      "+1 posted this week"
+      "+2 buyer: Security engineer & SecOps"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4340,11 +4371,10 @@
       "bec",
       "business email compromise"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: BEC and payment fraud",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4379,12 +4409,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4417,11 +4446,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4456,12 +4484,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4495,14 +4522,13 @@
       "patch",
       "patching"
      ],
-     "score": 17,
+     "score": 16,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: Security engineer & SecOps",
       "+2 asking for help",
       "+2 shopping for tools",
-      "+4 nobody has answered",
-      "+1 posted this week"
+      "+4 nobody has answered"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -4535,11 +4561,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4572,11 +4597,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4611,10 +4635,9 @@
       "dmarc",
       "spf"
      ],
-     "score": 2,
+     "score": 1,
      "why": [
-      "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+1 posted this week"
+      "+1 listen-only topic: DMARC, SPF and DKIM setup"
      ],
      "band": "listen",
      "who": "",
@@ -6047,7 +6070,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -6087,7 +6110,7 @@
       "+2 buyer: Security engineer & SecOps",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -6127,7 +6150,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: IT & infrastructure"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -6165,7 +6188,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -6203,7 +6226,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -6241,7 +6264,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -6280,7 +6303,7 @@
       "+2 buyer: IT & infrastructure",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -6320,7 +6343,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: IT & infrastructure"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -6357,7 +6380,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -6433,7 +6456,7 @@
       "+2 buyer: IT & infrastructure",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -6472,7 +6495,7 @@
       "+3 buyer: Security leader",
       "+2 asking for help"
      ],
-     "band": "today",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -6496,7 +6519,7 @@
       "+3 buyer: Security leader",
       "+2 asking for help"
      ],
-     "band": "today",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "topic": "bec"
@@ -6535,7 +6558,7 @@
       "+3 buyer: Security leader",
       "+2 asking for help"
      ],
-     "band": "today",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "topic": "bec"
@@ -6597,7 +6620,7 @@
       "+6 core topic: Replacing or adding to the email gateway",
       "+3 buyer: Security leader"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Account executive and sales engineer",
      "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
      "topic": "seg"
@@ -6712,7 +6735,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: IT & infrastructure"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -6751,7 +6774,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -6788,7 +6811,7 @@
       "+6 core topic: Replacing or adding to the email gateway",
       "+4 nobody has answered"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Account executive and sales engineer",
      "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
      "topic": "seg"
@@ -6827,7 +6850,7 @@
       "+3 buyer: Security leader",
       "+2 asking for help"
      ],
-     "band": "today",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -6851,7 +6874,7 @@
       "+3 buyer: Security leader",
       "+2 asking for help"
      ],
-     "band": "today",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "topic": "bec"
@@ -6890,7 +6913,7 @@
       "+3 buyer: Security leader",
       "+2 asking for help"
      ],
-     "band": "today",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "topic": "bec"
@@ -6929,7 +6952,7 @@
       "+3 buyer: Security leader",
       "+2 asking for help"
      ],
-     "band": "today",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "topic": "bec"
@@ -7005,7 +7028,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7027,7 +7050,7 @@
       "+6 core topic: Replacing or adding to the email gateway",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Account executive and sales engineer",
      "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
      "topic": "seg"
@@ -7066,7 +7089,7 @@
       "+2 buyer: IT & infrastructure",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -7180,7 +7203,7 @@
       "+2 buyer: IT & infrastructure",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
