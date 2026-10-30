@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-29T18:58Z",
+ "generated": "2026-10-30T18:38Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 1,
+  "new": 4,
   "by_source": {
-   "Mastodon": 1
+   "Mastodon": 4
   }
  },
  "rooms_norms": {
@@ -102,10 +102,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 117,
+     "total": 120,
      "recent": 62,
-     "prior": 54,
-     "change": 15,
+     "prior": 57,
+     "change": 9,
      "weekly": [
       0,
       0,
@@ -115,10 +115,10 @@
       1,
       0,
       0,
-      4,
-      53,
-      35,
-      24
+      8,
+      56,
+      34,
+      21
      ],
      "open": 19,
      "open_examples": [
@@ -149,7 +149,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 52.2
+     "score": 51.1
     },
     {
      "key": "prioritization",
@@ -157,10 +157,10 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 94,
-     "recent": 43,
-     "prior": 51,
-     "change": -16,
+     "total": 97,
+     "recent": 42,
+     "prior": 55,
+     "change": -24,
      "weekly": [
       0,
       0,
@@ -170,10 +170,10 @@
       0,
       0,
       0,
-      5,
-      50,
-      24,
-      15
+      9,
+      52,
+      20,
+      16
      ],
      "open": 6,
      "open_examples": [
@@ -202,42 +202,9 @@
      "rooms": [
       "mastodon.social",
       "infosec.exchange",
-      "swecyb.com"
+      "thecybersecguru.com"
      ],
-     "score": 28.7
-    },
-    {
-     "key": "compliance",
-     "label": "Directives and compliance deadlines",
-     "fit": 2,
-     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
-     "who": "Content team",
-     "total": 7,
-     "recent": 5,
-     "prior": 2,
-     "change": 150,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      3,
-      3,
-      1
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [
-      "mastodon.social",
-      "infosec.exchange",
-      "swecyb.com"
-     ],
-     "score": 15.0
+     "score": 28.8
     },
     {
      "key": "ai_cves",
@@ -259,9 +226,9 @@
       0,
       0,
       0,
-      0,
       1,
-      2
+      1,
+      1
      ],
      "open": 0,
      "open_examples": [],
@@ -272,14 +239,47 @@
      "score": 10.3
     },
     {
-     "key": "board",
-     "label": "Proving progress to the board",
+     "key": "compliance",
+     "label": "Directives and compliance deadlines",
      "fit": 2,
-     "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
-     "who": "Founder or CISO advisor",
-     "total": 5,
+     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
+     "who": "Content team",
+     "total": 7,
      "recent": 4,
-     "prior": 0,
+     "prior": 3,
+     "change": 33,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      2,
+      1
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange",
+      "swecyb.com"
+     ],
+     "score": 8.0
+    },
+    {
+     "key": "ai_security",
+     "label": "Securing AI and agents",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 7,
+     "recent": 4,
+     "prior": 2,
      "change": 100,
      "weekly": [
       0,
@@ -290,42 +290,10 @@
       0,
       0,
       1,
-      0,
-      2,
-      0,
-      2
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [
-      "infosec.exchange",
-      "mastodon.social"
-     ],
-     "score": 10.3
-    },
-    {
-     "key": "ai_security",
-     "label": "Securing AI and agents",
-     "fit": 1,
-     "angle": "",
-     "who": "",
-     "total": 6,
-     "recent": 3,
-     "prior": 2,
-     "change": 50,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       1,
-      0,
-      2,
+      1,
       3,
-      0
+      1
      ],
      "open": 3,
      "open_examples": [
@@ -352,11 +320,43 @@
       }
      ],
      "rooms": [
+      "mastodon.social",
       "infosec.exchange",
-      "c.im",
+      "c.im"
+     ],
+     "score": 7.5
+    },
+    {
+     "key": "board",
+     "label": "Proving progress to the board",
+     "fit": 2,
+     "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
+     "who": "Founder or CISO advisor",
+     "total": 5,
+     "recent": 2,
+     "prior": 2,
+     "change": 0,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      1,
+      1
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "infosec.exchange",
       "mastodon.social"
      ],
-     "score": 5.7
+     "score": 5.2
     },
     {
      "key": "controls",
@@ -966,35 +966,35 @@
    "phrases": [
     {
      "phrase": "cybersecurity infosec",
-     "count": 38
+     "count": 40
     },
     {
      "phrase": "cve vulnerability",
-     "count": 29
+     "count": 31
     },
     {
      "phrase": "score cvss",
-     "count": 27
+     "count": 29
     },
     {
      "phrase": "euvd enisa",
-     "count": 27
+     "count": 29
     },
     {
      "phrase": "enisa europa",
-     "count": 27
+     "count": 29
     },
     {
      "phrase": "vulnerabi lity",
-     "count": 27
+     "count": 29
     },
     {
      "phrase": "infosec euvd",
-     "count": 27
+     "count": 29
     },
     {
      "phrase": "euvd cve",
-     "count": 27
+     "count": 29
     },
     {
      "phrase": "patch tuesday",
@@ -1100,18 +1100,32 @@
       "date": "2026-10-27"
      }
     ],
+    "ai_security": [
+     {
+      "text": "Are AI agents the new \"insider threat\"?",
+      "url": "https://c.im/@psoheil/117473477658714608",
+      "room": "c.im",
+      "date": "2026-10-20"
+     },
+     {
+      "text": "For months, the enterprise focus has been on building autonomous AI agents to automate workflows.",
+      "url": "https://c.im/@psoheil/117473477658714608",
+      "room": "c.im",
+      "date": "2026-10-20"
+     }
+    ],
     "remediation": [
+     {
+      "text": "Here is how it works and how to patch https:// thecybersecguru.com/exploits/t eamviewer-cve-2026-111585-integer-overflow-heap-corruption/",
+      "url": "https://thecybersecguru.com/exploits/teamviewer-cve-2026-111585-integer-overflow-heap-corruption/",
+      "room": "thecybersecguru.com",
+      "date": "2026-10-30"
+     },
      {
       "text": "No patch info yet, so limit app permissions and track for updates.",
       "url": "https://mastodon.social/@hugovalters/117525538610058384",
       "room": "mastodon.social",
       "date": "2026-10-29"
-     },
-     {
-      "text": "Patch and investigate: https:// censys.com/advisory/cve-2026-1 01767/ # CensysARC # Cybersecurity # VulnerabilityManagement # Oracle # InfoSec",
-      "url": "https://infosec.exchange/@censys/117519860988630629",
-      "room": "infosec.exchange",
-      "date": "2026-10-28"
      }
     ],
     "board": [
@@ -1134,20 +1148,6 @@
       "url": "https://infosec.exchange/@secdb/117450519064818123",
       "room": "infosec.exchange",
       "date": "2026-10-16"
-     }
-    ],
-    "ai_security": [
-     {
-      "text": "Are AI agents the new \"insider threat\"?",
-      "url": "https://c.im/@psoheil/117473477658714608",
-      "room": "c.im",
-      "date": "2026-10-20"
-     },
-     {
-      "text": "For months, the enterprise focus has been on building autonomous AI agents to automate workflows.",
-      "url": "https://c.im/@psoheil/117473477658714608",
-      "room": "c.im",
-      "date": "2026-10-20"
      }
     ],
     "ai_cves": [
@@ -1188,7 +1188,7 @@
     ]
    },
    "brief": {},
-   "count": 153
+   "count": 157
   },
   "ocean": {
    "company": {
@@ -1324,10 +1324,10 @@
       0,
       0,
       0,
+      1,
       0,
-      1,
-      1,
-      1
+      2,
+      0
      ],
      "open": 0,
      "open_examples": [],
@@ -1344,9 +1344,9 @@
      "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
      "who": "Account executive and sales engineer",
      "total": 6,
-     "recent": 3,
-     "prior": 3,
-     "change": 0,
+     "recent": 1,
+     "prior": 5,
+     "change": -80,
      "weekly": [
       0,
       0,
@@ -1497,9 +1497,9 @@
      "angle": "",
      "who": "",
      "total": 16,
-     "recent": 10,
-     "prior": 6,
-     "change": 67,
+     "recent": 9,
+     "prior": 7,
+     "change": 29,
      "weekly": [
       0,
       0,
@@ -1509,10 +1509,10 @@
       0,
       0,
       0,
-      3,
-      4,
       5,
-      4
+      2,
+      6,
+      3
      ],
      "open": 4,
      "open_examples": [
@@ -1543,7 +1543,7 @@
       "infosec.exchange",
       "bsd.network"
      ],
-     "score": 8.8
+     "score": 7.3
     },
     {
      "key": "deepfakes",
@@ -2365,6 +2365,159 @@
  },
  "conversations": [
   {
+   "id": "97f102764e6a",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-114181 📊 Score: 6.1/10 (CVSS v3.1) 📦 Product: dbhub 🏢 Vendor: bytebase 📅 Updated: 2026-10-30 📝 DBHub is a database MCP server for Postgres, MySQL, SQL Server, Oracle, MariaDB, SQLite. Prior to 0.22.6, read-only SQL validation can be bypassed on the MySQL and MariaDB connectors. In `src/utils/sql-parser.ts`, `scanSingleLineComment` treats every double... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-114181 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117531173785599764",
+   "date": "2026-10-30",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-30",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "ai_security"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "mcp server"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "f351d8bcf9dd",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-114185 📊 Score: 4.3/10 (CVSS v3.1) 📦 Product: Event Tickets 🏢 Vendor: Liquid Web / StellarWP 📅 Updated: 2026-10-30 📝 Missing Authorization vulnerability in Liquid Web / StellarWP Event Tickets event-tickets allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Event Tickets: from n/a through 5.30.2. 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-114185 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117531173604176149",
+   "date": "2026-10-30",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-30",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "ticket"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "31f1e71672b5",
+   "source": "Mastodon",
+   "room": "thecybersecguru.com",
+   "title": "",
+   "text": "TeamViewer CVE-2026-111585: Integer Overflow Turns the Remote Host Against the Technician CVE-2026-111585 is a CVSS 8.8 integer overflow in TeamViewer that lets a malicious remote host corrupt the heap on the technician’s machine. Here is how it works and how to patch https:// thecybersecguru.com/exploits/t eamviewer-cve-2026-111585-integer-overflow-heap-corruption/",
+   "url": "https://thecybersecguru.com/exploits/teamviewer-cve-2026-111585-integer-overflow-heap-corruption/",
+   "date": "2026-10-30",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-30",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "aef7edb6af1f",
+   "source": "Mastodon",
+   "room": "feeds.osroadwarrior.info",
+   "title": "",
+   "text": "https://huggingface.co/blog/mistral-large4 \"Cybersecurity Capabilities Mistral Large 4 scores 82% on the Artificial Analysis Cyber Index test that asks a model to reproduce a real vulnerability in open-source software and then patch the software. Mistral reports that several closed frontier models score near zero on the same test because they refuse to attempt the work.\" Let's rest here for a second... \"This is super important for defenders, because fixing a vulnerability usually requires reproducing the vulnerability. In Mistral’s internal testing, Mistral Large 4 was also useful for malware analysis, vulnerability prioritisation and writing detection rules, which the model was not explicitly trained for. Mistral mainly positions the model for defensive security work.\" #huggingface #openweight #mistral #blueteam",
+   "url": "https://feeds.osroadwarrior.info/objects/3f536841-5122-4c8f-a8ea-51de9e7bde62",
+   "date": "2026-10-30",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-30",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
    "id": "0c08b3ec2dc1",
    "source": "Mastodon",
    "room": "mastodon.social",
@@ -2543,10 +2696,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2580,12 +2733,12 @@
       "phishing test",
       "security awareness"
      ],
-     "score": 7,
+     "score": 5,
      "why": [
       "+4 adjacent topic: Security awareness and phishing tests",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Content team",
      "angle": "Coaching people on the real email in front of them works better than an annual course.",
      "topic": "awareness"
@@ -2617,10 +2770,10 @@
       "patch",
       "patching"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3676,11 +3829,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: Security engineer & SecOps",
-      "+1 posted this week"
+      "+2 buyer: Security engineer & SecOps"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3715,12 +3867,11 @@
       "audit",
       "cvss"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3753,12 +3904,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3790,12 +3940,11 @@
       "bank details",
       "changed bank details"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: BEC and payment fraud",
-      "+1 posted this week"
+      "+6 core topic: BEC and payment fraud"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "topic": "bec"
@@ -3827,10 +3976,9 @@
       "dkim",
       "dmarc"
      ],
-     "score": 2,
+     "score": 1,
      "why": [
-      "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+1 posted this week"
+      "+1 listen-only topic: DMARC, SPF and DKIM setup"
      ],
      "band": "listen",
      "who": "",
@@ -3871,11 +4019,10 @@
       "bypassed",
       "inbox rule"
      ],
-     "score": 10,
+     "score": 9,
      "why": [
       "+6 core topic: BEC and payment fraud",
-      "+3 buyer: Email & M365 admin",
-      "+1 posted this week"
+      "+3 buyer: Email & M365 admin"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3910,12 +4057,11 @@
       "account takeover",
       "targeted phishing"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Targeted phishing getting through",
-      "+1 posted this week"
+      "+6 core topic: Targeted phishing getting through"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Research team",
      "angle": "Pattern matching misses messages written fresh for each target. Investigate every email's context the way an analyst would.",
      "topic": "ai_phishing"
@@ -3949,11 +4095,10 @@
       "patch",
       "remediation"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 shopping for tools",
-      "+1 posted this week"
+      "+2 shopping for tools"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3988,12 +4133,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4025,12 +4169,11 @@
       "patch",
       "patching"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Getting fixes owned and done",
-      "+1 posted this week"
+      "+6 core topic: Getting fixes owned and done"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4064,11 +4207,10 @@
       "patch",
       "patching"
      ],
-     "score": 10,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 buyer: Security leader",
-      "+1 posted this week"
+      "+3 buyer: Security leader"
      ],
      "band": "listen",
      "who": "Sales engineer",
@@ -4106,12 +4248,11 @@
       "bec",
       "inbox rule"
      ],
-     "score": 12,
+     "score": 11,
      "why": [
       "+6 core topic: BEC and payment fraud",
       "+3 buyer: Email & M365 admin",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -5921,7 +6062,7 @@
       "+2 buyer: Security engineer & SecOps",
       "+2 shopping for tools"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Content team",
      "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
      "topic": "compliance"
@@ -5959,7 +6100,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
