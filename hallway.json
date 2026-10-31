@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-30T18:38Z",
+ "generated": "2026-10-31T17:46Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 4,
+  "new": 13,
   "by_source": {
-   "Mastodon": 4
+   "Mastodon": 13
   }
  },
  "rooms_norms": {
@@ -102,10 +102,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 120,
-     "recent": 62,
-     "prior": 57,
-     "change": 9,
+     "total": 128,
+     "recent": 63,
+     "prior": 64,
+     "change": -2,
      "weekly": [
       0,
       0,
@@ -115,10 +115,10 @@
       1,
       0,
       0,
-      8,
-      56,
-      34,
-      21
+      10,
+      57,
+      36,
+      24
      ],
      "open": 19,
      "open_examples": [
@@ -149,7 +149,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 51.1
+     "score": 49.5
     },
     {
      "key": "prioritization",
@@ -157,10 +157,10 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 97,
-     "recent": 42,
-     "prior": 55,
-     "change": -24,
+     "total": 102,
+     "recent": 41,
+     "prior": 61,
+     "change": -33,
      "weekly": [
       0,
       0,
@@ -170,13 +170,20 @@
       0,
       0,
       0,
-      9,
+      11,
       52,
       20,
-      16
+      19
      ],
-     "open": 6,
+     "open": 7,
      "open_examples": [
+      {
+       "title": "Why Most Companies Choose To Be Insecure? Corporate insecurity has persisted for decades f",
+       "url": "https://ioc.exchange/@nielsprovos/117535744711617128",
+       "room": "ioc.exchange",
+       "date": "2026-10-31",
+       "replies": 0
+      },
       {
        "title": "⚠️ PATCH NOW Two critical PHP core flaws (CVE-2026-109618/619, CVSS 9.2) leaked before the",
        "url": "https://infosec.exchange/@suriq/117479156315324187",
@@ -190,93 +197,21 @@
        "room": "infosec.exchange",
        "date": "2026-10-14",
        "replies": 0
-      },
-      {
-       "title": "📰 Microsoft's Record October Patch Tuesday Fixes 1,413 Flaws, 1 Exploited Zero-Day Microso",
-       "url": "https://mastodon.social/@netsecio/117439627895987632",
-       "room": "mastodon.social",
-       "date": "2026-10-14",
-       "replies": 0
       }
      ],
      "rooms": [
       "mastodon.social",
       "infosec.exchange",
-      "thecybersecguru.com"
+      "ioc.exchange"
      ],
-     "score": 28.8
+     "score": 30.6
     },
     {
-     "key": "ai_cves",
-     "label": "AI-found vulnerability surge",
+     "key": "board",
+     "label": "Proving progress to the board",
      "fit": 2,
-     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
-     "who": "Research team",
-     "total": 5,
-     "recent": 3,
-     "prior": 0,
-     "change": 100,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      1,
-      0,
-      0,
-      0,
-      1,
-      1,
-      1
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [
-      "Hacker News",
-      "infosec.exchange"
-     ],
-     "score": 10.3
-    },
-    {
-     "key": "compliance",
-     "label": "Directives and compliance deadlines",
-     "fit": 2,
-     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
-     "who": "Content team",
-     "total": 7,
-     "recent": 4,
-     "prior": 3,
-     "change": 33,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      4,
-      2,
-      1
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [
-      "mastodon.social",
-      "infosec.exchange",
-      "swecyb.com"
-     ],
-     "score": 8.0
-    },
-    {
-     "key": "ai_security",
-     "label": "Securing AI and agents",
-     "fit": 1,
-     "angle": "",
-     "who": "",
+     "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
+     "who": "Founder or CISO advisor",
      "total": 7,
      "recent": 4,
      "prior": 2,
@@ -290,10 +225,83 @@
       0,
       0,
       1,
+      0,
+      2,
+      1,
+      3
+     ],
+     "open": 1,
+     "open_examples": [
+      {
+       "title": "Why Most Companies Choose To Be Insecure? Corporate insecurity has persisted for decades f",
+       "url": "https://ioc.exchange/@nielsprovos/117535744711617128",
+       "room": "ioc.exchange",
+       "date": "2026-10-31",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange",
+      "ioc.exchange"
+     ],
+     "score": 13.0
+    },
+    {
+     "key": "ai_cves",
+     "label": "AI-found vulnerability surge",
+     "fit": 2,
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "who": "Research team",
+     "total": 5,
+     "recent": 2,
+     "prior": 1,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "Hacker News",
+      "infosec.exchange"
+     ],
+     "score": 10.3
+    },
+    {
+     "key": "ai_security",
+     "label": "Securing AI and agents",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 8,
+     "recent": 5,
+     "prior": 2,
+     "change": 150,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
       1,
       1,
       3,
-      1
+      2
      ],
      "open": 3,
      "open_examples": [
@@ -324,39 +332,7 @@
       "infosec.exchange",
       "c.im"
      ],
-     "score": 7.5
-    },
-    {
-     "key": "board",
-     "label": "Proving progress to the board",
-     "fit": 2,
-     "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
-     "who": "Founder or CISO advisor",
-     "total": 5,
-     "recent": 2,
-     "prior": 2,
-     "change": 0,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      2,
-      1,
-      1
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [
-      "infosec.exchange",
-      "mastodon.social"
-     ],
-     "score": 5.2
+     "score": 9.4
     },
     {
      "key": "controls",
@@ -364,10 +340,43 @@
      "fit": 3,
      "angle": "Most breaches hit companies that already owned a tool that could have stopped them. Check coverage and configuration before buying more.",
      "who": "Founder or research team",
-     "total": 2,
-     "recent": 0,
+     "total": 3,
+     "recent": 1,
      "prior": 2,
-     "change": -100,
+     "change": -50,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange",
+      "mastobot.ping.moi"
+     ],
+     "score": 6.0
+    },
+    {
+     "key": "compliance",
+     "label": "Directives and compliance deadlines",
+     "fit": 2,
+     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
+     "who": "Content team",
+     "total": 7,
+     "recent": 3,
+     "prior": 4,
+     "change": -25,
      "weekly": [
       0,
       0,
@@ -378,17 +387,18 @@
       0,
       0,
       0,
+      4,
       2,
-      0,
-      0
+      1
      ],
      "open": 0,
      "open_examples": [],
      "rooms": [
+      "mastodon.social",
       "infosec.exchange",
-      "mastobot.ping.moi"
+      "swecyb.com"
      ],
-     "score": 4.8
+     "score": 6.0
     },
     {
      "key": "sprawl",
@@ -463,13 +473,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 16.4,
+     "score": 16.6,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+11.4 51 relevant conversations there",
+      "+11.6 54 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 51,
+     "hosted": 54,
      "mentions": 0,
      "evidence": []
     },
@@ -966,11 +976,11 @@
    "phrases": [
     {
      "phrase": "cybersecurity infosec",
-     "count": 40
+     "count": 43
     },
     {
      "phrase": "cve vulnerability",
-     "count": 31
+     "count": 33
     },
     {
      "phrase": "score cvss",
@@ -1002,11 +1012,11 @@
     },
     {
      "phrase": "cve infosec",
-     "count": 21
+     "count": 22
     },
     {
      "phrase": "valtersit com cve",
-     "count": 19
+     "count": 20
     },
     {
      "phrase": "utm source",
@@ -1029,11 +1039,15 @@
      "count": 16
     },
     {
-     "phrase": "october patch",
-     "count": 13
+     "phrase": "threataft com articles",
+     "count": 14
     },
     {
-     "phrase": "threataft com articles",
+     "phrase": "october patch",
+     "count": 14
+    },
+    {
+     "phrase": "infosec cybersecurity",
      "count": 13
     },
     {
@@ -1057,20 +1071,20 @@
      "count": 11
     },
     {
-     "phrase": "siemens published",
+     "phrase": "actively exploited",
      "count": 10
     },
     {
-     "phrase": "infosec cybersecurity",
-     "count": 9
+     "phrase": "siemens published",
+     "count": 10
     },
     {
      "phrase": "patchtuesday microsoft",
      "count": 9
     },
     {
-     "phrase": "actively exploited",
-     "count": 9
+     "phrase": "infosec cve",
+     "count": 8
     },
     {
      "phrase": "product simatic",
@@ -1079,61 +1093,77 @@
     {
      "phrase": "cvss patch",
      "count": 7
-    },
-    {
-     "phrase": "command injection",
-     "count": 7
     }
    ],
    "quotes": {
-    "prioritization": [
+    "remediation": [
      {
-      "text": "🚨 Rapid Response: CVE-2026-101767 (CVSS 9.8) could allow unauthenticated takeover of Oracle E-Business Suite.",
-      "url": "https://infosec.exchange/@censys/117519860988630629",
-      "room": "infosec.exchange",
-      "date": "2026-10-28"
+      "text": "thehackerwire.com/vulnerabilit y/CVE-2026-62863/ # CVE # vulnerability # infosec # cybersecurity # security # Tenda # patchstack",
+      "url": "https://mastodon.social/@thehackerwire/117536592826949482",
+      "room": "mastodon.social",
+      "date": "2026-10-31"
      },
      {
-      "text": "🚨 EUVD-2026-111239 📊 Score: 6.5/10 (CVSS v3.1) 📦 Product: Patch, Patch, Patch 🏢 Vendor: Tanium 📅 Updated: 2026-10-27 📝 Tanium addressed a SQL injection vulnerability in Patch.",
-      "url": "https://mastodon.social/@EUVD_Bot/117514194609986812",
+      "text": "thehackerwire.com/vulnerabilit y/CVE-2026-116512/ # CVE # vulnerability # infosec # cybersecurity # security # Tenda # patchstack",
+      "url": "https://mastodon.social/@thehackerwire/117536059115788007",
       "room": "mastodon.social",
-      "date": "2026-10-27"
+      "date": "2026-10-31"
      }
     ],
     "ai_security": [
+     {
+      "text": "🔴 CVE-2026-62863 - Critical (9.6) MoLing is a computer-use and browser-use based MCP server.",
+      "url": "https://mastodon.social/@thehackerwire/117536592826949482",
+      "room": "mastodon.social",
+      "date": "2026-10-31"
+     },
      {
       "text": "Are AI agents the new \"insider threat\"?",
       "url": "https://c.im/@psoheil/117473477658714608",
       "room": "c.im",
       "date": "2026-10-20"
-     },
-     {
-      "text": "For months, the enterprise focus has been on building autonomous AI agents to automate workflows.",
-      "url": "https://c.im/@psoheil/117473477658714608",
-      "room": "c.im",
-      "date": "2026-10-20"
      }
     ],
-    "remediation": [
+    "prioritization": [
      {
-      "text": "Here is how it works and how to patch https:// thecybersecguru.com/exploits/t eamviewer-cve-2026-111585-integer-overflow-heap-corruption/",
-      "url": "https://thecybersecguru.com/exploits/teamviewer-cve-2026-111585-integer-overflow-heap-corruption/",
-      "room": "thecybersecguru.com",
-      "date": "2026-10-30"
+      "text": "For most companies, the rational business choice has been to prioritize revenue growth over security engineering.",
+      "url": "https://ioc.exchange/@nielsprovos/117535744711617128",
+      "room": "ioc.exchange",
+      "date": "2026-10-31"
      },
      {
-      "text": "No patch info yet, so limit app permissions and track for updates.",
-      "url": "https://mastodon.social/@hugovalters/117525538610058384",
-      "room": "mastodon.social",
-      "date": "2026-10-29"
+      "text": "WordPress Core CVE-2026-119977 (CVSS 8.1) — race condition in the upgrade process.",
+      "url": "https://infosec.exchange/@threataft/117536674908446533",
+      "room": "infosec.exchange",
+      "date": "2026-10-31"
      }
     ],
     "board": [
+     {
+      "text": "CEOs are rewarded for quarterly metrics like revenue, new customers, and product launches, whereas a prevented breach is hard to score.",
+      "url": "https://ioc.exchange/@nielsprovos/117535744711617128",
+      "room": "ioc.exchange",
+      "date": "2026-10-31"
+     },
      {
       "text": "Repeated queries to non-existent endpoints inflate metrics storage and processing, consuming excessive resources.",
       "url": "https://mastodon.social/@EUVD_Bot/117444815514748186",
       "room": "mastodon.social",
       "date": "2026-10-15"
+     }
+    ],
+    "controls": [
+     {
+      "text": "Standard guest access doesn't stay restricted for long if misconfigured.",
+      "url": "https://mastodon.social/@klytron/117536353851553395",
+      "room": "mastodon.social",
+      "date": "2026-10-31"
+     },
+     {
+      "text": "A common argument for vendor consolidation is coverage gaps caused by tools that don’t share data.",
+      "url": "https://infosec.exchange/@Netcraft/117434628213655608",
+      "room": "infosec.exchange",
+      "date": "2026-10-13"
      }
     ],
     "compliance": [
@@ -1158,20 +1188,6 @@
       "date": "2026-09-15"
      }
     ],
-    "controls": [
-     {
-      "text": "A common argument for vendor consolidation is coverage gaps caused by tools that don’t share data.",
-      "url": "https://infosec.exchange/@Netcraft/117434628213655608",
-      "room": "infosec.exchange",
-      "date": "2026-10-13"
-     },
-     {
-      "text": "Before a log reaches Sentinel, your pipeline can silently drop events — misconfigured agents, rate limits, parsing failures, network gaps.",
-      "url": "https://mastobot.ping.moi/@Bobe_bot/117418859787988574",
-      "room": "mastobot.ping.moi",
-      "date": "2026-10-10"
-     }
-    ],
     "sprawl": [
      {
       "text": "Read more about the debate around cybersecurity vendor consolidation here: https://www.",
@@ -1188,7 +1204,7 @@
     ]
    },
    "brief": {},
-   "count": 157
+   "count": 167
   },
   "ocean": {
    "company": {
@@ -1338,6 +1354,61 @@
      "score": 12.0
     },
     {
+     "key": "authentication",
+     "label": "DMARC, SPF and DKIM setup",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 19,
+     "recent": 12,
+     "prior": 7,
+     "change": 71,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      2,
+      6,
+      5
+     ],
+     "open": 7,
+     "open_examples": [
+      {
+       "title": "@ bazcurtis Thanks for the learndmarc.com link, I'll try it. Reading the headers first and",
+       "url": "https://mastodon.social/@ChowHusky21/117536444601913076",
+       "room": "mastodon.social",
+       "date": "2026-10-31",
+       "replies": 1
+      },
+      {
+       "title": "@ ChowHusky21 I try to read them manually first and then use the AI to confirm or not, my ",
+       "url": "https://mastodon.social/@bazcurtis/117535742631297263",
+       "room": "mastodon.social",
+       "date": "2026-10-31",
+       "replies": 1
+      },
+      {
+       "title": "@ bazcurtis The authentication table is the useful part: SPF none, DKIM failing with no ke",
+       "url": "https://mastodon.social/@ChowHusky21/117531342327534721",
+       "room": "mastodon.social",
+       "date": "2026-10-30",
+       "replies": 1
+      }
+     ],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange",
+      "bsd.network"
+     ],
+     "score": 10.9
+    },
+    {
      "key": "seg",
      "label": "Replacing or adding to the email gateway",
      "fit": 3,
@@ -1357,8 +1428,8 @@
       0,
       0,
       0,
-      5,
-      1,
+      6,
+      0,
       0
      ],
      "open": 1,
@@ -1491,61 +1562,6 @@
      "score": 9.0
     },
     {
-     "key": "authentication",
-     "label": "DMARC, SPF and DKIM setup",
-     "fit": 1,
-     "angle": "",
-     "who": "",
-     "total": 16,
-     "recent": 9,
-     "prior": 7,
-     "change": 29,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      5,
-      2,
-      6,
-      3
-     ],
-     "open": 4,
-     "open_examples": [
-      {
-       "title": "Is this email really from who you think? One letter in a domain can cost lakhs. • yourbusi",
-       "url": "https://mastodon.social/@NexonEnterprise/117507221454492076",
-       "room": "mastodon.social",
-       "date": "2026-10-26",
-       "replies": 0
-      },
-      {
-       "title": "🚀 How Email Works: SMTP, IMAP, SPF, DKIM, and DMARC Explained Email is older than the web ",
-       "url": "https://mastodon.social/@zyvop/117471762665649202",
-       "room": "mastodon.social",
-       "date": "2026-10-20",
-       "replies": 0
-      },
-      {
-       "title": "Can someone send email pretending to be your domain? Our free check looks at SPF, DMARC, D",
-       "url": "https://mastodon.world/@makeprivacy/117442457286111384",
-       "room": "mastodon.world",
-       "date": "2026-10-15",
-       "replies": 0
-      }
-     ],
-     "rooms": [
-      "mastodon.social",
-      "infosec.exchange",
-      "bsd.network"
-     ],
-     "score": 7.3
-    },
-    {
      "key": "deepfakes",
      "label": "Deepfake voice and video fraud",
      "fit": 1,
@@ -1566,8 +1582,8 @@
       0,
       0,
       1,
-      1,
-      1
+      2,
+      0
      ],
      "open": 1,
      "open_examples": [
@@ -2125,12 +2141,12 @@
    ],
    "phrases": [
     {
-     "phrase": "utm source",
-     "count": 11
+     "phrase": "spf dkim",
+     "count": 12
     },
     {
-     "phrase": "spf dkim",
-     "count": 10
+     "phrase": "utm source",
+     "count": 11
     },
     {
      "phrase": "utm medium",
@@ -2141,16 +2157,20 @@
      "count": 9
     },
     {
+     "phrase": "dkim and dmarc",
+     "count": 8
+    },
+    {
      "phrase": "mastodon utm",
      "count": 8
     },
     {
-     "phrase": "dkim and dmarc",
+     "phrase": "utm campaign",
      "count": 7
     },
     {
-     "phrase": "utm campaign",
-     "count": 7
+     "phrase": "dmarc emailsecurity",
+     "count": 5
     },
     {
      "phrase": "conf rence",
@@ -2239,13 +2259,23 @@
     {
      "phrase": "bec plus",
      "count": 5
-    },
-    {
-     "phrase": "plus d'informations",
-     "count": 5
     }
    ],
    "quotes": {
+    "authentication": [
+     {
+      "text": "Reading the headers first and using AI as a second check is how I work too, since so much legitimate mail has weak SPF, DKIM or DMARC.",
+      "url": "https://mastodon.social/@ChowHusky21/117536444601913076",
+      "room": "mastodon.social",
+      "date": "2026-10-31"
+     },
+     {
+      "text": "Do your customers usually fix SPF or DMARC first?",
+      "url": "https://mastodon.social/@ChowHusky21/117536444601913076",
+      "room": "mastodon.social",
+      "date": "2026-10-31"
+     }
+    ],
     "awareness": [
      {
       "text": "New York Knicks championship ring # phishing test was a cybersecurity own goal.",
@@ -2272,20 +2302,6 @@
       "url": "https://mastodon.social/@threadlinqs/117484744384247531",
       "room": "mastodon.social",
       "date": "2026-10-22"
-     }
-    ],
-    "authentication": [
-     {
-      "text": "Some self promotion of a new project I made for DMARC analysis.",
-      "url": "https://infosec.exchange/@Ketavera/117502675367783811",
-      "room": "infosec.exchange",
-      "date": "2026-10-25"
-     },
-     {
-      "text": "Single container (rust, sqlite, web ui built in), reads the aggregate reports from an imap mailbox and recomputes spf / dkim alignment itself instead of trusting the reporter.",
-      "url": "https://infosec.exchange/@Ketavera/117502675367783811",
-      "room": "infosec.exchange",
-      "date": "2026-10-25"
      }
     ],
     "deepfakes": [
@@ -2360,10 +2376,470 @@
     ]
    },
    "brief": {},
-   "count": 41
+   "count": 44
   }
  },
  "conversations": [
+  {
+   "id": "321b089322be",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🔴 CVE-2026-62863 - Critical (9.6) MoLing is a computer-use and browser-use based MCP server. Prior to 0.5.0, when MoLing runs in SSE mode using `-l`, its `/sse` and `/message` HTTP endpoints do not authenticate requests and the `mcp-go` dependency sets `Access-Control-Allow-Origin... 🔗 https://www. thehackerwire.com/vulnerabilit y/CVE-2026-62863/ # CVE # vulnerability # infosec # cybersecurity # security # Tenda # patchstack",
+   "url": "https://mastodon.social/@thehackerwire/117536592826949482",
+   "date": "2026-10-31",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-31",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation",
+      "ai_security"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "mcp server",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "bd81da145a45",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🔴 CVE-2026-116512 - Critical (9.8) The Project Manager – AI Powered Project Management, Task Management, Kanban Board & Time Tracker plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 4.1.1 via the 'id' parameter parameter. This is d... 🔗 https://www. thehackerwire.com/vulnerabilit y/CVE-2026-116512/ # CVE # vulnerability # infosec # cybersecurity # security # Tenda # patchstack",
+   "url": "https://mastodon.social/@thehackerwire/117536059115788007",
+   "date": "2026-10-31",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-31",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation",
+      "board"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "board",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "9ad981b900cb",
+   "source": "Mastodon",
+   "room": "ioc.exchange",
+   "title": "",
+   "text": "Why Most Companies Choose To Be Insecure? Corporate insecurity has persisted for decades for reasons unrelated to technology. For most companies, the rational business choice has been to prioritize revenue growth over security engineering. CEOs are rewarded for quarterly metrics like revenue, new customers, and product launches, whereas a prevented breach is hard to score. CISOs buy dozens of third-party security products to triage alerts, while requests to fix fundamental issues requiring engineering investment sit behind the product roadmap. AI has not changed these incentives yet. Consider the commercial incentives of frontier AI labs. Pursuing IPOs and high valuations, labs emphasize how dangerous their models are to sell defensive subscriptions while lobbying to restrict capable open-weight competitors. Fear sells models and fear sells news. During the Hugging Face and OpenCode forensic investigations, Anthropic and OpenAI models refused legitimate forensic work. Hugging Face fortunately could switch to an open-weight GLM-5.2 model on its own infrastructure, while OpenCode had to wait for special approval from OpenAI. Defenders need tools they control, free from mid-incident r",
+   "url": "https://ioc.exchange/@nielsprovos/117535744711617128",
+   "date": "2026-10-31",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-31",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "board"
+     ],
+     "personas": [
+      "leader",
+      "secops"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "metrics",
+      "prioritiz"
+     ],
+     "score": 14,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 buyer: Security leader",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "2187082b0f11",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "@ bazcurtis Thanks for the learndmarc.com link, I'll try it. Reading the headers first and using AI as a second check is how I work too, since so much legitimate mail has weak SPF, DKIM or DMARC. Do your customers usually fix SPF or DMARC first? # EmailSecurity # DMARC",
+   "url": "https://mastodon.social/@ChowHusky21/117536444601913076",
+   "date": "2026-10-31",
+   "kind": "post",
+   "replies": 1,
+   "found": "2026-10-31",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "dmarc",
+      "spf"
+     ],
+     "score": 6,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "b3d3370ecdae",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "@ ChowHusky21 I try to read them manually first and then use the AI to confirm or not, my opinion. So many legit email has poor SPF, DKIM and DMARC that doesn’t help. Have you ever seen this site? I give it to customers to help found out where the stand. https://www. learndmarc.com # EmailSecurity # SPF",
+   "url": "https://mastodon.social/@bazcurtis/117535742631297263",
+   "date": "2026-10-31",
+   "kind": "post",
+   "replies": 1,
+   "found": "2026-10-31",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "dmarc",
+      "spf"
+     ],
+     "score": 6,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "10f182240962",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "WordPress Core CVE-2026-119977 (CVSS 8.1) — race condition in the upgrade process. WordPress unpacks updates into a predictable staging directory under wp-content/upgrade, including the installer. Unauthenticated attacker hits setup-config.php during the seconds-long window = code execution path. Wordfence blocked 62,969 attempts in 24 hours after the patch dropped. Affects WordPress 4.7 through 7.1.3. Fix: 7.1.4. Full breakdown: threataft.com/articles/wordpress-core-cve-2026-119977-upgrade-window-race-condition-rce # WordPress # InfoSec # CVE # WebSecurity # CyberSecurity",
+   "url": "https://infosec.exchange/@threataft/117536674908446533",
+   "date": "2026-10-31",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-31",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "7714885cc5f2",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-93980: SQL injection in code-projects Internship Management System 1.0 admin login, CVSS 7.3, public exploit out, no patch known. Restrict admin access and update immediately. # CVE # infosec # cybersecurity https://www. valtersit.com/cve/CVE-2026-939 80/",
+   "url": "https://mastodon.social/@hugovalters/117536627305699988",
+   "date": "2026-10-31",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-31",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "1f7d336fd98b",
+   "source": "Mastodon",
+   "room": "c.im",
+   "title": "",
+   "text": "Critical Linux Kernel Vulnerability: CVE-2026-98432 A newly disclosed vulnerability in the Linux kernel’s IPv4 networking subsystem exposes systems to a potentially serious remote attack. Tracked as CVE-2026-98432, the flaw involves a race condition that can trigger a use-after-free memory error during TCP connection processing or socket migration. Key details: • Severity: Critical (CVSS 9.8 according to the upstream advisory). • Attack Vector: Remote network access. No authentication, privileges, or user interaction required under the published CVSS assessment. • Root Cause: Socket options can be freed while another CPU is still accessing them, potentially resulting in memory corruption or a kernel crash. • Potential Impact: Denial of Service and potential compromise of system integrity and confidentiality. • Affected Versions: The vulnerability was introduced in Linux kernel 4.4 and impacts multiple subsequent kernel branches. What should administrators do? Update affected Linux systems to patched kernel releases. Upstream fixes have been incorporated into several maintained branches, including: • Linux 5.10.272 • Linux 5.15.223 • Linux 6.1.190 • Linux 6.6.159 • Linux 6.12.113 • ",
+   "url": "https://c.im/@psoheil/117536597572233605",
+   "date": "2026-10-31",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-31",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "40004c58870e",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "CISA Flags Two Exploited Ivanti Connect Secure Flaws That Give Attackers Root Access CISA has added Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527, and CVE-2026-104935) to its KEV catalog following reports of active exploitation. These flaws allow attackers to chain exploits to gain root access, upload malicious files, and compromise entire enterprise networks. **If you run Ivanti Connect Secure VPN, upgrade right away to version 25.1.1.3 or 22.8R2. Attackers are chaining three flaws to take full control of the appliance, and older builds are still exposed even if you patched earlier in October. Treat any internet-facing appliance as possibly already compromised: after upgrading, change all passwords, API tokens and certificates stored on or reachable from the VPN, and check your Active Directory for suspicious accounts.** # cybersecurity # infosec # attack # activeexploit https:// beyondmachines.net/event_detai ls/cisa-flags-two-exploited-ivanti-connect-secure-flaws-that-give-attackers-root-access-k-d-m-s-l/gD2P6Ple2L",
+   "url": "https://infosec.exchange/@beyondmachines1/117536592033477012",
+   "date": "2026-10-31",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-31",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "kev",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "50a2c4a9b734",
+   "source": "Mastodon",
+   "room": "techhub.social",
+   "title": "",
+   "text": "Security Tip: Shift left by integrating vulnerability scanning into your CI/CD pipeline. 🛡️ Reactive patching is necessary, but catching vulnerabilities before they reach production is more efficient. By automating scans in your build process, you can block insecure code from deploying. Research the latest vulnerabilities and stay informed at https:// cvedatabase.com # InfoSec # CyberSecurity # DevSecOps # CVE # VulnerabilityManagement",
+   "url": "https://techhub.social/@cvedatabase/117536470105860310",
+   "date": "2026-10-31",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-31",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch",
+      "patching"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "fe35cec956d1",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "CISA Warns of Active Exploitation of Maximum-Severity GitLab Regex Compiler Flaw GitLab addressed several critical vulnerabilities, including an actively exploited RCE flaw in its CI/CD regular expression compiler. CISA has mandated immediate patching for federal agencies due to the high risk of server takeover and data theft. **If you run your own GitLab server, upgrade it right away to 19.2.9, 19.3.6, 19.4.3 or newer, because the October 12 patch alone still leaves you open to a second flaw. Until you've upgraded, block the server from the internet, and if it was exposed while vulnerable, assume it's compromised: look at recent CI/CD changes for anything unusual and change every password, token and secret stored on it.** # cybersecurity # infosec # attack # activeexploit https:// beyondmachines.net/event_detai ls/cisa-warns-of-active-exploitation-of-maximum-severity-gitlab-regex-compiler-flaw-j-j-k-b-s/gD2P6Ple2L",
+   "url": "https://infosec.exchange/@beyondmachines1/117536356144199939",
+   "date": "2026-10-31",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-31",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch",
+      "patching"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "c43a51342789",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Standard guest access doesn't stay restricted for long if misconfigured. Here is how privilege escalation leads to full server takeover and how to stop it. Full analysis at klytron.com # Cybersecurity # PrivilegeEscalation # SecOps # Klytron # klytron # cybersecurity # infosec # privilegeescalation # secops # klytron",
+   "url": "https://mastodon.social/@klytron/117536353851553395",
+   "date": "2026-10-31",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-10-31",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "controls"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "misconfig",
+      "misconfigured"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Security tools misconfigured or not covering everything",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Founder or research team",
+     "angle": "Most breaches hit companies that already owned a tool that could have stopped them. Check coverage and configuration before buying more.",
+     "topic": "controls"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "97f102764e6a",
    "source": "Mastodon",
@@ -2518,6 +2994,45 @@
    "rooms": []
   },
   {
+   "id": "7a7a9508ab2f",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "@ bazcurtis The authentication table is the useful part: SPF none, DKIM failing with no key in DNS, and DMARC can't even evaluate because the From domain \"metpolice\" has no TLD. What do you check first when the From domain isn't real? # DMARC # EmailSecurity",
+   "url": "https://mastodon.social/@ChowHusky21/117531342327534721",
+   "date": "2026-10-30",
+   "kind": "post",
+   "replies": 1,
+   "found": "2026-10-31",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "dmarc",
+      "spf"
+     ],
+     "score": 6,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
    "id": "0c08b3ec2dc1",
    "source": "Mastodon",
    "room": "mastodon.social",
@@ -2580,10 +3095,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2618,10 +3133,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2657,11 +3172,11 @@
       "patch",
       "patching"
      ],
-     "score": 12,
+     "score": 10,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+3 buyer: Security leader",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "Sales engineer",
@@ -3507,12 +4022,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3545,11 +4059,10 @@
      "evidence": [
       "docusign"
      ],
-     "score": 10,
+     "score": 9,
      "why": [
       "+6 core topic: Compromised vendors and trusted senders",
-      "+3 buyer: Email & M365 admin",
-      "+1 posted this week"
+      "+3 buyer: Email & M365 admin"
      ],
      "band": "worth",
      "who": "Research team",
@@ -3584,12 +4097,11 @@
       "patch",
       "risk reduction"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Getting fixes owned and done",
-      "+1 posted this week"
+      "+6 core topic: Getting fixes owned and done"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3629,11 +4141,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3675,11 +4186,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3714,12 +4224,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3752,10 +4261,9 @@
       "dmarc",
       "spf"
      ],
-     "score": 2,
+     "score": 1,
      "why": [
-      "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+1 posted this week"
+      "+1 listen-only topic: DMARC, SPF and DKIM setup"
      ],
      "band": "listen",
      "who": "",
@@ -3790,11 +4298,10 @@
       "ai found",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "listen",
      "who": "Sales engineer",
@@ -5572,7 +6079,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
