@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31T17:46Z",
+ "generated": "2026-11-01T18:26Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 13,
+  "new": 5,
   "by_source": {
-   "Mastodon": 13
+   "Mastodon": 5
   }
  },
  "rooms_norms": {
@@ -102,10 +102,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 128,
-     "recent": 63,
-     "prior": 64,
-     "change": -2,
+     "total": 133,
+     "recent": 65,
+     "prior": 67,
+     "change": -3,
      "weekly": [
       0,
       0,
@@ -115,32 +115,32 @@
       1,
       0,
       0,
-      10,
-      57,
-      36,
+      14,
+      56,
+      38,
       24
      ],
-     "open": 19,
+     "open": 21,
      "open_examples": [
+      {
+       "title": "🚨 CVSS 10.0: LXD & MicroCloud Authentication Bypass What if an attacker could impersonate ",
+       "url": "https://mastox.eu/@thecybersecguru/117542486805900169",
+       "room": "mastox.eu",
+       "date": "2026-11-01",
+       "replies": 0
+      },
+      {
+       "title": "🚨 CVE-2026-112816: CVSS 10.0 | LXD & MicroCloud Authentication Bypass A certificate-valida",
+       "url": "https://infosec.exchange/@thecybersecguru/117542485427077888",
+       "room": "infosec.exchange",
+       "date": "2026-11-01",
+       "replies": 0
+      },
       {
        "title": "New blog post by me: https:// nheinz.eu/blog/2026/10/contain er-vulnerability-management/?",
        "url": "https://infosec.exchange/@niclas/117501558174904892",
        "room": "infosec.exchange",
        "date": "2026-10-25",
-       "replies": 0
-      },
-      {
-       "title": "⚠️ PATCH NOW Two critical PHP core flaws (CVE-2026-109618/619, CVSS 9.2) leaked before the",
-       "url": "https://infosec.exchange/@suriq/117479156315324187",
-       "room": "infosec.exchange",
-       "date": "2026-10-21",
-       "replies": 0
-      },
-      {
-       "title": "Ask HN: How do you handle AI security for automated vulnerability management?",
-       "url": "https://news.ycombinator.com/item?id=50186510",
-       "room": "Hacker News",
-       "date": "2026-10-21",
        "replies": 0
       }
      ],
@@ -149,7 +149,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 49.5
+     "score": 52.7
     },
     {
      "key": "prioritization",
@@ -157,10 +157,10 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 102,
-     "recent": 41,
-     "prior": 61,
-     "change": -33,
+     "total": 107,
+     "recent": 44,
+     "prior": 63,
+     "change": -30,
      "weekly": [
       0,
       0,
@@ -170,41 +170,41 @@
       0,
       0,
       0,
-      11,
-      52,
-      20,
+      16,
+      50,
+      22,
       19
      ],
-     "open": 7,
+     "open": 9,
      "open_examples": [
+      {
+       "title": "🚨 CVSS 10.0: LXD & MicroCloud Authentication Bypass What if an attacker could impersonate ",
+       "url": "https://mastox.eu/@thecybersecguru/117542486805900169",
+       "room": "mastox.eu",
+       "date": "2026-11-01",
+       "replies": 0
+      },
+      {
+       "title": "🚨 CVE-2026-112816: CVSS 10.0 | LXD & MicroCloud Authentication Bypass A certificate-valida",
+       "url": "https://infosec.exchange/@thecybersecguru/117542485427077888",
+       "room": "infosec.exchange",
+       "date": "2026-11-01",
+       "replies": 0
+      },
       {
        "title": "Why Most Companies Choose To Be Insecure? Corporate insecurity has persisted for decades f",
        "url": "https://ioc.exchange/@nielsprovos/117535744711617128",
        "room": "ioc.exchange",
        "date": "2026-10-31",
        "replies": 0
-      },
-      {
-       "title": "⚠️ PATCH NOW Two critical PHP core flaws (CVE-2026-109618/619, CVSS 9.2) leaked before the",
-       "url": "https://infosec.exchange/@suriq/117479156315324187",
-       "room": "infosec.exchange",
-       "date": "2026-10-21",
-       "replies": 0
-      },
-      {
-       "title": "Attackers are exploiting CVE-2026-76519 (CVSS 9.8), a critical Cisco Secure Email Gateway ",
-       "url": "https://infosec.exchange/@DailyCyberSecurity/117441656804622326",
-       "room": "infosec.exchange",
-       "date": "2026-10-14",
-       "replies": 0
       }
      ],
      "rooms": [
       "mastodon.social",
       "infosec.exchange",
-      "ioc.exchange"
+      "thecybersecguru.com"
      ],
-     "score": 30.6
+     "score": 33.8
     },
     {
      "key": "board",
@@ -386,10 +386,10 @@
       0,
       0,
       0,
-      0,
-      4,
-      2,
-      1
+      1,
+      3,
+      3,
+      0
      ],
      "open": 0,
      "open_examples": [],
@@ -476,10 +476,10 @@
      "score": 16.6,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+11.6 54 relevant conversations there",
+      "+11.6 55 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 54,
+     "hosted": 55,
      "mentions": 0,
      "evidence": []
     },
@@ -976,7 +976,7 @@
    "phrases": [
     {
      "phrase": "cybersecurity infosec",
-     "count": 43
+     "count": 44
     },
     {
      "phrase": "cve vulnerability",
@@ -1012,11 +1012,11 @@
     },
     {
      "phrase": "cve infosec",
-     "count": 22
+     "count": 23
     },
     {
      "phrase": "valtersit com cve",
-     "count": 20
+     "count": 21
     },
     {
      "phrase": "utm source",
@@ -1039,16 +1039,16 @@
      "count": 16
     },
     {
+     "phrase": "infosec cybersecurity",
+     "count": 14
+    },
+    {
      "phrase": "threataft com articles",
      "count": 14
     },
     {
      "phrase": "october patch",
      "count": 14
-    },
-    {
-     "phrase": "infosec cybersecurity",
-     "count": 13
     },
     {
      "phrase": "windows shell",
@@ -1096,18 +1096,32 @@
     }
    ],
    "quotes": {
-    "remediation": [
+    "prioritization": [
      {
-      "text": "thehackerwire.com/vulnerabilit y/CVE-2026-62863/ # CVE # vulnerability # infosec # cybersecurity # security # Tenda # patchstack",
-      "url": "https://mastodon.social/@thehackerwire/117536592826949482",
-      "room": "mastodon.social",
-      "date": "2026-10-31"
+      "text": "CVE-2026-112816 Explained: The LXD and MicroCloud Authentication Bypass That Scored a Perfect CVSS 10.0 CVE-2026-112816 is a CVSS 10.0 LXD and MicroCloud authentication bypass.",
+      "url": "https://thecybersecguru.com/exploits/cve-2026-112816-lxd-microcloud-authentication-bypass/",
+      "room": "thecybersecguru.com",
+      "date": "2026-11-01"
      },
      {
-      "text": "thehackerwire.com/vulnerabilit y/CVE-2026-116512/ # CVE # vulnerability # infosec # cybersecurity # security # Tenda # patchstack",
-      "url": "https://mastodon.social/@thehackerwire/117536059115788007",
+      "text": "CVSS 2.4, public exploit, no patch.",
+      "url": "https://mastodon.social/@hugovalters/117542525546186937",
       "room": "mastodon.social",
-      "date": "2026-10-31"
+      "date": "2026-11-01"
+     }
+    ],
+    "remediation": [
+     {
+      "text": "Learn how the PeerCertificates loop works, affected versions, and how to patch https:// thecybersecguru.com/exploits/c ve-2026-112816-lxd-microcloud-authentication-bypass/",
+      "url": "https://thecybersecguru.com/exploits/cve-2026-112816-lxd-microcloud-authentication-bypass/",
+      "room": "thecybersecguru.com",
+      "date": "2026-11-01"
+     },
+     {
+      "text": "🔬 Technical breakdown, vulnerable code, attack mechanics & patches: 🔗 https:// thecybersecguru.com/exploits/c ve-2026-112816-lxd-microcloud-authentication-bypass/ # CyberSecurity # CVE2026 # LXD # MicroCloud # InfoSec",
+      "url": "https://mastox.eu/@thecybersecguru/117542486805900169",
+      "room": "mastox.eu",
+      "date": "2026-11-01"
      }
     ],
     "ai_security": [
@@ -1122,20 +1136,6 @@
       "url": "https://c.im/@psoheil/117473477658714608",
       "room": "c.im",
       "date": "2026-10-20"
-     }
-    ],
-    "prioritization": [
-     {
-      "text": "For most companies, the rational business choice has been to prioritize revenue growth over security engineering.",
-      "url": "https://ioc.exchange/@nielsprovos/117535744711617128",
-      "room": "ioc.exchange",
-      "date": "2026-10-31"
-     },
-     {
-      "text": "WordPress Core CVE-2026-119977 (CVSS 8.1) — race condition in the upgrade process.",
-      "url": "https://infosec.exchange/@threataft/117536674908446533",
-      "room": "infosec.exchange",
-      "date": "2026-10-31"
      }
     ],
     "board": [
@@ -1204,7 +1204,7 @@
     ]
    },
    "brief": {},
-   "count": 167
+   "count": 172
   },
   "ocean": {
    "company": {
@@ -1354,70 +1354,15 @@
      "score": 12.0
     },
     {
-     "key": "authentication",
-     "label": "DMARC, SPF and DKIM setup",
-     "fit": 1,
-     "angle": "",
-     "who": "",
-     "total": 19,
-     "recent": 12,
-     "prior": 7,
-     "change": 71,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      6,
-      2,
-      6,
-      5
-     ],
-     "open": 7,
-     "open_examples": [
-      {
-       "title": "@ bazcurtis Thanks for the learndmarc.com link, I'll try it. Reading the headers first and",
-       "url": "https://mastodon.social/@ChowHusky21/117536444601913076",
-       "room": "mastodon.social",
-       "date": "2026-10-31",
-       "replies": 1
-      },
-      {
-       "title": "@ ChowHusky21 I try to read them manually first and then use the AI to confirm or not, my ",
-       "url": "https://mastodon.social/@bazcurtis/117535742631297263",
-       "room": "mastodon.social",
-       "date": "2026-10-31",
-       "replies": 1
-      },
-      {
-       "title": "@ bazcurtis The authentication table is the useful part: SPF none, DKIM failing with no ke",
-       "url": "https://mastodon.social/@ChowHusky21/117531342327534721",
-       "room": "mastodon.social",
-       "date": "2026-10-30",
-       "replies": 1
-      }
-     ],
-     "rooms": [
-      "mastodon.social",
-      "infosec.exchange",
-      "bsd.network"
-     ],
-     "score": 10.9
-    },
-    {
      "key": "seg",
      "label": "Replacing or adding to the email gateway",
      "fit": 3,
      "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
      "who": "Account executive and sales engineer",
      "total": 6,
-     "recent": 1,
-     "prior": 5,
-     "change": -80,
+     "recent": 0,
+     "prior": 6,
+     "change": -100,
      "weekly": [
       0,
       0,
@@ -1478,6 +1423,61 @@
      "rooms": [
       "mastodon.social",
       "infosec.exchange"
+     ],
+     "score": 9.5
+    },
+    {
+     "key": "authentication",
+     "label": "DMARC, SPF and DKIM setup",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 19,
+     "recent": 11,
+     "prior": 8,
+     "change": 38,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      2,
+      7,
+      4
+     ],
+     "open": 7,
+     "open_examples": [
+      {
+       "title": "@ bazcurtis Thanks for the learndmarc.com link, I'll try it. Reading the headers first and",
+       "url": "https://mastodon.social/@ChowHusky21/117536444601913076",
+       "room": "mastodon.social",
+       "date": "2026-10-31",
+       "replies": 1
+      },
+      {
+       "title": "@ ChowHusky21 I try to read them manually first and then use the AI to confirm or not, my ",
+       "url": "https://mastodon.social/@bazcurtis/117535742631297263",
+       "room": "mastodon.social",
+       "date": "2026-10-31",
+       "replies": 1
+      },
+      {
+       "title": "@ bazcurtis The authentication table is the useful part: SPF none, DKIM failing with no ke",
+       "url": "https://mastodon.social/@ChowHusky21/117531342327534721",
+       "room": "mastodon.social",
+       "date": "2026-10-30",
+       "replies": 1
+      }
+     ],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange",
+      "bsd.network"
      ],
      "score": 9.5
     },
@@ -2381,6 +2381,200 @@
  },
  "conversations": [
   {
+   "id": "fbf55964765e",
+   "source": "Mastodon",
+   "room": "thecybersecguru.com",
+   "title": "",
+   "text": "CVE-2026-112816 Explained: The LXD and MicroCloud Authentication Bypass That Scored a Perfect CVSS 10.0 CVE-2026-112816 is a CVSS 10.0 LXD and MicroCloud authentication bypass. Learn how the PeerCertificates loop works, affected versions, and how to patch https:// thecybersecguru.com/exploits/c ve-2026-112816-lxd-microcloud-authentication-bypass/",
+   "url": "https://thecybersecguru.com/exploits/cve-2026-112816-lxd-microcloud-authentication-bypass/",
+   "date": "2026-11-01",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-01",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "a0a8d5c2f58c",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-94016: reflected XSS in SourceCodester Drug Recommendation System 1.0 (add_symptom, txtname). CVSS 2.4, public exploit, no patch. Update or mitigate now. # CVE # infosec # cybersecurity https://www. valtersit.com/cve/CVE-2026-940 16/",
+   "url": "https://mastodon.social/@hugovalters/117542525546186937",
+   "date": "2026-11-01",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-01",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": true,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 shopping for tools",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "b5f6d837d714",
+   "source": "Mastodon",
+   "room": "mastox.eu",
+   "title": "",
+   "text": "🚨 CVSS 10.0: LXD & MicroCloud Authentication Bypass What if an attacker could impersonate your LXD administrator without possessing their private key? CVE-2026-112816 exploits a dangerous certificate-validation flaw in Go-based mTLS authentication. 🔴 Unauthenticated remote access 🔴 Trusted administrator impersonation 🔴 Container & VM takeover 🔴 Potential root access to the host The root cause? Trusting an entire TLS certificate chain instead of verifying the client identity correctly. No stolen admin private key required. 🔬 Technical breakdown, vulnerable code, attack mechanics & patches: 🔗 https:// thecybersecguru.com/exploits/c ve-2026-112816-lxd-microcloud-authentication-bypass/ # CyberSecurity # CVE2026 # LXD # MicroCloud # InfoSec",
+   "url": "https://mastox.eu/@thecybersecguru/117542486805900169",
+   "date": "2026-11-01",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-01",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "0b242cbad831",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🚨 CVE-2026-112816: CVSS 10.0 | LXD & MicroCloud Authentication Bypass A certificate-validation mistake. No admin private key. Potential root access to the host. CVE-2026-112816 exposes a critical flaw in LXD and MicroCloud mutual TLS authentication. 🔴 Unauthenticated authentication bypass 🔴 Trusted administrator impersonation 🔴 Container and virtual machine takeover 🔴 Potential host-level root access The technical root cause? The vulnerable authentication logic iterates over the entire client-provided TLS certificate chain instead of restricting identity checks to the leaf certificate. An attacker can append a trusted administrator's public certificate to an otherwise untrusted chain and potentially impersonate that administrator. This is a reminder that a certificate's presence is not proof of private-key ownership. Full technical breakdown, vulnerable code, attack mechanics, affected versions, and remediation: 🔗 https:// thecybersecguru.com/exploits/c ve-2026-112816-lxd-microcloud-authentication-bypass/ # InfoSec # CVE2026 # CyberSecurity # LXD # LinuxSecurity",
+   "url": "https://infosec.exchange/@thecybersecguru/117542485427077888",
+   "date": "2026-11-01",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-01",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "remediation"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "4bc843e4c215",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Timetics shows a C trust score with 100% of its 3 CVEs unpatched, topped by a CWE-862 missing authorization flaw at CVSS 7.3. No KEV, but nothing fixed either. Patch posture is the story here. # cybersecurity # infosec # Timetics https://www. valtersit.com/vendors/timetics/",
+   "url": "https://mastodon.social/@hugovalters/117542407674511119",
+   "date": "2026-11-01",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-01",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "kev",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
    "id": "321b089322be",
    "source": "Mastodon",
    "room": "mastodon.social",
@@ -3057,10 +3251,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3788,12 +3982,11 @@
       "patch",
       "remediation"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Getting fixes owned and done",
-      "+1 posted this week"
+      "+6 core topic: Getting fixes owned and done"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3826,12 +4019,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3864,12 +4056,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3900,11 +4091,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3939,12 +4129,11 @@
       "mythos",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Getting fixes owned and done",
-      "+1 posted this week"
+      "+6 core topic: Getting fixes owned and done"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3984,10 +4173,9 @@
       "dmarc",
       "vishing"
      ],
-     "score": 2,
+     "score": 1,
      "why": [
-      "+1 listen-only topic: Deepfake voice and video fraud",
-      "+1 posted this week"
+      "+1 listen-only topic: Deepfake voice and video fraud"
      ],
      "band": "listen",
      "who": "",
@@ -5968,7 +6156,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 shopping for tools"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
