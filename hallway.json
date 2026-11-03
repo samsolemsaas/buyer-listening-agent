@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02T22:20Z",
+ "generated": "2026-11-03T20:08Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 5,
+  "new": 3,
   "by_source": {
-   "Mastodon": 5
+   "Mastodon": 3
   }
  },
  "rooms_norms": {
@@ -102,23 +102,23 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 136,
-     "recent": 65,
-     "prior": 70,
-     "change": -7,
+     "total": 137,
+     "recent": 62,
+     "prior": 73,
+     "change": -15,
      "weekly": [
       0,
       0,
       0,
       0,
-      0,
       1,
       0,
-      1,
-      18,
-      55,
+      0,
+      2,
+      31,
+      43,
       36,
-      25
+      24
      ],
      "open": 21,
      "open_examples": [
@@ -157,10 +157,10 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 110,
-     "recent": 44,
-     "prior": 66,
-     "change": -33,
+     "total": 111,
+     "recent": 43,
+     "prior": 67,
+     "change": -36,
      "weekly": [
       0,
       0,
@@ -169,10 +169,10 @@
       0,
       0,
       0,
-      1,
-      20,
-      47,
-      22,
+      2,
+      42,
+      26,
+      21,
       20
      ],
      "open": 9,
@@ -262,8 +262,8 @@
       0,
       0,
       0,
-      1,
-      1,
+      2,
+      0,
       0,
       0,
       0,
@@ -299,8 +299,8 @@
       1,
       0,
       1,
-      1,
-      3,
+      4,
+      0,
       2
      ],
      "open": 3,
@@ -353,8 +353,8 @@
       0,
       0,
       0,
-      1,
-      1,
+      2,
+      0,
       0,
       1
      ],
@@ -387,8 +387,8 @@
       0,
       0,
       1,
-      3,
-      3,
+      4,
+      2,
       0
      ],
      "open": 0,
@@ -419,8 +419,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0,
       0
      ],
@@ -1012,11 +1012,11 @@
     },
     {
      "phrase": "cve infosec",
-     "count": 24
+     "count": 25
     },
     {
      "phrase": "valtersit com cve",
-     "count": 22
+     "count": 23
     },
     {
      "phrase": "utm source",
@@ -1079,12 +1079,12 @@
      "count": 10
     },
     {
-     "phrase": "patchtuesday microsoft",
+     "phrase": "cvss patch",
      "count": 9
     },
     {
-     "phrase": "cvss patch",
-     "count": 8
+     "phrase": "patchtuesday microsoft",
+     "count": 9
     },
     {
      "phrase": "infosec cve",
@@ -1204,7 +1204,7 @@
     ]
    },
    "brief": {},
-   "count": 177
+   "count": 178
   },
   "ocean": {
    "company": {
@@ -1273,10 +1273,10 @@
      "fit": 3,
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "who": "Sales engineer",
-     "total": 13,
-     "recent": 6,
+     "total": 14,
+     "recent": 7,
      "prior": 7,
-     "change": -14,
+     "change": 0,
      "weekly": [
       0,
       0,
@@ -1286,10 +1286,10 @@
       0,
       0,
       0,
-      0,
-      7,
+      1,
       6,
-      0
+      6,
+      1
      ],
      "open": 9,
      "open_examples": [
@@ -1319,7 +1319,7 @@
       "infosec.exchange",
       "mastodon.social"
      ],
-     "score": 24.9
+     "score": 25.2
     },
     {
      "key": "trusted_senders",
@@ -1352,6 +1352,101 @@
       "mastodon.social"
      ],
      "score": 12.0
+    },
+    {
+     "key": "authentication",
+     "label": "DMARC, SPF and DKIM setup",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 20,
+     "recent": 12,
+     "prior": 7,
+     "change": 71,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      5,
+      4,
+      6,
+      4
+     ],
+     "open": 8,
+     "open_examples": [
+      {
+       "title": "Over SPF's 10-lookup limit? In DMARCguard's SPF Supply Chain 2026 scan (27 Feb 2026), 148,",
+       "url": "https://mastodon.social/@meysam81/117552866965090602",
+       "room": "mastodon.social",
+       "date": "2026-11-03",
+       "replies": 0
+      },
+      {
+       "title": "@ bazcurtis Thanks for the learndmarc.com link, I'll try it. Reading the headers first and",
+       "url": "https://mastodon.social/@ChowHusky21/117536444601913076",
+       "room": "mastodon.social",
+       "date": "2026-10-31",
+       "replies": 1
+      },
+      {
+       "title": "@ ChowHusky21 I try to read them manually first and then use the AI to confirm or not, my ",
+       "url": "https://mastodon.social/@bazcurtis/117535742631297263",
+       "room": "mastodon.social",
+       "date": "2026-10-31",
+       "replies": 1
+      }
+     ],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange",
+      "bsd.network"
+     ],
+     "score": 11.5
+    },
+    {
+     "key": "account_takeover",
+     "label": "Account takeover and MFA bypass",
+     "fit": 2,
+     "angle": "Email is where most takeovers start. Connect the phishing email to the session it stole.",
+     "who": "Research team",
+     "total": 4,
+     "recent": 4,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      1
+     ],
+     "open": 1,
+     "open_examples": [
+      {
+       "title": "A token replay attack hit 79 organizations, bypassing MFA to set up Microsoft 365 BEC with",
+       "url": "https://infosec.exchange/@DailyCyberSecurity/117485099900600698",
+       "room": "infosec.exchange",
+       "date": "2026-10-22",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "infosec.exchange",
+      "mastodon.social"
+     ],
+     "score": 10.3
     },
     {
      "key": "seg",
@@ -1427,61 +1522,6 @@
      "score": 9.5
     },
     {
-     "key": "authentication",
-     "label": "DMARC, SPF and DKIM setup",
-     "fit": 1,
-     "angle": "",
-     "who": "",
-     "total": 19,
-     "recent": 11,
-     "prior": 8,
-     "change": 38,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      5,
-      2,
-      8,
-      3
-     ],
-     "open": 7,
-     "open_examples": [
-      {
-       "title": "@ bazcurtis Thanks for the learndmarc.com link, I'll try it. Reading the headers first and",
-       "url": "https://mastodon.social/@ChowHusky21/117536444601913076",
-       "room": "mastodon.social",
-       "date": "2026-10-31",
-       "replies": 1
-      },
-      {
-       "title": "@ ChowHusky21 I try to read them manually first and then use the AI to confirm or not, my ",
-       "url": "https://mastodon.social/@bazcurtis/117535742631297263",
-       "room": "mastodon.social",
-       "date": "2026-10-31",
-       "replies": 1
-      },
-      {
-       "title": "@ bazcurtis The authentication table is the useful part: SPF none, DKIM failing with no ke",
-       "url": "https://mastodon.social/@ChowHusky21/117531342327534721",
-       "room": "mastodon.social",
-       "date": "2026-10-30",
-       "replies": 1
-      }
-     ],
-     "rooms": [
-      "mastodon.social",
-      "infosec.exchange",
-      "bsd.network"
-     ],
-     "score": 9.5
-    },
-    {
      "key": "awareness",
      "label": "Security awareness and phishing tests",
      "fit": 2,
@@ -1502,8 +1542,8 @@
       0,
       0,
       1,
-      1,
-      1
+      2,
+      0
      ],
      "open": 1,
      "open_examples": [
@@ -1512,46 +1552,6 @@
        "url": "https://mastodon.social/@ninecloudnavigators/117438323319329881",
        "room": "mastodon.social",
        "date": "2026-10-14",
-       "replies": 0
-      }
-     ],
-     "rooms": [
-      "infosec.exchange",
-      "mastodon.social"
-     ],
-     "score": 9.0
-    },
-    {
-     "key": "account_takeover",
-     "label": "Account takeover and MFA bypass",
-     "fit": 2,
-     "angle": "Email is where most takeovers start. Connect the phishing email to the session it stole.",
-     "who": "Research team",
-     "total": 3,
-     "recent": 3,
-     "prior": 0,
-     "change": 100,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      3,
-      0
-     ],
-     "open": 1,
-     "open_examples": [
-      {
-       "title": "A token replay attack hit 79 organizations, bypassing MFA to set up Microsoft 365 BEC with",
-       "url": "https://infosec.exchange/@DailyCyberSecurity/117485099900600698",
-       "room": "infosec.exchange",
-       "date": "2026-10-22",
        "replies": 0
       }
      ],
@@ -1671,13 +1671,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 15.0,
+     "score": 15.2,
      "why": [
       "+6 audience fit (3 of 3)",
-      "+8.0 15 relevant conversations there",
+      "+8.2 16 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 15,
+     "hosted": 16,
      "mentions": 0,
      "evidence": []
     },
@@ -2141,36 +2141,36 @@
    ],
    "phrases": [
     {
+     "phrase": "utm source",
+     "count": 12
+    },
+    {
      "phrase": "spf dkim",
      "count": 12
     },
     {
-     "phrase": "utm source",
+     "phrase": "utm medium",
      "count": 11
     },
     {
-     "phrase": "utm medium",
+     "phrase": "source mastodon",
      "count": 10
     },
     {
-     "phrase": "source mastodon",
+     "phrase": "mastodon utm",
      "count": 9
+    },
+    {
+     "phrase": "utm campaign",
+     "count": 8
     },
     {
      "phrase": "dkim and dmarc",
      "count": 8
     },
     {
-     "phrase": "mastodon utm",
-     "count": 8
-    },
-    {
-     "phrase": "utm campaign",
-     "count": 7
-    },
-    {
      "phrase": "dmarc emailsecurity",
-     "count": 5
+     "count": 6
     },
     {
      "phrase": "conf rence",
@@ -2264,16 +2264,44 @@
    "quotes": {
     "authentication": [
      {
-      "text": "Reading the headers first and using AI as a second check is how I work too, since so much legitimate mail has weak SPF, DKIM or DMARC.",
-      "url": "https://mastodon.social/@ChowHusky21/117536444601913076",
+      "text": "In DMARCguard's SPF Supply Chain 2026 scan (27 Feb 2026), 148,655 domains were.",
+      "url": "https://mastodon.social/@meysam81/117552866965090602",
       "room": "mastodon.social",
-      "date": "2026-10-31"
+      "date": "2026-11-03"
      },
      {
-      "text": "Do your customers usually fix SPF or DMARC first?",
-      "url": "https://mastodon.social/@ChowHusky21/117536444601913076",
+      "text": "https:// dmarcguard.io/blog/spf-too-man y-dns-lookups/?utm_source=mastodon&utm_medium=social&utm_campaign=social-2026-w45&utm_content=1103-us-spf # SPF # DMARC # EmailSecurity # SysAdmin",
+      "url": "https://mastodon.social/@meysam81/117552866965090602",
       "room": "mastodon.social",
-      "date": "2026-10-31"
+      "date": "2026-11-03"
+     }
+    ],
+    "bec": [
+     {
+      "text": "Business email compromise caused about $3.05B in reported losses in 2025, per the FBI's IC3, and most cases involve no malware at all.",
+      "url": "https://infosec.exchange/@theincidentledger/117549257311018323",
+      "room": "infosec.exchange",
+      "date": "2026-11-02"
+     },
+     {
+      "text": "One stolen login, an inbox rule that hides the replies, and a message with \"updated\" bank details inside a real thread.",
+      "url": "https://infosec.exchange/@theincidentledger/117549257311018323",
+      "room": "infosec.exchange",
+      "date": "2026-11-02"
+     }
+    ],
+    "account_takeover": [
+     {
+      "text": "Our new article follows a BEC stage by stage, with the signals to watch and a KQL query for suspicious inbox rules.",
+      "url": "https://infosec.exchange/@theincidentledger/117549257311018323",
+      "room": "infosec.exchange",
+      "date": "2026-11-02"
+     },
+     {
+      "text": "Full analysis + IOCs: https:// intel.threadlinqs.com/threat/T L-2026-4143 # ThreatIntel # M365 # AITM # TokenReplay # MFABypass # BEC",
+      "url": "https://mastodon.social/@threadlinqs/117484744384247531",
+      "room": "mastodon.social",
+      "date": "2026-10-22"
      }
     ],
     "awareness": [
@@ -2288,20 +2316,6 @@
       "url": "https://infosec.exchange/@benrothke/117513752494080221",
       "room": "infosec.exchange",
       "date": "2026-10-27"
-     }
-    ],
-    "bec": [
-     {
-      "text": "Especially important for changed bank details or urgent login requests.",
-      "url": "https://mastodon.social/@coreblueprint/117484606145413858",
-      "room": "mastodon.social",
-      "date": "2026-10-22"
-     },
-     {
-      "text": "Full analysis + IOCs: https:// intel.threadlinqs.com/threat/T L-2026-4143 # ThreatIntel # M365 # AITM # TokenReplay # MFABypass # BEC",
-      "url": "https://mastodon.social/@threadlinqs/117484744384247531",
-      "room": "mastodon.social",
-      "date": "2026-10-22"
      }
     ],
     "deepfakes": [
@@ -2346,20 +2360,6 @@
       "date": "2026-10-22"
      }
     ],
-    "account_takeover": [
-     {
-      "text": "A token replay attack hit 79 organizations, bypassing MFA to set up Microsoft 365 BEC with rogue devices and hidden inbox rules.",
-      "url": "https://infosec.exchange/@DailyCyberSecurity/117485099900600698",
-      "room": "infosec.exchange",
-      "date": "2026-10-22"
-     },
-     {
-      "text": "# TokenReplay # Microsoft365 # BEC # AiTM # MFABypass # EntraID # Huntress # Cybersecurity https:// securityonline.info/microsoft- 365-token-replay-attack/?utm_source=mastodon&utm_medium=jetpack_social",
-      "url": "https://infosec.exchange/@DailyCyberSecurity/117485099900600698",
-      "room": "infosec.exchange",
-      "date": "2026-10-22"
-     }
-    ],
     "seg": [
      {
       "text": "🔴 EXPLOITED CVE-2026-76519 is a critical arbitrary file write flaw in Cisco Secure Email Gateway, letting an unauthenticated remote attacker run commands as root.",
@@ -2376,10 +2376,89 @@
     ]
    },
    "brief": {},
-   "count": 44
+   "count": 46
   }
  },
  "conversations": [
+  {
+   "id": "6fc9ddfd8a34",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Over SPF's 10-lookup limit? In DMARCguard's SPF Supply Chain 2026 scan (27 Feb 2026), 148,655 domains were. Flattening fixes it until a provider changes its IP ranges and your hardcoded copy doesn't follow. First, I'd remove includes for services you've dropped and give bulk senders their own subdomain. https:// dmarcguard.io/blog/spf-too-man y-dns-lookups/?utm_source=mastodon&utm_medium=social&utm_campaign=social-2026-w45&utm_content=1103-us-spf # SPF # DMARC # EmailSecurity # SysAdmin",
+   "url": "https://mastodon.social/@meysam81/117552866965090602",
+   "date": "2026-11-03",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-03",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [
+      "email_admin"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "dmarc",
+      "spf"
+     ],
+     "score": 9,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+3 buyer: Email & M365 admin",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "6dffe35f1a4b",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-16726: buffer overflow in Panasonic Industry USB Driver for MINAS A5/A6 lets attackers crash Windows. CVSS N/A, patch status unknown. Check exposure and update now: # CVE # infosec # Panasonic https://www. valtersit.com/cve/CVE-2026-167 26/",
+   "url": "https://mastodon.social/@hugovalters/117554283483526739",
+   "date": "2026-11-03",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-03",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "f86592bbfc2f",
    "source": "Mastodon",
@@ -2570,6 +2649,49 @@
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "5cbebd90aad3",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Business email compromise caused about $3.05B in reported losses in 2025, per the FBI's IC3, and most cases involve no malware at all. One stolen login, an inbox rule that hides the replies, and a message with \"updated\" bank details inside a real thread. Our new article follows a BEC stage by stage, with the signals to watch and a KQL query for suspicious inbox rules. https:// theincidentledger.com/en/artic les/anatomy-of-a-business-email-compromise/ # BEC # EmailSecurity # infosec # SOC",
+   "url": "https://infosec.exchange/@theincidentledger/117549257311018323",
+   "date": "2026-11-02",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-03",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "bec",
+      "account_takeover"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "bank details",
+      "bec",
+      "business email compromise",
+      "inbox rule"
+     ],
+     "score": 12,
+     "why": [
+      "+6 core topic: BEC and payment fraud",
+      "+3 buyer: SOC & security engineer",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
+     "topic": "bec"
     }
    },
    "rooms": []
@@ -2793,10 +2915,10 @@
       "mcp server",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2831,10 +2953,10 @@
       "board",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2872,12 +2994,12 @@
       "metrics",
       "prioritiz"
      ],
-     "score": 14,
+     "score": 12,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+3 buyer: Security leader",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -2912,11 +3034,11 @@
       "dmarc",
       "spf"
      ],
-     "score": 6,
+     "score": 4,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -2951,11 +3073,11 @@
       "dmarc",
       "spf"
      ],
-     "score": 6,
+     "score": 4,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -2990,10 +3112,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3028,10 +3150,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3066,10 +3188,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3104,10 +3226,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3141,10 +3263,10 @@
       "patch",
       "patching"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3178,10 +3300,10 @@
       "patch",
       "patching"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3215,10 +3337,10 @@
       "misconfig",
       "misconfigured"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Security tools misconfigured or not covering everything",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Founder or research team",
@@ -3711,12 +3833,11 @@
       "cvss",
       "ticket"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3749,12 +3870,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3786,10 +3906,9 @@
       "phishing test",
       "security awareness"
      ],
-     "score": 5,
+     "score": 4,
      "why": [
-      "+4 adjacent topic: Security awareness and phishing tests",
-      "+1 posted this week"
+      "+4 adjacent topic: Security awareness and phishing tests"
      ],
      "band": "listen",
      "who": "Content team",
@@ -3824,11 +3943,10 @@
       "bank details",
       "dmarc"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: BEC and payment fraud",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3863,11 +3981,10 @@
      "evidence": [
       "board"
      ],
-     "score": 8,
+     "score": 7,
      "why": [
       "+4 adjacent topic: Proving progress to the board",
-      "+3 buyer: Security leader",
-      "+1 posted this week"
+      "+3 buyer: Security leader"
      ],
      "band": "worth",
      "who": "Founder or CISO advisor",
@@ -6003,7 +6120,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 shopping for tools"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -6080,7 +6197,7 @@
       "+2 buyer: IT & infrastructure",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -6119,7 +6236,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+3 buyer: Security leader"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
