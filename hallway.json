@@ -1,12 +1,13 @@
 {
- "generated": "2026-11-03T20:08Z",
+ "generated": "2026-11-04T20:26Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 3,
+  "new": 9,
   "by_source": {
-   "Mastodon": 3
+   "Mastodon": 8,
+   "Press": 1
   }
  },
  "rooms_norms": {
@@ -102,10 +103,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 137,
+     "total": 139,
      "recent": 62,
-     "prior": 73,
-     "change": -15,
+     "prior": 74,
+     "change": -16,
      "weekly": [
       0,
       0,
@@ -114,11 +115,11 @@
       1,
       0,
       0,
-      2,
-      31,
-      43,
-      36,
-      24
+      3,
+      51,
+      32,
+      29,
+      23
      ],
      "open": 21,
      "open_examples": [
@@ -149,7 +150,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 52.8
+     "score": 52.9
     },
     {
      "key": "prioritization",
@@ -157,10 +158,10 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 111,
+     "total": 113,
      "recent": 43,
-     "prior": 67,
-     "change": -36,
+     "prior": 68,
+     "change": -37,
      "weekly": [
       0,
       0,
@@ -169,10 +170,10 @@
       0,
       0,
       0,
-      2,
-      42,
-      26,
-      21,
+      3,
+      48,
+      24,
+      18,
       20
      ],
      "open": 9,
@@ -204,7 +205,7 @@
       "infosec.exchange",
       "thecybersecguru.com"
      ],
-     "score": 33.9
+     "score": 34.0
     },
     {
      "key": "board",
@@ -223,8 +224,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0,
       2,
       2,
@@ -261,8 +262,8 @@
       0,
       0,
       0,
-      0,
-      2,
+      1,
+      1,
       0,
       0,
       0,
@@ -278,61 +279,6 @@
       "infosec.exchange"
      ],
      "score": 10.3
-    },
-    {
-     "key": "ai_security",
-     "label": "Securing AI and agents",
-     "fit": 1,
-     "angle": "",
-     "who": "",
-     "total": 8,
-     "recent": 5,
-     "prior": 2,
-     "change": 150,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      1,
-      4,
-      0,
-      2
-     ],
-     "open": 3,
-     "open_examples": [
-      {
-       "title": "Are AI agents the new \"insider threat\"? For months, the enterprise focus has been on build",
-       "url": "https://c.im/@psoheil/117473477658714608",
-       "room": "c.im",
-       "date": "2026-10-20",
-       "replies": 0
-      },
-      {
-       "title": "CISOs Struggle to Own AI Governance Only 7% of CISOs at large firms own AI governance, rev",
-       "url": "https://mastodon.social/@Analyst207/117474286504876066",
-       "room": "mastodon.social",
-       "date": "2026-10-20",
-       "replies": 0
-      },
-      {
-       "title": "AI Is Taking Over the SOC: What Happens When Cyber Defense Becomes Autonomous? https:// yo",
-       "url": "https://infosec.exchange/@cybersecboardrm/117412764135589569",
-       "room": "infosec.exchange",
-       "date": "2026-10-09",
-       "replies": 0
-      }
-     ],
-     "rooms": [
-      "mastodon.social",
-      "infosec.exchange",
-      "c.im"
-     ],
-     "score": 9.4
     },
     {
      "key": "controls",
@@ -374,9 +320,9 @@
      "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
      "who": "Content team",
      "total": 7,
-     "recent": 3,
-     "prior": 4,
-     "change": -25,
+     "recent": 2,
+     "prior": 5,
+     "change": -60,
      "weekly": [
       0,
       0,
@@ -386,8 +332,8 @@
       0,
       0,
       0,
-      1,
-      4,
+      2,
+      3,
       2,
       0
      ],
@@ -399,6 +345,61 @@
       "swecyb.com"
      ],
      "score": 6.0
+    },
+    {
+     "key": "ai_security",
+     "label": "Securing AI and agents",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 8,
+     "recent": 2,
+     "prior": 5,
+     "change": -60,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      3,
+      0,
+      2
+     ],
+     "open": 3,
+     "open_examples": [
+      {
+       "title": "Are AI agents the new \"insider threat\"? For months, the enterprise focus has been on build",
+       "url": "https://c.im/@psoheil/117473477658714608",
+       "room": "c.im",
+       "date": "2026-10-20",
+       "replies": 0
+      },
+      {
+       "title": "CISOs Struggle to Own AI Governance Only 7% of CISOs at large firms own AI governance, rev",
+       "url": "https://mastodon.social/@Analyst207/117474286504876066",
+       "room": "mastodon.social",
+       "date": "2026-10-20",
+       "replies": 0
+      },
+      {
+       "title": "AI Is Taking Over the SOC: What Happens When Cyber Defense Becomes Autonomous? https:// yo",
+       "url": "https://infosec.exchange/@cybersecboardrm/117412764135589569",
+       "room": "infosec.exchange",
+       "date": "2026-10-09",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange",
+      "c.im"
+     ],
+     "score": 4.7
     },
     {
      "key": "sprawl",
@@ -976,35 +977,35 @@
    "phrases": [
     {
      "phrase": "cybersecurity infosec",
-     "count": 44
+     "count": 45
     },
     {
      "phrase": "cve vulnerability",
-     "count": 33
+     "count": 34
     },
     {
      "phrase": "score cvss",
-     "count": 29
+     "count": 30
     },
     {
      "phrase": "euvd enisa",
-     "count": 29
+     "count": 30
     },
     {
      "phrase": "enisa europa",
-     "count": 29
+     "count": 30
     },
     {
      "phrase": "vulnerabi lity",
-     "count": 29
+     "count": 30
     },
     {
      "phrase": "infosec euvd",
-     "count": 29
+     "count": 30
     },
     {
      "phrase": "euvd cve",
-     "count": 29
+     "count": 30
     },
     {
      "phrase": "patch tuesday",
@@ -1098,30 +1099,30 @@
    "quotes": {
     "prioritization": [
      {
-      "text": "https:// secquill.com/articles/cisa-add s-cve-2026-111357-to-exploited-vulnerabilities-catalog-ivanti-connect-secure/ # cybersecurity # KEV # vulnerability",
-      "url": "https://infosec.exchange/@Secquill/117549119431752755",
-      "room": "infosec.exchange",
-      "date": "2026-11-02"
+      "text": "Affected: CVE-2026-109593 (CVSS 9.1 file read) and CVE-2026-109594 (CVSS 6.8 SQL injection).",
+      "url": "https://mastodon.social/@hacksgr/117559980607405965",
+      "room": "mastodon.social",
+      "date": "2026-11-04"
      },
      {
-      "text": "3️⃣ Ivanti Connect Secure flaws added to KEV CISA flagged a missing-authentication flaw (CVE-2026-111357) that can be chained with other bugs.",
-      "url": "https://infosec.exchange/@kmankarjr19/117548738295180182",
-      "room": "infosec.exchange",
-      "date": "2026-11-02"
+      "text": "🚨 EUVD-2026-117049 📊 Score: 5.1/10 (CVSS v3.1) 📦 Product: Zammad 🏢 Vendor: Zammad 📅 Updated: 2026-11-04 📝 Zammad is a web based open source helpdesk/customer support system.",
+      "url": "https://mastodon.social/@EUVD_Bot/117559957164804601",
+      "room": "mastodon.social",
+      "date": "2026-11-04"
      }
     ],
     "remediation": [
      {
-      "text": "You accepted these terms by not patching.",
-      "url": "https://infosec.exchange/@security_crawler_carl/117548897821101489",
-      "room": "infosec.exchange",
-      "date": "2026-11-02"
+      "text": "SonicWall stated no patches or updates will be released as the product has reached EoL.",
+      "url": "https://mastodon.social/@hacksgr/117559980607405965",
+      "room": "mastodon.social",
+      "date": "2026-11-04"
      },
      {
-      "text": "https:// thehackernews.com/2026/10/hack ers-exploited-cisco-sd-wan-flaw-to.html # CiscoSDWAN # Malware # CyberSecurity # EncryptionKeys # Vulnerability # PatchedOrPerish (2/2)",
-      "url": "https://infosec.exchange/@security_crawler_carl/117548897821101489",
-      "room": "infosec.exchange",
-      "date": "2026-11-02"
+      "text": "https:// en.hacks.gr/i-sonicwall-proeid opoiei-gia-dyo-kena-asfaleias-se-palaiotera-systimata-choris-na-dosei-lysi/ # SonicWall # GMS # Vulnerability # Patch",
+      "url": "https://mastodon.social/@hacksgr/117559980607405965",
+      "room": "mastodon.social",
+      "date": "2026-11-04"
      }
     ],
     "board": [
@@ -1204,7 +1205,7 @@
     ]
    },
    "brief": {},
-   "count": 178
+   "count": 180
   },
   "ocean": {
    "company": {
@@ -1286,9 +1287,9 @@
       0,
       0,
       0,
-      1,
-      6,
-      6,
+      7,
+      2,
+      4,
       1
      ],
      "open": 9,
@@ -1327,10 +1328,10 @@
      "fit": 3,
      "angle": "Trusted infrastructure is the new attack path. A known sender or a real DocuSign link doesn't make an email safe.",
      "who": "Research team",
-     "total": 3,
-     "recent": 2,
+     "total": 4,
+     "recent": 3,
      "prior": 1,
-     "change": 100,
+     "change": 200,
      "weekly": [
       0,
       0,
@@ -1341,72 +1342,25 @@
       0,
       0,
       1,
-      0,
-      2,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [
-      "social.raytec.co",
-      "mastodon.social"
-     ],
-     "score": 12.0
-    },
-    {
-     "key": "authentication",
-     "label": "DMARC, SPF and DKIM setup",
-     "fit": 1,
-     "angle": "",
-     "who": "",
-     "total": 20,
-     "recent": 12,
-     "prior": 7,
-     "change": 71,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       1,
-      5,
-      4,
-      6,
-      4
+      1,
+      1
      ],
-     "open": 8,
+     "open": 1,
      "open_examples": [
       {
-       "title": "Over SPF's 10-lookup limit? In DMARCguard's SPF Supply Chain 2026 scan (27 Feb 2026), 148,",
-       "url": "https://mastodon.social/@meysam81/117552866965090602",
+       "title": "One blank field: MAIL FROM:<> lets spoofed internal mail walk past M365 RejectDirectSend. ",
+       "url": "https://mastodon.social/@threadlinqs/117559763780520287",
        "room": "mastodon.social",
-       "date": "2026-11-03",
+       "date": "2026-11-04",
        "replies": 0
-      },
-      {
-       "title": "@ bazcurtis Thanks for the learndmarc.com link, I'll try it. Reading the headers first and",
-       "url": "https://mastodon.social/@ChowHusky21/117536444601913076",
-       "room": "mastodon.social",
-       "date": "2026-10-31",
-       "replies": 1
-      },
-      {
-       "title": "@ ChowHusky21 I try to read them manually first and then use the AI to confirm or not, my ",
-       "url": "https://mastodon.social/@bazcurtis/117535742631297263",
-       "room": "mastodon.social",
-       "date": "2026-10-31",
-       "replies": 1
       }
      ],
      "rooms": [
       "mastodon.social",
-      "infosec.exchange",
-      "bsd.network"
+      "social.raytec.co"
      ],
-     "score": 11.5
+     "score": 22.4
     },
     {
      "key": "account_takeover",
@@ -1414,8 +1368,8 @@
      "fit": 2,
      "angle": "Email is where most takeovers start. Connect the phishing email to the session it stole.",
      "who": "Research team",
-     "total": 4,
-     "recent": 4,
+     "total": 6,
+     "recent": 6,
      "prior": 0,
      "change": 100,
      "weekly": [
@@ -1430,10 +1384,17 @@
       0,
       0,
       3,
-      1
+      3
      ],
-     "open": 1,
+     "open": 2,
      "open_examples": [
+      {
+       "title": "Green Proxy, a new AiTM phishing kit, relays Microsoft 365 logins live and steals sessions",
+       "url": "https://mastodon.social/@threadlinqs/117558591564875611",
+       "room": "mastodon.social",
+       "date": "2026-11-04",
+       "replies": 0
+      },
       {
        "title": "A token replay attack hit 79 organizations, bypassing MFA to set up Microsoft 365 BEC with",
        "url": "https://infosec.exchange/@DailyCyberSecurity/117485099900600698",
@@ -1444,9 +1405,10 @@
      ],
      "rooms": [
       "infosec.exchange",
-      "mastodon.social"
+      "mastodon.social",
+      "social.raytec.co"
      ],
-     "score": 10.3
+     "score": 13.2
     },
     {
      "key": "seg",
@@ -1454,10 +1416,10 @@
      "fit": 3,
      "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
      "who": "Account executive and sales engineer",
-     "total": 6,
-     "recent": 0,
+     "total": 9,
+     "recent": 3,
      "prior": 6,
-     "change": -100,
+     "change": -50,
      "weekly": [
       0,
       0,
@@ -1467,13 +1429,20 @@
       0,
       0,
       0,
+      3,
+      3,
       0,
-      6,
-      0,
-      0
+      3
      ],
-     "open": 1,
+     "open": 2,
      "open_examples": [
+      {
+       "title": "⚠️ En Romandie, une campagne de « device code phishing » (hameçonnage par code d'appareil)",
+       "url": "https://infosec.exchange/@decio/117557899451752278",
+       "room": "infosec.exchange",
+       "date": "2026-11-04",
+       "replies": 1
+      },
       {
        "title": "Attackers are exploiting CVE-2026-76519 (CVSS 9.8), a critical Cisco Secure Email Gateway ",
        "url": "https://infosec.exchange/@DailyCyberSecurity/117441656804622326",
@@ -1487,7 +1456,7 @@
       "ieji.de",
       "Hacker News"
      ],
-     "score": 9.9
+     "score": 13.0
     },
     {
      "key": "ai_phishing",
@@ -1522,6 +1491,61 @@
      "score": 9.5
     },
     {
+     "key": "authentication",
+     "label": "DMARC, SPF and DKIM setup",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 21,
+     "recent": 11,
+     "prior": 9,
+     "change": 22,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      5,
+      5,
+      5
+     ],
+     "open": 8,
+     "open_examples": [
+      {
+       "title": "Over SPF's 10-lookup limit? In DMARCguard's SPF Supply Chain 2026 scan (27 Feb 2026), 148,",
+       "url": "https://mastodon.social/@meysam81/117552866965090602",
+       "room": "mastodon.social",
+       "date": "2026-11-03",
+       "replies": 0
+      },
+      {
+       "title": "@ bazcurtis Thanks for the learndmarc.com link, I'll try it. Reading the headers first and",
+       "url": "https://mastodon.social/@ChowHusky21/117536444601913076",
+       "room": "mastodon.social",
+       "date": "2026-10-31",
+       "replies": 1
+      },
+      {
+       "title": "@ ChowHusky21 I try to read them manually first and then use the AI to confirm or not, my ",
+       "url": "https://mastodon.social/@bazcurtis/117535742631297263",
+       "room": "mastodon.social",
+       "date": "2026-10-31",
+       "replies": 1
+      }
+     ],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange",
+      "bsd.network"
+     ],
+     "score": 9.4
+    },
+    {
      "key": "awareness",
      "label": "Security awareness and phishing tests",
      "fit": 2,
@@ -1540,8 +1564,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       2,
       0
      ],
@@ -1580,9 +1604,9 @@
       0,
       0,
       0,
-      0,
       1,
-      2,
+      1,
+      1,
       0
      ],
      "open": 1,
@@ -1671,13 +1695,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 15.2,
+     "score": 15.5,
      "why": [
       "+6 audience fit (3 of 3)",
-      "+8.2 16 relevant conversations there",
+      "+8.5 18 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 16,
+     "hosted": 18,
      "mentions": 0,
      "evidence": []
     },
@@ -2142,6 +2166,10 @@
    "phrases": [
     {
      "phrase": "utm source",
+     "count": 14
+    },
+    {
+     "phrase": "source mastodon",
      "count": 12
     },
     {
@@ -2151,10 +2179,6 @@
     {
      "phrase": "utm medium",
      "count": 11
-    },
-    {
-     "phrase": "source mastodon",
-     "count": 10
     },
     {
      "phrase": "mastodon utm",
@@ -2170,7 +2194,43 @@
     },
     {
      "phrase": "dmarc emailsecurity",
+     "count": 7
+    },
+    {
+     "phrase": "detections iocs",
      "count": 6
+    },
+    {
+     "phrase": "iocs full",
+     "count": 6
+    },
+    {
+     "phrase": "full analysis",
+     "count": 6
+    },
+    {
+     "phrase": "analysis iocs",
+     "count": 6
+    },
+    {
+     "phrase": "intel threadlinqs",
+     "count": 6
+    },
+    {
+     "phrase": "iocs https intel",
+     "count": 6
+    },
+    {
+     "phrase": "threadlinqs com threat",
+     "count": 6
+    },
+    {
+     "phrase": "secure email",
+     "count": 5
+    },
+    {
+     "phrase": "email gateway",
+     "count": 5
     },
     {
      "phrase": "conf rence",
@@ -2223,54 +2283,60 @@
     {
      "phrase": "octobre nous",
      "count": 5
-    },
-    {
-     "phrase": "nous aurons",
-     "count": 5
-    },
-    {
-     "phrase": "manquez pas",
-     "count": 5
-    },
-    {
-     "phrase": "pas cette",
-     "count": 5
-    },
-    {
-     "phrase": "cette occasion",
-     "count": 5
-    },
-    {
-     "phrase": "vous joindre",
-     "count": 5
-    },
-    {
-     "phrase": "joindre nous",
-     "count": 5
-    },
-    {
-     "phrase": "nous pour",
-     "count": 5
-    },
-    {
-     "phrase": "cette journ",
-     "count": 5
-    },
-    {
-     "phrase": "bec plus",
-     "count": 5
     }
    ],
    "quotes": {
-    "authentication": [
+    "account_takeover": [
      {
-      "text": "In DMARCguard's SPF Supply Chain 2026 scan (27 Feb 2026), 148,655 domains were.",
-      "url": "https://mastodon.social/@meysam81/117552866965090602",
-      "room": "mastodon.social",
-      "date": "2026-11-03"
+      "text": "The kit has been […] The post SkyW4lker Phishing Campaign Expands, Threatening US Enterprises with Microsoft 365 Account Takeovers appeared first on Cyber Security News .",
+      "url": "https://social.raytec.co/@techbot/117559834449857605",
+      "room": "social.raytec.co",
+      "date": "2026-11-04"
      },
      {
-      "text": "https:// dmarcguard.io/blog/spf-too-man y-dns-lookups/?utm_source=mastodon&utm_medium=social&utm_campaign=social-2026-w45&utm_content=1103-us-spf # SPF # DMARC # EmailSecurity # SysAdmin",
+      "text": "Green Proxy, a new AiTM phishing kit, relays Microsoft 365 logins live and steals sessions past MFA.",
+      "url": "https://mastodon.social/@threadlinqs/117558591564875611",
+      "room": "mastodon.social",
+      "date": "2026-11-04"
+     }
+    ],
+    "trusted_senders": [
+     {
+      "text": "One blank field: MAIL FROM:<> lets spoofed internal mail walk past M365 RejectDirectSend.",
+      "url": "https://mastodon.social/@threadlinqs/117559763780520287",
+      "room": "mastodon.social",
+      "date": "2026-11-04"
+     },
+     {
+      "text": "Attackers leverage SharePoint, Docusign, and Microsoft 365 themes, employing credential harvesting pages disguised as document-sharing portals.",
+      "url": "https://social.raytec.co/@techbot/117490240940443645",
+      "room": "social.raytec.co",
+      "date": "2026-10-23"
+     }
+    ],
+    "seg": [
+     {
+      "text": "🔎 Pour comprendre la technique : https:// fr.blog.barracuda.com/2026/04/ 23/threat-spotlight-device-code-phishing https://www.",
+      "url": "https://infosec.exchange/@decio/117557899451752278",
+      "room": "infosec.exchange",
+      "date": "2026-11-04"
+     },
+     {
+      "text": "SEPPmail Secure Email Gateway <15.1.1 has a CRITICAL vuln (CVE-2026-114425, CVSS 9.2): unauthenticated attackers can manipulate root files via LFT metadata.",
+      "url": "https://infosec.exchange/@offseq/117557705841519914",
+      "room": "infosec.exchange",
+      "date": "2026-11-04"
+     }
+    ],
+    "authentication": [
+     {
+      "text": "Someone can send email pretending to be you Without DMARC, scammers can put YOUR domain in the From line.",
+      "url": "https://mastodon.social/@NexonEnterprise/117556057486183708",
+      "room": "mastodon.social",
+      "date": "2026-11-04"
+     },
+     {
+      "text": "In DMARCguard's SPF Supply Chain 2026 scan (27 Feb 2026), 148,655 domains were.",
       "url": "https://mastodon.social/@meysam81/117552866965090602",
       "room": "mastodon.social",
       "date": "2026-11-03"
@@ -2288,20 +2354,6 @@
       "url": "https://infosec.exchange/@theincidentledger/117549257311018323",
       "room": "infosec.exchange",
       "date": "2026-11-02"
-     }
-    ],
-    "account_takeover": [
-     {
-      "text": "Our new article follows a BEC stage by stage, with the signals to watch and a KQL query for suspicious inbox rules.",
-      "url": "https://infosec.exchange/@theincidentledger/117549257311018323",
-      "room": "infosec.exchange",
-      "date": "2026-11-02"
-     },
-     {
-      "text": "Full analysis + IOCs: https:// intel.threadlinqs.com/threat/T L-2026-4143 # ThreatIntel # M365 # AITM # TokenReplay # MFABypass # BEC",
-      "url": "https://mastodon.social/@threadlinqs/117484744384247531",
-      "room": "mastodon.social",
-      "date": "2026-10-22"
      }
     ],
     "awareness": [
@@ -2332,20 +2384,6 @@
       "date": "2026-10-21"
      }
     ],
-    "trusted_senders": [
-     {
-      "text": "Attackers leverage SharePoint, Docusign, and Microsoft 365 themes, employing credential harvesting pages disguised as document-sharing portals.",
-      "url": "https://social.raytec.co/@techbot/117490240940443645",
-      "room": "social.raytec.co",
-      "date": "2026-10-23"
-     },
-     {
-      "text": "Wazza features dynamic capabilities including 19 different phishing themes impersonating services like Adobe, DocuSign, and OneDrive, along with six corporate decoy websites.",
-      "url": "https://social.raytec.co/@techbot/117477632858639986",
-      "room": "social.raytec.co",
-      "date": "2026-10-21"
-     }
-    ],
     "ai_phishing": [
      {
       "text": "AiTM-stolen M365 tokens bypassed MFA - then rogue devices and hidden inbox rules hid payroll mail.",
@@ -2359,27 +2397,322 @@
       "room": "infosec.exchange",
       "date": "2026-10-22"
      }
-    ],
-    "seg": [
-     {
-      "text": "🔴 EXPLOITED CVE-2026-76519 is a critical arbitrary file write flaw in Cisco Secure Email Gateway, letting an unauthenticated remote attacker run commands as root.",
-      "url": "https://infosec.exchange/@suriq/117455908997732338",
-      "room": "infosec.exchange",
-      "date": "2026-10-17"
-     },
-     {
-      "text": "🔴 Cisco Secure Email Gateway — CVE-2026-76519, CISA KEV, Oct 17 deadline Unauthenticated path traversal → root RCE via crafted email attachment.",
-      "url": "https://infosec.exchange/@threataft/117445966236733519",
-      "room": "infosec.exchange",
-      "date": "2026-10-15"
-     }
     ]
    },
    "brief": {},
-   "count": 46
+   "count": 53
   }
  },
  "conversations": [
+  {
+   "id": "fe904fdde297",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) version 9.5.2 and earlier. SonicWall stated no patches or updates will be released as the product has reached EoL. Affected: CVE-2026-109593 (CVSS 9.1 file read) and CVE-2026-109594 (CVSS 6.8 SQL injection). Organizations are strongly encouraged to upgrade to SonicWall Network Security Manager (NSM). https:// en.hacks.gr/i-sonicwall-proeid opoiei-gia-dyo-kena-asfaleias-se-palaiotera-systimata-choris-na-dosei-lysi/ # SonicWall # GMS # Vulnerability # Patch",
+   "url": "https://mastodon.social/@hacksgr/117559980607405965",
+   "date": "2026-11-04",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-04",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "283182024dd4",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-117049 📊 Score: 5.1/10 (CVSS v3.1) 📦 Product: Zammad 🏢 Vendor: Zammad 📅 Updated: 2026-11-04 📝 Zammad is a web based open source helpdesk/customer support system. Prior to 7.1.2, the new Vue-based ticket interface can render ticket article content without the expected output encoding. An authenticated user can store markup in an article that is interp... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-117049 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117559957164804601",
+   "date": "2026-11-04",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-04",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "ticket"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "dcc9b80e2eec",
+   "source": "Mastodon",
+   "room": "social.raytec.co",
+   "title": "",
+   "text": "SkyW4lker Phishing Campaign Expands, Threatening US Enterprises with Microsoft 365 Account Takeovers A phishing kit called SkyW4lker (also branded SkyW4lker x365 Sentinel) is quietly taking over Microsoft 365 accounts without ever stealing a password. Instead of cracking logins or breaking MFA, it tricks employees into approving a legitimate Microsoft device-code sign-in, handing attackers a valid session to corporate mailboxes, documents, and connected apps. The kit has been […] The post SkyW4lker Phishing Campaign Expands, Threatening US Enterprises with Microsoft 365 Account Takeovers appeared first on Cyber Security News . Pulse ID: 6aeb7fb5e1be1e65147a1805 Pulse Link: https:// otx.alienvault.com/pulse/6aeb7 fb5e1be1e65147a1805 Pulse Author: CyberHunter_NL Created: 2026-11-04 18:55:49 Be advised, this data is unverified and should be considered preliminary. Always do further verification. # Phishing # Microsoft # MFA # Password # OTX # CyberHunter_NL",
+   "url": "https://social.raytec.co/@techbot/117559834449857605",
+   "date": "2026-11-04",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-04",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "account_takeover"
+     ],
+     "personas": [
+      "email_admin"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "account takeover"
+     ],
+     "score": 10,
+     "why": [
+      "+4 adjacent topic: Account takeover and MFA bypass",
+      "+3 buyer: Email & M365 admin",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Research team",
+     "angle": "Email is where most takeovers start. Connect the phishing email to the session it stole.",
+     "topic": "account_takeover"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "c7a5c186b078",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "One blank field: MAIL FROM:<> lets spoofed internal mail walk past M365 RejectDirectSend. 9 detections, 2 IOCs. Full analysis + IOCs: https:// intel.threadlinqs.com/threat/T L-2026-5260?utm_source=mastodon # ThreatIntel # Empty # RejectDirectSend # Phishing",
+   "url": "https://mastodon.social/@threadlinqs/117559763780520287",
+   "date": "2026-11-04",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-04",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "trusted_senders"
+     ],
+     "personas": [
+      "email_admin"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "spoofed"
+     ],
+     "score": 14,
+     "why": [
+      "+6 core topic: Compromised vendors and trusted senders",
+      "+3 buyer: Email & M365 admin",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Research team",
+     "angle": "Trusted infrastructure is the new attack path. A known sender or a real DocuSign link doesn't make an email safe.",
+     "topic": "trusted_senders"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "43911df669df",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Green Proxy, a new AiTM phishing kit, relays Microsoft 365 logins live and steals sessions past MFA. 9 detections, 17 IOCs. Full analysis + IOCs: https:// intel.threadlinqs.com/threat/T L-2026-5240?utm_source=mastodon # ThreatIntel # Mirai # Green # GPKEY # Phishing",
+   "url": "https://mastodon.social/@threadlinqs/117558591564875611",
+   "date": "2026-11-04",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-04",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "account_takeover"
+     ],
+     "personas": [
+      "email_admin"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "aitm"
+     ],
+     "score": 12,
+     "why": [
+      "+4 adjacent topic: Account takeover and MFA bypass",
+      "+3 buyer: Email & M365 admin",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Research team",
+     "angle": "Email is where most takeovers start. Connect the phishing email to the session it stole.",
+     "topic": "account_takeover"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "a97d1c7e5d43",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "⚠️ En Romandie, une campagne de « device code phishing » (hameçonnage par code d'appareil) se propage actuellement en boule de neige. Vous recevez un mail, rédigé en bon français, d'un contact connu (entreprise, institution locale…) vous invitant à consulter une facture ou un document avec la formule « a partagé avec vous un document intitulé… » ? 🚩 Méfiance si l'URL ressemble à : -portail.cloud-storage-id0 **.workers[.]dev (merci, pas merci Cloudflare 🙄) Le piège : nous amener à saisir un code sur une véritable page d'authentification Microsoft. L'attaquant peut ainsi obtenir un accès à notre compte M365 sans connaître notre mot de passe. Et c'est là que l'effet boule de neige commence : une fois un compte compromis, l'attaquant peut exploiter les contacts et les échanges de la victime pour envoyer de nouveaux messages de phishing... (et accéder au contenu de la boite au lettre) Signalez les messages suspects à https://www. antiphishing.ch et, si vous avez saisi un code, contactez immédiatement votre support informatique. 🔎 Pour comprendre la technique : https:// fr.blog.barracuda.com/2026/04/ 23/threat-spotlight-device-code-phishing https://www. microsoft.com/en-us/security/b log",
+   "url": "https://infosec.exchange/@decio/117557899451752278",
+   "date": "2026-11-04",
+   "kind": "post",
+   "replies": 1,
+   "found": "2026-11-04",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "seg"
+     ],
+     "personas": [
+      "email_admin"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "barracuda"
+     ],
+     "score": 14,
+     "why": [
+      "+6 core topic: Replacing or adding to the email gateway",
+      "+3 buyer: Email & M365 admin",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Account executive and sales engineer",
+     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
+     "topic": "seg"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "d75fa2d03f6f",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "SEPPmail Secure Email Gateway <15.1.1 has a CRITICAL vuln (CVE-2026-114425, CVSS 9.2): unauthenticated attackers can manipulate root files via LFT metadata. Upgrade to 15.1.1+ ASAP. https:// radar.offseq.com/threat/seppma il-secure-email-gateway-before-1511-trusts-a-file-path-supplied-in-externally-provided-large-cve-23d98aca35204d0f # OffSeq # Vuln # CVE2026114425 # EmailSecurity",
+   "url": "https://infosec.exchange/@offseq/117557705841519914",
+   "date": "2026-11-04",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-04",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "seg"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "email gateway",
+      "secure email gateway"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Replacing or adding to the email gateway",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Account executive and sales engineer",
+     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
+     "topic": "seg"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "1eec00968aa3",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Someone can send email pretending to be you Without DMARC, scammers can put YOUR domain in the From line. • p=none: watch and get reports • p=quarantine: fakes go to spam • p=reject: fakes blocked • Safe path: none → 2-4 weeks reports → quarantine → reject • Jumping to reject can block your own emails 🌐 https:// nexonenterprise.com 📲 WhatsApp: +91 95129 29896 # DMARC # EmailSecurity # CyberSecurity # Phishing",
+   "url": "https://mastodon.social/@NexonEnterprise/117556057486183708",
+   "date": "2026-11-04",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-04",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "dmarc",
+      "p=reject"
+     ],
+     "score": 4,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "6fc9ddfd8a34",
    "source": "Mastodon",
@@ -2455,6 +2788,44 @@
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "af6ee4c5524e",
+   "source": "Press",
+   "room": "shattered.io",
+   "title": "Proofpoint vs Mimecast vs Abnormal: 5 Tools Ranked [2026]",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYTJEU1ZuRUFXMFRyRVVJZHZJNlBFaHNBWDRTdkpEdF9yNm5nSWtBSGdXSlVZMUd2cE9ObkMyT2xXd0R0cEcyOGtmbGtqczNHNU1sY0Fyb0NJUVhZSkJlVjlpRUhaZDlHd0RPVzlEa1NYRC1OTFVtUExpSzVOQ1VMODJLY1ZHYTVYczV4VVEtT3p4Zw?oc=5",
+   "date": "2026-11-03",
+   "kind": "article",
+   "replies": null,
+   "found": "2026-11-04",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "seg"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": true,
+     "evidence": [
+      "mimecast",
+      "proofpoint"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Replacing or adding to the email gateway",
+      "+2 shopping for tools",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "Account executive and sales engineer",
+     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
+     "topic": "seg"
     }
    },
    "rooms": []
@@ -2721,10 +3092,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2759,13 +3130,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 shopping for tools",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -2798,13 +3169,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -2837,13 +3208,13 @@
       "cvss",
       "remediation"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -2877,10 +3248,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3721,12 +4092,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3758,10 +4128,9 @@
       "phishing test",
       "security awareness"
      ],
-     "score": 5,
+     "score": 4,
      "why": [
-      "+4 adjacent topic: Security awareness and phishing tests",
-      "+1 posted this week"
+      "+4 adjacent topic: Security awareness and phishing tests"
      ],
      "band": "listen",
      "who": "Content team",
@@ -3795,12 +4164,11 @@
       "patch",
       "patching"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Getting fixes owned and done",
-      "+1 posted this week"
+      "+6 core topic: Getting fixes owned and done"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -5853,7 +6221,7 @@
       "+3 buyer: Email & M365 admin",
       "+5 mentions Ocean"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Founder or account executive",
      "angle": "They're asking about you by name. Answer plainly, say you work there, and offer specifics.",
      "topic": null
