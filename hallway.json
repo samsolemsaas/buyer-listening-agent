@@ -1,13 +1,12 @@
 {
- "generated": "2026-11-04T20:26Z",
+ "generated": "2026-11-05T20:41Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 9,
+  "new": 4,
   "by_source": {
-   "Mastodon": 8,
-   "Press": 1
+   "Mastodon": 4
   }
  },
  "rooms_norms": {
@@ -103,10 +102,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 139,
-     "recent": 62,
-     "prior": 74,
-     "change": -16,
+     "total": 140,
+     "recent": 53,
+     "prior": 83,
+     "change": -36,
      "weekly": [
       0,
       0,
@@ -115,10 +114,10 @@
       1,
       0,
       0,
-      3,
-      51,
-      32,
-      29,
+      4,
+      53,
+      35,
+      24,
       23
      ],
      "open": 21,
@@ -159,9 +158,9 @@
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
      "total": 113,
-     "recent": 43,
-     "prior": 68,
-     "change": -37,
+     "recent": 38,
+     "prior": 72,
+     "change": -47,
      "weekly": [
       0,
       0,
@@ -170,11 +169,11 @@
       0,
       0,
       0,
-      3,
-      48,
+      5,
+      50,
       24,
-      18,
-      20
+      15,
+      19
      ],
      "open": 9,
      "open_examples": [
@@ -226,8 +225,8 @@
       0,
       1,
       0,
-      0,
       2,
+      0,
       2,
       3
      ],
@@ -332,9 +331,9 @@
       0,
       0,
       0,
-      2,
       3,
-      2,
+      3,
+      1,
       0
      ],
      "open": 0,
@@ -352,10 +351,10 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 8,
-     "recent": 2,
+     "total": 9,
+     "recent": 3,
      "prior": 5,
-     "change": -60,
+     "change": -40,
      "weekly": [
       0,
       0,
@@ -368,7 +367,7 @@
       2,
       3,
       0,
-      2
+      3
      ],
      "open": 3,
      "open_examples": [
@@ -399,7 +398,7 @@
       "infosec.exchange",
       "c.im"
      ],
-     "score": 4.7
+     "score": 4.8
     },
     {
      "key": "sprawl",
@@ -477,10 +476,10 @@
      "score": 16.8,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+11.8 58 relevant conversations there",
+      "+11.8 59 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 58,
+     "hosted": 59,
      "mentions": 0,
      "evidence": []
     },
@@ -977,7 +976,7 @@
    "phrases": [
     {
      "phrase": "cybersecurity infosec",
-     "count": 45
+     "count": 46
     },
     {
      "phrase": "cve vulnerability",
@@ -1097,6 +1096,34 @@
     }
    ],
    "quotes": {
+    "ai_security": [
+     {
+      "text": "​🔹 We guide, you run 🔹 We manage, you lead ​Agentic AI-Powered GRC across 40+ frameworks.",
+      "url": "https://mastodon.social/@cisogenie/117562757174007850",
+      "room": "mastodon.social",
+      "date": "2026-11-05"
+     },
+     {
+      "text": "cisogenie.com/ # CISOGenie # GRC # CISO # AgenticAI",
+      "url": "https://mastodon.social/@cisogenie/117562757174007850",
+      "room": "mastodon.social",
+      "date": "2026-11-05"
+     }
+    ],
+    "remediation": [
+     {
+      "text": "In my latest BTH News, I examine five stories and the familiar security lessons behind them—including patching phones and understanding what devices do on our networks.",
+      "url": "https://infosec.exchange/@ckdiii/117565617476362309",
+      "room": "infosec.exchange",
+      "date": "2026-11-05"
+     },
+     {
+      "text": "SonicWall stated no patches or updates will be released as the product has reached EoL.",
+      "url": "https://mastodon.social/@hacksgr/117559980607405965",
+      "room": "mastodon.social",
+      "date": "2026-11-04"
+     }
+    ],
     "prioritization": [
      {
       "text": "Affected: CVE-2026-109593 (CVSS 9.1 file read) and CVE-2026-109594 (CVSS 6.8 SQL injection).",
@@ -1107,20 +1134,6 @@
      {
       "text": "🚨 EUVD-2026-117049 📊 Score: 5.1/10 (CVSS v3.1) 📦 Product: Zammad 🏢 Vendor: Zammad 📅 Updated: 2026-11-04 📝 Zammad is a web based open source helpdesk/customer support system.",
       "url": "https://mastodon.social/@EUVD_Bot/117559957164804601",
-      "room": "mastodon.social",
-      "date": "2026-11-04"
-     }
-    ],
-    "remediation": [
-     {
-      "text": "SonicWall stated no patches or updates will be released as the product has reached EoL.",
-      "url": "https://mastodon.social/@hacksgr/117559980607405965",
-      "room": "mastodon.social",
-      "date": "2026-11-04"
-     },
-     {
-      "text": "https:// en.hacks.gr/i-sonicwall-proeid opoiei-gia-dyo-kena-asfaleias-se-palaiotera-systimata-choris-na-dosei-lysi/ # SonicWall # GMS # Vulnerability # Patch",
-      "url": "https://mastodon.social/@hacksgr/117559980607405965",
       "room": "mastodon.social",
       "date": "2026-11-04"
      }
@@ -1137,20 +1150,6 @@
       "url": "https://ioc.exchange/@nielsprovos/117535744711617128",
       "room": "ioc.exchange",
       "date": "2026-10-31"
-     }
-    ],
-    "ai_security": [
-     {
-      "text": "🔴 CVE-2026-62863 - Critical (9.6) MoLing is a computer-use and browser-use based MCP server.",
-      "url": "https://mastodon.social/@thehackerwire/117536592826949482",
-      "room": "mastodon.social",
-      "date": "2026-10-31"
-     },
-     {
-      "text": "Are AI agents the new \"insider threat\"?",
-      "url": "https://c.im/@psoheil/117473477658714608",
-      "room": "c.im",
-      "date": "2026-10-20"
      }
     ],
     "controls": [
@@ -1205,7 +1204,7 @@
     ]
    },
    "brief": {},
-   "count": 180
+   "count": 182
   },
   "ocean": {
    "company": {
@@ -1275,9 +1274,9 @@
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "who": "Sales engineer",
      "total": 14,
-     "recent": 7,
-     "prior": 7,
-     "change": 0,
+     "recent": 5,
+     "prior": 9,
+     "change": -44,
      "weekly": [
       0,
       0,
@@ -1288,8 +1287,8 @@
       0,
       0,
       7,
-      2,
-      4,
+      5,
+      1,
       1
      ],
      "open": 9,
@@ -1323,46 +1322,6 @@
      "score": 25.2
     },
     {
-     "key": "trusted_senders",
-     "label": "Compromised vendors and trusted senders",
-     "fit": 3,
-     "angle": "Trusted infrastructure is the new attack path. A known sender or a real DocuSign link doesn't make an email safe.",
-     "who": "Research team",
-     "total": 4,
-     "recent": 3,
-     "prior": 1,
-     "change": 200,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      1,
-      1,
-      1
-     ],
-     "open": 1,
-     "open_examples": [
-      {
-       "title": "One blank field: MAIL FROM:<> lets spoofed internal mail walk past M365 RejectDirectSend. ",
-       "url": "https://mastodon.social/@threadlinqs/117559763780520287",
-       "room": "mastodon.social",
-       "date": "2026-11-04",
-       "replies": 0
-      }
-     ],
-     "rooms": [
-      "mastodon.social",
-      "social.raytec.co"
-     ],
-     "score": 22.4
-    },
-    {
      "key": "account_takeover",
      "label": "Account takeover and MFA bypass",
      "fit": 2,
@@ -1382,8 +1341,8 @@
       0,
       0,
       0,
-      0,
       3,
+      0,
       3
      ],
      "open": 2,
@@ -1429,8 +1388,8 @@
       0,
       0,
       0,
-      3,
-      3,
+      5,
+      1,
       0,
       3
      ],
@@ -1459,6 +1418,61 @@
      "score": 13.0
     },
     {
+     "key": "authentication",
+     "label": "DMARC, SPF and DKIM setup",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 23,
+     "recent": 12,
+     "prior": 8,
+     "change": 50,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      4,
+      5,
+      4,
+      7
+     ],
+     "open": 9,
+     "open_examples": [
+      {
+       "title": "DKIM2 update: the core spec reached -09 on 1 Nov 2026 and the DNS draft -03 on 2 Nov. The ",
+       "url": "https://mastodon.social/@meysam81/117562776002291146",
+       "room": "mastodon.social",
+       "date": "2026-11-05",
+       "replies": 0
+      },
+      {
+       "title": "Over SPF's 10-lookup limit? In DMARCguard's SPF Supply Chain 2026 scan (27 Feb 2026), 148,",
+       "url": "https://mastodon.social/@meysam81/117552866965090602",
+       "room": "mastodon.social",
+       "date": "2026-11-03",
+       "replies": 0
+      },
+      {
+       "title": "@ bazcurtis Thanks for the learndmarc.com link, I'll try it. Reading the headers first and",
+       "url": "https://mastodon.social/@ChowHusky21/117536444601913076",
+       "room": "mastodon.social",
+       "date": "2026-10-31",
+       "replies": 1
+      }
+     ],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange",
+      "bsd.network"
+     ],
+     "score": 11.4
+    },
+    {
      "key": "ai_phishing",
      "label": "Targeted phishing getting through",
      "fit": 3,
@@ -1478,8 +1492,8 @@
       0,
       0,
       0,
-      0,
       2,
+      0,
       0
      ],
      "open": 0,
@@ -1489,61 +1503,6 @@
       "infosec.exchange"
      ],
      "score": 9.5
-    },
-    {
-     "key": "authentication",
-     "label": "DMARC, SPF and DKIM setup",
-     "fit": 1,
-     "angle": "",
-     "who": "",
-     "total": 21,
-     "recent": 11,
-     "prior": 9,
-     "change": 22,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      3,
-      3,
-      5,
-      5,
-      5
-     ],
-     "open": 8,
-     "open_examples": [
-      {
-       "title": "Over SPF's 10-lookup limit? In DMARCguard's SPF Supply Chain 2026 scan (27 Feb 2026), 148,",
-       "url": "https://mastodon.social/@meysam81/117552866965090602",
-       "room": "mastodon.social",
-       "date": "2026-11-03",
-       "replies": 0
-      },
-      {
-       "title": "@ bazcurtis Thanks for the learndmarc.com link, I'll try it. Reading the headers first and",
-       "url": "https://mastodon.social/@ChowHusky21/117536444601913076",
-       "room": "mastodon.social",
-       "date": "2026-10-31",
-       "replies": 1
-      },
-      {
-       "title": "@ ChowHusky21 I try to read them manually first and then use the AI to confirm or not, my ",
-       "url": "https://mastodon.social/@bazcurtis/117535742631297263",
-       "room": "mastodon.social",
-       "date": "2026-10-31",
-       "replies": 1
-      }
-     ],
-     "rooms": [
-      "mastodon.social",
-      "infosec.exchange",
-      "bsd.network"
-     ],
-     "score": 9.4
     },
     {
      "key": "awareness",
@@ -1586,15 +1545,55 @@
      "score": 9.0
     },
     {
+     "key": "trusted_senders",
+     "label": "Compromised vendors and trusted senders",
+     "fit": 3,
+     "angle": "Trusted infrastructure is the new attack path. A known sender or a real DocuSign link doesn't make an email safe.",
+     "who": "Research team",
+     "total": 4,
+     "recent": 2,
+     "prior": 2,
+     "change": 0,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "open": 1,
+     "open_examples": [
+      {
+       "title": "One blank field: MAIL FROM:<> lets spoofed internal mail walk past M365 RejectDirectSend. ",
+       "url": "https://mastodon.social/@threadlinqs/117559763780520287",
+       "room": "mastodon.social",
+       "date": "2026-11-04",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "mastodon.social",
+      "social.raytec.co"
+     ],
+     "score": 8.5
+    },
+    {
      "key": "deepfakes",
      "label": "Deepfake voice and video fraud",
      "fit": 1,
      "angle": "",
      "who": "",
      "total": 3,
-     "recent": 2,
-     "prior": 1,
-     "change": 100,
+     "recent": 1,
+     "prior": 2,
+     "change": -50,
      "weekly": [
       0,
       0,
@@ -1622,7 +1621,7 @@
      "rooms": [
       "mastodon.social"
      ],
-     "score": 4.5
+     "score": 2.5
     },
     {
      "key": "report_triage",
@@ -2166,10 +2165,14 @@
    "phrases": [
     {
      "phrase": "utm source",
-     "count": 14
+     "count": 15
     },
     {
      "phrase": "source mastodon",
+     "count": 13
+    },
+    {
+     "phrase": "utm medium",
      "count": 12
     },
     {
@@ -2177,16 +2180,12 @@
      "count": 12
     },
     {
-     "phrase": "utm medium",
-     "count": 11
-    },
-    {
      "phrase": "mastodon utm",
-     "count": 9
+     "count": 10
     },
     {
      "phrase": "utm campaign",
-     "count": 8
+     "count": 9
     },
     {
      "phrase": "dkim and dmarc",
@@ -2223,6 +2222,10 @@
     {
      "phrase": "threadlinqs com threat",
      "count": 6
+    },
+    {
+     "phrase": "medium social",
+     "count": 5
     },
     {
      "phrase": "secure email",
@@ -2279,13 +2282,23 @@
     {
      "phrase": "cybers curit",
      "count": 5
-    },
-    {
-     "phrase": "octobre nous",
-     "count": 5
     }
    ],
    "quotes": {
+    "authentication": [
+     {
+      "text": "DKIM2 update: the core spec reached -09 on 1 Nov 2026 and the DNS draft -03 on 2 Nov.",
+      "url": "https://mastodon.social/@meysam81/117562776002291146",
+      "room": "mastodon.social",
+      "date": "2026-11-05"
+     },
+     {
+      "text": "https:// dmarcguard.io/blog/arc-to-dkim 2-future/?utm_source=mastodon&utm_medium=social&utm_campaign=social-2026-w45&utm_content=1105-eu-dkim2 # DKIM # IETF # EmailSecurity # PostQuantum",
+      "url": "https://mastodon.social/@meysam81/117562776002291146",
+      "room": "mastodon.social",
+      "date": "2026-11-05"
+     }
+    ],
     "account_takeover": [
      {
       "text": "The kit has been […] The post SkyW4lker Phishing Campaign Expands, Threatening US Enterprises with Microsoft 365 Account Takeovers appeared first on Cyber Security News .",
@@ -2326,20 +2339,6 @@
       "url": "https://infosec.exchange/@offseq/117557705841519914",
       "room": "infosec.exchange",
       "date": "2026-11-04"
-     }
-    ],
-    "authentication": [
-     {
-      "text": "Someone can send email pretending to be you Without DMARC, scammers can put YOUR domain in the From line.",
-      "url": "https://mastodon.social/@NexonEnterprise/117556057486183708",
-      "room": "mastodon.social",
-      "date": "2026-11-04"
-     },
-     {
-      "text": "In DMARCguard's SPF Supply Chain 2026 scan (27 Feb 2026), 148,655 domains were.",
-      "url": "https://mastodon.social/@meysam81/117552866965090602",
-      "room": "mastodon.social",
-      "date": "2026-11-03"
      }
     ],
     "bec": [
@@ -2400,10 +2399,162 @@
     ]
    },
    "brief": {},
-   "count": 53
+   "count": 55
   }
  },
  "conversations": [
+  {
+   "id": "83f92644e0b5",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Your GRC. Your call. ​🔹 We guide, you run 🔹 We manage, you lead ​Agentic AI-Powered GRC across 40+ frameworks. Discover your way to smarter GRC- https://www. cisogenie.com/ # CISOGenie # GRC # CISO # AgenticAI",
+   "url": "https://mastodon.social/@cisogenie/117562757174007850",
+   "date": "2026-11-05",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-05",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_security"
+     ],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "agentic"
+     ],
+     "score": 7,
+     "why": [
+      "+1 listen-only topic: Securing AI and agents",
+      "+3 buyer: Security leader",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "ai_security"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "71d5d992a612",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "DKIM2 update: the core spec reached -09 on 1 Nov 2026 and the DNS draft -03 on 2 Nov. The spec defines RSA-SHA256, Ed25519-SHA256 and ML-DSA-44 (post-quantum, FIPS 204). Still an Internet-Draft, so nothing to deploy. If you run forwarders or lists, keep ARC working for now. https:// dmarcguard.io/blog/arc-to-dkim 2-future/?utm_source=mastodon&utm_medium=social&utm_campaign=social-2026-w45&utm_content=1105-eu-dkim2 # DKIM # IETF # EmailSecurity # PostQuantum",
+   "url": "https://mastodon.social/@meysam81/117562776002291146",
+   "date": "2026-11-05",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-05",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "dmarc"
+     ],
+     "score": 6,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "c94e8727d4ed",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Python script checks SPF, DMARC and DKIM records over DNS and flags misconfigurations before they hurt your deliverability. Beginner level, 272 lines. # python # infra # emailsecurity https://www. valtersit.com/python/spf-and-d marc-record-validator/",
+   "url": "https://mastodon.social/@hugovalters/117561401434869485",
+   "date": "2026-11-05",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-05",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "dmarc",
+      "spf"
+     ],
+     "score": 4,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "a1e7160df62d",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "A fake recruiter was one link in a months-long intrusion. Stolen AI credentials became enormous bills. Refrigeration attacks brought digital risk into the physical world. In my latest BTH News, I examine five stories and the familiar security lessons behind them—including patching phones and understanding what devices do on our networks. https://www. betweenthehacks.com/blog/bth-n ews-05nov2026 # Cybersecurity # InfoSec # AISecurity",
+   "url": "https://infosec.exchange/@ckdiii/117565617476362309",
+   "date": "2026-11-05",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-05",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch",
+      "patching"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "fe904fdde297",
    "source": "Mastodon",
@@ -2855,13 +3006,13 @@
      "evidence": [
       "kev"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -2893,10 +3044,10 @@
       "patch",
       "patching"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2931,11 +3082,11 @@
      "evidence": [
       "board"
      ],
-     "score": 10,
+     "score": 8,
      "why": [
       "+4 adjacent topic: Proving progress to the board",
       "+3 buyer: Security leader",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Founder or CISO advisor",
@@ -2972,13 +3123,13 @@
       "kev",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3011,10 +3162,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3053,13 +3204,13 @@
       "business email compromise",
       "inbox rule"
      ],
-     "score": 12,
+     "score": 10,
      "why": [
       "+6 core topic: BEC and payment fraud",
       "+3 buyer: SOC & security engineer",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "topic": "bec"
@@ -3976,12 +4127,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4014,12 +4164,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4053,11 +4202,10 @@
       "patch",
       "patching"
      ],
-     "score": 10,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 buyer: Security leader",
-      "+1 posted this week"
+      "+3 buyer: Security leader"
      ],
      "band": "listen",
      "who": "Sales engineer",
@@ -5696,7 +5844,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -5771,7 +5919,7 @@
       "+6 core topic: BEC and payment fraud",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "topic": "bec"
@@ -5809,7 +5957,7 @@
       "+6 core topic: Compromised vendors and trusted senders",
       "+3 buyer: Email & M365 admin"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Research team",
      "angle": "Trusted infrastructure is the new attack path. A known sender or a real DocuSign link doesn't make an email safe.",
      "topic": "trusted_senders"
@@ -5847,7 +5995,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -5884,7 +6032,7 @@
       "+6 core topic: BEC and payment fraud",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "topic": "bec"
@@ -5959,7 +6107,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -6038,7 +6186,7 @@
       "+2 shopping for tools",
       "+4 nobody has answered"
      ],
-     "band": "today",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -6074,7 +6222,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -6110,7 +6258,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
