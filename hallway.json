@@ -1,12 +1,13 @@
 {
- "generated": "2026-11-05T20:41Z",
+ "generated": "2026-11-06T19:57Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 4,
+  "new": 3,
   "by_source": {
-   "Mastodon": 4
+   "Hacker News": 1,
+   "Mastodon": 2
   }
  },
  "rooms_norms": {
@@ -102,10 +103,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 140,
-     "recent": 53,
-     "prior": 83,
-     "change": -36,
+     "total": 142,
+     "recent": 49,
+     "prior": 88,
+     "change": -44,
      "weekly": [
       0,
       0,
@@ -114,14 +115,21 @@
       1,
       0,
       0,
-      4,
-      53,
-      35,
-      24,
-      23
+      8,
+      56,
+      34,
+      21,
+      22
      ],
-     "open": 21,
+     "open": 22,
      "open_examples": [
+      {
+       "title": "Show HN: Repairer – close the breach when a Linux flaw goes public",
+       "url": "https://news.ycombinator.com/item?id=50388417",
+       "room": "Hacker News",
+       "date": "2026-11-06",
+       "replies": 1
+      },
       {
        "title": "🚨 CVSS 10.0: LXD & MicroCloud Authentication Bypass What if an attacker could impersonate ",
        "url": "https://mastox.eu/@thecybersecguru/117542486805900169",
@@ -134,13 +142,6 @@
        "url": "https://infosec.exchange/@thecybersecguru/117542485427077888",
        "room": "infosec.exchange",
        "date": "2026-11-01",
-       "replies": 0
-      },
-      {
-       "title": "New blog post by me: https:// nheinz.eu/blog/2026/10/contain er-vulnerability-management/?",
-       "url": "https://infosec.exchange/@niclas/117501558174904892",
-       "room": "infosec.exchange",
-       "date": "2026-10-25",
        "replies": 0
       }
      ],
@@ -149,7 +150,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 52.9
+     "score": 54.5
     },
     {
      "key": "prioritization",
@@ -157,10 +158,10 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 113,
-     "recent": 38,
-     "prior": 72,
-     "change": -47,
+     "total": 115,
+     "recent": 36,
+     "prior": 74,
+     "change": -51,
      "weekly": [
       0,
       0,
@@ -169,14 +170,21 @@
       0,
       0,
       0,
-      5,
-      50,
-      24,
-      15,
-      19
+      9,
+      52,
+      20,
+      16,
+      18
      ],
-     "open": 9,
+     "open": 10,
      "open_examples": [
+      {
+       "title": "Show HN: Repairer – close the breach when a Linux flaw goes public",
+       "url": "https://news.ycombinator.com/item?id=50388417",
+       "room": "Hacker News",
+       "date": "2026-11-06",
+       "replies": 1
+      },
       {
        "title": "🚨 CVSS 10.0: LXD & MicroCloud Authentication Bypass What if an attacker could impersonate ",
        "url": "https://mastox.eu/@thecybersecguru/117542486805900169",
@@ -190,13 +198,6 @@
        "room": "infosec.exchange",
        "date": "2026-11-01",
        "replies": 0
-      },
-      {
-       "title": "Why Most Companies Choose To Be Insecure? Corporate insecurity has persisted for decades f",
-       "url": "https://ioc.exchange/@nielsprovos/117535744711617128",
-       "room": "ioc.exchange",
-       "date": "2026-10-31",
-       "replies": 0
       }
      ],
      "rooms": [
@@ -204,7 +205,7 @@
       "infosec.exchange",
       "thecybersecguru.com"
      ],
-     "score": 34.0
+     "score": 35.6
     },
     {
      "key": "board",
@@ -226,8 +227,8 @@
       1,
       0,
       2,
-      0,
-      2,
+      1,
+      1,
       3
      ],
      "open": 1,
@@ -266,9 +267,9 @@
       0,
       0,
       0,
-      0,
       1,
-      2,
+      1,
+      1,
       0
      ],
      "open": 0,
@@ -319,9 +320,9 @@
      "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
      "who": "Content team",
      "total": 7,
-     "recent": 2,
-     "prior": 5,
-     "change": -60,
+     "recent": 1,
+     "prior": 6,
+     "change": -83,
      "weekly": [
       0,
       0,
@@ -331,8 +332,8 @@
       0,
       0,
       0,
-      3,
-      3,
+      4,
+      2,
       1,
       0
      ],
@@ -351,10 +352,10 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 9,
-     "recent": 3,
+     "total": 10,
+     "recent": 4,
      "prior": 5,
-     "change": -40,
+     "change": -20,
      "weekly": [
       0,
       0,
@@ -363,14 +364,21 @@
       0,
       0,
       1,
-      0,
-      2,
+      1,
+      1,
       3,
-      0,
+      1,
       3
      ],
-     "open": 3,
+     "open": 4,
      "open_examples": [
+      {
+       "title": "Show HN: Repairer – close the breach when a Linux flaw goes public",
+       "url": "https://news.ycombinator.com/item?id=50388417",
+       "room": "Hacker News",
+       "date": "2026-11-06",
+       "replies": 1
+      },
       {
        "title": "Are AI agents the new \"insider threat\"? For months, the enterprise focus has been on build",
        "url": "https://c.im/@psoheil/117473477658714608",
@@ -384,21 +392,14 @@
        "room": "mastodon.social",
        "date": "2026-10-20",
        "replies": 0
-      },
-      {
-       "title": "AI Is Taking Over the SOC: What Happens When Cyber Defense Becomes Autonomous? https:// yo",
-       "url": "https://infosec.exchange/@cybersecboardrm/117412764135589569",
-       "room": "infosec.exchange",
-       "date": "2026-10-09",
-       "replies": 0
       }
      ],
      "rooms": [
       "mastodon.social",
       "infosec.exchange",
-      "c.im"
+      "Hacker News"
      ],
-     "score": 4.8
+     "score": 5.5
     },
     {
      "key": "sprawl",
@@ -473,13 +474,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 16.8,
+     "score": 16.9,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+11.8 59 relevant conversations there",
+      "+11.9 60 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 59,
+     "hosted": 60,
      "mentions": 0,
      "evidence": []
     },
@@ -492,13 +493,13 @@
      "who": "Founders and engineers post research and launches.",
      "norms": "Engineers here punish marketing language. Add facts, data or code, and say where you work.",
      "url": "https://news.ycombinator.com/",
-     "score": 9.0,
+     "score": 9.3,
      "why": [
       "+2 audience fit (1 of 3)",
-      "+6.0 6 relevant conversations there, mentioned in 1",
+      "+6.3 7 relevant conversations there, mentioned in 1",
       "+1 easy to join"
      ],
-     "hosted": 6,
+     "hosted": 7,
      "mentions": 1,
      "evidence": [
       {
@@ -1096,46 +1097,46 @@
     }
    ],
    "quotes": {
-    "ai_security": [
-     {
-      "text": "​🔹 We guide, you run 🔹 We manage, you lead ​Agentic AI-Powered GRC across 40+ frameworks.",
-      "url": "https://mastodon.social/@cisogenie/117562757174007850",
-      "room": "mastodon.social",
-      "date": "2026-11-05"
-     },
-     {
-      "text": "cisogenie.com/ # CISOGenie # GRC # CISO # AgenticAI",
-      "url": "https://mastodon.social/@cisogenie/117562757174007850",
-      "room": "mastodon.social",
-      "date": "2026-11-05"
-     }
-    ],
-    "remediation": [
-     {
-      "text": "In my latest BTH News, I examine five stories and the familiar security lessons behind them—including patching phones and understanding what devices do on our networks.",
-      "url": "https://infosec.exchange/@ckdiii/117565617476362309",
-      "room": "infosec.exchange",
-      "date": "2026-11-05"
-     },
-     {
-      "text": "SonicWall stated no patches or updates will be released as the product has reached EoL.",
-      "url": "https://mastodon.social/@hacksgr/117559980607405965",
-      "room": "mastodon.social",
-      "date": "2026-11-04"
-     }
-    ],
     "prioritization": [
+     {
+      "text": "Jumis Pro SIA Jumis affected by CVE-2026-59105 (CRITICAL, CVSS 9.8): predictable sysadmin SQL login lets attackers gain full DB and OS control.",
+      "url": "https://infosec.exchange/@offseq/117570092331178756",
+      "room": "infosec.exchange",
+      "date": "2026-11-06"
+     },
      {
       "text": "Affected: CVE-2026-109593 (CVSS 9.1 file read) and CVE-2026-109594 (CVSS 6.8 SQL injection).",
       "url": "https://mastodon.social/@hacksgr/117559980607405965",
       "room": "mastodon.social",
       "date": "2026-11-04"
+     }
+    ],
+    "remediation": [
+     {
+      "text": "The vendor's fix can take days or weeks to be out (is the Ubuntu thing patched yet?) and meanwhile the grid is vulnerable to exploitation, especially AI worms.",
+      "url": "https://news.ycombinator.com/item?id=50388417",
+      "room": "Hacker News",
+      "date": "2026-11-06"
      },
      {
-      "text": "🚨 EUVD-2026-117049 📊 Score: 5.1/10 (CVSS v3.1) 📦 Product: Zammad 🏢 Vendor: Zammad 📅 Updated: 2026-11-04 📝 Zammad is a web based open source helpdesk/customer support system.",
-      "url": "https://mastodon.social/@EUVD_Bot/117559957164804601",
+      "text": "In my latest BTH News, I examine five stories and the familiar security lessons behind them—including patching phones and understanding what devices do on our networks.",
+      "url": "https://infosec.exchange/@ckdiii/117565617476362309",
+      "room": "infosec.exchange",
+      "date": "2026-11-05"
+     }
+    ],
+    "ai_security": [
+     {
+      "text": "Let's go further: stopgaps are written and checked by a swarm of AI agents (gnosh.ai sessions) running on gno.land, each with bonded stake.",
+      "url": "https://news.ycombinator.com/item?id=50388417",
+      "room": "Hacker News",
+      "date": "2026-11-06"
+     },
+     {
+      "text": "​🔹 We guide, you run 🔹 We manage, you lead ​Agentic AI-Powered GRC across 40+ frameworks.",
+      "url": "https://mastodon.social/@cisogenie/117562757174007850",
       "room": "mastodon.social",
-      "date": "2026-11-04"
+      "date": "2026-11-05"
      }
     ],
     "board": [
@@ -1204,7 +1205,7 @@
     ]
    },
    "brief": {},
-   "count": 182
+   "count": 184
   },
   "ocean": {
    "company": {
@@ -1274,9 +1275,9 @@
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "who": "Sales engineer",
      "total": 14,
-     "recent": 5,
-     "prior": 9,
-     "change": -44,
+     "recent": 2,
+     "prior": 12,
+     "change": -83,
      "weekly": [
       0,
       0,
@@ -1320,54 +1321,6 @@
       "mastodon.social"
      ],
      "score": 25.2
-    },
-    {
-     "key": "account_takeover",
-     "label": "Account takeover and MFA bypass",
-     "fit": 2,
-     "angle": "Email is where most takeovers start. Connect the phishing email to the session it stole.",
-     "who": "Research team",
-     "total": 6,
-     "recent": 6,
-     "prior": 0,
-     "change": 100,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      3,
-      0,
-      3
-     ],
-     "open": 2,
-     "open_examples": [
-      {
-       "title": "Green Proxy, a new AiTM phishing kit, relays Microsoft 365 logins live and steals sessions",
-       "url": "https://mastodon.social/@threadlinqs/117558591564875611",
-       "room": "mastodon.social",
-       "date": "2026-11-04",
-       "replies": 0
-      },
-      {
-       "title": "A token replay attack hit 79 organizations, bypassing MFA to set up Microsoft 365 BEC with",
-       "url": "https://infosec.exchange/@DailyCyberSecurity/117485099900600698",
-       "room": "infosec.exchange",
-       "date": "2026-10-22",
-       "replies": 0
-      }
-     ],
-     "rooms": [
-      "infosec.exchange",
-      "mastodon.social",
-      "social.raytec.co"
-     ],
-     "score": 13.2
     },
     {
      "key": "seg",
@@ -1423,10 +1376,10 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 23,
+     "total": 24,
      "recent": 12,
-     "prior": 8,
-     "change": 50,
+     "prior": 9,
+     "change": 33,
      "weekly": [
       0,
       0,
@@ -1435,14 +1388,21 @@
       0,
       0,
       0,
-      3,
-      4,
       5,
+      2,
+      6,
       4,
       7
      ],
-     "open": 9,
+     "open": 10,
      "open_examples": [
+      {
+       "title": "Fewer than half of the domains that publish DMARC enforce it. DMARC Adoption 2026 (5,499,0",
+       "url": "https://mastodon.social/@meysam81/117568438339813809",
+       "room": "mastodon.social",
+       "date": "2026-11-06",
+       "replies": 0
+      },
       {
        "title": "DKIM2 update: the core spec reached -09 on 1 Nov 2026 and the DNS draft -03 on 2 Nov. The ",
        "url": "https://mastodon.social/@meysam81/117562776002291146",
@@ -1456,13 +1416,6 @@
        "room": "mastodon.social",
        "date": "2026-11-03",
        "replies": 0
-      },
-      {
-       "title": "@ bazcurtis Thanks for the learndmarc.com link, I'll try it. Reading the headers first and",
-       "url": "https://mastodon.social/@ChowHusky21/117536444601913076",
-       "room": "mastodon.social",
-       "date": "2026-10-31",
-       "replies": 1
       }
      ],
      "rooms": [
@@ -1470,39 +1423,7 @@
       "infosec.exchange",
       "bsd.network"
      ],
-     "score": 11.4
-    },
-    {
-     "key": "ai_phishing",
-     "label": "Targeted phishing getting through",
-     "fit": 3,
-     "angle": "Pattern matching misses messages written fresh for each target. Investigate every email's context the way an analyst would.",
-     "who": "Research team",
-     "total": 2,
-     "recent": 2,
-     "prior": 0,
-     "change": 100,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      2,
-      0,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [
-      "mastodon.social",
-      "infosec.exchange"
-     ],
-     "score": 9.5
+     "score": 11.2
     },
     {
      "key": "awareness",
@@ -1562,10 +1483,10 @@
       0,
       0,
       0,
+      1,
       0,
-      1,
-      1,
-      1,
+      2,
+      0,
       1
      ],
      "open": 1,
@@ -1583,6 +1504,86 @@
       "social.raytec.co"
      ],
      "score": 8.5
+    },
+    {
+     "key": "account_takeover",
+     "label": "Account takeover and MFA bypass",
+     "fit": 2,
+     "angle": "Email is where most takeovers start. Connect the phishing email to the session it stole.",
+     "who": "Research team",
+     "total": 6,
+     "recent": 3,
+     "prior": 3,
+     "change": 0,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      3
+     ],
+     "open": 2,
+     "open_examples": [
+      {
+       "title": "Green Proxy, a new AiTM phishing kit, relays Microsoft 365 logins live and steals sessions",
+       "url": "https://mastodon.social/@threadlinqs/117558591564875611",
+       "room": "mastodon.social",
+       "date": "2026-11-04",
+       "replies": 0
+      },
+      {
+       "title": "A token replay attack hit 79 organizations, bypassing MFA to set up Microsoft 365 BEC with",
+       "url": "https://infosec.exchange/@DailyCyberSecurity/117485099900600698",
+       "room": "infosec.exchange",
+       "date": "2026-10-22",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "infosec.exchange",
+      "mastodon.social",
+      "social.raytec.co"
+     ],
+     "score": 7.6
+    },
+    {
+     "key": "ai_phishing",
+     "label": "Targeted phishing getting through",
+     "fit": 3,
+     "angle": "Pattern matching misses messages written fresh for each target. Investigate every email's context the way an analyst would.",
+     "who": "Research team",
+     "total": 2,
+     "recent": 0,
+     "prior": 2,
+     "change": -100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange"
+     ],
+     "score": 4.8
     },
     {
      "key": "deepfakes",
@@ -2165,15 +2166,15 @@
    "phrases": [
     {
      "phrase": "utm source",
-     "count": 15
+     "count": 16
     },
     {
      "phrase": "source mastodon",
-     "count": 13
+     "count": 14
     },
     {
      "phrase": "utm medium",
-     "count": 12
+     "count": 13
     },
     {
      "phrase": "spf dkim",
@@ -2181,19 +2182,23 @@
     },
     {
      "phrase": "mastodon utm",
-     "count": 10
+     "count": 11
     },
     {
      "phrase": "utm campaign",
-     "count": 9
+     "count": 10
+    },
+    {
+     "phrase": "dmarc emailsecurity",
+     "count": 8
     },
     {
      "phrase": "dkim and dmarc",
      "count": 8
     },
     {
-     "phrase": "dmarc emailsecurity",
-     "count": 7
+     "phrase": "medium social",
+     "count": 6
     },
     {
      "phrase": "detections iocs",
@@ -2224,7 +2229,7 @@
      "count": 6
     },
     {
-     "phrase": "medium social",
+     "phrase": "social utm",
      "count": 5
     },
     {
@@ -2278,25 +2283,21 @@
     {
      "phrase": "leaders techniques",
      "count": 5
-    },
-    {
-     "phrase": "cybers curit",
-     "count": 5
     }
    ],
    "quotes": {
     "authentication": [
      {
-      "text": "DKIM2 update: the core spec reached -09 on 1 Nov 2026 and the DNS draft -03 on 2 Nov.",
-      "url": "https://mastodon.social/@meysam81/117562776002291146",
+      "text": "Fewer than half of the domains that publish DMARC enforce it.",
+      "url": "https://mastodon.social/@meysam81/117568438339813809",
       "room": "mastodon.social",
-      "date": "2026-11-05"
+      "date": "2026-11-06"
      },
      {
-      "text": "https:// dmarcguard.io/blog/arc-to-dkim 2-future/?utm_source=mastodon&utm_medium=social&utm_campaign=social-2026-w45&utm_content=1105-eu-dkim2 # DKIM # IETF # EmailSecurity # PostQuantum",
-      "url": "https://mastodon.social/@meysam81/117562776002291146",
+      "text": "DMARC Adoption 2026 (5,499,028 domains, scanned 27 Feb 2026): 30.4% publish DMARC, 12.8% enforce with p=quarantine or p=reject.",
+      "url": "https://mastodon.social/@meysam81/117568438339813809",
       "room": "mastodon.social",
-      "date": "2026-11-05"
+      "date": "2026-11-06"
      }
     ],
     "account_takeover": [
@@ -2399,10 +2400,134 @@
     ]
    },
    "brief": {},
-   "count": 55
+   "count": 56
   }
  },
  "conversations": [
+  {
+   "id": "fdbe4d8c29bf",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Show HN: Repairer – close the breach when a Linux flaw goes public",
+   "text": "As we've seen with the Ubuntu critical CVE-2026-98432 (CVSS 9.8), AI-dicovered zero day exploit are being reported at an exponential rate and we don't have the process for dealing with the flood of exploits in real time. What we need is an AI-based system for autopatching systems based on real time information. The vendor's fix can take days or weeks to be out (is the Ubuntu thing patched yet?) and meanwhile the grid is vulnerable to exploitation, especially AI worms. Repairer is a small program that runs on each of your servers. The day an exploit goes public it puts up a stopgap that blocks it, and once the real fix is up it takes the stopgap back off by itself. A stopgap only takes something away — drop certain packets, turn off a kernel module or service, remove a setuid bit. It never opens a port, installs or downloads anything, nor runs code. It arms an undo playbook before applying the stopgap, so the change reverts if affects any services. It only ever acts on rules you sign with a (hardware) crypto wallet. Let's go further: stopgaps are written and checked by a swarm of AI agents (gnosh.ai sessions) running on gno.land, each with bonded stake. Each stopgap is run on fresh ",
+   "url": "https://news.ycombinator.com/item?id=50388417",
+   "date": "2026-11-06",
+   "kind": "thread",
+   "replies": 1,
+   "found": "2026-11-06",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation",
+      "ai_security"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "ai agents",
+      "cvss",
+      "patch"
+     ],
+     "score": 13,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 asking for help",
+      "+2 only 1 reply",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "61be92a2c3e9",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Jumis Pro SIA Jumis affected by CVE-2026-59105 (CRITICAL, CVSS 9.8): predictable sysadmin SQL login lets attackers gain full DB and OS control. Patch to TJ7.0.141.36 immediately. Details: https:// radar.offseq.com/threat/cve-20 26-59105-cwe-1391-use-of-weak-credentials-in-jumis-pro-sia-jumis-c59306cff95b45bb # OffSeq # Vulnerability # SQLServer # BlueTeam",
+   "url": "https://infosec.exchange/@offseq/117570092331178756",
+   "date": "2026-11-06",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-06",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "4e62db9df116",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Fewer than half of the domains that publish DMARC enforce it. DMARC Adoption 2026 (5,499,028 domains, scanned 27 Feb 2026): 30.4% publish DMARC, 12.8% enforce with p=quarantine or p=reject. At p=none? I'd read a month of reports, fix alignment for senders you recognize, then move to quarantine. https:// dmarcguard.io/research/email-a uthentication/?utm_source=mastodon&utm_medium=social&utm_campaign=social-2026-w45&utm_content=1106-eu-adoption # DMARC # EmailSecurity # SysAdmin # Research",
+   "url": "https://mastodon.social/@meysam81/117568438339813809",
+   "date": "2026-11-06",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-06",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [
+      "email_admin"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "dmarc",
+      "p=reject"
+     ],
+     "score": 9,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+3 buyer: Email & M365 admin",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "83f92644e0b5",
    "source": "Mastodon",
@@ -2890,12 +3015,12 @@
       "dmarc",
       "spf"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+3 buyer: Email & M365 admin",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -2930,10 +3055,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2967,11 +3092,11 @@
       "mimecast",
       "proofpoint"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Replacing or adding to the email gateway",
       "+2 shopping for tools",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "Account executive and sales engineer",
@@ -4089,12 +4214,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -5349,7 +5473,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -5539,7 +5663,7 @@
       "+6 core topic: BEC and payment fraud",
       "+3 buyer: Email & M365 admin"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "topic": "bec"
@@ -5615,7 +5739,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 shopping for tools"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -5769,7 +5893,7 @@
       "+3 buyer: Email & M365 admin",
       "+2 asking for help"
      ],
-     "band": "today",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "topic": "bec"
