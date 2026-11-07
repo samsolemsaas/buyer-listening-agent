@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-06T19:57Z",
+ "generated": "2026-11-07T18:03Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
   "new": 3,
   "by_source": {
-   "Hacker News": 1,
-   "Mastodon": 2
+   "Mastodon": 2,
+   "Press": 1
   }
  },
  "rooms_norms": {
@@ -103,10 +103,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 142,
-     "recent": 49,
-     "prior": 88,
-     "change": -44,
+     "total": 143,
+     "recent": 44,
+     "prior": 90,
+     "change": -51,
      "weekly": [
       0,
       0,
@@ -115,11 +115,11 @@
       1,
       0,
       0,
-      8,
-      56,
-      34,
-      21,
-      22
+      10,
+      57,
+      36,
+      24,
+      15
      ],
      "open": 22,
      "open_examples": [
@@ -158,10 +158,10 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 115,
+     "total": 117,
      "recent": 36,
-     "prior": 74,
-     "change": -51,
+     "prior": 72,
+     "change": -50,
      "weekly": [
       0,
       0,
@@ -170,11 +170,11 @@
       0,
       0,
       0,
-      9,
+      11,
       52,
       20,
-      16,
-      18
+      19,
+      15
      ],
      "open": 10,
      "open_examples": [
@@ -214,9 +214,9 @@
      "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
      "who": "Founder or CISO advisor",
      "total": 8,
-     "recent": 5,
-     "prior": 2,
-     "change": 150,
+     "recent": 4,
+     "prior": 3,
+     "change": 33,
      "weekly": [
       0,
       0,
@@ -228,8 +228,8 @@
       0,
       2,
       1,
-      1,
-      3
+      3,
+      1
      ],
      "open": 1,
      "open_examples": [
@@ -246,39 +246,7 @@
       "infosec.exchange",
       "ieji.de"
      ],
-     "score": 16.8
-    },
-    {
-     "key": "ai_cves",
-     "label": "AI-found vulnerability surge",
-     "fit": 2,
-     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
-     "who": "Research team",
-     "total": 5,
-     "recent": 2,
-     "prior": 1,
-     "change": 100,
-     "weekly": [
-      0,
-      0,
-      0,
-      1,
-      1,
-      0,
-      0,
-      0,
-      1,
-      1,
-      1,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [
-      "Hacker News",
-      "infosec.exchange"
-     ],
-     "score": 10.3
+     "score": 9.4
     },
     {
      "key": "controls",
@@ -298,11 +266,11 @@
       0,
       0,
       0,
+      1,
+      1,
       0,
-      2,
-      0,
-      0,
-      1
+      1,
+      0
      ],
      "open": 0,
      "open_examples": [],
@@ -354,8 +322,8 @@
      "who": "",
      "total": 10,
      "recent": 4,
-     "prior": 5,
-     "change": -20,
+     "prior": 4,
+     "change": 0,
      "weekly": [
       0,
       0,
@@ -367,8 +335,8 @@
       1,
       1,
       3,
-      1,
-      3
+      2,
+      2
      ],
      "open": 4,
      "open_examples": [
@@ -400,6 +368,38 @@
       "Hacker News"
      ],
      "score": 5.5
+    },
+    {
+     "key": "ai_cves",
+     "label": "AI-found vulnerability surge",
+     "fit": 2,
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "who": "Research team",
+     "total": 5,
+     "recent": 1,
+     "prior": 2,
+     "change": -50,
+     "weekly": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "Hacker News",
+      "infosec.exchange"
+     ],
+     "score": 5.2
     },
     {
      "key": "sprawl",
@@ -1013,11 +1013,11 @@
     },
     {
      "phrase": "cve infosec",
-     "count": 25
+     "count": 26
     },
     {
      "phrase": "valtersit com cve",
-     "count": 23
+     "count": 24
     },
     {
      "phrase": "utm source",
@@ -1099,16 +1099,16 @@
    "quotes": {
     "prioritization": [
      {
+      "text": "CVE-2026-15463: Reflected XSS in SSL Zen WordPress plugin (all versions up to 4.7.42), CVSS 6.1.",
+      "url": "https://mastodon.social/@hugovalters/117576107313109818",
+      "room": "mastodon.social",
+      "date": "2026-11-07"
+     },
+     {
       "text": "Jumis Pro SIA Jumis affected by CVE-2026-59105 (CRITICAL, CVSS 9.8): predictable sysadmin SQL login lets attackers gain full DB and OS control.",
       "url": "https://infosec.exchange/@offseq/117570092331178756",
       "room": "infosec.exchange",
       "date": "2026-11-06"
-     },
-     {
-      "text": "Affected: CVE-2026-109593 (CVSS 9.1 file read) and CVE-2026-109594 (CVSS 6.8 SQL injection).",
-      "url": "https://mastodon.social/@hacksgr/117559980607405965",
-      "room": "mastodon.social",
-      "date": "2026-11-04"
      }
     ],
     "remediation": [
@@ -1205,7 +1205,7 @@
     ]
    },
    "brief": {},
-   "count": 184
+   "count": 186
   },
   "ocean": {
    "company": {
@@ -1341,8 +1341,8 @@
       0,
       0,
       0,
-      5,
-      1,
+      6,
+      0,
       0,
       3
      ],
@@ -1376,10 +1376,10 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 24,
+     "total": 25,
      "recent": 12,
-     "prior": 9,
-     "change": 33,
+     "prior": 8,
+     "change": 50,
      "weekly": [
       0,
       0,
@@ -1388,14 +1388,21 @@
       0,
       0,
       0,
-      5,
+      6,
       2,
       6,
-      4,
-      7
+      5,
+      6
      ],
-     "open": 10,
+     "open": 11,
      "open_examples": [
+      {
+       "title": "Nearly half of DMARC records have no rua tag: 46.49% in DMARCguard's 27 Feb 2026 scan of 5",
+       "url": "https://mastodon.social/@meysam81/117574100612961378",
+       "room": "mastodon.social",
+       "date": "2026-11-07",
+       "replies": 0
+      },
       {
        "title": "Fewer than half of the domains that publish DMARC enforce it. DMARC Adoption 2026 (5,499,0",
        "url": "https://mastodon.social/@meysam81/117568438339813809",
@@ -1409,13 +1416,6 @@
        "room": "mastodon.social",
        "date": "2026-11-05",
        "replies": 0
-      },
-      {
-       "title": "Over SPF's 10-lookup limit? In DMARCguard's SPF Supply Chain 2026 scan (27 Feb 2026), 148,",
-       "url": "https://mastodon.social/@meysam81/117552866965090602",
-       "room": "mastodon.social",
-       "date": "2026-11-03",
-       "replies": 0
       }
      ],
      "rooms": [
@@ -1423,7 +1423,7 @@
       "infosec.exchange",
       "bsd.network"
      ],
-     "score": 11.2
+     "score": 12.6
     },
     {
      "key": "awareness",
@@ -1472,9 +1472,9 @@
      "angle": "Trusted infrastructure is the new attack path. A known sender or a real DocuSign link doesn't make an email safe.",
      "who": "Research team",
      "total": 4,
-     "recent": 2,
+     "recent": 1,
      "prior": 2,
-     "change": 0,
+     "change": -50,
      "weekly": [
       0,
       0,
@@ -1605,8 +1605,8 @@
       0,
       0,
       1,
-      1,
-      1,
+      2,
+      0,
       0
      ],
      "open": 1,
@@ -2166,31 +2166,31 @@
    "phrases": [
     {
      "phrase": "utm source",
-     "count": 16
+     "count": 17
     },
     {
      "phrase": "source mastodon",
-     "count": 14
+     "count": 15
     },
     {
      "phrase": "utm medium",
-     "count": 13
+     "count": 14
+    },
+    {
+     "phrase": "mastodon utm",
+     "count": 12
     },
     {
      "phrase": "spf dkim",
      "count": 12
     },
     {
-     "phrase": "mastodon utm",
+     "phrase": "utm campaign",
      "count": 11
     },
     {
-     "phrase": "utm campaign",
-     "count": 10
-    },
-    {
      "phrase": "dmarc emailsecurity",
-     "count": 8
+     "count": 9
     },
     {
      "phrase": "dkim and dmarc",
@@ -2198,6 +2198,10 @@
     },
     {
      "phrase": "medium social",
+     "count": 7
+    },
+    {
+     "phrase": "social utm",
      "count": 6
     },
     {
@@ -2227,10 +2231,6 @@
     {
      "phrase": "threadlinqs com threat",
      "count": 6
-    },
-    {
-     "phrase": "social utm",
-     "count": 5
     },
     {
      "phrase": "secure email",
@@ -2288,16 +2288,16 @@
    "quotes": {
     "authentication": [
      {
-      "text": "Fewer than half of the domains that publish DMARC enforce it.",
-      "url": "https://mastodon.social/@meysam81/117568438339813809",
+      "text": "Nearly half of DMARC records have no rua tag: 46.49% in DMARCguard's 27 Feb 2026 scan of 5,499,028 domains.",
+      "url": "https://mastodon.social/@meysam81/117574100612961378",
       "room": "mastodon.social",
-      "date": "2026-11-06"
+      "date": "2026-11-07"
      },
      {
-      "text": "DMARC Adoption 2026 (5,499,028 domains, scanned 27 Feb 2026): 30.4% publish DMARC, 12.8% enforce with p=quarantine or p=reject.",
-      "url": "https://mastodon.social/@meysam81/117568438339813809",
+      "text": "Check your _dmarc record for rua=, and point it at something that parses XML.",
+      "url": "https://mastodon.social/@meysam81/117574100612961378",
       "room": "mastodon.social",
-      "date": "2026-11-06"
+      "date": "2026-11-07"
      }
     ],
     "account_takeover": [
@@ -2400,10 +2400,88 @@
     ]
    },
    "brief": {},
-   "count": 56
+   "count": 57
   }
  },
  "conversations": [
+  {
+   "id": "4861b5d7348f",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Nearly half of DMARC records have no rua tag: 46.49% in DMARCguard's 27 Feb 2026 scan of 5,499,028 domains. No rua means no aggregate reports, so you can't see who sends as your domain before you enforce. Check your _dmarc record for rua=, and point it at something that parses XML. https:// dmarcguard.io/blog/dmarc-rua-c ollection/?utm_source=mastodon&utm_medium=social&utm_campaign=social-2026-w45&utm_content=1107-eu-rua # DMARC # EmailSecurity # SysAdmin",
+   "url": "https://mastodon.social/@meysam81/117574100612961378",
+   "date": "2026-11-07",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-07",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [
+      "email_admin"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "dmarc"
+     ],
+     "score": 9,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+3 buyer: Email & M365 admin",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "a5b41dfeb618",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-15463: Reflected XSS in SSL Zen WordPress plugin (all versions up to 4.7.42), CVSS 6.1. Unauthenticated attackers can inject scripts via the host parameter. No patch confirmed. Update and check with the vendor now. # CVE # infosec # WordPress https://www. valtersit.com/cve/CVE-2026-154 63/",
+   "url": "https://mastodon.social/@hugovalters/117576107313109818",
+   "date": "2026-11-07",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "fdbe4d8c29bf",
    "source": "Hacker News",
@@ -2524,6 +2602,43 @@
      "who": "",
      "angle": "",
      "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "4a484cfbf6ba",
+   "source": "Press",
+   "room": "SOCRadar",
+   "title": "Why Vulnerability Prioritization Needs Threat Intelligence",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQX3pnRGRXVXhad0ZwQm8xUFlFRmNRbExmeXVVcDcxUWgxUlk1VWpjc3NrazM2NFVRUWFEai11dHJVRjg1b05XbTlFSHdJeEV6RjVGLXJLTUxVd1ZPam5NZmFCSW9Seno2VEU3RkVXX3B5LXZFY0lpOFl2YklnMUJpN01rODZ4cm9Fckc1RjFIWGt0N25sSlE?oc=5",
+   "date": "2026-11-06",
+   "kind": "article",
+   "replies": null,
+   "found": "2026-11-07",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "prioritiz"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
     }
    },
    "rooms": []
@@ -2705,10 +2820,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2743,10 +2858,10 @@
       "cvss",
       "ticket"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2781,11 +2896,11 @@
      "evidence": [
       "account takeover"
      ],
-     "score": 10,
+     "score": 8,
      "why": [
       "+4 adjacent topic: Account takeover and MFA bypass",
       "+3 buyer: Email & M365 admin",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Research team",
@@ -2820,12 +2935,12 @@
      "evidence": [
       "spoofed"
      ],
-     "score": 14,
+     "score": 12,
      "why": [
       "+6 core topic: Compromised vendors and trusted senders",
       "+3 buyer: Email & M365 admin",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Research team",
@@ -2860,14 +2975,14 @@
      "evidence": [
       "aitm"
      ],
-     "score": 12,
+     "score": 10,
      "why": [
       "+4 adjacent topic: Account takeover and MFA bypass",
       "+3 buyer: Email & M365 admin",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Research team",
      "angle": "Email is where most takeovers start. Connect the phishing email to the session it stole.",
      "topic": "account_takeover"
@@ -2900,12 +3015,12 @@
      "evidence": [
       "barracuda"
      ],
-     "score": 14,
+     "score": 12,
      "why": [
       "+6 core topic: Replacing or adding to the email gateway",
       "+3 buyer: Email & M365 admin",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Account executive and sales engineer",
@@ -2939,10 +3054,10 @@
       "email gateway",
       "secure email gateway"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Replacing or adding to the email gateway",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Account executive and sales engineer",
@@ -2976,10 +3091,10 @@
       "dmarc",
       "p=reject"
      ],
-     "score": 4,
+     "score": 2,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -4022,12 +4137,11 @@
       "cvss",
       "mcp server"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4060,12 +4174,11 @@
       "cvss",
       "ticket"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4098,12 +4211,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4136,11 +4248,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: Security engineer & SecOps",
-      "+1 posted this week"
+      "+2 buyer: Security engineer & SecOps"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4175,11 +4286,10 @@
       "dmarc",
       "spf"
      ],
-     "score": 4,
+     "score": 3,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "listen",
      "who": "",
@@ -5196,7 +5306,7 @@
       "+6 core topic: Compromised vendors and trusted senders",
       "+3 buyer: Email & M365 admin"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Research team",
      "angle": "Trusted infrastructure is the new attack path. A known sender or a real DocuSign link doesn't make an email safe.",
      "topic": "trusted_senders"
@@ -5278,7 +5388,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -5323,7 +5433,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
