@@ -1,13 +1,12 @@
 {
- "generated": "2026-11-07T18:03Z",
+ "generated": "2026-11-08T18:22Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 3,
+  "new": 2,
   "by_source": {
-   "Mastodon": 2,
-   "Press": 1
+   "Mastodon": 2
   }
  },
  "rooms_norms": {
@@ -103,10 +102,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 143,
-     "recent": 44,
-     "prior": 90,
-     "change": -51,
+     "total": 144,
+     "recent": 40,
+     "prior": 93,
+     "change": -57,
      "weekly": [
       0,
       0,
@@ -115,11 +114,11 @@
       1,
       0,
       0,
-      10,
-      57,
-      36,
+      14,
+      56,
+      38,
       24,
-      15
+      11
      ],
      "open": 22,
      "open_examples": [
@@ -158,10 +157,10 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 117,
-     "recent": 36,
+     "total": 118,
+     "recent": 35,
      "prior": 72,
-     "change": -50,
+     "change": -51,
      "weekly": [
       0,
       0,
@@ -170,11 +169,11 @@
       0,
       0,
       0,
-      11,
-      52,
-      20,
+      16,
+      50,
+      22,
       19,
-      15
+      11
      ],
      "open": 10,
      "open_examples": [
@@ -205,7 +204,7 @@
       "infosec.exchange",
       "thecybersecguru.com"
      ],
-     "score": 35.6
+     "score": 35.7
     },
     {
      "key": "board",
@@ -256,8 +255,8 @@
      "who": "Founder or research team",
      "total": 3,
      "recent": 1,
-     "prior": 2,
-     "change": -50,
+     "prior": 1,
+     "change": 0,
      "weekly": [
       0,
       0,
@@ -299,10 +298,10 @@
       0,
       0,
       0,
-      0,
-      4,
-      2,
       1,
+      3,
+      3,
+      0,
       0
      ],
      "open": 0,
@@ -376,9 +375,9 @@
      "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
      "who": "Research team",
      "total": 5,
-     "recent": 1,
-     "prior": 2,
-     "change": -50,
+     "recent": 0,
+     "prior": 3,
+     "change": -100,
      "weekly": [
       0,
       0,
@@ -477,10 +476,10 @@
      "score": 16.9,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+11.9 60 relevant conversations there",
+      "+11.9 61 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 60,
+     "hosted": 61,
      "mentions": 0,
      "evidence": []
     },
@@ -977,7 +976,7 @@
    "phrases": [
     {
      "phrase": "cybersecurity infosec",
-     "count": 46
+     "count": 47
     },
     {
      "phrase": "cve vulnerability",
@@ -1056,12 +1055,12 @@
      "count": 13
     },
     {
-     "phrase": "medium social",
+     "phrase": "cisa kev",
      "count": 12
     },
     {
-     "phrase": "cisa kev",
-     "count": 11
+     "phrase": "medium social",
+     "count": 12
     },
     {
      "phrase": "published updated",
@@ -1099,16 +1098,16 @@
    "quotes": {
     "prioritization": [
      {
-      "text": "CVE-2026-15463: Reflected XSS in SSL Zen WordPress plugin (all versions up to 4.7.42), CVSS 6.1.",
-      "url": "https://mastodon.social/@hugovalters/117576107313109818",
-      "room": "mastodon.social",
-      "date": "2026-11-07"
+      "text": "5,273 vulnerabilities are recorded as exploited in the wild (CISA KEV and VulnCheck KEV, 7 Nov).",
+      "url": "https://infosec.exchange/@xploitdigest/117582207471303624",
+      "room": "infosec.exchange",
+      "date": "2026-11-08"
      },
      {
-      "text": "Jumis Pro SIA Jumis affected by CVE-2026-59105 (CRITICAL, CVSS 9.8): predictable sysadmin SQL login lets attackers gain full DB and OS control.",
-      "url": "https://infosec.exchange/@offseq/117570092331178756",
+      "text": "Free to read: https:// xploitdigest.com/get/mastodon # CyberSecurity # InfoSec # Vulnerability # CVE # KEV # SysAdmin # PatchManagement",
+      "url": "https://infosec.exchange/@xploitdigest/117582207471303624",
       "room": "infosec.exchange",
-      "date": "2026-11-06"
+      "date": "2026-11-08"
      }
     ],
     "remediation": [
@@ -1205,7 +1204,7 @@
     ]
    },
    "brief": {},
-   "count": 186
+   "count": 187
   },
   "ocean": {
    "company": {
@@ -1323,6 +1322,61 @@
      "score": 25.2
     },
     {
+     "key": "authentication",
+     "label": "DMARC, SPF and DKIM setup",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 26,
+     "recent": 12,
+     "prior": 8,
+     "change": 50,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      2,
+      7,
+      4,
+      7
+     ],
+     "open": 12,
+     "open_examples": [
+      {
+       "title": "Running MTA-STS? Add TLS-RPT (RFC 8460) too: one TXT record at _smtp._tls.<your domain>, a",
+       "url": "https://mastodon.social/@meysam81/117579762960455358",
+       "room": "mastodon.social",
+       "date": "2026-11-08",
+       "replies": 0
+      },
+      {
+       "title": "Nearly half of DMARC records have no rua tag: 46.49% in DMARCguard's 27 Feb 2026 scan of 5",
+       "url": "https://mastodon.social/@meysam81/117574100612961378",
+       "room": "mastodon.social",
+       "date": "2026-11-07",
+       "replies": 0
+      },
+      {
+       "title": "Fewer than half of the domains that publish DMARC enforce it. DMARC Adoption 2026 (5,499,0",
+       "url": "https://mastodon.social/@meysam81/117568438339813809",
+       "room": "mastodon.social",
+       "date": "2026-11-06",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange",
+      "bsd.network"
+     ],
+     "score": 13.1
+    },
+    {
      "key": "seg",
      "label": "Replacing or adding to the email gateway",
      "fit": 3,
@@ -1369,61 +1423,6 @@
       "Hacker News"
      ],
      "score": 13.0
-    },
-    {
-     "key": "authentication",
-     "label": "DMARC, SPF and DKIM setup",
-     "fit": 1,
-     "angle": "",
-     "who": "",
-     "total": 25,
-     "recent": 12,
-     "prior": 8,
-     "change": 50,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      6,
-      2,
-      6,
-      5,
-      6
-     ],
-     "open": 11,
-     "open_examples": [
-      {
-       "title": "Nearly half of DMARC records have no rua tag: 46.49% in DMARCguard's 27 Feb 2026 scan of 5",
-       "url": "https://mastodon.social/@meysam81/117574100612961378",
-       "room": "mastodon.social",
-       "date": "2026-11-07",
-       "replies": 0
-      },
-      {
-       "title": "Fewer than half of the domains that publish DMARC enforce it. DMARC Adoption 2026 (5,499,0",
-       "url": "https://mastodon.social/@meysam81/117568438339813809",
-       "room": "mastodon.social",
-       "date": "2026-11-06",
-       "replies": 0
-      },
-      {
-       "title": "DKIM2 update: the core spec reached -09 on 1 Nov 2026 and the DNS draft -03 on 2 Nov. The ",
-       "url": "https://mastodon.social/@meysam81/117562776002291146",
-       "room": "mastodon.social",
-       "date": "2026-11-05",
-       "replies": 0
-      }
-     ],
-     "rooms": [
-      "mastodon.social",
-      "infosec.exchange",
-      "bsd.network"
-     ],
-     "score": 12.6
     },
     {
      "key": "awareness",
@@ -1592,9 +1591,9 @@
      "angle": "",
      "who": "",
      "total": 3,
-     "recent": 1,
-     "prior": 2,
-     "change": -50,
+     "recent": 0,
+     "prior": 3,
+     "change": -100,
      "weekly": [
       0,
       0,
@@ -2170,14 +2169,18 @@
     },
     {
      "phrase": "source mastodon",
-     "count": 15
+     "count": 16
     },
     {
      "phrase": "utm medium",
-     "count": 14
+     "count": 15
     },
     {
      "phrase": "mastodon utm",
+     "count": 13
+    },
+    {
+     "phrase": "utm campaign",
      "count": 12
     },
     {
@@ -2185,24 +2188,20 @@
      "count": 12
     },
     {
-     "phrase": "utm campaign",
-     "count": 11
-    },
-    {
      "phrase": "dmarc emailsecurity",
      "count": 9
+    },
+    {
+     "phrase": "medium social",
+     "count": 8
     },
     {
      "phrase": "dkim and dmarc",
      "count": 8
     },
     {
-     "phrase": "medium social",
-     "count": 7
-    },
-    {
      "phrase": "social utm",
-     "count": 6
+     "count": 7
     },
     {
      "phrase": "detections iocs",
@@ -2231,6 +2230,18 @@
     {
      "phrase": "threadlinqs com threat",
      "count": 6
+    },
+    {
+     "phrase": "campaign social-2026-w45",
+     "count": 5
+    },
+    {
+     "phrase": "social-2026-w45 utm",
+     "count": 5
+    },
+    {
+     "phrase": "utm content",
+     "count": 5
     },
     {
      "phrase": "secure email",
@@ -2271,30 +2282,18 @@
     {
      "phrase": "pour ciso",
      "count": 5
-    },
-    {
-     "phrase": "ciso gestionnaires",
-     "count": 5
-    },
-    {
-     "phrase": "gestionnaires directeurs",
-     "count": 5
-    },
-    {
-     "phrase": "leaders techniques",
-     "count": 5
     }
    ],
    "quotes": {
     "authentication": [
      {
-      "text": "Nearly half of DMARC records have no rua tag: 46.49% in DMARCguard's 27 Feb 2026 scan of 5,499,028 domains.",
-      "url": "https://mastodon.social/@meysam81/117574100612961378",
+      "text": "https:// dmarcguard.io/learn/tls-rpt/?u tm_source=mastodon&utm_medium=social&utm_campaign=social-2026-w45&utm_content=1108-eu-tlsrpt # MTASTS # TLSRPT # EmailSecurity # SysAdmin",
+      "url": "https://mastodon.social/@meysam81/117579762960455358",
       "room": "mastodon.social",
-      "date": "2026-11-07"
+      "date": "2026-11-08"
      },
      {
-      "text": "Check your _dmarc record for rua=, and point it at something that parses XML.",
+      "text": "Nearly half of DMARC records have no rua tag: 46.49% in DMARCguard's 27 Feb 2026 scan of 5,499,028 domains.",
       "url": "https://mastodon.social/@meysam81/117574100612961378",
       "room": "mastodon.social",
       "date": "2026-11-07"
@@ -2400,10 +2399,91 @@
     ]
    },
    "brief": {},
-   "count": 57
+   "count": 58
   }
  },
  "conversations": [
+  {
+   "id": "134b704d52f6",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "XploitDigest is now on the App Store and Google Play. 5,273 vulnerabilities are recorded as exploited in the wild (CISA KEV and VulnCheck KEV, 7 Nov). 2,594 of them need no password and no click. We decode each one into plain English. Pro adds an Act, Attend or Track verdict with the rule behind it, and a phone alert when a product you run is listed as exploited. Free to read: https:// xploitdigest.com/get/mastodon # CyberSecurity # InfoSec # Vulnerability # CVE # KEV # SysAdmin # PatchManagement",
+   "url": "https://infosec.exchange/@xploitdigest/117582207471303624",
+   "date": "2026-11-08",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-08",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "kev",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "32608c46858b",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Running MTA-STS? Add TLS-RPT (RFC 8460) too: one TXT record at _smtp._tls.<your domain>, and senders report TLS failures to you as JSON, including expired certificates and hostname mismatches. I'd publish it before switching MTA-STS to enforce. https:// dmarcguard.io/learn/tls-rpt/?u tm_source=mastodon&utm_medium=social&utm_campaign=social-2026-w45&utm_content=1108-eu-tlsrpt # MTASTS # TLSRPT # EmailSecurity # SysAdmin",
+   "url": "https://mastodon.social/@meysam81/117579762960455358",
+   "date": "2026-11-08",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-08",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [
+      "email_admin"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "dmarc"
+     ],
+     "score": 9,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+3 buyer: Email & M365 admin",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "4861b5d7348f",
    "source": "Mastodon",
@@ -2668,11 +2748,11 @@
      "evidence": [
       "agentic"
      ],
-     "score": 7,
+     "score": 5,
      "why": [
       "+1 listen-only topic: Securing AI and agents",
       "+3 buyer: Security leader",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -2706,11 +2786,11 @@
       "dkim",
       "dmarc"
      ],
-     "score": 6,
+     "score": 4,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -2745,10 +2825,10 @@
       "dmarc",
       "spf"
      ],
-     "score": 4,
+     "score": 2,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -2782,10 +2862,10 @@
       "patch",
       "patching"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3677,12 +3757,11 @@
       "mcp server",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Getting fixes owned and done",
-      "+1 posted this week"
+      "+6 core topic: Getting fixes owned and done"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3715,12 +3794,11 @@
       "board",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Getting fixes owned and done",
-      "+1 posted this week"
+      "+6 core topic: Getting fixes owned and done"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3756,12 +3834,11 @@
       "metrics",
       "prioritiz"
      ],
-     "score": 12,
+     "score": 11,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+3 buyer: Security leader",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -3796,11 +3873,10 @@
       "dmarc",
       "spf"
      ],
-     "score": 4,
+     "score": 3,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "listen",
      "who": "",
@@ -3835,11 +3911,10 @@
       "dmarc",
       "spf"
      ],
-     "score": 4,
+     "score": 3,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "listen",
      "who": "",
@@ -3874,12 +3949,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3912,12 +3986,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3950,12 +4023,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3988,12 +4060,11 @@
       "kev",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4025,12 +4096,11 @@
       "patch",
       "patching"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Getting fixes owned and done",
-      "+1 posted this week"
+      "+6 core topic: Getting fixes owned and done"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4062,12 +4132,11 @@
       "patch",
       "patching"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Getting fixes owned and done",
-      "+1 posted this week"
+      "+6 core topic: Getting fixes owned and done"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4099,12 +4168,11 @@
       "misconfig",
       "misconfigured"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Security tools misconfigured or not covering everything",
-      "+1 posted this week"
+      "+6 core topic: Security tools misconfigured or not covering everything"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Founder or research team",
      "angle": "Most breaches hit companies that already owned a tool that could have stopped them. Check coverage and configuration before buying more.",
      "topic": "controls"
@@ -5150,7 +5218,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
