@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-11T20:13Z",
+ "generated": "2026-11-12T20:50Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 26,
+  "new": 10,
   "by_source": {
-   "Hacker News": 1,
-   "Mastodon": 25
+   "Mastodon": 9,
+   "Press": 1
   }
  },
  "rooms_norms": {
@@ -103,10 +103,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 180,
-     "recent": 67,
-     "prior": 79,
-     "change": -15,
+     "total": 187,
+     "recent": 71,
+     "prior": 61,
+     "change": 16,
      "weekly": [
       0,
       0,
@@ -114,32 +114,32 @@
       1,
       0,
       0,
-      3,
-      51,
-      32,
-      29,
+      4,
+      53,
+      35,
+      24,
       23,
-      41
+      47
      ],
-     "open": 36,
+     "open": 38,
      "open_examples": [
+      {
+       "title": "📰 Microsoft Patches Actively Exploited Outlook Zero-Day in Massive Update Microsoft patche",
+       "url": "https://mastodon.social/@netsecio/117604120539969118",
+       "room": "mastodon.social",
+       "date": "2026-11-12",
+       "replies": 0
+      },
+      {
+       "title": "📰 Microsoft Patches Actively Exploited Outlook Zero-Day in Massive Update Microsoft patche",
+       "url": "https://mastodon.social/@netsecio/117600617762234663",
+       "room": "mastodon.social",
+       "date": "2026-11-12",
+       "replies": 0
+      },
       {
        "title": "Microsoft Patch Tuesday Disrupts 1235 Flaws, Including Exploited Zero-Day This Patch Tuesd",
        "url": "https://mastodon.social/@Analyst207/117597237942052592",
-       "room": "mastodon.social",
-       "date": "2026-11-11",
-       "replies": 0
-      },
-      {
-       "title": "Microsoft's November Patch Tuesday fixes an Outlook zero-day, CVE-2026-124194, that is alr",
-       "url": "https://mastodon.social/@burso/117597183033047488",
-       "room": "mastodon.social",
-       "date": "2026-11-11",
-       "replies": 0
-      },
-      {
-       "title": "Microsoft Patch Tuesday Disrupts Over 1,000 Vulnerabilities Microsoft's November Patch Tue",
-       "url": "https://mastodon.social/@Analyst207/117597004542977008",
        "room": "mastodon.social",
        "date": "2026-11-11",
        "replies": 0
@@ -150,7 +150,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 76.5
+     "score": 83.3
     },
     {
      "key": "prioritization",
@@ -158,10 +158,10 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 137,
-     "recent": 46,
-     "prior": 47,
-     "change": -2,
+     "total": 142,
+     "recent": 49,
+     "prior": 42,
+     "change": 17,
      "weekly": [
       0,
       0,
@@ -169,33 +169,33 @@
       0,
       0,
       0,
-      3,
-      48,
+      5,
+      50,
       24,
-      18,
-      20,
-      24
+      15,
+      19,
+      29
      ],
-     "open": 18,
+     "open": 20,
      "open_examples": [
+      {
+       "title": "📰 Microsoft Patches Actively Exploited Outlook Zero-Day in Massive Update Microsoft patche",
+       "url": "https://mastodon.social/@netsecio/117604120539969118",
+       "room": "mastodon.social",
+       "date": "2026-11-12",
+       "replies": 0
+      },
+      {
+       "title": "📰 Microsoft Patches Actively Exploited Outlook Zero-Day in Massive Update Microsoft patche",
+       "url": "https://mastodon.social/@netsecio/117600617762234663",
+       "room": "mastodon.social",
+       "date": "2026-11-12",
+       "replies": 0
+      },
       {
        "title": "Microsoft's November Patch Tuesday fixes an Outlook zero-day, CVE-2026-124194, that is alr",
        "url": "https://mastodon.social/@burso/117597183033047488",
        "room": "mastodon.social",
-       "date": "2026-11-11",
-       "replies": 0
-      },
-      {
-       "title": "Five critical Windows vulnerabilities rated CVSS 9.8 hit Windows Kerberos, LDAP, DNS, DHCP",
-       "url": "https://infosec.exchange/@DailyCyberSecurity/117595181876218003",
-       "room": "infosec.exchange",
-       "date": "2026-11-11",
-       "replies": 0
-      },
-      {
-       "title": "🚨 Public exploit code is out for CVE-2026-126187, a critical unauthenticated Remote Code E",
-       "url": "https://mastox.eu/@thecybersecguru/117599604676074040",
-       "room": "mastox.eu",
        "date": "2026-11-11",
        "replies": 0
       }
@@ -205,7 +205,7 @@
       "infosec.exchange",
       "mastox.eu"
      ],
-     "score": 48.3
+     "score": 55.1
     },
     {
      "key": "controls",
@@ -246,10 +246,10 @@
      "fit": 2,
      "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
      "who": "Founder or CISO advisor",
-     "total": 9,
-     "recent": 4,
+     "total": 10,
+     "recent": 5,
      "prior": 4,
-     "change": 0,
+     "change": 25,
      "weekly": [
       0,
       0,
@@ -258,11 +258,11 @@
       0,
       1,
       0,
+      2,
       0,
       2,
-      2,
       3,
-      1
+      2
      ],
      "open": 1,
      "open_examples": [
@@ -279,7 +279,62 @@
       "infosec.exchange",
       "ieji.de"
      ],
-     "score": 7.6
+     "score": 9.6
+    },
+    {
+     "key": "ai_security",
+     "label": "Securing AI and agents",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 10,
+     "recent": 4,
+     "prior": 3,
+     "change": 33,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      3,
+      0,
+      3,
+      1
+     ],
+     "open": 4,
+     "open_examples": [
+      {
+       "title": "Show HN: Repairer – close the breach when a Linux flaw goes public",
+       "url": "https://news.ycombinator.com/item?id=50388417",
+       "room": "Hacker News",
+       "date": "2026-11-06",
+       "replies": 1
+      },
+      {
+       "title": "Are AI agents the new \"insider threat\"? For months, the enterprise focus has been on build",
+       "url": "https://c.im/@psoheil/117473477658714608",
+       "room": "c.im",
+       "date": "2026-10-20",
+       "replies": 0
+      },
+      {
+       "title": "CISOs Struggle to Own AI Governance Only 7% of CISOs at large firms own AI governance, rev",
+       "url": "https://mastodon.social/@Analyst207/117474286504876066",
+       "room": "mastodon.social",
+       "date": "2026-10-20",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange",
+      "Hacker News"
+     ],
+     "score": 6.6
     },
     {
      "key": "compliance",
@@ -289,8 +344,8 @@
      "who": "Content team",
      "total": 8,
      "recent": 1,
-     "prior": 6,
-     "change": -83,
+     "prior": 5,
+     "change": -80,
      "weekly": [
       0,
       0,
@@ -299,9 +354,9 @@
       0,
       0,
       0,
-      2,
       3,
-      2,
+      3,
+      1,
       0,
       1
      ],
@@ -345,61 +400,6 @@
       "infosec.exchange"
      ],
      "score": 5.6
-    },
-    {
-     "key": "ai_security",
-     "label": "Securing AI and agents",
-     "fit": 1,
-     "angle": "",
-     "who": "",
-     "total": 10,
-     "recent": 4,
-     "prior": 4,
-     "change": 0,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      2,
-      3,
-      0,
-      2,
-      2
-     ],
-     "open": 4,
-     "open_examples": [
-      {
-       "title": "Show HN: Repairer – close the breach when a Linux flaw goes public",
-       "url": "https://news.ycombinator.com/item?id=50388417",
-       "room": "Hacker News",
-       "date": "2026-11-06",
-       "replies": 1
-      },
-      {
-       "title": "Are AI agents the new \"insider threat\"? For months, the enterprise focus has been on build",
-       "url": "https://c.im/@psoheil/117473477658714608",
-       "room": "c.im",
-       "date": "2026-10-20",
-       "replies": 0
-      },
-      {
-       "title": "CISOs Struggle to Own AI Governance Only 7% of CISOs at large firms own AI governance, rev",
-       "url": "https://mastodon.social/@Analyst207/117474286504876066",
-       "room": "mastodon.social",
-       "date": "2026-10-20",
-       "replies": 0
-      }
-     ],
-     "rooms": [
-      "mastodon.social",
-      "infosec.exchange",
-      "Hacker News"
-     ],
-     "score": 5.5
     },
     {
      "key": "sprawl",
@@ -474,13 +474,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 17.5,
+     "score": 17.6,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+12.5 76 relevant conversations there",
+      "+12.6 77 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 76,
+     "hosted": 77,
      "mentions": 0,
      "evidence": []
     },
@@ -977,74 +977,78 @@
    "phrases": [
     {
      "phrase": "cybersecurity infosec",
-     "count": 56
+     "count": 57
     },
     {
      "phrase": "patch tuesday",
-     "count": 48
+     "count": 52
     },
     {
      "phrase": "cve vulnerability",
-     "count": 36
+     "count": 37
     },
     {
      "phrase": "score cvss",
-     "count": 32
+     "count": 33
     },
     {
      "phrase": "euvd enisa",
-     "count": 32
+     "count": 33
     },
     {
      "phrase": "enisa europa",
-     "count": 32
+     "count": 33
     },
     {
      "phrase": "vulnerabi lity",
-     "count": 32
+     "count": 33
     },
     {
      "phrase": "infosec euvd",
-     "count": 32
+     "count": 33
     },
     {
      "phrase": "euvd cve",
-     "count": 32
+     "count": 33
     },
     {
      "phrase": "utm source",
-     "count": 27
+     "count": 29
     },
     {
      "phrase": "utm medium",
-     "count": 27
-    },
-    {
-     "phrase": "cve infosec",
-     "count": 27
+     "count": 29
     },
     {
      "phrase": "source mastodon",
-     "count": 26
+     "count": 28
     },
     {
      "phrase": "mastodon utm",
-     "count": 26
+     "count": 28
+    },
+    {
+     "phrase": "cve infosec",
+     "count": 28
     },
     {
      "phrase": "valtersit com cve",
-     "count": 25
-    },
-    {
-     "phrase": "cisa kev",
-     "count": 18
+     "count": 26
     },
     {
      "phrase": "medium social",
-     "count": 17
+     "count": 19
+    },
+    {
+     "phrase": "cisa kev",
+     "count": 19
     },
     {
      "phrase": "infosec cybersecurity",
+     "count": 18
+    },
+    {
+     "phrase": "actively exploited",
      "count": 17
     },
     {
@@ -1056,7 +1060,7 @@
      "count": 16
     },
     {
-     "phrase": "actively exploited",
+     "phrase": "november patch",
      "count": 15
     },
     {
@@ -1064,7 +1068,7 @@
      "count": 14
     },
     {
-     "phrase": "november patch",
+     "phrase": "patchtuesday microsoft",
      "count": 13
     },
     {
@@ -1072,65 +1076,39 @@
      "count": 13
     },
     {
-     "phrase": "patchtuesday microsoft",
-     "count": 12
-    },
-    {
      "phrase": "published updated",
-     "count": 11
+     "count": 12
     },
     {
      "phrase": "updated vulnerability",
      "count": 11
     },
     {
+     "phrase": "cvss patch",
+     "count": 10
+    },
+    {
      "phrase": "siemens published",
      "count": 10
     },
     {
-     "phrase": "social patchtuesday",
-     "count": 9
-    },
-    {
-     "phrase": "cvss patch",
+     "phrase": "outlook zero-day",
      "count": 9
     }
    ],
    "quotes": {
-    "remediation": [
-     {
-      "text": "This issue has been patched in ve...",
-      "url": "https://mastodon.social/@EUVD_Bot/117599357542469184",
-      "room": "mastodon.social",
-      "date": "2026-11-11"
-     },
-     {
-      "text": "The Register: November Patch Tuesday boasts over 1,000 bugs but only one zero-day so far.",
-      "url": "https://rbfirehose.com/2026/11/11/the-register-november-patch/",
-      "room": "rbfirehose.com",
-      "date": "2026-11-11"
-     }
-    ],
-    "ai_cves": [
-     {
-      "text": "(I blame the initial marketing hype around Claude Mythos for much of the unhelpful discourse.) And I don't just mean they're asking their AI the wrong questions, either.",
-      "url": "https://news.ycombinator.com/item?id=49717978",
-      "room": "Hacker News",
-      "date": "2026-09-15"
-     }
-    ],
     "prioritization": [
      {
-      "text": "🚨 EUVD-2026-123681 📊 Score: 6.3/10 (CVSS v3.1) 📦 Product: reva, reva 🏢 Vendor: opencloud-eu 📅 Updated: 2026-11-11 📝 REVA is an interoperability platform.",
-      "url": "https://mastodon.social/@EUVD_Bot/117599357542469184",
+      "text": "CISA has added it to the KEV catalog.",
+      "url": "https://mastodon.social/@netsecio/117604120539969118",
       "room": "mastodon.social",
-      "date": "2026-11-11"
+      "date": "2026-11-12"
      },
      {
-      "text": "Credential exposure enables relay and lateral movement, so prioritize patching and harden NTLM/SMB.",
-      "url": "https://infosec.exchange/@cyberworldops/117597340363672494",
-      "room": "infosec.exchange",
-      "date": "2026-11-11"
+      "text": "CISA has added it to the KEV catalog.",
+      "url": "https://mastodon.social/@netsecio/117600617762234663",
+      "room": "mastodon.social",
+      "date": "2026-11-12"
      }
     ],
     "board": [
@@ -1145,6 +1123,28 @@
       "url": "https://ieji.de/@hanscees/117547384241078963",
       "room": "ieji.de",
       "date": "2026-11-02"
+     }
+    ],
+    "remediation": [
+     {
+      "text": "📰 Microsoft Patches Actively Exploited Outlook Zero-Day in Massive Update Microsoft patches actively exploited Outlook zero-day CVE-2026-124194 in its massive November Patch Tuesday update.",
+      "url": "https://mastodon.social/@netsecio/117604120539969118",
+      "room": "mastodon.social",
+      "date": "2026-11-12"
+     },
+     {
+      "text": "# PatchTuesday # Outlook # ZeroDay # Cybersecurity 🔗 https:// cyber.netsecops.io/articles/mi crosoft-patches-outlook-zero-day-cve-2026-124194-in-november-update/?utm_source=mastodon&utm_medium=social&utm_campaign=daily",
+      "url": "https://mastodon.social/@netsecio/117604120539969118",
+      "room": "mastodon.social",
+      "date": "2026-11-12"
+     }
+    ],
+    "ai_cves": [
+     {
+      "text": "(I blame the initial marketing hype around Claude Mythos for much of the unhelpful discourse.) And I don't just mean they're asking their AI the wrong questions, either.",
+      "url": "https://news.ycombinator.com/item?id=49717978",
+      "room": "Hacker News",
+      "date": "2026-09-15"
      }
     ],
     "ai_security": [
@@ -1205,7 +1205,7 @@
     ]
    },
    "brief": {},
-   "count": 226
+   "count": 234
   },
   "ocean": {
    "company": {
@@ -1276,8 +1276,8 @@
      "who": "Sales engineer",
      "total": 15,
      "recent": 2,
-     "prior": 12,
-     "change": -83,
+     "prior": 6,
+     "change": -67,
      "weekly": [
       0,
       0,
@@ -1287,8 +1287,8 @@
       0,
       0,
       7,
-      2,
-      4,
+      5,
+      1,
       1,
       1
      ],
@@ -1328,10 +1328,10 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 36,
-     "recent": 20,
+     "total": 37,
+     "recent": 21,
      "prior": 10,
-     "change": 100,
+     "change": 110,
      "weekly": [
       0,
       0,
@@ -1340,14 +1340,21 @@
       0,
       0,
       3,
-      3,
+      4,
       5,
-      5,
-      5,
-      15
+      4,
+      7,
+      14
      ],
-     "open": 15,
+     "open": 16,
      "open_examples": [
+      {
+       "title": "Was November's Outlook.com AS9031519 bounce DMARC enforcement? No. Under RFC 9989 §4.10.1,",
+       "url": "https://mastodon.social/@meysam81/117604771455453145",
+       "room": "mastodon.social",
+       "date": "2026-11-12",
+       "replies": 0
+      },
       {
        "title": "Common myth: having a DMARC record means your domain is protected. At p=none, receivers ha",
        "url": "https://mastodon.social/@meysam81/117598165438316430",
@@ -1361,13 +1368,6 @@
        "room": "mastodon.social",
        "date": "2026-11-10",
        "replies": 0
-      },
-      {
-       "title": "Microsoft introduced an Outlook DMARC email rejection rule, bouncing messages lacking DMAR",
-       "url": "https://infosec.exchange/@DailyCyberSecurity/117585604998561136",
-       "room": "infosec.exchange",
-       "date": "2026-11-09",
-       "replies": 0
       }
      ],
      "rooms": [
@@ -1375,7 +1375,7 @@
       "Hacker News",
       "infosec.exchange"
      ],
-     "score": 17.9
+     "score": 19.0
     },
     {
      "key": "trusted_senders",
@@ -1426,8 +1426,8 @@
      "who": "Account executive and sales engineer",
      "total": 9,
      "recent": 3,
-     "prior": 6,
-     "change": -50,
+     "prior": 3,
+     "change": 0,
      "weekly": [
       0,
       0,
@@ -1436,8 +1436,8 @@
       0,
       0,
       0,
-      3,
-      3,
+      5,
+      1,
       0,
       3,
       0
@@ -1472,10 +1472,10 @@
      "fit": 2,
      "angle": "Email is where most takeovers start. Connect the phishing email to the session it stole.",
      "who": "Research team",
-     "total": 6,
-     "recent": 3,
+     "total": 7,
+     "recent": 4,
      "prior": 3,
-     "change": 0,
+     "change": 33,
      "weekly": [
       0,
       0,
@@ -1485,13 +1485,20 @@
       0,
       0,
       0,
+      3,
       0,
       3,
-      3,
-      0
+      1
      ],
-     "open": 2,
+     "open": 3,
      "open_examples": [
+      {
+       "title": "If URL reputation is your control, this is what getting past it looks like. The Hacker New",
+       "url": "https://infosec.exchange/@phishu/117603579366312290",
+       "room": "infosec.exchange",
+       "date": "2026-11-12",
+       "replies": 0
+      },
       {
        "title": "Green Proxy, a new AiTM phishing kit, relays Microsoft 365 logins live and steals sessions",
        "url": "https://mastodon.social/@threadlinqs/117558591564875611",
@@ -1512,7 +1519,7 @@
       "mastodon.social",
       "social.raytec.co"
      ],
-     "score": 7.6
+     "score": 11.0
     },
     {
      "key": "awareness",
@@ -1520,10 +1527,10 @@
      "fit": 2,
      "angle": "Coaching people on the real email in front of them works better than an annual course.",
      "who": "Content team",
-     "total": 3,
-     "recent": 0,
-     "prior": 3,
-     "change": -100,
+     "total": 4,
+     "recent": 1,
+     "prior": 2,
+     "change": -50,
      "weekly": [
       0,
       0,
@@ -1536,10 +1543,17 @@
       0,
       2,
       0,
-      0
+      1
      ],
-     "open": 1,
+     "open": 2,
      "open_examples": [
+      {
+       "title": "If URL reputation is your control, this is what getting past it looks like. The Hacker New",
+       "url": "https://infosec.exchange/@phishu/117603579366312290",
+       "room": "infosec.exchange",
+       "date": "2026-11-12",
+       "replies": 0
+      },
       {
        "title": "The human element played a role in 62% of breaches, according to the Verizon 2026 Data Bre",
        "url": "https://mastodon.social/@ninecloudnavigators/117438323319329881",
@@ -1552,7 +1566,7 @@
       "infosec.exchange",
       "mastodon.social"
      ],
-     "score": 5.0
+     "score": 6.6
     },
     {
      "key": "ai_phishing",
@@ -1573,8 +1587,8 @@
       0,
       0,
       0,
-      0,
       2,
+      0,
       0,
       0
      ],
@@ -1594,8 +1608,8 @@
      "who": "",
      "total": 4,
      "recent": 1,
-     "prior": 3,
-     "change": -67,
+     "prior": 2,
+     "change": -50,
      "weekly": [
       0,
       0,
@@ -1697,13 +1711,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 15.9,
+     "score": 16.0,
      "why": [
       "+6 audience fit (3 of 3)",
-      "+8.9 21 relevant conversations there",
+      "+9.0 22 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 21,
+     "hosted": 22,
      "mentions": 0,
      "evidence": []
     },
@@ -1716,15 +1730,21 @@
      "who": "Founders and engineers post research and launches.",
      "norms": "Engineers here punish marketing language. Add facts, data or code, and say where you work.",
      "url": "https://news.ycombinator.com/",
-     "score": 8.6,
+     "score": 9.0,
      "why": [
       "+2 audience fit (1 of 3)",
-      "+5.6 6 relevant conversations there",
+      "+6.0 6 relevant conversations there, mentioned in 1",
       "+1 easy to join"
      ],
      "hosted": 6,
-     "mentions": 0,
-     "evidence": []
+     "mentions": 1,
+     "evidence": [
+      {
+       "title": "If URL reputation is your control, this is what getting past it looks like. The Hacker New",
+       "url": "https://infosec.exchange/@phishu/117603579366312290",
+       "date": "2026-11-12"
+      }
+     ]
     },
     {
      "name": "r/cybersecurity",
@@ -2187,12 +2207,12 @@
      "count": 15
     },
     {
-     "phrase": "utm campaign",
+     "phrase": "dmarc emailsecurity",
      "count": 13
     },
     {
-     "phrase": "dmarc emailsecurity",
-     "count": 12
+     "phrase": "utm campaign",
+     "count": 13
     },
     {
      "phrase": "medium social",
@@ -2205,6 +2225,10 @@
     {
      "phrase": "dkim and dmarc",
      "count": 8
+    },
+    {
+     "phrase": "emailsecurity sysadmin",
+     "count": 6
     },
     {
      "phrase": "utm content",
@@ -2241,10 +2265,6 @@
     {
      "phrase": "threadlinqs com threat",
      "count": 6
-    },
-    {
-     "phrase": "emailsecurity sysadmin",
-     "count": 5
     },
     {
      "phrase": "rejecting email",
@@ -2288,18 +2308,46 @@
     }
    ],
    "quotes": {
-    "authentication": [
+    "awareness": [
      {
-      "text": "Common myth: having a DMARC record means your domain is protected.",
-      "url": "https://mastodon.social/@meysam81/117598165438316430",
-      "room": "mastodon.social",
-      "date": "2026-11-11"
+      "text": "Awareness training teaches spotting the bad link, and this one never looked the part.",
+      "url": "https://infosec.exchange/@phishu/117603579366312290",
+      "room": "infosec.exchange",
+      "date": "2026-11-12"
      },
      {
-      "text": "In my 27 Feb 2026 scan of 5.5M domains, 57.9% of DMARC publishers were at p=none.",
-      "url": "https://mastodon.social/@meysam81/117598165438316430",
+      "text": "New York Knicks championship ring # phishing test was a cybersecurity own goal.",
+      "url": "https://infosec.exchange/@benrothke/117513752494080221",
+      "room": "infosec.exchange",
+      "date": "2026-10-27"
+     }
+    ],
+    "account_takeover": [
+     {
+      "text": "We run calendar-invite AiTM campaigns against authorized targets.",
+      "url": "https://infosec.exchange/@phishu/117603579366312290",
+      "room": "infosec.exchange",
+      "date": "2026-11-12"
+     },
+     {
+      "text": "Full story from The Hacker News: https:// thehackernews.com/2026/11/cale ndar-invites-and-live-proxies.html More like this every Monday in our newsletter: https:// phishu.net/newsletter # Phishing # AiTM # SessionHijacking # CalendarPhishing # SecurityAwareness",
+      "url": "https://infosec.exchange/@phishu/117603579366312290",
+      "room": "infosec.exchange",
+      "date": "2026-11-12"
+     }
+    ],
+    "authentication": [
+     {
+      "text": "Was November's Outlook.com AS9031519 bounce DMARC enforcement?",
+      "url": "https://mastodon.social/@meysam81/117604771455453145",
       "room": "mastodon.social",
-      "date": "2026-11-11"
+      "date": "2026-11-12"
+     },
+     {
+      "text": "Under RFC 9989 §4.10.1, a domain with no DMARC record gets no DMARC check: receivers \"MUST NOT apply the DMARC mechanism\".",
+      "url": "https://mastodon.social/@meysam81/117604771455453145",
+      "room": "mastodon.social",
+      "date": "2026-11-12"
      }
     ],
     "bec": [
@@ -2344,20 +2392,6 @@
       "date": "2026-10-21"
      }
     ],
-    "account_takeover": [
-     {
-      "text": "The kit has been […] The post SkyW4lker Phishing Campaign Expands, Threatening US Enterprises with Microsoft 365 Account Takeovers appeared first on Cyber Security News .",
-      "url": "https://social.raytec.co/@techbot/117559834449857605",
-      "room": "social.raytec.co",
-      "date": "2026-11-04"
-     },
-     {
-      "text": "Green Proxy, a new AiTM phishing kit, relays Microsoft 365 logins live and steals sessions past MFA.",
-      "url": "https://mastodon.social/@threadlinqs/117558591564875611",
-      "room": "mastodon.social",
-      "date": "2026-11-04"
-     }
-    ],
     "seg": [
      {
       "text": "🔎 Pour comprendre la technique : https:// fr.blog.barracuda.com/2026/04/ 23/threat-spotlight-device-code-phishing https://www.",
@@ -2370,20 +2404,6 @@
       "url": "https://infosec.exchange/@offseq/117557705841519914",
       "room": "infosec.exchange",
       "date": "2026-11-04"
-     }
-    ],
-    "awareness": [
-     {
-      "text": "New York Knicks championship ring # phishing test was a cybersecurity own goal.",
-      "url": "https://infosec.exchange/@benrothke/117513752494080221",
-      "room": "infosec.exchange",
-      "date": "2026-10-27"
-     },
-     {
-      "text": "Confusing security awareness w/ loyalty risks damaging the very security culture you’re trying to build.",
-      "url": "https://infosec.exchange/@benrothke/117513752494080221",
-      "room": "infosec.exchange",
-      "date": "2026-10-27"
      }
     ],
     "ai_phishing": [
@@ -2402,10 +2422,332 @@
     ]
    },
    "brief": {},
-   "count": 69
+   "count": 71
   }
  },
  "conversations": [
+  {
+   "id": "c0c6d34c3a59",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-122767 📊 Score: 7.8/10 (CVSS v3.1) 📦 Product: Android 🏢 Vendor: Google 📅 Published: 2026-11-10 | Updated: 2026-11-12 📝 In mfc_alloc_enc_roi_buffer of mfc_buf.c, there is a possible out-of-bounds write due to a heap buffer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-122767 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117605255815625768",
+   "date": "2026-11-12",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-12",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "board"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "roi"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "829de371639e",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "📰 Microsoft Patches Actively Exploited Outlook Zero-Day in Massive Update Microsoft patches actively exploited Outlook zero-day CVE-2026-124194 in its massive November Patch Tuesday update. The flaw allows attackers to steal NTLM hashes. CISA has added it to the KEV catalog. # PatchTuesday # Outlook # ZeroDay # Cybersecurity 🔗 https:// cyber.netsecops.io/articles/mi crosoft-patches-outlook-zero-day-cve-2026-124194-in-november-update/?utm_source=mastodon&utm_medium=social&utm_campaign=daily",
+   "url": "https://mastodon.social/@netsecio/117604120539969118",
+   "date": "2026-11-12",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-12",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "kev",
+      "patch"
+     ],
+     "score": 13,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: IT & infrastructure",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "67f5837af98b",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "📰 Microsoft Patches Actively Exploited Outlook Zero-Day in Massive Update Microsoft patches actively exploited Outlook zero-day CVE-2026-124194 in its massive November Patch Tuesday update. The flaw allows attackers to steal NTLM hashes. CISA has added it to the KEV catalog. # PatchTuesday # Outlook # ZeroDay # Cybersecurity 🔗 https:// cyber.netsecops.io/articles/mi crosoft-patches-outlook-zero-day-cve-2026-124194-in-november-update/?utm_source=mastodon&utm_medium=social&utm_campaign=daily",
+   "url": "https://mastodon.social/@netsecio/117600617762234663",
+   "date": "2026-11-12",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-12",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "kev",
+      "patch"
+     ],
+     "score": 13,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: IT & infrastructure",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "3f1c98410354",
+   "source": "Mastodon",
+   "room": "cyberplace.social",
+   "title": "",
+   "text": "Barracuda Email Security Gateway: due falle corrette il 2/11 risultano sfruttate in attacchi reali. CVE-2026-116606: bypass dell'autorizzazione senza login (serve l'Admin UI raggiungibile). CVE-2026-111560: command injection, anche su WAF, ADC, Message Archiver, WSG. In catena: root. CISA KEV dal 10/11, scadenza FCEB 13/11. Nessun IOC pubblico. Da fare: verificare la patch, togliere l'Admin UI da internet. https:// trust.barracuda.com/security/p re-authentication-authorization-bypass-command-injection # Barracuda # infosec # blueteam",
+   "url": "https://cyberplace.social/@trinacriatech/117602491449799819",
+   "date": "2026-11-12",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-12",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "kev",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "504da2591100",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "If URL reputation is your control, this is what getting past it looks like. The Hacker News covered a campaign this week stealing live Google sessions since mid-August, with Material Security taking down hundreds of attacker domains. It ran on calendar invites and live proxies, and every check defenders lean on to judge a link came back clean by design. Awareness training teaches spotting the bad link, and this one never looked the part. What are you telling users to check once the tooling clears a link? We run calendar-invite AiTM campaigns against authorized targets. Full story from The Hacker News: https:// thehackernews.com/2026/11/cale ndar-invites-and-live-proxies.html More like this every Monday in our newsletter: https:// phishu.net/newsletter # Phishing # AiTM # SessionHijacking # CalendarPhishing # SecurityAwareness",
+   "url": "https://infosec.exchange/@phishu/117603579366312290",
+   "date": "2026-11-12",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-12",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "awareness",
+      "account_takeover"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "aitm",
+      "awareness training"
+     ],
+     "score": 9,
+     "why": [
+      "+4 adjacent topic: Security awareness and phishing tests",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Content team",
+     "angle": "Coaching people on the real email in front of them works better than an annual course.",
+     "topic": "awareness"
+    }
+   },
+   "rooms": [
+    {
+     "name": "Hacker News",
+     "known": true,
+     "platform": "Forum",
+     "url": "https://news.ycombinator.com/"
+    }
+   ]
+  },
+  {
+   "id": "ddf78034df10",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Was November's Outlook.com AS9031519 bounce DMARC enforcement? No. Under RFC 9989 §4.10.1, a domain with no DMARC record gets no DMARC check: receivers \"MUST NOT apply the DMARC mechanism\". Microsoft's incident EX1545193 blames \"a recent update to the spam enforcement rules\", since rolled back. And the 5.7.23 \"SPF violation\" line was most likely Exchange Online's NDR label. https:// dmarcguard.io/blog/outlook-as9 031519-dmarc-bounce/ # DMARC # EmailSecurity # SysAdmin # Microsoft365",
+   "url": "https://mastodon.social/@meysam81/117604771455453145",
+   "date": "2026-11-12",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-12",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [
+      "email_admin"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "dmarc",
+      "spf"
+     ],
+     "score": 9,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+3 buyer: Email & M365 admin",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "2345f708b242",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-77386 Kyoo <5.1.0: unauthenticated OIDC open redirect leaks login tokens. CVSS 6.5. Patch in review, pin access until 5.1.0 lands. # CVE # infosec # cybersecurity https://www. valtersit.com/cve/CVE-2026-773 86/",
+   "url": "https://mastodon.social/@hugovalters/117605401199225890",
+   "date": "2026-11-12",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-12",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "840fee91e445",
+   "source": "Press",
+   "room": "TechTarget",
+   "title": "Security teams are losing the vulnerability patching race",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZk41bGcwM2c0MzNsb1ppVjBsRm1UOVh1VDNRTG5UeklyeldLaEMxZlBUZW1LYU5LUy1EeWsxUXBwWmMxM01pRzRzeXozb3VzVXRZR2ljWGRkbnQyZHExcFMxVmpTLU42NzcyZzNPM0RfMmdRc0M0dzB0REdTblh5RnViYm45U0NpZEZ3ZHM3SHc1UDh6RklNZ2R0OW10QQ?oc=5",
+   "date": "2026-11-12",
+   "kind": "article",
+   "replies": null,
+   "found": "2026-11-12",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch",
+      "patching"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "86c1c8789d18",
    "source": "Hacker News",
@@ -3160,6 +3502,84 @@
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "eaf0c0f567e6",
+   "source": "Mastodon",
+   "room": "beige.party",
+   "title": "",
+   "text": "Wheeeeeeee! 🛝 \"Patch Tuesday contained a truckload of fixes for Microsoft products. However, for some users, installing the update, KB5132061, is proving challenging. In the hours after the patch was released, multiple complaints began to surface that the download and installation were failing, with some customers reporting a 0x800F0993 error code. Others say they received a 0x800F0989 error.\" https://www. theregister.com/os-platforms/2 026/11/11/microsofts-patch-tuesday-cant-break-stuff-if-it-wont-install/5309059 # InfoSec # Microsoft # PatchTuesday",
+   "url": "https://beige.party/@TresFluke/117600495874708175",
+   "date": "2026-11-11",
+   "kind": "post",
+   "replies": 1,
+   "found": "2026-11-12",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "b0fd83f2c97f",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🚨 November Microsoft Patch Tuesday: 1,093 vulns (-22.4%). 🔥 Outlook NTLM hash disclosure (CVE-2026-124194) exploited in the wild. 💥 2 public EoP PoCs + RCEs in LDAP, Exchange, AD DS, Schannel & VFP. # PatchTuesday # Microsoft # Windows # Vulristics ➡️ https:// avleonov.com/vulristics_report s/ms_patch_tuesday_november2026_report_with_comments_ext_img.html",
+   "url": "https://infosec.exchange/@leonov_av/117599893292779571",
+   "date": "2026-11-11",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-12",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
     }
    },
    "rooms": []
@@ -3988,10 +4408,10 @@
       "dmarc",
       "spf"
      ],
-     "score": 4,
+     "score": 2,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -4024,11 +4444,11 @@
      "evidence": [
       "dmarc"
      ],
-     "score": 6,
+     "score": 4,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -4064,13 +4484,13 @@
       "patch",
       "patching"
      ],
-     "score": 12,
+     "score": 10,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+3 buyer: Security leader",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4103,10 +4523,10 @@
       "dmarc",
       "spf"
      ],
-     "score": 4,
+     "score": 2,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -4140,10 +4560,10 @@
       "dkim",
       "dmarc"
      ],
-     "score": 4,
+     "score": 2,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -4178,12 +4598,12 @@
      "evidence": [
       "dmarc"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+3 buyer: Email & M365 admin",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -4218,10 +4638,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4257,10 +4677,10 @@
       "prioritiz",
       "remediation"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4882,12 +5302,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4920,12 +5339,11 @@
       "cvss",
       "ticket"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4958,11 +5376,10 @@
      "evidence": [
       "account takeover"
      ],
-     "score": 8,
+     "score": 7,
      "why": [
       "+4 adjacent topic: Account takeover and MFA bypass",
-      "+3 buyer: Email & M365 admin",
-      "+1 posted this week"
+      "+3 buyer: Email & M365 admin"
      ],
      "band": "worth",
      "who": "Research team",
@@ -4997,12 +5414,11 @@
      "evidence": [
       "spoofed"
      ],
-     "score": 12,
+     "score": 11,
      "why": [
       "+6 core topic: Compromised vendors and trusted senders",
       "+3 buyer: Email & M365 admin",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "today",
      "who": "Research team",
@@ -5037,12 +5453,11 @@
      "evidence": [
       "aitm"
      ],
-     "score": 10,
+     "score": 9,
      "why": [
       "+4 adjacent topic: Account takeover and MFA bypass",
       "+3 buyer: Email & M365 admin",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "worth",
      "who": "Research team",
@@ -5077,12 +5492,11 @@
      "evidence": [
       "barracuda"
      ],
-     "score": 12,
+     "score": 11,
      "why": [
       "+6 core topic: Replacing or adding to the email gateway",
       "+3 buyer: Email & M365 admin",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "today",
      "who": "Account executive and sales engineer",
@@ -5116,12 +5530,11 @@
       "email gateway",
       "secure email gateway"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Replacing or adding to the email gateway",
-      "+1 posted this week"
+      "+6 core topic: Replacing or adding to the email gateway"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Account executive and sales engineer",
      "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
      "topic": "seg"
@@ -5153,10 +5566,9 @@
       "dmarc",
       "p=reject"
      ],
-     "score": 2,
+     "score": 1,
      "why": [
-      "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+1 posted this week"
+      "+1 listen-only topic: DMARC, SPF and DKIM setup"
      ],
      "band": "listen",
      "who": "",
