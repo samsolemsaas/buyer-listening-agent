@@ -1,13 +1,12 @@
 {
- "generated": "2026-11-13T20:29Z",
+ "generated": "2026-11-14T18:45Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 7,
+  "new": 8,
   "by_source": {
-   "Mastodon": 6,
-   "Press": 1
+   "Mastodon": 8
   }
  },
  "rooms_norms": {
@@ -103,10 +102,10 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 192,
-     "recent": 75,
-     "prior": 59,
-     "change": 27,
+     "total": 198,
+     "recent": 78,
+     "prior": 55,
+     "change": 42,
      "weekly": [
       0,
       0,
@@ -114,15 +113,22 @@
       1,
       0,
       0,
-      8,
-      56,
-      34,
-      21,
-      22,
-      50
+      10,
+      57,
+      36,
+      24,
+      15,
+      55
      ],
-     "open": 38,
+     "open": 39,
      "open_examples": [
+      {
+       "title": "Microsoft Patch Tuesday Fixes Over 1,000 Vulnerabilities Microsoft just dropped a massive ",
+       "url": "https://mastodon.social/@Analyst207/117611153842222450",
+       "room": "mastodon.social",
+       "date": "2026-11-13",
+       "replies": 0
+      },
       {
        "title": "📰 Microsoft Patches Actively Exploited Outlook Zero-Day in Massive Update Microsoft patche",
        "url": "https://mastodon.social/@netsecio/117604120539969118",
@@ -136,13 +142,6 @@
        "room": "mastodon.social",
        "date": "2026-11-12",
        "replies": 0
-      },
-      {
-       "title": "Microsoft Patch Tuesday Disrupts 1235 Flaws, Including Exploited Zero-Day This Patch Tuesd",
-       "url": "https://mastodon.social/@Analyst207/117597237942052592",
-       "room": "mastodon.social",
-       "date": "2026-11-11",
-       "replies": 0
       }
      ],
      "rooms": [
@@ -150,7 +149,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 85.9
+     "score": 91.0
     },
     {
      "key": "prioritization",
@@ -158,10 +157,10 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 147,
-     "recent": 53,
-     "prior": 39,
-     "change": 36,
+     "total": 149,
+     "recent": 52,
+     "prior": 36,
+     "change": 44,
      "weekly": [
       0,
       0,
@@ -169,12 +168,12 @@
       0,
       0,
       0,
-      9,
+      11,
       52,
       20,
-      16,
       19,
-      31
+      15,
+      32
      ],
      "open": 20,
      "open_examples": [
@@ -205,7 +204,7 @@
       "infosec.exchange",
       "mastox.eu"
      ],
-     "score": 59.4
+     "score": 61.2
     },
     {
      "key": "board",
@@ -227,8 +226,8 @@
       0,
       2,
       1,
-      1,
       3,
+      1,
       3
      ],
      "open": 1,
@@ -265,11 +264,11 @@
       0,
       0,
       0,
-      0,
-      2,
-      0,
+      1,
+      1,
       0,
       1,
+      0,
       0
      ],
      "open": 0,
@@ -282,61 +281,6 @@
      "score": 12.0
     },
     {
-     "key": "ai_security",
-     "label": "Securing AI and agents",
-     "fit": 1,
-     "angle": "",
-     "who": "",
-     "total": 11,
-     "recent": 5,
-     "prior": 3,
-     "change": 67,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      1,
-      1,
-      3,
-      1,
-      3,
-      1
-     ],
-     "open": 4,
-     "open_examples": [
-      {
-       "title": "Show HN: Repairer – close the breach when a Linux flaw goes public",
-       "url": "https://news.ycombinator.com/item?id=50388417",
-       "room": "Hacker News",
-       "date": "2026-11-06",
-       "replies": 1
-      },
-      {
-       "title": "Are AI agents the new \"insider threat\"? For months, the enterprise focus has been on build",
-       "url": "https://c.im/@psoheil/117473477658714608",
-       "room": "c.im",
-       "date": "2026-10-20",
-       "replies": 0
-      },
-      {
-       "title": "CISOs Struggle to Own AI Governance Only 7% of CISOs at large firms own AI governance, rev",
-       "url": "https://mastodon.social/@Analyst207/117474286504876066",
-       "room": "mastodon.social",
-       "date": "2026-10-20",
-       "replies": 0
-      }
-     ],
-     "rooms": [
-      "mastodon.social",
-      "infosec.exchange",
-      "Hacker News"
-     ],
-     "score": 8.0
-    },
-    {
      "key": "compliance",
      "label": "Directives and compliance deadlines",
      "fit": 2,
@@ -344,8 +288,8 @@
      "who": "Content team",
      "total": 8,
      "recent": 1,
-     "prior": 4,
-     "change": -75,
+     "prior": 3,
+     "change": -67,
      "weekly": [
       0,
       0,
@@ -377,8 +321,8 @@
      "who": "Research team",
      "total": 6,
      "recent": 1,
-     "prior": 3,
-     "change": -67,
+     "prior": 2,
+     "change": -50,
      "weekly": [
       0,
       0,
@@ -388,8 +332,8 @@
       0,
       0,
       1,
-      1,
-      1,
+      2,
+      0,
       0,
       1
      ],
@@ -398,6 +342,61 @@
      "rooms": [
       "Hacker News",
       "infosec.exchange"
+     ],
+     "score": 5.6
+    },
+    {
+     "key": "ai_security",
+     "label": "Securing AI and agents",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 11,
+     "recent": 4,
+     "prior": 4,
+     "change": 0,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      3,
+      2,
+      2,
+      1
+     ],
+     "open": 4,
+     "open_examples": [
+      {
+       "title": "Show HN: Repairer – close the breach when a Linux flaw goes public",
+       "url": "https://news.ycombinator.com/item?id=50388417",
+       "room": "Hacker News",
+       "date": "2026-11-06",
+       "replies": 1
+      },
+      {
+       "title": "Are AI agents the new \"insider threat\"? For months, the enterprise focus has been on build",
+       "url": "https://c.im/@psoheil/117473477658714608",
+       "room": "c.im",
+       "date": "2026-10-20",
+       "replies": 0
+      },
+      {
+       "title": "CISOs Struggle to Own AI Governance Only 7% of CISOs at large firms own AI governance, rev",
+       "url": "https://mastodon.social/@Analyst207/117474286504876066",
+       "room": "mastodon.social",
+       "date": "2026-10-20",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange",
+      "Hacker News"
      ],
      "score": 5.6
     },
@@ -474,13 +473,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 17.6,
+     "score": 17.7,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+12.6 78 relevant conversations there",
+      "+12.7 80 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 78,
+     "hosted": 80,
      "mentions": 0,
      "evidence": []
     },
@@ -977,11 +976,11 @@
    "phrases": [
     {
      "phrase": "cybersecurity infosec",
-     "count": 60
+     "count": 61
     },
     {
      "phrase": "patch tuesday",
-     "count": 53
+     "count": 56
     },
     {
      "phrase": "cve vulnerability",
@@ -1013,27 +1012,27 @@
     },
     {
      "phrase": "cve infosec",
-     "count": 30
+     "count": 31
     },
     {
      "phrase": "utm source",
-     "count": 29
+     "count": 30
     },
     {
      "phrase": "utm medium",
-     "count": 29
+     "count": 30
     },
     {
      "phrase": "source mastodon",
-     "count": 28
+     "count": 29
     },
     {
      "phrase": "mastodon utm",
-     "count": 28
+     "count": 29
     },
     {
      "phrase": "valtersit com cve",
-     "count": 27
+     "count": 28
     },
     {
      "phrase": "cisa kev",
@@ -1041,11 +1040,11 @@
     },
     {
      "phrase": "medium social",
-     "count": 19
+     "count": 20
     },
     {
      "phrase": "infosec cybersecurity",
-     "count": 18
+     "count": 19
     },
     {
      "phrase": "actively exploited",
@@ -1064,12 +1063,12 @@
      "count": 15
     },
     {
-     "phrase": "october patch",
+     "phrase": "patchtuesday microsoft",
      "count": 14
     },
     {
-     "phrase": "patchtuesday microsoft",
-     "count": 13
+     "phrase": "october patch",
+     "count": 14
     },
     {
      "phrase": "windows shell",
@@ -1080,49 +1079,49 @@
      "count": 12
     },
     {
+     "phrase": "cvss patch",
+     "count": 11
+    },
+    {
      "phrase": "updated vulnerability",
      "count": 11
     },
     {
-     "phrase": "cvss patch",
-     "count": 10
-    },
-    {
-     "phrase": "siemens published",
+     "phrase": "outlook zero-day",
      "count": 10
     },
     {
      "phrase": "zero-day cve-2026-124194",
-     "count": 9
+     "count": 10
     }
    ],
    "quotes": {
-    "prioritization": [
-     {
-      "text": "🚨 EUVD-2026-125720 📊 Score: 5.2/10 (CVSS v3.1) 📦 Product: PolicyPress 🏢 Vendor: sc2in 📅 Updated: 2026-11-13 📝 PolicyPress is a compliance policy management tool for small and mid-size teams.",
-      "url": "https://mastodon.social/@EUVD_Bot/117610921906509440",
-      "room": "mastodon.social",
-      "date": "2026-11-13"
-     },
-     {
-      "text": "Synology Patches Critical DiskStation Manager Flaws Allowing Remote File Access Synology patched two vulnerabilities in DiskStation Manager, including a critical CVSS 9.8 SQL injection flaw in the Auth API.",
-      "url": "https://infosec.exchange/@beyondmachines1/117610911212831075",
-      "room": "infosec.exchange",
-      "date": "2026-11-13"
-     }
-    ],
     "remediation": [
      {
-      "text": "This issue has been patched in version 1.4.1.",
-      "url": "https://mastodon.social/@EUVD_Bot/117610921906509440",
-      "room": "mastodon.social",
-      "date": "2026-11-13"
+      "text": "**If you use Windows 11 or Windows Server 2025, be aware that no patch currently exists for this zero-day exploit.",
+      "url": "https://infosec.exchange/@beyondmachines1/117615157957178611",
+      "room": "infosec.exchange",
+      "date": "2026-11-14"
      },
      {
-      "text": "📢 Patch Tuesday novembre 2026 : zero-day Outlook CVE-2026-124194 exploité activement Cet article couvre le Patch Tuesday de novembre 2026 de Microsoft.",
-      "url": "https://mastobot.ping.moi/@cyberveille/117610316188890125",
-      "room": "mastobot.ping.moi",
-      "date": "2026-11-13"
+      "text": "🚨 Microsoft Outlook zero-day CVE-2026-124194 is under active exploitation, and CISA has given federal agencies 14 days to patch it.",
+      "url": "https://infosec.exchange/@thecybersecguru/117615982846106202",
+      "room": "infosec.exchange",
+      "date": "2026-11-14"
+     }
+    ],
+    "prioritization": [
+     {
+      "text": "Microsoft rates it Moderate (CVSS 6.5), but CISA has already added it to the Known Exploited Vulnerabilities catalog.",
+      "url": "https://infosec.exchange/@thecybersecguru/117615982846106202",
+      "room": "infosec.exchange",
+      "date": "2026-11-14"
+     },
+     {
+      "text": "Organisations that prioritise by CVSS alone will miss it.",
+      "url": "https://infosec.exchange/@thecybersecguru/117615982846106202",
+      "room": "infosec.exchange",
+      "date": "2026-11-14"
      }
     ],
     "board": [
@@ -1205,7 +1204,7 @@
     ]
    },
    "brief": {},
-   "count": 241
+   "count": 247
   },
   "ocean": {
    "company": {
@@ -1286,8 +1285,8 @@
       0,
       0,
       0,
-      5,
-      1,
+      6,
+      0,
       0,
       3,
       0
@@ -1322,10 +1321,10 @@
      "fit": 3,
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "who": "Sales engineer",
-     "total": 15,
-     "recent": 2,
+     "total": 16,
+     "recent": 3,
      "prior": 6,
-     "change": -67,
+     "change": -50,
      "weekly": [
       0,
       0,
@@ -1338,7 +1337,7 @@
       5,
       1,
       1,
-      1
+      2
      ],
      "open": 9,
      "open_examples": [
@@ -1368,7 +1367,7 @@
       "infosec.exchange",
       "mastodon.social"
      ],
-     "score": 25.5
+     "score": 25.8
     },
     {
      "key": "authentication",
@@ -1376,10 +1375,10 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 37,
+     "total": 38,
      "recent": 21,
-     "prior": 9,
-     "change": 133,
+     "prior": 10,
+     "change": 110,
      "weekly": [
       0,
       0,
@@ -1387,11 +1386,11 @@
       0,
       0,
       0,
-      5,
+      6,
       2,
       6,
-      4,
-      7,
+      5,
+      6,
       13
      ],
      "open": 16,
@@ -1423,7 +1422,7 @@
       "Hacker News",
       "infosec.exchange"
      ],
-     "score": 20.2
+     "score": 19.1
     },
     {
      "key": "trusted_senders",
@@ -1619,8 +1618,8 @@
       0,
       0,
       1,
-      1,
-      1,
+      2,
+      0,
       0,
       1
      ],
@@ -2199,11 +2198,11 @@
      "count": 17
     },
     {
-     "phrase": "mastodon utm",
-     "count": 15
+     "phrase": "spf dkim",
+     "count": 16
     },
     {
-     "phrase": "spf dkim",
+     "phrase": "mastodon utm",
      "count": 15
     },
     {
@@ -2267,6 +2266,10 @@
      "count": 6
     },
     {
+     "phrase": "dkim dmarc",
+     "count": 5
+    },
+    {
      "phrase": "rejecting email",
      "count": 5
     },
@@ -2301,13 +2304,37 @@
     {
      "phrase": "conf rence",
      "count": 5
-    },
-    {
-     "phrase": "follow pour",
-     "count": 5
     }
    ],
    "quotes": {
+    "authentication": [
+     {
+      "text": "Un outil en ligne pour vérifier l'authentification mail (SPF, DKIM, DMARC) — utile pour tout pentest ou audit de surface exposée.",
+      "url": "https://mastobot.ping.moi/@Bobe_bot/117613029990407461",
+      "room": "mastobot.ping.moi",
+      "date": "2026-11-14"
+     },
+     {
+      "text": "Was November's Outlook.com AS9031519 bounce DMARC enforcement?",
+      "url": "https://mastodon.social/@meysam81/117604771455453145",
+      "room": "mastodon.social",
+      "date": "2026-11-12"
+     }
+    ],
+    "bec": [
+     {
+      "text": "Keep one human check on purpose: bank details that differ from the last invoice, confirmed by phone on a known number.",
+      "url": "https://mastodon.social/@eisler/117613764764552540",
+      "room": "mastodon.social",
+      "date": "2026-11-14"
+     },
+     {
+      "text": "# infosec # einvoicing # BEC",
+      "url": "https://mastodon.social/@eisler/117613764764552540",
+      "room": "mastodon.social",
+      "date": "2026-11-14"
+     }
+    ],
     "awareness": [
      {
       "text": "Awareness training teaches spotting the bad link, and this one never looked the part.",
@@ -2336,34 +2363,6 @@
       "date": "2026-11-12"
      }
     ],
-    "authentication": [
-     {
-      "text": "Was November's Outlook.com AS9031519 bounce DMARC enforcement?",
-      "url": "https://mastodon.social/@meysam81/117604771455453145",
-      "room": "mastodon.social",
-      "date": "2026-11-12"
-     },
-     {
-      "text": "Under RFC 9989 §4.10.1, a domain with no DMARC record gets no DMARC check: receivers \"MUST NOT apply the DMARC mechanism\".",
-      "url": "https://mastodon.social/@meysam81/117604771455453145",
-      "room": "mastodon.social",
-      "date": "2026-11-12"
-     }
-    ],
-    "bec": [
-     {
-      "text": "netcraft.com/blog/anatomy-of-a n-exec-impersonation-scam # infosec # BEC # ExecutiveImpersonation # Deepfake # ThreatIntel # FraudPrevention",
-      "url": "https://infosec.exchange/@Netcraft/117599218838239343",
-      "room": "infosec.exchange",
-      "date": "2026-11-11"
-     },
-     {
-      "text": "Business email compromise caused about $3.05B in reported losses in 2025, per the FBI's IC3, and most cases involve no malware at all.",
-      "url": "https://infosec.exchange/@theincidentledger/117549257311018323",
-      "room": "infosec.exchange",
-      "date": "2026-11-02"
-     }
-    ],
     "trusted_senders": [
      {
       "text": "The impersonation typically happens on infrastructure the targeted organization doesn’t control, including fake social profiles, lookalike domains, and private messaging apps, there may be no compromised account to detect.",
@@ -2380,16 +2379,16 @@
     ],
     "deepfakes": [
      {
+      "text": "netcraft.com/blog/anatomy-of-a n-exec-impersonation-scam # infosec # BEC # ExecutiveImpersonation # Deepfake # ThreatIntel # FraudPrevention",
+      "url": "https://infosec.exchange/@Netcraft/117599218838239343",
+      "room": "infosec.exchange",
+      "date": "2026-11-11"
+     },
+     {
       "text": "bazmac.me/blog/a-fake-met-poli ce-detective-called-me-how-the-scam-works # Phishing # Vishing # ScamAwareness # Fraud # CyberSecurity # InfoSec # EmailSecurity # SocialEngineering # ScamAlert # PoliceScam # UKScams # FraudPrevention # DMARC",
       "url": "https://mastodon.social/@bazcurtis/117496222426459241",
       "room": "mastodon.social",
       "date": "2026-10-24"
-     },
-     {
-      "text": "Suspicious emails, smishing, vishing, fake websites and payment fraud.",
-      "url": "https://mastodon.social/@carelearninguk/117479024594262775",
-      "room": "mastodon.social",
-      "date": "2026-10-21"
      }
     ],
     "seg": [
@@ -2422,10 +2421,204 @@
     ]
    },
    "brief": {},
-   "count": 71
+   "count": 73
   }
  },
  "conversations": [
+  {
+   "id": "e28dfe668ea8",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Security Researcher Releases SignDrop Zero Day Exploit for Windows Kernel Mitigation A researcher released the SignDrop zero-day exploit that bypasses Windows kernel mitigations to grant attackers System privileges. The flaw abuses the Common Log File System signature mechanism and Microsoft Defender to perform unauthorized privileged file writes. **If you use Windows 11 or Windows Server 2025, be aware that no patch currently exists for this zero-day exploit. You should monitor your systems for the creation of hid.dll in the microsoft shared\\ink directory and restrict local code execution. Do not disable CLFS authentication, as this would expose your system to older, more common kernel attacks.** # cybersecurity # infosec # advisory # vulnerability https:// beyondmachines.net/event_detai ls/security-researcher-releases-signdrop-zero-day-exploit-for-windows-kernel-mitigation-1-m-q-r-u/gD2P6Ple2L",
+   "url": "https://infosec.exchange/@beyondmachines1/117615157957178611",
+   "date": "2026-11-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "b8eab3ea1e39",
+   "source": "Mastodon",
+   "room": "mastobot.ping.moi",
+   "title": "",
+   "text": "Un outil en ligne pour vérifier l'authentification mail (SPF, DKIM, DMARC) — utile pour tout pentest ou audit de surface exposée. Ces trois mécanismes existent depuis des années, et pourtant une fraction significative des domaines en production reste mal configurée. Parfois, l'outil le plus simple est celui qu'on oublie de lancer. # infosec # OSINT # emailsecurity https:// kitploit.com/en/tools/gitlab/b rn1337/mailauthcheck",
+   "url": "https://mastobot.ping.moi/@Bobe_bot/117613029990407461",
+   "date": "2026-11-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-14",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "dmarc",
+      "spf"
+     ],
+     "score": 4,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "4c6c09609dff",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Germany phases in mandatory e-invoicing from 2027 (larger issuers first, everyone from 2028). Most of the talk is about formats. The security side: once an invoice is a record that software reads, checks and books, nobody glances at the PDF anymore. The moment where a person used to notice something odd is gone. Keep one human check on purpose: bank details that differ from the last invoice, confirmed by phone on a known number. That's where invoice fraud lives. # infosec # einvoicing # BEC",
+   "url": "https://mastodon.social/@eisler/117613764764552540",
+   "date": "2026-11-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-14",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "bec"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "bank details",
+      "bec",
+      "invoice fraud"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: BEC and payment fraud",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
+     "topic": "bec"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "49a7333b0cbd",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "🚨 Microsoft Outlook zero-day CVE-2026-124194 is under active exploitation, and CISA has given federal agencies 14 days to patch it. An attacker sends a crafted Outlook message file (.msg or .oft). When the victim opens it, classic Outlook silently connects to an attacker-controlled server without the usual external-content warning, and Windows sends the user’s NTLMv2 authentication response. The victim types no password and sees no dialog. The captured response can be cracked offline or used in NTLM relay attacks and Active Directory compromise. It can also feed AD CS ESC8 certificate abuse, which can create credentials that survive password resets. Microsoft rates it Moderate (CVSS 6.5), but CISA has already added it to the Known Exploited Vulnerabilities catalog. Organisations that prioritise by CVSS alone will miss it. The Preview Pane is not affected, so the victim has to open the file. Microsoft shipped fixes on November 10 in an Office update, not a Windows update. Affected Office builds, exploit mechanics, detection queries and mitigation steps: https:// thecybersecguru.com/news/cve-2 026-124194-outlook-ntlm-zero-day/ # Microsoft # Outlook # ZeroDay # NTLM # ActiveDirectory ",
+   "url": "https://infosec.exchange/@thecybersecguru/117615982846106202",
+   "date": "2026-11-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "2494ac264f4c",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-77528 Autobahn Python: decompression bomb bypasses maxMessagePayloadSize, letting unauthenticated clients blow past message limits. CVSS 5.3. Patch still under review, so pin and monitor. # CVE # infosec # cybersecurity https://www. valtersit.com/cve/CVE-2026-775 28/",
+   "url": "https://mastodon.social/@hugovalters/117615742337131594",
+   "date": "2026-11-14",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "f8678772db00",
    "source": "Mastodon",
@@ -2652,6 +2845,124 @@
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "1b2484a1360a",
+   "source": "Mastodon",
+   "room": "hackaday.com",
+   "title": "",
+   "text": "This Week In Security: Four-Digit Patch Tuesday, SSH Exploited, GitBook Breach, Android GhostMap https:// hackaday.com/2026/11/13/this-w eek-in-security-four-digit-patch-tuesday-ssh-exploited-gitbook-breach-android-ghostmap/",
+   "url": "https://hackaday.com/2026/11/13/this-week-in-security-four-digit-patch-tuesday-ssh-exploited-gitbook-breach-android-ghostmap/",
+   "date": "2026-11-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "af63b78ff860",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Microsoft Patch Tuesday Fixes Over 1,000 Vulnerabilities Microsoft just dropped a massive Patch Tuesday update, fixing a whopping 1,093 vulnerabilities in Windows and supported software, including 63 critical flaws and a zero-day exploit in Outlook that could leave you exposed. This critical update tackles nearly 535 privilege elevation issues and 63 critical flaws, many of which are remote code… https:// osintsights.com/microsoft-patc h-tuesday-fixes-over-1000-vulnerabilities?utm_source=mastodon&utm_medium=social # PatchTuesday # Microsoft # ZeroDay # Cve2026124194 # RemoteCodeExecution",
+   "url": "https://mastodon.social/@Analyst207/117611153842222450",
+   "date": "2026-11-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 13,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "1f69f41c5eb6",
+   "source": "Mastodon",
+   "room": "2137.social",
+   "title": "",
+   "text": "This Week In Security: Four-Digit Patch Tuesday, SSH Exploited, GitBook Breach, Android GhostMap https:// hackaday.com/2026/11/13/this-w eek-in-security-four-digit-patch-tuesday-ssh-exploited-gitbook-breach-android-ghostmap/ # HackadayColumns # SecurityHacks # Android # Anthropic # Certificates # Cisa # Firefox # Gitbook # Krebs # Linux # Microsoft # Openssh # PatchTuesday # Ransomware",
+   "url": "https://2137.social/@13/117611048347850403",
+   "date": "2026-11-13",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-14",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
     }
    },
    "rooms": []
@@ -3043,10 +3354,10 @@
       "patch",
       "patching"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3081,10 +3392,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3120,13 +3431,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 12,
+     "score": 10,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+3 buyer: Vuln management owner",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3159,13 +3470,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3198,13 +3509,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3238,10 +3549,10 @@
       "patching",
       "prioritiz"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3276,12 +3587,12 @@
      "evidence": [
       "patch"
      ],
-     "score": 13,
+     "score": 11,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -3318,12 +3629,12 @@
       "kev",
       "patch"
      ],
-     "score": 13,
+     "score": 11,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: IT & infrastructure",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -3358,12 +3669,12 @@
      "evidence": [
       "patch"
      ],
-     "score": 13,
+     "score": 11,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -3399,12 +3710,12 @@
       "patch",
       "patching"
      ],
-     "score": 13,
+     "score": 11,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -3439,13 +3750,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3480,13 +3791,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3518,10 +3829,10 @@
       "patch",
       "patching"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3558,13 +3869,13 @@
       "kev",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3599,13 +3910,13 @@
       "kev",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3638,13 +3949,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3678,12 +3989,12 @@
       "dmarc",
       "p=reject"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+3 buyer: Email & M365 admin",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -3720,10 +4031,10 @@
       "deepfake",
       "lookalike domain"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: BEC and payment fraud",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3760,12 +4071,12 @@
       "cvss",
       "patch"
      ],
-     "score": 13,
+     "score": 11,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -3800,13 +4111,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3839,13 +4150,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -5260,14 +5571,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 asking for help",
-      "+2 only 1 reply",
-      "+1 posted this week"
+      "+2 only 1 reply"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -5302,11 +5612,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -5342,12 +5651,11 @@
       "dmarc",
       "p=reject"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+3 buyer: Email & M365 admin",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "listen",
      "who": "",
@@ -5380,11 +5688,10 @@
      "evidence": [
       "prioritiz"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "listen",
      "who": "Sales engineer",
@@ -6966,7 +7273,7 @@
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
