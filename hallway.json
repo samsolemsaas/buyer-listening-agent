@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-15T19:23Z",
+ "generated": "2026-11-16T22:54Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 6,
+  "new": 8,
   "by_source": {
-   "Mastodon": 6
+   "Mastodon": 8
   }
  },
  "rooms_norms": {
@@ -102,23 +102,23 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 202,
-     "recent": 74,
-     "prior": 60,
-     "change": 23,
+     "total": 206,
+     "recent": 73,
+     "prior": 62,
+     "change": 18,
      "weekly": [
       0,
       0,
       0,
       1,
       0,
-      0,
-      14,
-      56,
-      38,
-      24,
+      1,
+      18,
+      55,
+      36,
+      25,
       11,
-      58
+      59
      ],
      "open": 41,
      "open_examples": [
@@ -149,7 +149,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 89.8
+     "score": 88.7
     },
     {
      "key": "prioritization",
@@ -157,23 +157,23 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 153,
+     "total": 158,
      "recent": 51,
-     "prior": 39,
-     "change": 31,
+     "prior": 41,
+     "change": 24,
      "weekly": [
       0,
       0,
       0,
       0,
       0,
-      0,
-      16,
-      50,
+      1,
+      20,
+      47,
       22,
-      19,
-      11,
-      35
+      20,
+      10,
+      38
      ],
      "open": 21,
      "open_examples": [
@@ -202,9 +202,9 @@
      "rooms": [
       "mastodon.social",
       "infosec.exchange",
-      "cyberplace.social"
+      "mastox.eu"
      ],
-     "score": 60.1
+     "score": 58.7
     },
     {
      "key": "board",
@@ -225,9 +225,9 @@
       1,
       0,
       2,
-      1,
+      2,
       3,
-      1,
+      0,
       3
      ],
      "open": 1,
@@ -319,23 +319,23 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 12,
-     "recent": 4,
+     "total": 13,
+     "recent": 5,
      "prior": 5,
-     "change": -20,
+     "change": 0,
      "weekly": [
       0,
       0,
       0,
       0,
-      0,
       1,
+      0,
       1,
       1,
       3,
       2,
       2,
-      2
+      3
      ],
      "open": 4,
      "open_examples": [
@@ -366,7 +366,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 5.7
+     "score": 5.8
     },
     {
      "key": "ai_cves",
@@ -476,10 +476,10 @@
      "score": 17.7,
      "why": [
       "+4 audience fit (2 of 3)",
-      "+12.7 80 relevant conversations there",
+      "+12.7 81 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 80,
+     "hosted": 81,
      "mentions": 0,
      "evidence": []
     },
@@ -976,43 +976,47 @@
    "phrases": [
     {
      "phrase": "cybersecurity infosec",
-     "count": 62
+     "count": 65
     },
     {
      "phrase": "patch tuesday",
-     "count": 56
+     "count": 57
     },
     {
      "phrase": "cve vulnerability",
-     "count": 40
+     "count": 43
     },
     {
      "phrase": "score cvss",
-     "count": 36
+     "count": 39
     },
     {
      "phrase": "euvd enisa",
-     "count": 36
+     "count": 39
     },
     {
      "phrase": "enisa europa",
-     "count": 36
+     "count": 39
     },
     {
      "phrase": "vulnerabi lity",
-     "count": 36
+     "count": 39
     },
     {
      "phrase": "infosec euvd",
-     "count": 36
+     "count": 39
     },
     {
      "phrase": "euvd cve",
-     "count": 36
+     "count": 39
     },
     {
      "phrase": "cve infosec",
-     "count": 32
+     "count": 33
+    },
+    {
+     "phrase": "valtersit com cve",
+     "count": 30
     },
     {
      "phrase": "utm source",
@@ -1021,10 +1025,6 @@
     {
      "phrase": "utm medium",
      "count": 30
-    },
-    {
-     "phrase": "valtersit com cve",
-     "count": 29
     },
     {
      "phrase": "source mastodon",
@@ -1071,6 +1071,10 @@
      "count": 14
     },
     {
+     "phrase": "published updated",
+     "count": 13
+    },
+    {
      "phrase": "windows shell",
      "count": 13
     },
@@ -1079,35 +1083,45 @@
      "count": 12
     },
     {
-     "phrase": "published updated",
-     "count": 12
+     "phrase": "outlook zero-day",
+     "count": 11
+    },
+    {
+     "phrase": "zero-day cve-2026-124194",
+     "count": 11
     },
     {
      "phrase": "updated vulnerability",
      "count": 11
-    },
-    {
-     "phrase": "outlook zero-day",
-     "count": 10
-    },
-    {
-     "phrase": "zero-day cve-2026-124194",
-     "count": 10
     }
    ],
    "quotes": {
     "prioritization": [
      {
-      "text": "UnrealIRCd, CVE-2026-114713: il manutentore dice di vedere sfruttamento in corso; CISA l'ha messa in KEV il 13/11, scadenza FCEB il 16/11.",
-      "url": "https://cyberplace.social/@trinacriatech/117619501000433126",
-      "room": "cyberplace.social",
-      "date": "2026-11-15"
+      "text": "Microsoft rates it Moderate (CVSS 6.5), but CISA has already added it to the Known Exploited Vulnerabilities catalog.",
+      "url": "https://mastox.eu/@thecybersecguru/117628495481335356",
+      "room": "mastox.eu",
+      "date": "2026-11-16"
      },
      {
-      "text": "CVE-2026-11548: IBM WebSphere HTTP request smuggling, CVSS 4.8.",
-      "url": "https://mastodon.social/@hugovalters/117622033943658531",
-      "room": "mastodon.social",
-      "date": "2026-11-15"
+      "text": "Organisations that prioritise by CVSS alone will miss it.",
+      "url": "https://mastox.eu/@thecybersecguru/117628495481335356",
+      "room": "mastox.eu",
+      "date": "2026-11-16"
+     }
+    ],
+    "remediation": [
+     {
+      "text": "Sometimes when you release 1200+ CVEs on Patch Tuesday, you miss a few.",
+      "url": "https://infosec.exchange/@ssvc/117627877229077357",
+      "room": "infosec.exchange",
+      "date": "2026-11-16"
+     },
+     {
+      "text": "# Microsoft # PatchTuesday # CVE",
+      "url": "https://infosec.exchange/@ssvc/117627877229077357",
+      "room": "infosec.exchange",
+      "date": "2026-11-16"
      }
     ],
     "ai_security": [
@@ -1122,20 +1136,6 @@
       "url": "https://mastodon.social/@cisogenie/117562757174007850",
       "room": "mastodon.social",
       "date": "2026-11-05"
-     }
-    ],
-    "remediation": [
-     {
-      "text": "His answer is smaller, not bigger — fewer applications, less surface, less to patch.",
-      "url": "https://universeodon.com/@Ciberjohn/117620114832847344",
-      "room": "universeodon.com",
-      "date": "2026-11-15"
-     },
-     {
-      "text": "Fix 6.2.7.1 del 7/11, con hot-patch senza riavvio.",
-      "url": "https://cyberplace.social/@trinacriatech/117619501000433126",
-      "room": "cyberplace.social",
-      "date": "2026-11-15"
      }
     ],
     "board": [
@@ -1204,7 +1204,7 @@
     ]
    },
    "brief": {},
-   "count": 252
+   "count": 258
   },
   "ocean": {
    "company": {
@@ -1286,9 +1286,9 @@
       0,
       0,
       7,
-      5,
+      6,
       1,
-      1,
+      0,
       2
      ],
      "open": 9,
@@ -1375,45 +1375,45 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 39,
-     "recent": 20,
+     "total": 41,
+     "recent": 22,
      "prior": 11,
-     "change": 82,
+     "change": 100,
      "weekly": [
       0,
       0,
       0,
       0,
       0,
-      0,
-      6,
+      1,
+      5,
       2,
-      7,
-      4,
-      10,
-      10
+      8,
+      3,
+      15,
+      7
      ],
-     "open": 17,
+     "open": 19,
      "open_examples": [
+      {
+       "title": "Email is down. Can your team still reply? A 15-minute drill: pick two people, have them op",
+       "url": "https://mastodon.social/@crccloud/117626714130361866",
+       "room": "mastodon.social",
+       "date": "2026-11-16",
+       "replies": 0
+      },
+      {
+       "title": "The chair of the IETF DMARC working group posted a call for objections on 14 Nov: mark the",
+       "url": "https://mastodon.social/@meysam81/117626476980639846",
+       "room": "mastodon.social",
+       "date": "2026-11-16",
+       "replies": 0
+      },
       {
        "title": "How I read a suspicious email's headers: find the first Received line my own server added.",
        "url": "https://mastodon.social/@meysam81/117620814677599004",
        "room": "mastodon.social",
        "date": "2026-11-15",
-       "replies": 0
-      },
-      {
-       "title": "Was November's Outlook.com AS9031519 bounce DMARC enforcement? No. Under RFC 9989 §4.10.1,",
-       "url": "https://mastodon.social/@meysam81/117604771455453145",
-       "room": "mastodon.social",
-       "date": "2026-11-12",
-       "replies": 0
-      },
-      {
-       "title": "Common myth: having a DMARC record means your domain is protected. At p=none, receivers ha",
-       "url": "https://mastodon.social/@meysam81/117598165438316430",
-       "room": "mastodon.social",
-       "date": "2026-11-11",
        "replies": 0
       }
      ],
@@ -1422,7 +1422,7 @@
       "Hacker News",
       "infosec.exchange"
      ],
-     "score": 18.2
+     "score": 20.3
     },
     {
      "key": "trusted_senders",
@@ -1485,8 +1485,8 @@
       0,
       0,
       3,
-      0,
-      3,
+      1,
+      2,
       1
      ],
      "open": 3,
@@ -1539,8 +1539,8 @@
       0,
       0,
       1,
-      0,
-      2,
+      1,
+      1,
       0,
       1
      ],
@@ -2187,27 +2187,27 @@
    "phrases": [
     {
      "phrase": "utm source",
-     "count": 20
+     "count": 21
     },
     {
      "phrase": "source mastodon",
-     "count": 19
+     "count": 20
     },
     {
      "phrase": "utm medium",
-     "count": 18
+     "count": 20
     },
     {
      "phrase": "mastodon utm",
-     "count": 16
+     "count": 18
     },
     {
      "phrase": "spf dkim",
-     "count": 16
+     "count": 17
     },
     {
      "phrase": "utm campaign",
-     "count": 14
+     "count": 16
     },
     {
      "phrase": "dmarc emailsecurity",
@@ -2215,19 +2215,19 @@
     },
     {
      "phrase": "medium social",
-     "count": 10
+     "count": 12
     },
     {
      "phrase": "social utm",
-     "count": 9
+     "count": 11
     },
     {
      "phrase": "dkim and dmarc",
-     "count": 8
+     "count": 9
     },
     {
      "phrase": "utm content",
-     "count": 7
+     "count": 8
     },
     {
      "phrase": "emailsecurity sysadmin",
@@ -2309,16 +2309,16 @@
    "quotes": {
     "authentication": [
      {
-      "text": "https:// dmarcguard.io/blog/read-email- headers/?utm_source=mastodon&utm_medium=social&utm_campaign=social-2026-w46&utm_content=1115-us-headers # EmailSecurity # DMARC # SysAdmin",
-      "url": "https://mastodon.social/@meysam81/117620814677599004",
+      "text": "The spam part depends on SPF, DKIM and DMARC.",
+      "url": "https://mastodon.social/@crccloud/117626714130361866",
       "room": "mastodon.social",
-      "date": "2026-11-15"
+      "date": "2026-11-16"
      },
      {
-      "text": "Un outil en ligne pour vérifier l'authentification mail (SPF, DKIM, DMARC) — utile pour tout pentest ou audit de surface exposée.",
-      "url": "https://mastobot.ping.moi/@Bobe_bot/117613029990407461",
-      "room": "mastobot.ping.moi",
-      "date": "2026-11-14"
+      "text": "https:// dmarcguard.io/learn/arc/?utm_s ource=mastodon&utm_medium=social&utm_campaign=social-2026-w47&utm_content=1116-us-arc-wg # DMARC # ARC # IETF # EmailSecurity",
+      "url": "https://mastodon.social/@meysam81/117626476980639846",
+      "room": "mastodon.social",
+      "date": "2026-11-16"
      }
     ],
     "bec": [
@@ -2421,10 +2421,320 @@
     ]
    },
    "brief": {},
-   "count": 74
+   "count": 76
   }
  },
  "conversations": [
+  {
+   "id": "70a81b7c0b01",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-126648 📊 Score: 8.4/10 (CVSS v3.1) 📦 Product: E12, E18 🏢 Vendor: Phison 📅 Updated: 2026-11-16 📝 Phison E12 and E18 PCIe SSD controllers contain a Secure Boot bypass vulnerability that allows a privileged local attacker to inject persistent boot-patch tuples into the unsigned, CRC-protected flash ID page read by the BootROM. By overwriting a fuse-deri... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-126648 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117628380678160331",
+   "date": "2026-11-16",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "358c60bd6ed9",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-126645 📊 Score: 6.8/10 (CVSS v3.1) 📦 Product: timestream-for-influxdb-mcp-server 🏢 Vendor: aws 📅 Updated: 2026-11-16 📝 Improper restriction of intended endpoints in the connection configuration handling of the AWS Labs Timestream for InfluxDB MCP Server (awslabs.timestream-for-influxdb-mcp-server) before 0.0.19 might allow a remote unauthenticated ac... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-126645 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117628380526694388",
+   "date": "2026-11-16",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "ai_security"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "mcp server"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "7c952a7a082a",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-124717 📊 Score: 8.6/10 (CVSS v3.1) 📦 Product: aws-advanced-go-wrapper 🏢 Vendor: aws 📅 Published: 2026-11-12 | Updated: 2026-11-16 📝 An untrusted search path issue in Aurora PostgreSQL dialect detection in the AWS Advanced Go Wrapper from release 2026-04-06 (awssql/v2.0.0) and before release 2026-07-29 (awssql/v2.0.3) could allow a remote authenticate... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-124717 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117628372993916694",
+   "date": "2026-11-16",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "d153de74187d",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Sometimes when you release 1200+ CVEs on Patch Tuesday, you miss a few. Microsoft published CVE-2026-124222 Microsoft Office SharePoint Elevation of Privilege Vulnerability (6.5 medium) and CVE-2026-124223 Microsoft Office SharePoint Remote Code Execution Vulnerability (8.8 high) today because they forgot to mention them last week. Not exploited, assessed exploitability less likely. This CVE was addressed by updates that were released in November 2026, but the CVE was inadvertently omitted from the November 2026 Security Updates. # Microsoft # PatchTuesday # CVE",
+   "url": "https://infosec.exchange/@ssvc/117627877229077357",
+   "date": "2026-11-16",
+   "kind": "post",
+   "replies": 1,
+   "found": "2026-11-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation"
+     ],
+     "personas": [
+      "it"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+2 buyer: IT & infrastructure",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "b67588b2ed8f",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Email is down. Can your team still reply? A 15-minute drill: pick two people, have them open the emergency inbox without help, send a test message in from outside, reply, and confirm the reply comes from your normal address and doesn't land in spam. Fix what went wrong before the next outage. The spam part depends on SPF, DKIM and DMARC. Free check: https://www. crccloud.com/resources/domain- health-check/?utm_source=mastodon&utm_medium=social&utm_campaign=outage-drill-20261116 # EmailSecurity # BusinessContinuity",
+   "url": "https://mastodon.social/@crccloud/117626714130361866",
+   "date": "2026-11-16",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-16",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "dmarc",
+      "spf"
+     ],
+     "score": 6,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "f196e281f651",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "The chair of the IETF DMARC working group posted a call for objections on 14 Nov: mark the draft that would move ARC (RFC 8617) to Historic as dead, wait for DKIM2, and close the DMARC WG. Comments close 30 Nov. Nothing to change on your side. If you seal with ARC, keep sealing. https:// dmarcguard.io/learn/arc/?utm_s ource=mastodon&utm_medium=social&utm_campaign=social-2026-w47&utm_content=1116-us-arc-wg # DMARC # ARC # IETF # EmailSecurity",
+   "url": "https://mastodon.social/@meysam81/117626476980639846",
+   "date": "2026-11-16",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-16",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "dmarc"
+     ],
+     "score": 6,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "40fc175d7a0d",
+   "source": "Mastodon",
+   "room": "mastox.eu",
+   "title": "",
+   "text": "🚨 Microsoft Outlook zero-day CVE-2026-124194 is under active exploitation, and CISA has given federal agencies 14 days to patch it. An attacker sends a crafted Outlook message file (.msg or .oft). When the victim opens it, classic Outlook silently connects to an attacker-controlled server without the usual external-content warning, and Windows sends the user’s NTLMv2 authentication response. The victim types no password and sees no dialog. The captured response can be cracked offline or used in NTLM relay attacks and Active Directory compromise. It can also feed AD CS ESC8 certificate abuse, which can create credentials that survive password resets. Microsoft rates it Moderate (CVSS 6.5), but CISA has already added it to the Known Exploited Vulnerabilities catalog. Organisations that prioritise by CVSS alone will miss it. The Preview Pane is not affected, so the victim has to open the file. Microsoft shipped fixes on November 10 in an Office update, not a Windows update. Affected Office builds, exploit mechanics, detection queries and mitigation steps: https:// thecybersecguru.com/news/cve-2 026-124194-outlook-ntlm-zero-day/ # Microsoft # Outlook # ZeroDay # NTLM # ActiveDirectory ",
+   "url": "https://mastox.eu/@thecybersecguru/117628495481335356",
+   "date": "2026-11-16",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "2dce61e9a5e8",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "CVE-2026-10027 IBM MQ buffer overflow (CVSS 8.1) lets remote attackers cause DoS or run arbitrary code via malformed compressed data on compression-enabled channels. No patch yet - track it and mitigate now. # CVE # infosec # IBM https://www. valtersit.com/cve/CVE-2026-100 27/",
+   "url": "https://mastodon.social/@hugovalters/117628443234391086",
+   "date": "2026-11-16",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-16",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "remediation"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "79f9aa6f6fbf",
    "source": "Mastodon",
@@ -2878,10 +3188,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2916,10 +3226,10 @@
       "board",
       "cvss"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2954,10 +3264,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2992,13 +3302,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3032,10 +3342,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3070,10 +3380,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3108,13 +3418,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3147,12 +3457,12 @@
      "evidence": [
       "patch"
      ],
-     "score": 13,
+     "score": 11,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -3187,13 +3497,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -5531,11 +5841,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -5570,12 +5879,11 @@
      "evidence": [
       "dmarc"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+3 buyer: Email & M365 admin",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "listen",
      "who": "",
@@ -5608,11 +5916,10 @@
      "evidence": [
       "dmarc"
      ],
-     "score": 4,
+     "score": 3,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "listen",
      "who": "",
@@ -5649,11 +5956,10 @@
       "spf",
       "spoofed"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Compromised vendors and trusted senders",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "worth",
      "who": "Research team",
@@ -5686,11 +5992,10 @@
      "evidence": [
       "dmarc"
      ],
-     "score": 4,
+     "score": 3,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "listen",
      "who": "",
@@ -6794,7 +7099,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 shopping for tools"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -6832,7 +7137,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -6870,7 +7175,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
