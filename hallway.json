@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-16T22:54Z",
+ "generated": "2026-11-17T21:47Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 8,
+  "new": 1,
   "by_source": {
-   "Mastodon": 8
+   "Mastodon": 1
   }
  },
  "rooms_norms": {
@@ -103,22 +103,22 @@
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
      "total": 206,
-     "recent": 73,
-     "prior": 62,
-     "change": 18,
+     "recent": 70,
+     "prior": 61,
+     "change": 15,
      "weekly": [
       0,
       0,
-      0,
       1,
       0,
-      1,
-      18,
-      55,
+      0,
+      2,
+      31,
+      43,
       36,
-      25,
-      11,
-      59
+      24,
+      26,
+      43
      ],
      "open": 41,
      "open_examples": [
@@ -149,7 +149,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 88.7
+     "score": 88.0
     },
     {
      "key": "prioritization",
@@ -158,22 +158,22 @@
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
      "total": 158,
-     "recent": 51,
-     "prior": 41,
-     "change": 24,
+     "recent": 48,
+     "prior": 42,
+     "change": 14,
      "weekly": [
       0,
       0,
       0,
       0,
       0,
-      1,
+      2,
+      42,
+      26,
+      21,
       20,
-      47,
-      22,
-      20,
-      10,
-      38
+      18,
+      29
      ],
      "open": 21,
      "open_examples": [
@@ -204,7 +204,7 @@
       "infosec.exchange",
       "mastox.eu"
      ],
-     "score": 58.7
+     "score": 56.5
     },
     {
      "key": "board",
@@ -213,9 +213,9 @@
      "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
      "who": "Founder or CISO advisor",
      "total": 11,
-     "recent": 4,
-     "prior": 4,
-     "change": 0,
+     "recent": 3,
+     "prior": 5,
+     "change": -40,
      "weekly": [
       0,
       0,
@@ -227,8 +227,8 @@
       2,
       2,
       3,
-      0,
-      3
+      1,
+      2
      ],
      "open": 1,
      "open_examples": [
@@ -265,11 +265,11 @@
       0,
       0,
       1,
-      3,
-      3,
+      4,
+      2,
       0,
-      0,
-      1
+      1,
+      0
      ],
      "open": 0,
      "open_examples": [],
@@ -297,8 +297,8 @@
       0,
       0,
       0,
-      1,
-      1,
+      2,
+      0,
       0,
       1,
       0,
@@ -331,8 +331,8 @@
       1,
       0,
       1,
-      1,
-      3,
+      4,
+      0,
       2,
       2,
       3
@@ -381,8 +381,8 @@
      "weekly": [
       0,
       0,
-      1,
-      1,
+      2,
+      0,
       0,
       0,
       0,
@@ -417,8 +417,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0,
       0,
       0,
@@ -1274,9 +1274,9 @@
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "who": "Sales engineer",
      "total": 16,
-     "recent": 3,
-     "prior": 6,
-     "change": -50,
+     "recent": 2,
+     "prior": 7,
+     "change": -71,
      "weekly": [
       0,
       0,
@@ -1284,8 +1284,8 @@
       0,
       0,
       0,
-      0,
-      7,
+      1,
+      6,
       6,
       1,
       0,
@@ -1341,8 +1341,8 @@
       0,
       6,
       0,
-      0,
-      3,
+      1,
+      2,
       0
      ],
      "open": 2,
@@ -1375,10 +1375,10 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 41,
-     "recent": 22,
+     "total": 42,
+     "recent": 23,
      "prior": 11,
-     "change": 100,
+     "change": 109,
      "weekly": [
       0,
       0,
@@ -1387,14 +1387,21 @@
       0,
       1,
       5,
-      2,
-      8,
-      3,
+      4,
+      6,
+      4,
       15,
       7
      ],
-     "open": 19,
+     "open": 20,
      "open_examples": [
+      {
+       "title": "Neu aus der Schweiz: Inbox Guard führt Domains Schritt für Schritt bis DMARC p=reject. Ers",
+       "url": "https://infosec.exchange/@inboxguard/117632339451851339",
+       "room": "infosec.exchange",
+       "date": "2026-11-17",
+       "replies": 0
+      },
       {
        "title": "Email is down. Can your team still reply? A 15-minute drill: pick two people, have them op",
        "url": "https://mastodon.social/@crccloud/117626714130361866",
@@ -1408,21 +1415,14 @@
        "room": "mastodon.social",
        "date": "2026-11-16",
        "replies": 0
-      },
-      {
-       "title": "How I read a suspicious email's headers: find the first Received line my own server added.",
-       "url": "https://mastodon.social/@meysam81/117620814677599004",
-       "room": "mastodon.social",
-       "date": "2026-11-15",
-       "replies": 0
       }
      ],
      "rooms": [
       "mastodon.social",
-      "Hacker News",
-      "infosec.exchange"
+      "infosec.exchange",
+      "Hacker News"
      ],
-     "score": 20.3
+     "score": 21.3
     },
     {
      "key": "trusted_senders",
@@ -1472,9 +1472,9 @@
      "angle": "Email is where most takeovers start. Connect the phishing email to the session it stole.",
      "who": "Research team",
      "total": 7,
-     "recent": 4,
-     "prior": 3,
-     "change": 33,
+     "recent": 3,
+     "prior": 4,
+     "change": -25,
      "weekly": [
       0,
       0,
@@ -1518,7 +1518,7 @@
       "mastodon.social",
       "social.raytec.co"
      ],
-     "score": 11.0
+     "score": 9.0
     },
     {
      "key": "awareness",
@@ -1539,8 +1539,8 @@
       0,
       0,
       1,
-      1,
-      1,
+      2,
+      0,
       0,
       1
      ],
@@ -1710,13 +1710,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 16.0,
+     "score": 16.2,
      "why": [
       "+6 audience fit (3 of 3)",
-      "+9.0 22 relevant conversations there",
+      "+9.2 23 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 22,
+     "hosted": 23,
      "mentions": 0,
      "evidence": []
     },
@@ -2211,7 +2211,7 @@
     },
     {
      "phrase": "dmarc emailsecurity",
-     "count": 13
+     "count": 14
     },
     {
      "phrase": "medium social",
@@ -2309,16 +2309,16 @@
    "quotes": {
     "authentication": [
      {
-      "text": "The spam part depends on SPF, DKIM and DMARC.",
-      "url": "https://mastodon.social/@crccloud/117626714130361866",
-      "room": "mastodon.social",
-      "date": "2026-11-16"
+      "text": "Neu aus der Schweiz: Inbox Guard führt Domains Schritt für Schritt bis DMARC p=reject.",
+      "url": "https://infosec.exchange/@inboxguard/117632339451851339",
+      "room": "infosec.exchange",
+      "date": "2026-11-17"
      },
      {
-      "text": "https:// dmarcguard.io/learn/arc/?utm_s ource=mastodon&utm_medium=social&utm_campaign=social-2026-w47&utm_content=1116-us-arc-wg # DMARC # ARC # IETF # EmailSecurity",
-      "url": "https://mastodon.social/@meysam81/117626476980639846",
-      "room": "mastodon.social",
-      "date": "2026-11-16"
+      "text": "igs.ch/?p=medien # DMARC # EmailSecurity # InfoSec # Schweiz",
+      "url": "https://infosec.exchange/@inboxguard/117632339451851339",
+      "room": "infosec.exchange",
+      "date": "2026-11-17"
      }
     ],
     "bec": [
@@ -2421,10 +2421,48 @@
     ]
    },
    "brief": {},
-   "count": 76
+   "count": 77
   }
  },
  "conversations": [
+  {
+   "id": "7aef469ad30d",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Neu aus der Schweiz: Inbox Guard führt Domains Schritt für Schritt bis DMARC p=reject. Erst dann weisen Mailanbieter gefälschte Mails im Namen Ihrer Domain ab. Der Weg scheitert selten an der Technik, sondern am Überblick: Newsletter-Tools, Ticketsysteme und Webshops senden alle im Namen derselben Domain. Inbox Guard zeigt, wer sendet, und gibt die nächste Stufe erst frei, wenn die Berichte sauber sind. Gratis-Check ohne Anmeldung: https://www. igs.ch/?p=check Medienmitteilung: https://www. igs.ch/?p=medien # DMARC # EmailSecurity # InfoSec # Schweiz",
+   "url": "https://infosec.exchange/@inboxguard/117632339451851339",
+   "date": "2026-11-17",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-17",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "dmarc",
+      "p=reject"
+     ],
+     "score": 6,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "70a81b7c0b01",
    "source": "Mastodon",
@@ -2994,13 +3032,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -3033,10 +3071,10 @@
       "dmarc",
       "spf"
      ],
-     "score": 4,
+     "score": 2,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -3071,10 +3109,10 @@
       "bec",
       "invoice fraud"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: BEC and payment fraud",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -3111,13 +3149,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3150,10 +3188,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -5532,10 +5570,9 @@
       "dmarc",
       "spf"
      ],
-     "score": 2,
+     "score": 1,
      "why": [
-      "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+1 posted this week"
+      "+1 listen-only topic: DMARC, SPF and DKIM setup"
      ],
      "band": "listen",
      "who": "",
@@ -5568,11 +5605,10 @@
      "evidence": [
       "dmarc"
      ],
-     "score": 4,
+     "score": 3,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "listen",
      "who": "",
@@ -5608,11 +5644,10 @@
       "patch",
       "patching"
      ],
-     "score": 10,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 buyer: Security leader",
-      "+1 posted this week"
+      "+3 buyer: Security leader"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -5647,10 +5682,9 @@
       "dmarc",
       "spf"
      ],
-     "score": 2,
+     "score": 1,
      "why": [
-      "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+1 posted this week"
+      "+1 listen-only topic: DMARC, SPF and DKIM setup"
      ],
      "band": "listen",
      "who": "",
@@ -5684,10 +5718,9 @@
       "dkim",
       "dmarc"
      ],
-     "score": 2,
+     "score": 1,
      "why": [
-      "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+1 posted this week"
+      "+1 listen-only topic: DMARC, SPF and DKIM setup"
      ],
      "band": "listen",
      "who": "",
@@ -5722,12 +5755,11 @@
      "evidence": [
       "dmarc"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+3 buyer: Email & M365 admin",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "listen",
      "who": "",
@@ -5762,12 +5794,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -5801,12 +5832,11 @@
       "prioritiz",
       "remediation"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -6831,7 +6861,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -6905,7 +6935,7 @@
       "+4 adjacent topic: Proving progress to the board",
       "+3 buyer: Security leader"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Founder or CISO advisor",
      "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
      "topic": "board"
@@ -6945,7 +6975,7 @@
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -7024,7 +7054,7 @@
       "+6 core topic: BEC and payment fraud",
       "+3 buyer: SOC & security engineer"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "topic": "bec"
