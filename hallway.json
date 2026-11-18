@@ -1,12 +1,13 @@
 {
- "generated": "2026-11-17T21:47Z",
+ "generated": "2026-11-18T21:27Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 1,
+  "new": 5,
   "by_source": {
-   "Mastodon": 1
+   "Hacker News": 1,
+   "Mastodon": 4
   }
  },
  "rooms_norms": {
@@ -103,8 +104,8 @@
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
      "total": 206,
-     "recent": 70,
-     "prior": 61,
+     "recent": 69,
+     "prior": 60,
      "change": 15,
      "weekly": [
       0,
@@ -112,13 +113,13 @@
       1,
       0,
       0,
-      2,
-      31,
+      3,
+      51,
+      32,
+      29,
+      23,
       43,
-      36,
-      24,
-      26,
-      43
+      24
      ],
      "open": 41,
      "open_examples": [
@@ -157,23 +158,23 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 158,
-     "recent": 48,
-     "prior": 42,
-     "change": 14,
+     "total": 160,
+     "recent": 49,
+     "prior": 41,
+     "change": 20,
      "weekly": [
       0,
       0,
       0,
       0,
       0,
-      2,
-      42,
-      26,
-      21,
-      20,
+      3,
+      48,
+      24,
       18,
-      29
+      20,
+      24,
+      23
      ],
      "open": 21,
      "open_examples": [
@@ -204,7 +205,62 @@
       "infosec.exchange",
       "mastox.eu"
      ],
-     "score": 56.5
+     "score": 57.9
+    },
+    {
+     "key": "ai_security",
+     "label": "Securing AI and agents",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 15,
+     "recent": 7,
+     "prior": 2,
+     "change": 250,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      3,
+      0,
+      2,
+      2,
+      5
+     ],
+     "open": 4,
+     "open_examples": [
+      {
+       "title": "Show HN: Repairer – close the breach when a Linux flaw goes public",
+       "url": "https://news.ycombinator.com/item?id=50388417",
+       "room": "Hacker News",
+       "date": "2026-11-06",
+       "replies": 1
+      },
+      {
+       "title": "Are AI agents the new \"insider threat\"? For months, the enterprise focus has been on build",
+       "url": "https://c.im/@psoheil/117473477658714608",
+       "room": "c.im",
+       "date": "2026-10-20",
+       "replies": 0
+      },
+      {
+       "title": "CISOs Struggle to Own AI Governance Only 7% of CISOs at large firms own AI governance, rev",
+       "url": "https://mastodon.social/@Analyst207/117474286504876066",
+       "room": "mastodon.social",
+       "date": "2026-10-20",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange",
+      "Hacker News"
+     ],
+     "score": 14.0
     },
     {
      "key": "board",
@@ -221,8 +277,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0,
       2,
       2,
@@ -255,8 +311,8 @@
      "who": "Content team",
      "total": 8,
      "recent": 1,
-     "prior": 3,
-     "change": -67,
+     "prior": 2,
+     "change": -50,
      "weekly": [
       0,
       0,
@@ -264,8 +320,8 @@
       0,
       0,
       0,
-      1,
-      4,
+      2,
+      3,
       2,
       0,
       1,
@@ -314,61 +370,6 @@
      "score": 6.0
     },
     {
-     "key": "ai_security",
-     "label": "Securing AI and agents",
-     "fit": 1,
-     "angle": "",
-     "who": "",
-     "total": 13,
-     "recent": 5,
-     "prior": 5,
-     "change": 0,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      1,
-      4,
-      0,
-      2,
-      2,
-      3
-     ],
-     "open": 4,
-     "open_examples": [
-      {
-       "title": "Show HN: Repairer – close the breach when a Linux flaw goes public",
-       "url": "https://news.ycombinator.com/item?id=50388417",
-       "room": "Hacker News",
-       "date": "2026-11-06",
-       "replies": 1
-      },
-      {
-       "title": "Are AI agents the new \"insider threat\"? For months, the enterprise focus has been on build",
-       "url": "https://c.im/@psoheil/117473477658714608",
-       "room": "c.im",
-       "date": "2026-10-20",
-       "replies": 0
-      },
-      {
-       "title": "CISOs Struggle to Own AI Governance Only 7% of CISOs at large firms own AI governance, rev",
-       "url": "https://mastodon.social/@Analyst207/117474286504876066",
-       "room": "mastodon.social",
-       "date": "2026-10-20",
-       "replies": 0
-      }
-     ],
-     "rooms": [
-      "mastodon.social",
-      "infosec.exchange",
-      "Hacker News"
-     ],
-     "score": 5.8
-    },
-    {
      "key": "ai_cves",
      "label": "AI-found vulnerability surge",
      "fit": 2,
@@ -380,8 +381,8 @@
      "change": -50,
      "weekly": [
       0,
-      0,
-      2,
+      1,
+      1,
       0,
       0,
       0,
@@ -389,8 +390,8 @@
       1,
       2,
       0,
-      0,
-      1
+      1,
+      0
      ],
      "open": 0,
      "open_examples": [],
@@ -976,7 +977,7 @@
    "phrases": [
     {
      "phrase": "cybersecurity infosec",
-     "count": 65
+     "count": 67
     },
     {
      "phrase": "patch tuesday",
@@ -984,31 +985,31 @@
     },
     {
      "phrase": "cve vulnerability",
-     "count": 43
+     "count": 45
     },
     {
      "phrase": "score cvss",
-     "count": 39
+     "count": 41
     },
     {
      "phrase": "euvd enisa",
-     "count": 39
+     "count": 41
     },
     {
      "phrase": "enisa europa",
-     "count": 39
+     "count": 41
     },
     {
      "phrase": "vulnerabi lity",
-     "count": 39
+     "count": 41
     },
     {
      "phrase": "infosec euvd",
-     "count": 39
+     "count": 41
     },
     {
      "phrase": "euvd cve",
-     "count": 39
+     "count": 41
     },
     {
      "phrase": "cve infosec",
@@ -1110,20 +1111,6 @@
       "date": "2026-11-16"
      }
     ],
-    "remediation": [
-     {
-      "text": "Sometimes when you release 1200+ CVEs on Patch Tuesday, you miss a few.",
-      "url": "https://infosec.exchange/@ssvc/117627877229077357",
-      "room": "infosec.exchange",
-      "date": "2026-11-16"
-     },
-     {
-      "text": "# Microsoft # PatchTuesday # CVE",
-      "url": "https://infosec.exchange/@ssvc/117627877229077357",
-      "room": "infosec.exchange",
-      "date": "2026-11-16"
-     }
-    ],
     "ai_security": [
      {
       "text": "Let's go further: stopgaps are written and checked by a swarm of AI agents (gnosh.ai sessions) running on gno.land, each with bonded stake.",
@@ -1136,6 +1123,20 @@
       "url": "https://mastodon.social/@cisogenie/117562757174007850",
       "room": "mastodon.social",
       "date": "2026-11-05"
+     }
+    ],
+    "remediation": [
+     {
+      "text": "Sometimes when you release 1200+ CVEs on Patch Tuesday, you miss a few.",
+      "url": "https://infosec.exchange/@ssvc/117627877229077357",
+      "room": "infosec.exchange",
+      "date": "2026-11-16"
+     },
+     {
+      "text": "# Microsoft # PatchTuesday # CVE",
+      "url": "https://infosec.exchange/@ssvc/117627877229077357",
+      "room": "infosec.exchange",
+      "date": "2026-11-16"
      }
     ],
     "board": [
@@ -1204,7 +1205,7 @@
     ]
    },
    "brief": {},
-   "count": 258
+   "count": 260
   },
   "ocean": {
    "company": {
@@ -1284,12 +1285,12 @@
       0,
       0,
       0,
+      7,
+      2,
+      4,
       1,
-      6,
-      6,
       1,
-      0,
-      2
+      1
      ],
      "open": 9,
      "open_examples": [
@@ -1322,14 +1323,69 @@
      "score": 25.8
     },
     {
+     "key": "authentication",
+     "label": "DMARC, SPF and DKIM setup",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 44,
+     "recent": 24,
+     "prior": 10,
+     "change": 140,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      5,
+      5,
+      5,
+      15,
+      8
+     ],
+     "open": 21,
+     "open_examples": [
+      {
+       "title": "Microsoft's Q3 2026 threat report (5 Nov): ~129 million malicious messages spoofed the rea",
+       "url": "https://mastodon.social/@meysam81/117637801632360248",
+       "room": "mastodon.social",
+       "date": "2026-11-18",
+       "replies": 0
+      },
+      {
+       "title": "Neu aus der Schweiz: Inbox Guard führt Domains Schritt für Schritt bis DMARC p=reject. Ers",
+       "url": "https://infosec.exchange/@inboxguard/117632339451851339",
+       "room": "infosec.exchange",
+       "date": "2026-11-17",
+       "replies": 0
+      },
+      {
+       "title": "Email is down. Can your team still reply? A 15-minute drill: pick two people, have them op",
+       "url": "https://mastodon.social/@crccloud/117626714130361866",
+       "room": "mastodon.social",
+       "date": "2026-11-16",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange",
+      "Hacker News"
+     ],
+     "score": 23.7
+    },
+    {
      "key": "seg",
      "label": "Replacing or adding to the email gateway",
      "fit": 3,
      "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
      "who": "Account executive and sales engineer",
      "total": 9,
-     "recent": 3,
-     "prior": 0,
+     "recent": 2,
+     "prior": 1,
      "change": 100,
      "weekly": [
       0,
@@ -1338,11 +1394,11 @@
       0,
       0,
       0,
+      3,
+      3,
       0,
-      6,
+      3,
       0,
-      1,
-      2,
       0
      ],
      "open": 2,
@@ -1370,70 +1426,15 @@
      "score": 22.9
     },
     {
-     "key": "authentication",
-     "label": "DMARC, SPF and DKIM setup",
-     "fit": 1,
-     "angle": "",
-     "who": "",
-     "total": 42,
-     "recent": 23,
-     "prior": 11,
-     "change": 109,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      5,
-      4,
-      6,
-      4,
-      15,
-      7
-     ],
-     "open": 20,
-     "open_examples": [
-      {
-       "title": "Neu aus der Schweiz: Inbox Guard führt Domains Schritt für Schritt bis DMARC p=reject. Ers",
-       "url": "https://infosec.exchange/@inboxguard/117632339451851339",
-       "room": "infosec.exchange",
-       "date": "2026-11-17",
-       "replies": 0
-      },
-      {
-       "title": "Email is down. Can your team still reply? A 15-minute drill: pick two people, have them op",
-       "url": "https://mastodon.social/@crccloud/117626714130361866",
-       "room": "mastodon.social",
-       "date": "2026-11-16",
-       "replies": 0
-      },
-      {
-       "title": "The chair of the IETF DMARC working group posted a call for objections on 14 Nov: mark the",
-       "url": "https://mastodon.social/@meysam81/117626476980639846",
-       "room": "mastodon.social",
-       "date": "2026-11-16",
-       "replies": 0
-      }
-     ],
-     "rooms": [
-      "mastodon.social",
-      "infosec.exchange",
-      "Hacker News"
-     ],
-     "score": 21.3
-    },
-    {
      "key": "trusted_senders",
      "label": "Compromised vendors and trusted senders",
      "fit": 3,
      "angle": "Trusted infrastructure is the new attack path. A known sender or a real DocuSign link doesn't make an email safe.",
      "who": "Research team",
-     "total": 6,
-     "recent": 3,
+     "total": 7,
+     "recent": 4,
      "prior": 2,
-     "change": 50,
+     "change": 100,
      "weekly": [
       0,
       0,
@@ -1442,14 +1443,21 @@
       0,
       0,
       1,
-      0,
-      2,
-      0,
+      1,
+      1,
+      1,
       2,
       1
      ],
-     "open": 1,
+     "open": 2,
      "open_examples": [
+      {
+       "title": "Microsoft's Q3 2026 threat report (5 Nov): ~129 million malicious messages spoofed the rea",
+       "url": "https://mastodon.social/@meysam81/117637801632360248",
+       "room": "mastodon.social",
+       "date": "2026-11-18",
+       "replies": 0
+      },
       {
        "title": "One blank field: MAIL FROM:<> lets spoofed internal mail walk past M365 RejectDirectSend. ",
        "url": "https://mastodon.social/@threadlinqs/117559763780520287",
@@ -1463,7 +1471,7 @@
       "social.raytec.co",
       "infosec.exchange"
      ],
-     "score": 14.1
+     "score": 21.0
     },
     {
      "key": "account_takeover",
@@ -1485,8 +1493,8 @@
       0,
       0,
       3,
-      1,
-      2,
+      3,
+      0,
       1
      ],
      "open": 3,
@@ -1521,6 +1529,45 @@
      "score": 9.0
     },
     {
+     "key": "report_triage",
+     "label": "Phishing reports piling up",
+     "fit": 3,
+     "angle": "Every user report deserves an answer. Close the loop with users automatically so the SOC only sees real threats.",
+     "who": "Sales engineer or customer success",
+     "total": 1,
+     "recent": 1,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "open": 1,
+     "open_examples": [
+      {
+       "title": "Why does MarkMonitor make it so hard to report phishing?",
+       "url": "https://news.ycombinator.com/item?id=50548170",
+       "room": "Hacker News",
+       "date": "2026-11-18",
+       "replies": 2
+      }
+     ],
+     "rooms": [
+      "Hacker News"
+     ],
+     "score": 7.5
+    },
+    {
      "key": "awareness",
      "label": "Security awareness and phishing tests",
      "fit": 2,
@@ -1537,8 +1584,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       2,
       0,
       0,
@@ -1616,12 +1663,12 @@
       0,
       0,
       0,
+      1,
+      1,
+      1,
       0,
       1,
-      2,
-      0,
-      0,
-      1
+      0
      ],
      "open": 1,
      "open_examples": [
@@ -1638,35 +1685,6 @@
       "infosec.exchange"
      ],
      "score": 2.8
-    },
-    {
-     "key": "report_triage",
-     "label": "Phishing reports piling up",
-     "fit": 3,
-     "angle": "Every user report deserves an answer. Close the loop with users automatically so the SOC only sees real threats.",
-     "who": "Sales engineer or customer success",
-     "total": 0,
-     "recent": 0,
-     "prior": 0,
-     "change": 0,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [],
-     "score": 0.0
     },
     {
      "key": "false_positives",
@@ -1710,13 +1728,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 16.2,
+     "score": 16.3,
      "why": [
       "+6 audience fit (3 of 3)",
-      "+9.2 23 relevant conversations there",
+      "+9.3 24 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 23,
+     "hosted": 24,
      "mentions": 0,
      "evidence": []
     },
@@ -1729,13 +1747,13 @@
      "who": "Founders and engineers post research and launches.",
      "norms": "Engineers here punish marketing language. Add facts, data or code, and say where you work.",
      "url": "https://news.ycombinator.com/",
-     "score": 9.0,
+     "score": 9.3,
      "why": [
       "+2 audience fit (1 of 3)",
-      "+6.0 6 relevant conversations there, mentioned in 1",
+      "+6.3 7 relevant conversations there, mentioned in 1",
       "+1 easy to join"
      ],
-     "hosted": 6,
+     "hosted": 7,
      "mentions": 1,
      "evidence": [
       {
@@ -2187,47 +2205,47 @@
    "phrases": [
     {
      "phrase": "utm source",
-     "count": 21
+     "count": 22
     },
     {
      "phrase": "source mastodon",
-     "count": 20
+     "count": 21
     },
     {
      "phrase": "utm medium",
-     "count": 20
+     "count": 21
     },
     {
      "phrase": "mastodon utm",
-     "count": 18
+     "count": 19
+    },
+    {
+     "phrase": "utm campaign",
+     "count": 17
     },
     {
      "phrase": "spf dkim",
      "count": 17
     },
     {
-     "phrase": "utm campaign",
-     "count": 16
-    },
-    {
      "phrase": "dmarc emailsecurity",
-     "count": 14
+     "count": 15
     },
     {
      "phrase": "medium social",
-     "count": 12
+     "count": 13
     },
     {
      "phrase": "social utm",
-     "count": 11
+     "count": 12
+    },
+    {
+     "phrase": "utm content",
+     "count": 9
     },
     {
      "phrase": "dkim and dmarc",
      "count": 9
-    },
-    {
-     "phrase": "utm content",
-     "count": 8
     },
     {
      "phrase": "emailsecurity sysadmin",
@@ -2307,18 +2325,32 @@
     }
    ],
    "quotes": {
-    "authentication": [
+    "trusted_senders": [
      {
-      "text": "Neu aus der Schweiz: Inbox Guard führt Domains Schritt für Schritt bis DMARC p=reject.",
-      "url": "https://infosec.exchange/@inboxguard/117632339451851339",
-      "room": "infosec.exchange",
-      "date": "2026-11-17"
+      "text": "Microsoft's Q3 2026 threat report (5 Nov): ~129 million malicious messages spoofed the real domains of business services; many were delivered because org- or user-set exceptions overrode failed authentication.",
+      "url": "https://mastodon.social/@meysam81/117637801632360248",
+      "room": "mastodon.social",
+      "date": "2026-11-18"
      },
      {
-      "text": "igs.ch/?p=medien # DMARC # EmailSecurity # InfoSec # Schweiz",
-      "url": "https://infosec.exchange/@inboxguard/117632339451851339",
+      "text": "The impersonation typically happens on infrastructure the targeted organization doesn’t control, including fake social profiles, lookalike domains, and private messaging apps, there may be no compromised account to detect.",
+      "url": "https://infosec.exchange/@Netcraft/117599218838239343",
       "room": "infosec.exchange",
-      "date": "2026-11-17"
+      "date": "2026-11-11"
+     }
+    ],
+    "authentication": [
+     {
+      "text": "https:// dmarcguard.io/blog/microsoft-d marc-enforcement/?utm_source=mastodon&utm_medium=social&utm_campaign=social-2026-w47&utm_content=1118-us-ms-exceptions # Microsoft365 # DMARC # EmailSecurity # Phishing",
+      "url": "https://mastodon.social/@meysam81/117637801632360248",
+      "room": "mastodon.social",
+      "date": "2026-11-18"
+     },
+     {
+      "text": "This usually happens when DNS records like SPF and DKIM are not moved correctly.",
+      "url": "https://infosec.exchange/@gwizit/117638949102367138",
+      "room": "infosec.exchange",
+      "date": "2026-11-18"
      }
     ],
     "bec": [
@@ -2361,20 +2393,6 @@
       "url": "https://infosec.exchange/@phishu/117603579366312290",
       "room": "infosec.exchange",
       "date": "2026-11-12"
-     }
-    ],
-    "trusted_senders": [
-     {
-      "text": "The impersonation typically happens on infrastructure the targeted organization doesn’t control, including fake social profiles, lookalike domains, and private messaging apps, there may be no compromised account to detect.",
-      "url": "https://infosec.exchange/@Netcraft/117599218838239343",
-      "room": "infosec.exchange",
-      "date": "2026-11-11"
-     },
-     {
-      "text": "DMARC is a DNS record that says \"send emails about spoofed messages here\", or optionally \"I don't need you to tell me that scammers exist on the internet\".",
-      "url": "https://news.ycombinator.com/item?id=50416944",
-      "room": "Hacker News",
-      "date": "2026-11-08"
      }
     ],
     "deepfakes": [
@@ -2421,10 +2439,204 @@
     ]
    },
    "brief": {},
-   "count": 77
+   "count": 80
   }
  },
  "conversations": [
+  {
+   "id": "ade12bc6633c",
+   "source": "Hacker News",
+   "room": "Hacker News",
+   "title": "Why does MarkMonitor make it so hard to report phishing?",
+   "text": "",
+   "url": "https://news.ycombinator.com/item?id=50548170",
+   "date": "2026-11-18",
+   "kind": "thread",
+   "replies": 2,
+   "found": "2026-11-18",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "report_triage"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "report phishing"
+     ],
+     "score": 13,
+     "why": [
+      "+6 core topic: Phishing reports piling up",
+      "+2 asking for help",
+      "+2 only 2 replies",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer or customer success",
+     "angle": "Every user report deserves an answer. Close the loop with users automatically so the SOC only sees real threats.",
+     "topic": "report_triage"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "33b6316502b0",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-129174 📊 Score: 8.8/10 (CVSS v3.1) 📦 Product: mssql-mcp-core, mssql-mcp-writer, mssql-mcp-server (+1 more) 🏢 Vendor: ConnorBritain 📅 Updated: 2026-11-18 📝 mssql-mcp-core is the shared library that powers MSSQL MCP servers. Prior to core and server 0.6.0 and reader and writer 0.5.0, multiple database tools interpolate caller-controlled identifiers and... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-129174 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117639473376076048",
+   "date": "2026-11-18",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-18",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "ai_security"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss",
+      "mcp server"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "5962e37c21ec",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-129178 📊 Score: 9.3/10 (CVSS v3.1) 📦 Product: todoist-mcp 🏢 Vendor: Doist 📅 Updated: 2026-11-18 📝 Todoist MCP Server provides tools that allow AI agents to access and modify a Todoist account. Prior to 10.3.3, the optional todoist-mcp-http server accepts browser-origin requests to POST /mcp without validating the Host and Origin headers or authentica... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-129178 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117639465586892345",
+   "date": "2026-11-18",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-18",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization",
+      "ai_security"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "ai agents",
+      "cvss",
+      "mcp server"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "e808d0252a94",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Microsoft's Q3 2026 threat report (5 Nov): ~129 million malicious messages spoofed the real domains of business services; many were delivered because org- or user-set exceptions overrode failed authentication. Running M365? Review allow entries and rules that skip filtering for a domain. https:// dmarcguard.io/blog/microsoft-d marc-enforcement/?utm_source=mastodon&utm_medium=social&utm_campaign=social-2026-w47&utm_content=1118-us-ms-exceptions # Microsoft365 # DMARC # EmailSecurity # Phishing",
+   "url": "https://mastodon.social/@meysam81/117637801632360248",
+   "date": "2026-11-18",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-18",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "trusted_senders",
+      "authentication"
+     ],
+     "personas": [
+      "email_admin"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "dmarc",
+      "spoofed"
+     ],
+     "score": 14,
+     "why": [
+      "+6 core topic: Compromised vendors and trusted senders",
+      "+3 buyer: Email & M365 admin",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Research team",
+     "angle": "Trusted infrastructure is the new attack path. A known sender or a real DocuSign link doesn't make an email safe.",
+     "topic": "trusted_senders"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "22ffa266e8d0",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "Losing business leads because of a simple website update is a nightmare for any owner. This usually happens when DNS records like SPF and DKIM are not moved correctly. You can fix email delivery by verifying that your mail authentication records are active and accurate. I wrote a guide on how to check these settings here: https:// gwizit.com/go/4qraSlw # EmailSecurity # Microsoft365 # TechTips",
+   "url": "https://infosec.exchange/@gwizit/117638949102367138",
+   "date": "2026-11-18",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-18",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "spf"
+     ],
+     "score": 4,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "7aef469ad30d",
    "source": "Mastodon",
@@ -2798,10 +3010,10 @@
       "cvss",
       "mcp server"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2836,12 +3048,12 @@
      "evidence": [
       "patch"
      ],
-     "score": 14,
+     "score": 12,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+3 buyer: Security leader",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -2876,10 +3088,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2914,12 +3126,12 @@
      "evidence": [
       "dmarc"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+3 buyer: Email & M365 admin",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -2954,10 +3166,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2993,13 +3205,13 @@
       "kev",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4771,11 +4983,10 @@
      "evidence": [
       "cvss"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 buyer: Security engineer & SecOps",
-      "+1 posted this week"
+      "+2 buyer: Security engineer & SecOps"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4812,11 +5023,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4851,14 +5061,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4891,11 +5100,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4930,11 +5138,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4969,14 +5176,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -5009,11 +5215,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -5048,11 +5253,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -5089,12 +5293,11 @@
       "patch",
       "patching"
      ],
-     "score": 12,
+     "score": 11,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+3 buyer: Security leader",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "today",
      "who": "Sales engineer",
@@ -5129,12 +5332,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -5167,11 +5369,10 @@
       "dmarc",
       "spf"
      ],
-     "score": 4,
+     "score": 3,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "listen",
      "who": "",
@@ -5207,14 +5408,13 @@
       "epss",
       "kev"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: IT & infrastructure",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -5247,11 +5447,10 @@
      "evidence": [
       "nis2"
      ],
-     "score": 8,
+     "score": 7,
      "why": [
       "+4 adjacent topic: Directives and compliance deadlines",
-      "+3 buyer: Security leader",
-      "+1 posted this week"
+      "+3 buyer: Security leader"
      ],
      "band": "listen",
      "who": "Content team",
@@ -5288,14 +5487,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: IT & infrastructure",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -5328,14 +5526,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: Security engineer & SecOps",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -5368,11 +5565,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -5409,14 +5605,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: IT & infrastructure",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -5449,11 +5644,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -5490,11 +5684,10 @@
       "board",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -5531,11 +5724,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
