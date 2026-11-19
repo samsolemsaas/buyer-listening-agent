@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-18T21:27Z",
+ "generated": "2026-11-19T21:37Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 5,
+  "new": 44,
   "by_source": {
-   "Hacker News": 1,
-   "Mastodon": 4
+   "Mastodon": 42,
+   "Press": 2
   }
  },
  "rooms_norms": {
@@ -104,22 +104,22 @@
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
      "total": 206,
-     "recent": 69,
-     "prior": 60,
-     "change": 15,
+     "recent": 67,
+     "prior": 52,
+     "change": 29,
      "weekly": [
       0,
       0,
       1,
       0,
       0,
-      3,
-      51,
-      32,
-      29,
+      4,
+      53,
+      35,
+      24,
       23,
-      43,
-      24
+      47,
+      19
      ],
      "open": 41,
      "open_examples": [
@@ -150,7 +150,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 88.0
+     "score": 91.3
     },
     {
      "key": "prioritization",
@@ -158,23 +158,23 @@
      "fit": 3,
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
-     "total": 160,
-     "recent": 49,
-     "prior": 41,
-     "change": 20,
+     "total": 199,
+     "recent": 86,
+     "prior": 38,
+     "change": 126,
      "weekly": [
       0,
       0,
       0,
       0,
       0,
-      3,
-      48,
+      5,
+      50,
       24,
-      18,
-      20,
-      24,
-      23
+      15,
+      19,
+      29,
+      57
      ],
      "open": 21,
      "open_examples": [
@@ -205,7 +205,7 @@
       "infosec.exchange",
       "mastox.eu"
      ],
-     "score": 57.9
+     "score": 83.3
     },
     {
      "key": "ai_security",
@@ -213,10 +213,10 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 15,
-     "recent": 7,
+     "total": 16,
+     "recent": 8,
      "prior": 2,
-     "change": 250,
+     "change": 300,
      "weekly": [
       0,
       0,
@@ -227,7 +227,7 @@
       2,
       3,
       0,
-      2,
+      3,
       2,
       5
      ],
@@ -260,7 +260,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 14.0
+     "score": 14.3
     },
     {
      "key": "board",
@@ -279,12 +279,12 @@
       0,
       1,
       0,
+      2,
       0,
       2,
-      2,
       3,
-      1,
-      2
+      2,
+      1
      ],
      "open": 1,
      "open_examples": [
@@ -320,9 +320,9 @@
       0,
       0,
       0,
-      2,
       3,
-      2,
+      3,
+      1,
       0,
       1,
       0
@@ -977,43 +977,67 @@
    "phrases": [
     {
      "phrase": "cybersecurity infosec",
-     "count": 67
+     "count": 106
+    },
+    {
+     "phrase": "cve vulnerability",
+     "count": 84
+    },
+    {
+     "phrase": "score cvss",
+     "count": 80
+    },
+    {
+     "phrase": "euvd enisa",
+     "count": 80
+    },
+    {
+     "phrase": "enisa europa",
+     "count": 80
+    },
+    {
+     "phrase": "vulnerabi lity",
+     "count": 80
+    },
+    {
+     "phrase": "infosec euvd",
+     "count": 80
+    },
+    {
+     "phrase": "euvd cve",
+     "count": 80
     },
     {
      "phrase": "patch tuesday",
      "count": 57
     },
     {
-     "phrase": "cve vulnerability",
-     "count": 45
+     "phrase": "product splunk",
+     "count": 39
     },
     {
-     "phrase": "score cvss",
-     "count": 41
+     "phrase": "vendor splunk",
+     "count": 39
     },
     {
-     "phrase": "euvd enisa",
-     "count": 41
-    },
-    {
-     "phrase": "enisa europa",
-     "count": 41
-    },
-    {
-     "phrase": "vulnerabi lity",
-     "count": 41
-    },
-    {
-     "phrase": "infosec euvd",
-     "count": 41
-    },
-    {
-     "phrase": "euvd cve",
-     "count": 41
+     "phrase": "splunk updated",
+     "count": 39
     },
     {
      "phrase": "cve infosec",
      "count": 33
+    },
+    {
+     "phrase": "splunk soar",
+     "count": 32
+    },
+    {
+     "phrase": "soar vendor",
+     "count": 32
+    },
+    {
+     "phrase": "soar versions",
+     "count": 32
     },
     {
      "phrase": "valtersit com cve",
@@ -1036,12 +1060,24 @@
      "count": 29
     },
     {
+     "phrase": "versions below user",
+     "count": 25
+    },
+    {
      "phrase": "cisa kev",
      "count": 20
     },
     {
      "phrase": "medium social",
      "count": 20
+    },
+    {
+     "phrase": "holds role",
+     "count": 19
+    },
+    {
+     "phrase": "user that holds",
+     "count": 19
     },
     {
      "phrase": "infosec cybersecurity",
@@ -1058,42 +1094,6 @@
     {
      "phrase": "threataft com articles",
      "count": 16
-    },
-    {
-     "phrase": "november patch",
-     "count": 15
-    },
-    {
-     "phrase": "patchtuesday microsoft",
-     "count": 14
-    },
-    {
-     "phrase": "october patch",
-     "count": 14
-    },
-    {
-     "phrase": "published updated",
-     "count": 13
-    },
-    {
-     "phrase": "windows shell",
-     "count": 13
-    },
-    {
-     "phrase": "cvss patch",
-     "count": 12
-    },
-    {
-     "phrase": "outlook zero-day",
-     "count": 11
-    },
-    {
-     "phrase": "zero-day cve-2026-124194",
-     "count": 11
-    },
-    {
-     "phrase": "updated vulnerability",
-     "count": 11
     }
    ],
    "quotes": {
@@ -1205,7 +1205,7 @@
     ]
    },
    "brief": {},
-   "count": 260
+   "count": 300
   },
   "ocean": {
    "company": {
@@ -1274,10 +1274,10 @@
      "fit": 3,
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "who": "Sales engineer",
-     "total": 16,
-     "recent": 2,
-     "prior": 7,
-     "change": -71,
+     "total": 18,
+     "recent": 4,
+     "prior": 5,
+     "change": -20,
      "weekly": [
       0,
       0,
@@ -1286,11 +1286,11 @@
       0,
       0,
       7,
-      2,
-      4,
+      5,
       1,
       1,
-      1
+      1,
+      3
      ],
      "open": 9,
      "open_examples": [
@@ -1320,7 +1320,7 @@
       "infosec.exchange",
       "mastodon.social"
      ],
-     "score": 25.8
+     "score": 26.2
     },
     {
      "key": "authentication",
@@ -1328,10 +1328,10 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 44,
-     "recent": 24,
+     "total": 46,
+     "recent": 25,
      "prior": 10,
-     "change": 140,
+     "change": 150,
      "weekly": [
       0,
       0,
@@ -1339,15 +1339,22 @@
       0,
       0,
       3,
-      3,
+      4,
       5,
-      5,
-      5,
-      15,
-      8
+      4,
+      7,
+      14,
+      9
      ],
-     "open": 21,
+     "open": 22,
      "open_examples": [
+      {
+       "title": "Asked on the IETF DMARC list on 8 Nov: why do I get aggregate reports about my own outgoin",
+       "url": "https://mastodon.social/@meysam81/117643463933338916",
+       "room": "mastodon.social",
+       "date": "2026-11-19",
+       "replies": 0
+      },
       {
        "title": "Microsoft's Q3 2026 threat report (5 Nov): ~129 million malicious messages spoofed the rea",
        "url": "https://mastodon.social/@meysam81/117637801632360248",
@@ -1361,13 +1368,6 @@
        "room": "infosec.exchange",
        "date": "2026-11-17",
        "replies": 0
-      },
-      {
-       "title": "Email is down. Can your team still reply? A 15-minute drill: pick two people, have them op",
-       "url": "https://mastodon.social/@crccloud/117626714130361866",
-       "room": "mastodon.social",
-       "date": "2026-11-16",
-       "replies": 0
       }
      ],
      "rooms": [
@@ -1375,55 +1375,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 23.7
-    },
-    {
-     "key": "seg",
-     "label": "Replacing or adding to the email gateway",
-     "fit": 3,
-     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
-     "who": "Account executive and sales engineer",
-     "total": 9,
-     "recent": 2,
-     "prior": 1,
-     "change": 100,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      3,
-      3,
-      0,
-      3,
-      0,
-      0
-     ],
-     "open": 2,
-     "open_examples": [
-      {
-       "title": "⚠️ En Romandie, une campagne de « device code phishing » (hameçonnage par code d'appareil)",
-       "url": "https://infosec.exchange/@decio/117557899451752278",
-       "room": "infosec.exchange",
-       "date": "2026-11-04",
-       "replies": 1
-      },
-      {
-       "title": "Attackers are exploiting CVE-2026-76519 (CVSS 9.8), a critical Cisco Secure Email Gateway ",
-       "url": "https://infosec.exchange/@DailyCyberSecurity/117441656804622326",
-       "room": "infosec.exchange",
-       "date": "2026-10-14",
-       "replies": 0
-      }
-     ],
-     "rooms": [
-      "infosec.exchange",
-      "ieji.de",
-      "Hacker News"
-     ],
-     "score": 22.9
+     "score": 24.9
     },
     {
      "key": "trusted_senders",
@@ -1432,9 +1384,9 @@
      "angle": "Trusted infrastructure is the new attack path. A known sender or a real DocuSign link doesn't make an email safe.",
      "who": "Research team",
      "total": 7,
-     "recent": 4,
+     "recent": 3,
      "prior": 2,
-     "change": 100,
+     "change": 50,
      "weekly": [
       0,
       0,
@@ -1471,7 +1423,55 @@
       "social.raytec.co",
       "infosec.exchange"
      ],
-     "score": 21.0
+     "score": 16.5
+    },
+    {
+     "key": "seg",
+     "label": "Replacing or adding to the email gateway",
+     "fit": 3,
+     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
+     "who": "Account executive and sales engineer",
+     "total": 9,
+     "recent": 0,
+     "prior": 3,
+     "change": -100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      1,
+      0,
+      3,
+      0,
+      0
+     ],
+     "open": 2,
+     "open_examples": [
+      {
+       "title": "⚠️ En Romandie, une campagne de « device code phishing » (hameçonnage par code d'appareil)",
+       "url": "https://infosec.exchange/@decio/117557899451752278",
+       "room": "infosec.exchange",
+       "date": "2026-11-04",
+       "replies": 1
+      },
+      {
+       "title": "Attackers are exploiting CVE-2026-76519 (CVSS 9.8), a critical Cisco Secure Email Gateway ",
+       "url": "https://infosec.exchange/@DailyCyberSecurity/117441656804622326",
+       "room": "infosec.exchange",
+       "date": "2026-10-14",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "infosec.exchange",
+      "ieji.de",
+      "Hacker News"
+     ],
+     "score": 13.0
     },
     {
      "key": "account_takeover",
@@ -1480,9 +1480,9 @@
      "angle": "Email is where most takeovers start. Connect the phishing email to the session it stole.",
      "who": "Research team",
      "total": 7,
-     "recent": 3,
-     "prior": 4,
-     "change": -25,
+     "recent": 1,
+     "prior": 6,
+     "change": -83,
      "weekly": [
       0,
       0,
@@ -1491,11 +1491,11 @@
       0,
       0,
       0,
-      0,
-      3,
       3,
       0,
-      1
+      3,
+      1,
+      0
      ],
      "open": 3,
      "open_examples": [
@@ -1588,8 +1588,8 @@
       0,
       2,
       0,
-      0,
-      1
+      1,
+      0
      ],
      "open": 2,
      "open_examples": [
@@ -1632,8 +1632,8 @@
       0,
       0,
       0,
-      0,
       2,
+      0,
       0,
       0,
       0
@@ -1654,8 +1654,8 @@
      "who": "",
      "total": 4,
      "recent": 1,
-     "prior": 2,
-     "change": -50,
+     "prior": 1,
+     "change": 0,
      "weekly": [
       0,
       0,
@@ -1728,13 +1728,13 @@
      "who": "Research team posts findings.",
      "norms": "Research and findings travel. Product posts don't.",
      "url": "https://infosec.exchange/",
-     "score": 16.3,
+     "score": 16.4,
      "why": [
       "+6 audience fit (3 of 3)",
-      "+9.3 24 relevant conversations there",
+      "+9.4 25 relevant conversations there",
       "+1 easy to join"
      ],
-     "hosted": 24,
+     "hosted": 25,
      "mentions": 0,
      "evidence": []
     },
@@ -2205,23 +2205,23 @@
    "phrases": [
     {
      "phrase": "utm source",
-     "count": 22
+     "count": 23
     },
     {
      "phrase": "source mastodon",
-     "count": 21
+     "count": 22
     },
     {
      "phrase": "utm medium",
-     "count": 21
+     "count": 22
     },
     {
      "phrase": "mastodon utm",
-     "count": 19
+     "count": 20
     },
     {
      "phrase": "utm campaign",
-     "count": 17
+     "count": 18
     },
     {
      "phrase": "spf dkim",
@@ -2229,19 +2229,19 @@
     },
     {
      "phrase": "dmarc emailsecurity",
-     "count": 15
+     "count": 16
     },
     {
      "phrase": "medium social",
-     "count": 13
+     "count": 14
     },
     {
      "phrase": "social utm",
-     "count": 12
+     "count": 13
     },
     {
      "phrase": "utm content",
-     "count": 9
+     "count": 10
     },
     {
      "phrase": "dkim and dmarc",
@@ -2249,7 +2249,7 @@
     },
     {
      "phrase": "emailsecurity sysadmin",
-     "count": 6
+     "count": 7
     },
     {
      "phrase": "without dmarc",
@@ -2325,6 +2325,34 @@
     }
    ],
    "quotes": {
+    "authentication": [
+     {
+      "text": "Asked on the IETF DMARC list on 8 Nov: why do I get aggregate reports about my own outgoing reports?",
+      "url": "https://mastodon.social/@meysam81/117643463933338916",
+      "room": "mastodon.social",
+      "date": "2026-11-19"
+     },
+     {
+      "text": "reports.example.com with a DMARC record that has no rua=.",
+      "url": "https://mastodon.social/@meysam81/117643463933338916",
+      "room": "mastodon.social",
+      "date": "2026-11-19"
+     }
+    ],
+    "bec": [
+     {
+      "text": "Two kinds of people in security: those who verify, and those with a great story about a \"CEO\" who urgently needed gift cards.",
+      "url": "https://mastodon.social/@counterlure/117640541616265840",
+      "room": "mastodon.social",
+      "date": "2026-11-19"
+     },
+     {
+      "text": "Keep one human check on purpose: bank details that differ from the last invoice, confirmed by phone on a known number.",
+      "url": "https://mastodon.social/@eisler/117613764764552540",
+      "room": "mastodon.social",
+      "date": "2026-11-14"
+     }
+    ],
     "trusted_senders": [
      {
       "text": "Microsoft's Q3 2026 threat report (5 Nov): ~129 million malicious messages spoofed the real domains of business services; many were delivered because org- or user-set exceptions overrode failed authentication.",
@@ -2337,34 +2365,6 @@
       "url": "https://infosec.exchange/@Netcraft/117599218838239343",
       "room": "infosec.exchange",
       "date": "2026-11-11"
-     }
-    ],
-    "authentication": [
-     {
-      "text": "https:// dmarcguard.io/blog/microsoft-d marc-enforcement/?utm_source=mastodon&utm_medium=social&utm_campaign=social-2026-w47&utm_content=1118-us-ms-exceptions # Microsoft365 # DMARC # EmailSecurity # Phishing",
-      "url": "https://mastodon.social/@meysam81/117637801632360248",
-      "room": "mastodon.social",
-      "date": "2026-11-18"
-     },
-     {
-      "text": "This usually happens when DNS records like SPF and DKIM are not moved correctly.",
-      "url": "https://infosec.exchange/@gwizit/117638949102367138",
-      "room": "infosec.exchange",
-      "date": "2026-11-18"
-     }
-    ],
-    "bec": [
-     {
-      "text": "Keep one human check on purpose: bank details that differ from the last invoice, confirmed by phone on a known number.",
-      "url": "https://mastodon.social/@eisler/117613764764552540",
-      "room": "mastodon.social",
-      "date": "2026-11-14"
-     },
-     {
-      "text": "# infosec # einvoicing # BEC",
-      "url": "https://mastodon.social/@eisler/117613764764552540",
-      "room": "mastodon.social",
-      "date": "2026-11-14"
      }
     ],
     "awareness": [
@@ -2439,10 +2439,1685 @@
     ]
    },
    "brief": {},
-   "count": 80
+   "count": 84
   }
  },
  "conversations": [
+  {
+   "id": "ed524192e4b9",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130629 📊 Score: 5.4/10 (CVSS v3.1) 📦 Product: Splunk Enterprise Security 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk Enterprise Security versions below 8.7.0, a user that holds a role with the run_collect capability could store attacker-controlled values in endpoint summary data. If another user who can access the Time Center dashboard selects... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130629 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645151473835228",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "9f1aa2ff22ae",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130630 📊 Score: 4.2/10 (CVSS v3.1) 📦 Product: Splunk Enterprise Security 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk Enterprise Security versions below 8.7.0, an unauthenticated user could create and deliver an Entity Analysis dashboard link to a Splunk Enterprise Security user. If the Splunk Enterprise Security user opens the link, Splunk Ent... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130630 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645151439360916",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "05402ffb8eda",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130631 📊 Score: 4.8/10 (CVSS v3.1) 📦 Product: Splunk Enterprise Security 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk Enterprise Security versions below 8.7.0, a user that holds a role with the run_collect capability could store attacker-controlled values in data used by the Credit Card Data Found dashboard. If another user who can access the d... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130631 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645151397705422",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "3d3662bbdb26",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130632 📊 Score: 8.8/10 (CVSS v3.1) 📦 Product: Splunk Enterprise Security 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk Enterprise Security versions below 8.7.0, an unauthenticated user who can influence indexed event data could store attacker-controlled values in event fields. If another authenticated user who reviews the event selects the View ... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130632 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645151362673534",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "5f24abbcf667",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130633 📊 Score: 5.4/10 (CVSS v3.1) 📦 Product: Splunk Enterprise Security 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk Enterprise Security versions below 8.7.0, a user that holds a role with the run_collect capability could store attacker-controlled values in data used by the Weak Encrypted Communication report. If another user who can access th... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130633 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645151331028015",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "97c66997a7d7",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130634 📊 Score: 6.4/10 (CVSS v3.1) 📦 Product: Splunk Enterprise Security 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk Enterprise Security versions below 8.7.0, a user that holds a role with the run_collect capability could store attacker-controlled certificate values. If another user who can access the Secure Sockets Layer Search dashboard sele... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130634 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645151281510549",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "8ca06d777c6a",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130635 📊 Score: 7.3/10 (CVSS v3.1) 📦 Product: Splunk Enterprise Security 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk Enterprise Security versions below 8.7.0, a user that holds a role with the run_collect capability could store attacker-controlled values in Updates data. If another user who can access the System Update Status report selects an... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130635 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645151230130251",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "f7647eddae5a",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130636 📊 Score: 3.5/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, an authenticated user could cause Splunk SOAR to store excessive data in the Ingestion Status history through the Representational State Transfer (REST) API. When another user with permission to view system settings ... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130636 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645147688726298",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "dcfadeb89585",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130637 📊 Score: 4.3/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user with edit permission for containers on only a subset of container labels could modify container pins outside the container labels that the role permits. The vulnerability is possible because the Container Pin ... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130637 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645147654464333",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "14fb138b830c",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130638 📊 Score: 6.5/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user that holds a role with the containers:view permission could access automation history for containers outside the label or tenant scope assigned to the user. This could expose action parameters, connector resul... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130638 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645147616843163",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "e21e6db69f18",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130639 📊 Score: 7.6/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, an authenticated user with permission to view an affected container could query the Representational State Transfer (REST) API for approvals to retrieve a live external prompt link belonging to another user. Using th... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130639 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645147585308064",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "eb86907637e2",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130640 📊 Score: 4.3/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, an authenticated user with permission to edit and run playbooks could modify a child playbook callback handle associated with another playbook run, which could alter the callback behavior of that run. The vulnerabili... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130640 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645147554238445",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "45a1e7dbbc7d",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130641 📊 Score: 7.1/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user with edit permission for the container label of a pending external prompt could obtain the external prompt link through the Representational State Transfer (REST) API and use the link to view and resolve the a... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130641 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645147525793356",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "e3810157eb18",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130642 📊 Score: 8.8/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, an authenticated user with edit permission for the container label on a pending approval could read an external-prompt capability through an Approval details Representational State Transfer (REST) API response and us... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130642 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645147471101978",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "a7371a214130",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130643 📊 Score: 4.3/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, an authenticated Splunk SOAR user with permission to edit and run playbooks could read action status and callback state from a playbook run outside the authorized container-label or tenant scope for that user. The vu... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130643 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645147402899252",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "5b30c380ff25",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130644 📊 Score: 7.2/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user that holds a role with the System Settings edit permission and restricted tenant access could modify settings for a tenant outside the role scope through the Representational State Transfer (REST) API. With th... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130644 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645147316211103",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "9027dbac8df5",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130645 📊 Score: 4.3/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, an authenticated user with permission to view, edit, and run playbooks and access to at least one container label could retrieve a callback handle from a playbook run outside the container-label scope granted to that... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130645 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645147287277071",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "a5e40ceb7d19",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130646 📊 Score: 5.4/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user with permission to edit containers for an allowed label could forge the author attribution of container pins and access limited user details outside the expected authorization boundary. The Container Pin Repre... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130646 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645143658270526",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "24495b9ddc28",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130647 📊 Score: 4.3/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user with permission to view and modify containers with an allowed label could add artifacts to containers that the user cannot view or modify. The vulnerability is possible because the Representational State Trans... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130647 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645143629002362",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "6948c30a1b3b",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130648 📊 Score: 8.8/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user that holds a role with the Assets edit or delete permission and access to one or more tenants could change or delete assets assigned to other tenants through the Representational State Transfer (REST) API. Wit... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130648 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645143599191612",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "d1470421bf59",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130649 📊 Score: 9.9/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, an authenticated user that holds a role with the Apps edit, Containers edit, and Playbooks execute permissions could use the App Wizard to execute arbitrary code as the user account that runs Splunk SOAR. This could ... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130649 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645143568341665",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "14edae5d6d28",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130650 📊 Score: 5.4/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user with permission to create containers on one label could use the Representational State Transfer (REST) API to create a container with a parent relationship to a container that the user cannot access. This coul... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130650 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645143536115153",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "e45db17c91ca",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130651 📊 Score: 7.5/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, an unauthenticated user could gain administrator privileges through a user account that receives an unintended role. A user that holds a role with permission to create or modify users and assign roles must assign the... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130651 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645143503820954",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "da82c5a70e9e",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130652 📊 Score: 7.2/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, an authenticated user that holds a role with the System Settings edit permission could execute arbitrary code on the host that runs Splunk SOAR. The vulnerability is possible because the Representational State Transf... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130652 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645143475388321",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "757db6dcc8c7",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130653 📊 Score: 5.4/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user with permission to view and edit containers and at least one container label could set misleading user and app provenance on containers that the user creates and learn whether user IDs and installed app identi... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130653 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645143445396650",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "a8f60c9ac520",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130654 📊 Score: 8.7/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user with edit permission for a container or workbook task could store attacker-controlled Hypertext Markup Language (HTML) in a note. When another user with view permission for the affected container and its notes... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130654 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645143399977294",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "4d07a5a83532",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130655 📊 Score: 5.4/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user with permission to create and view containers for a label could use the Representational State Transfer (REST) API to create a container that references a workbook phase in a case the user cannot view, disclos... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130655 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645143360709752",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "f34b47fcb28a",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130656 📊 Score: 8.7/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user with the containers:edit permission could import a container that includes a malicious Hypertext Markup Language (HTML) note. When another user views the imported note, Splunk SOAR could run unauthorized JavaS... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130656 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645139692856681",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "12da0d23f432",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130657 📊 Score: 8.8/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user that holds a role with the Apps edit permission could execute arbitrary code as the user account that runs Splunk SOAR by installing a malicious app. The vulnerability is possible because Splunk SOAR does not ... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130657 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645139659977912",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "2d9cfcc5b756",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130658 📊 Score: 7.1/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, an authenticated user who can view and edit containers in at least one container label could create artifacts with parent relationships to containers and artifacts outside those labels. This could expose fields from ... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130658 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645139632043950",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "41b2e89cc83e",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130659 📊 Score: 8.8/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user that holds a role with only the apps:edit permission could install a connector app that causes Splunk SOAR to write attacker-controlled files outside the app directory. This could let the user modify files use... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130659 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645139604580041",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "00d4761a409c",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130660 📊 Score: 6.3/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user that holds a role with the System Settings edit permission could cause Splunk SOAR to send the stored root credential for an external credential store to a host that the user controls. Depending on the configu... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130660 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645139565653381",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "b9a810de552c",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130661 📊 Score: 4.3/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user that holds a role with the System Settings view permission but not the Assets view permission could view asset names, asset identifiers, app names, tenant names, and ingestion schedule settings for polling ass... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130661 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645139533696660",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "645b8605892e",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130662 📊 Score: 7.7/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user that holds a role with the System Settings edit permission could cause Splunk SOAR to send a stored Elasticsearch password to a host that the user controls. The vulnerability is possible because Splunk SOAR re... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130662 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645139502384651",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "5ad0441b250b",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130663 📊 Score: 6.3/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user that holds a role with the System Settings view and edit permissions could test a Lightweight Directory Access Protocol authentication provider and cause Splunk SOAR to send a stored directory service account ... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130663 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645139471825017",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "b3692e981f26",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130664 📊 Score: 7.2/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user that holds a role with the System Settings edit permission could use a customer automation dependency to execute arbitrary code as the user account that runs Splunk SOAR. The vulnerability is possible because ... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130664 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645139438387721",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "c49dd0e2b62a",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130665 📊 Score: 8.8/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, a user that holds a role with the Apps edit permission could cause Splunk SOAR to execute arbitrary code on the host when the user validates an installed app. The vulnerability is possible because the app validation ... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130665 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645139390607107",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "c798e0a4dfc5",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130666 📊 Score: 8.8/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, an authenticated user with repository edit access could cause Splunk SOAR to write files outside the configured repository, which lets the user modify files that the user account running Splunk SOAR can write to. The... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130666 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645135832667148",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "0a5e8585ecc6",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "🚨 EUVD-2026-130667 📊 Score: 8.8/10 (CVSS v3.1) 📦 Product: Splunk SOAR 🏢 Vendor: Splunk 📅 Updated: 2026-11-19 📝 In Splunk SOAR versions below 8.8.0, an authenticated user with permission to view and edit containers for one label could use a slash command through the Representational State Transfer (REST) API to access sensitive product data and credentials outsid... 🔗 https:// euvd.enisa.europa.eu/vulnerabi lity/EUVD-2026-130667 # cybersecurity # infosec # euvd # cve # vulnerability",
+   "url": "https://mastodon.social/@EUVD_Bot/117645135787615291",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "prioritization"
+     ],
+     "personas": [
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "cvss"
+     ],
+     "score": 11,
+     "why": [
+      "+6 core topic: Too many findings to prioritize",
+      "+2 buyer: Security engineer & SecOps",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Sales engineer",
+     "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
+     "topic": "prioritization"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "d82352fdc5c2",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Asked on the IETF DMARC list on 8 Nov: why do I get aggregate reports about my own outgoing reports? The list's answer: by design. Your reports are mail from your domain, and your rua= asks for feedback on them. Don't want them? Send reports from e.g. reports.example.com with a DMARC record that has no rua=. https:// dmarcguard.io/blog/dmarc-rua-c ollection/?utm_source=mastodon&utm_medium=social&utm_campaign=social-2026-w47&utm_content=1119-us-report-loops # DMARC # EmailSecurity # SysAdmin",
+   "url": "https://mastodon.social/@meysam81/117643463933338916",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [
+      "email_admin"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "dmarc"
+     ],
+     "score": 9,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+3 buyer: Email & M365 admin",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "9ba70c623822",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Two kinds of people in security: those who verify, and those with a great story about a \"CEO\" who urgently needed gift cards. # BEC",
+   "url": "https://mastodon.social/@counterlure/117640541616265840",
+   "date": "2026-11-19",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "bec"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "bec",
+      "gift card"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: BEC and payment fraud",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
+     "topic": "bec"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "2038520e1743",
+   "source": "Press",
+   "room": "SecurityBrief UK",
+   "title": "Agentic SOC Alliance launches nine CISO-led groups",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTl9HcDBQSGx2eVhjTW55YUlYM0pSQzA0QVZ1MTNDRXBPQWtBY09hSURzR3dKYkc1UklHSW1fMU9wWlJNei1YZ0FkcUJuNURvY1p4aXU2dUpxcjF6eGp4MmNvcXNSZXFxYWhuT2N3bXU0NTA1Sng3Q3lzLU82Y1EzOG9SOUdUbFlIV0s5Yg?oc=5",
+   "date": "2026-11-19",
+   "kind": "article",
+   "replies": null,
+   "found": "2026-11-19",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "ai_security"
+     ],
+     "personas": [
+      "leader",
+      "secops"
+     ],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "agentic"
+     ],
+     "score": 7,
+     "why": [
+      "+1 listen-only topic: Securing AI and agents",
+      "+3 buyer: Security leader",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "ai_security"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "ec64b3f1414a",
+   "source": "Press",
+   "room": "GBHackers News",
+   "title": "11 Business Email Compromise (BEC) Protection Tools: The 2026 Buyer’s Verdict Guide",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzWmw1R3J3Wi04cjZuWUJnWEdycXJRdllmb0hSNEM1cm55WW9YeTVTM0dnSjhKQTFxQXZZLTc3aG12eXcwVE1WVGx1YmxIcWUtVHBlTXF4a0VrdFhiNk1j?oc=5",
+   "date": "2026-11-19",
+   "kind": "article",
+   "replies": null,
+   "found": "2026-11-19",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "bec"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "bec",
+      "business email compromise"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: BEC and payment fraud",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "Sales engineer",
+     "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
+     "topic": "bec"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "ade12bc6633c",
    "source": "Hacker News",
@@ -2638,6 +4313,43 @@
    "rooms": []
   },
   {
+   "id": "158c63be07e4",
+   "source": "Mastodon",
+   "room": "infosec.exchange",
+   "title": "",
+   "text": "In March we put cracking a 1024-bit DKIM key at $40M-$120M and 1-2 years. Now it is about $30M and 5-6 months. In September the factoring record fell twice in 16 days, both on GPUs. Eric Lu (Cognition) factored RSA-260 and Stephen Weis (Anthropic) RSA-896. Scaled with GNFS, 1024 bits takes ~900-1,050 GPU-years, or 5-6 months on 2,048 GPUs. This is an extrapolation of course. Analysis and sources: https:// dmarcdkim.com/blog/cracking-a- 1024-bit-dkim-key DKIM Checker: https:// dmarcdkim.com/tools/check-dkim -record # DKIM # RSA # EmailSecurity",
+   "url": "https://infosec.exchange/@dmarcdkim/117640133783228800",
+   "date": "2026-11-18",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-19",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "dmarc"
+     ],
+     "score": 4,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
    "id": "7aef469ad30d",
    "source": "Mastodon",
    "room": "infosec.exchange",
@@ -2700,10 +4412,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2738,10 +4450,10 @@
       "cvss",
       "mcp server"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -2776,13 +4488,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -2815,13 +4527,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -2854,11 +4566,11 @@
       "dmarc",
       "spf"
      ],
-     "score": 6,
+     "score": 4,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -2892,11 +4604,11 @@
       "dkim",
       "dmarc"
      ],
-     "score": 6,
+     "score": 4,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -2933,13 +4645,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -2972,10 +4684,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4148,12 +5860,11 @@
       "patch",
       "patching"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Getting fixes owned and done",
-      "+1 posted this week"
+      "+6 core topic: Getting fixes owned and done"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4186,12 +5897,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4225,11 +5935,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 10,
+     "score": 9,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+3 buyer: Vuln management owner",
-      "+1 posted this week"
+      "+3 buyer: Vuln management owner"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4264,11 +5973,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4303,11 +6011,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4343,12 +6050,11 @@
       "patching",
       "prioritiz"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4381,14 +6087,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4423,14 +6128,13 @@
       "kev",
       "patch"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: IT & infrastructure",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4463,14 +6167,13 @@
      "evidence": [
       "patch"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4504,14 +6207,13 @@
       "patch",
       "patching"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Getting fixes owned and done",
       "+2 buyer: IT & infrastructure",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4544,11 +6246,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: Security engineer & SecOps",
-      "+1 posted this week"
+      "+2 buyer: Security engineer & SecOps"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4585,11 +6286,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4623,12 +6323,11 @@
       "patch",
       "patching"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Getting fixes owned and done",
-      "+1 posted this week"
+      "+6 core topic: Getting fixes owned and done"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "topic": "remediation"
@@ -4663,11 +6362,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4704,11 +6402,10 @@
       "kev",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4743,11 +6440,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4783,12 +6479,11 @@
       "dmarc",
       "p=reject"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+3 buyer: Email & M365 admin",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
      "band": "listen",
      "who": "",
@@ -4825,12 +6520,11 @@
       "deepfake",
       "lookalike domain"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: BEC and payment fraud",
-      "+1 posted this week"
+      "+6 core topic: BEC and payment fraud"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "topic": "bec"
@@ -4865,14 +6559,13 @@
       "cvss",
       "patch"
      ],
-     "score": 11,
+     "score": 10,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+2 asking for help",
-      "+1 posted this week"
+      "+2 asking for help"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4905,11 +6598,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4944,11 +6636,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: IT & infrastructure",
-      "+1 posted this week"
+      "+2 buyer: IT & infrastructure"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -6712,7 +8403,7 @@
       "+4 adjacent topic: Account takeover and MFA bypass",
       "+3 buyer: Email & M365 admin"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Research team",
      "angle": "Email is where most takeovers start. Connect the phishing email to the session it stole.",
      "topic": "account_takeover"
@@ -6751,7 +8442,7 @@
       "+3 buyer: Email & M365 admin",
       "+2 asking for help"
      ],
-     "band": "today",
+     "band": "listen",
      "who": "Research team",
      "angle": "Trusted infrastructure is the new attack path. A known sender or a real DocuSign link doesn't make an email safe.",
      "topic": "trusted_senders"
@@ -6790,7 +8481,7 @@
       "+3 buyer: Email & M365 admin",
       "+2 asking for help"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Research team",
      "angle": "Email is where most takeovers start. Connect the phishing email to the session it stole.",
      "topic": "account_takeover"
@@ -6829,7 +8520,7 @@
       "+3 buyer: Email & M365 admin",
       "+2 asking for help"
      ],
-     "band": "today",
+     "band": "listen",
      "who": "Account executive and sales engineer",
      "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
      "topic": "seg"
