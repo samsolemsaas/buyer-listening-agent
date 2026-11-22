@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-21T20:07Z",
+ "generated": "2026-11-22T20:22Z",
  "default_lens": "nagomi",
  "window_days": 90,
  "reply_window_days": 14,
  "last_run": {
-  "new": 5,
+  "new": 4,
   "by_source": {
-   "Mastodon": 4,
+   "Mastodon": 3,
    "Press": 1
   }
  },
@@ -103,23 +103,23 @@
      "fit": 3,
      "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
      "who": "Sales engineer",
-     "total": 208,
+     "total": 209,
      "recent": 66,
-     "prior": 43,
-     "change": 53,
+     "prior": 39,
+     "change": 69,
      "weekly": [
       0,
       0,
       1,
       0,
       0,
-      10,
-      57,
-      36,
+      14,
+      56,
+      38,
       24,
-      15,
-      55,
-      10
+      11,
+      58,
+      7
      ],
      "open": 42,
      "open_examples": [
@@ -150,7 +150,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 98.4
+     "score": 102.1
     },
     {
      "key": "prioritization",
@@ -159,22 +159,22 @@
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "who": "Sales engineer",
      "total": 211,
-     "recent": 95,
-     "prior": 35,
-     "change": 171,
+     "recent": 94,
+     "prior": 34,
+     "change": 176,
      "weekly": [
       0,
       0,
       0,
       0,
       0,
-      11,
-      52,
-      20,
+      16,
+      50,
+      22,
       19,
-      15,
-      32,
-      62
+      11,
+      35,
+      58
      ],
      "open": 21,
      "open_examples": [
@@ -205,7 +205,40 @@
       "infosec.exchange",
       "mastox.eu"
      ],
-     "score": 94.3
+     "score": 95.5
+    },
+    {
+     "key": "compliance",
+     "label": "Directives and compliance deadlines",
+     "fit": 2,
+     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
+     "who": "Content team",
+     "total": 9,
+     "recent": 2,
+     "prior": 1,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      3,
+      3,
+      0,
+      0,
+      1,
+      1
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange",
+      "thecybersecguru.com"
+     ],
+     "score": 13.3
     },
     {
      "key": "ai_security",
@@ -228,8 +261,8 @@
       3,
       2,
       2,
-      1,
-      8
+      2,
+      7
      ],
      "open": 4,
      "open_examples": [
@@ -263,15 +296,47 @@
      "score": 11.7
     },
     {
+     "key": "ai_cves",
+     "label": "AI-found vulnerability surge",
+     "fit": 2,
+     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
+     "who": "Research team",
+     "total": 6,
+     "recent": 1,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      1,
+      0
+     ],
+     "open": 0,
+     "open_examples": [],
+     "rooms": [
+      "Hacker News",
+      "infosec.exchange"
+     ],
+     "score": 11.2
+    },
+    {
      "key": "board",
      "label": "Proving progress to the board",
      "fit": 2,
      "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
      "who": "Founder or CISO advisor",
-     "total": 11,
-     "recent": 3,
+     "total": 12,
+     "recent": 4,
      "prior": 4,
-     "change": -25,
+     "change": 0,
      "weekly": [
       0,
       0,
@@ -284,7 +349,7 @@
       3,
       1,
       3,
-      0
+      1
      ],
      "open": 1,
      "open_examples": [
@@ -301,7 +366,7 @@
       "infosec.exchange",
       "ieji.de"
      ],
-     "score": 8.2
+     "score": 8.4
     },
     {
      "key": "controls",
@@ -335,71 +400,6 @@
       "mastobot.ping.moi"
      ],
      "score": 7.0
-    },
-    {
-     "key": "compliance",
-     "label": "Directives and compliance deadlines",
-     "fit": 2,
-     "angle": "Directives like BOD 26-04 reward running exposure management as a continuous operation, not a quarterly report.",
-     "who": "Content team",
-     "total": 8,
-     "recent": 1,
-     "prior": 1,
-     "change": 0,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      4,
-      2,
-      1,
-      0,
-      1,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [
-      "mastodon.social",
-      "infosec.exchange",
-      "swecyb.com"
-     ],
-     "score": 6.3
-    },
-    {
-     "key": "ai_cves",
-     "label": "AI-found vulnerability surge",
-     "fit": 2,
-     "angle": "When CVE volume jumps, the useful question is which ones can reach you. Correlate with controls and exposure paths.",
-     "who": "Research team",
-     "total": 6,
-     "recent": 1,
-     "prior": 1,
-     "change": 0,
-     "weekly": [
-      0,
-      1,
-      1,
-      0,
-      0,
-      0,
-      1,
-      2,
-      0,
-      0,
-      1,
-      0
-     ],
-     "open": 0,
-     "open_examples": [],
-     "rooms": [
-      "Hacker News",
-      "infosec.exchange"
-     ],
-     "score": 5.6
     },
     {
      "key": "sprawl",
@@ -1101,16 +1101,30 @@
    "quotes": {
     "remediation": [
      {
+      "text": "See how the TrimStrings DoS works, who is affected, and how to patch it https:// thecybersecguru.com/exploits/l aravel-trimstrings-dos-590kb-request-30-seconds-cpu/",
+      "url": "https://thecybersecguru.com/exploits/laravel-trimstrings-dos-590kb-request-30-seconds-cpu/",
+      "room": "thecybersecguru.com",
+      "date": "2026-11-22"
+     },
+     {
       "text": "Let the model be the interface, drop the extra app front doors, keep fewer systems to patch.",
       "url": "https://universeodon.com/@Ciberjohn/117654090111488208",
       "room": "universeodon.com",
       "date": "2026-11-21"
+     }
+    ],
+    "compliance": [
+     {
+      "text": "Your Laravel App Passes composer audit and Is Still Vulnerable to This DoS A 590 KB JSON request kept a Laravel PHP worker busy for 30 seconds.",
+      "url": "https://thecybersecguru.com/exploits/laravel-trimstrings-dos-590kb-request-30-seconds-cpu/",
+      "room": "thecybersecguru.com",
+      "date": "2026-11-22"
      },
      {
-      "text": "It's not \"just keep up with the patches\".",
-      "url": "https://news.ycombinator.com/item?id=50569939",
-      "room": "Hacker News",
-      "date": "2026-11-20"
+      "text": "Stdio MCP servers go through an audit proxy.",
+      "url": "https://infosec.exchange/@agentmetry/117473360301254436",
+      "room": "infosec.exchange",
+      "date": "2026-10-20"
      }
     ],
     "prioritization": [
@@ -1185,20 +1199,6 @@
       "date": "2026-09-15"
      }
     ],
-    "compliance": [
-     {
-      "text": "Stdio MCP servers go through an audit proxy.",
-      "url": "https://infosec.exchange/@agentmetry/117473360301254436",
-      "room": "infosec.exchange",
-      "date": "2026-10-20"
-     },
-     {
-      "text": "It's the open source command-line client for ZEN SecDB: CVE lookup, SSVC, and auditing of packages, SBOMs, dependency manifests, Linux hosts and Docker images.",
-      "url": "https://infosec.exchange/@secdb/117450519064818123",
-      "room": "infosec.exchange",
-      "date": "2026-10-16"
-     }
-    ],
     "sprawl": [
      {
       "text": "Read more about the debate around cybersecurity vendor consolidation here: https://www.",
@@ -1215,7 +1215,7 @@
     ]
    },
    "brief": {},
-   "count": 315
+   "count": 317
   },
   "ocean": {
    "company": {
@@ -1352,8 +1352,8 @@
       0,
       2,
       0,
-      1,
       2,
+      1,
       2
      ],
      "open": 3,
@@ -1393,7 +1393,7 @@
      "fit": 1,
      "angle": "",
      "who": "",
-     "total": 49,
+     "total": 50,
      "recent": 25,
      "prior": 11,
      "change": 127,
@@ -1405,14 +1405,21 @@
       0,
       6,
       2,
-      6,
-      5,
-      6,
-      13,
+      7,
+      4,
+      10,
+      10,
       11
      ],
-     "open": 24,
+     "open": 25,
      "open_examples": [
+      {
+       "title": "Is DKIM signing your emails? Gmail asks every sender for SPF or DKIM, and all three (SPF, ",
+       "url": "https://mastodon.social/@attackscout/117659272677088445",
+       "room": "mastodon.social",
+       "date": "2026-11-22",
+       "replies": 0
+      },
       {
        "title": "A fake invoice sent from your own email address, with someone else's bank details. Possibl",
        "url": "https://mastodon.social/@attackscout/117653375551081049",
@@ -1426,13 +1433,6 @@
        "room": "mastodon.social",
        "date": "2026-11-21",
        "replies": 0
-      },
-      {
-       "title": "Asked on the IETF DMARC list on 8 Nov: why do I get aggregate reports about my own outgoin",
-       "url": "https://mastodon.social/@meysam81/117643463933338916",
-       "room": "mastodon.social",
-       "date": "2026-11-19",
-       "replies": 0
       }
      ],
      "rooms": [
@@ -1440,7 +1440,7 @@
       "infosec.exchange",
       "Hacker News"
      ],
-     "score": 24.8
+     "score": 25.4
     },
     {
      "key": "seg",
@@ -1448,10 +1448,10 @@
      "fit": 3,
      "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
      "who": "Account executive and sales engineer",
-     "total": 10,
-     "recent": 1,
+     "total": 11,
+     "recent": 2,
      "prior": 3,
-     "change": -67,
+     "change": -33,
      "weekly": [
       0,
       0,
@@ -1464,10 +1464,17 @@
       0,
       3,
       0,
-      1
+      2
      ],
-     "open": 3,
+     "open": 4,
      "open_examples": [
+      {
+       "title": "N-able says an unauthorised party reached one web server behind its Mail Assure and SpamEx",
+       "url": "https://mastodon.social/@kbytech/117661652077215318",
+       "room": "mastodon.social",
+       "date": "2026-11-22",
+       "replies": 0
+      },
       {
        "title": "Why small IT teams get stuck between free VPNs and Netskope or Proofpoint",
        "url": "https://news.ycombinator.com/item?id=50574466",
@@ -1481,21 +1488,14 @@
        "room": "infosec.exchange",
        "date": "2026-11-04",
        "replies": 1
-      },
-      {
-       "title": "Attackers are exploiting CVE-2026-76519 (CVSS 9.8), a critical Cisco Secure Email Gateway ",
-       "url": "https://infosec.exchange/@DailyCyberSecurity/117441656804622326",
-       "room": "infosec.exchange",
-       "date": "2026-10-14",
-       "replies": 0
       }
      ],
      "rooms": [
       "infosec.exchange",
       "Hacker News",
-      "ieji.de"
+      "mastodon.social"
      ],
-     "score": 14.9
+     "score": 16.8
     },
     {
      "key": "account_takeover",
@@ -1639,6 +1639,46 @@
      "score": 6.6
     },
     {
+     "key": "deepfakes",
+     "label": "Deepfake voice and video fraud",
+     "fit": 1,
+     "angle": "",
+     "who": "",
+     "total": 4,
+     "recent": 1,
+     "prior": 0,
+     "change": 100,
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      1,
+      0
+     ],
+     "open": 1,
+     "open_examples": [
+      {
+       "title": "Phishing scams at work: could you spot one? Suspicious emails, smishing, vishing, fake web",
+       "url": "https://mastodon.social/@carelearninguk/117479024594262775",
+       "room": "mastodon.social",
+       "date": "2026-10-21",
+       "replies": 0
+      }
+     ],
+     "rooms": [
+      "mastodon.social",
+      "infosec.exchange"
+     ],
+     "score": 5.1
+    },
+    {
      "key": "ai_phishing",
      "label": "Targeted phishing getting through",
      "fit": 3,
@@ -1669,46 +1709,6 @@
       "infosec.exchange"
      ],
      "score": 4.8
-    },
-    {
-     "key": "deepfakes",
-     "label": "Deepfake voice and video fraud",
-     "fit": 1,
-     "angle": "",
-     "who": "",
-     "total": 4,
-     "recent": 1,
-     "prior": 1,
-     "change": 0,
-     "weekly": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      2,
-      0,
-      0,
-      1,
-      0
-     ],
-     "open": 1,
-     "open_examples": [
-      {
-       "title": "Phishing scams at work: could you spot one? Suspicious emails, smishing, vishing, fake web",
-       "url": "https://mastodon.social/@carelearninguk/117479024594262775",
-       "room": "mastodon.social",
-       "date": "2026-10-21",
-       "replies": 0
-      }
-     ],
-     "rooms": [
-      "mastodon.social",
-      "infosec.exchange"
-     ],
-     "score": 2.8
     },
     {
      "key": "false_positives",
@@ -2229,23 +2229,23 @@
    "phrases": [
     {
      "phrase": "utm source",
-     "count": 25
+     "count": 26
     },
     {
      "phrase": "source mastodon",
-     "count": 24
+     "count": 25
     },
     {
      "phrase": "utm medium",
-     "count": 24
+     "count": 25
     },
     {
      "phrase": "mastodon utm",
-     "count": 22
+     "count": 23
     },
     {
      "phrase": "utm campaign",
-     "count": 20
+     "count": 21
     },
     {
      "phrase": "dmarc emailsecurity",
@@ -2256,11 +2256,11 @@
      "count": 16
     },
     {
-     "phrase": "medium social",
-     "count": 15
+     "phrase": "social utm",
+     "count": 16
     },
     {
-     "phrase": "social utm",
+     "phrase": "medium social",
      "count": 15
     },
     {
@@ -2269,11 +2269,15 @@
     },
     {
      "phrase": "dkim and dmarc",
-     "count": 9
+     "count": 8
     },
     {
      "phrase": "emailsecurity sysadmin",
      "count": 7
+    },
+    {
+     "phrase": "dkim dmarc",
+     "count": 6
     },
     {
      "phrase": "spf dmarc",
@@ -2320,14 +2324,6 @@
      "count": 5
     },
     {
-     "phrase": "spf record",
-     "count": 5
-    },
-    {
-     "phrase": "dkim dmarc",
-     "count": 5
-    },
-    {
      "phrase": "rejecting email",
      "count": 5
     },
@@ -2346,9 +2342,41 @@
     {
      "phrase": "social-2026-w45 utm",
      "count": 5
+    },
+    {
+     "phrase": "secure email",
+     "count": 5
     }
    ],
    "quotes": {
+    "authentication": [
+     {
+      "text": "Gmail asks every sender for SPF or DKIM, and all three (SPF, DKIM, DMARC) above 5,000 emails a day.",
+      "url": "https://mastodon.social/@attackscout/117659272677088445",
+      "room": "mastodon.social",
+      "date": "2026-11-22"
+     },
+     {
+      "text": "Check your DKIM record for free, no account.",
+      "url": "https://mastodon.social/@attackscout/117659272677088445",
+      "room": "mastodon.social",
+      "date": "2026-11-22"
+     }
+    ],
+    "seg": [
+     {
+      "text": "N-able says an unauthorised party reached one web server behind its Mail Assure and SpamExperts hosted email filtering.",
+      "url": "https://mastodon.social/@kbytech/117661652077215318",
+      "room": "mastodon.social",
+      "date": "2026-11-22"
+     },
+     {
+      "text": "🔎 Pour comprendre la technique : https:// fr.blog.barracuda.com/2026/04/ 23/threat-spotlight-device-code-phishing https://www.",
+      "url": "https://infosec.exchange/@decio/117557899451752278",
+      "room": "infosec.exchange",
+      "date": "2026-11-04"
+     }
+    ],
     "bec": [
      {
       "text": "A fake invoice sent from your own email address, with someone else's bank details.",
@@ -2360,20 +2388,6 @@
       "text": "---------------- 🎯 Threat Intelligence: Business Email Compromise and Mailbox Manipulation =================== Huntress describes how business email compromise can blend into existing vendor and billing conversations.",
       "url": "https://infosec.exchange/@hasamba/117654027362594544",
       "room": "infosec.exchange",
-      "date": "2026-11-21"
-     }
-    ],
-    "authentication": [
-     {
-      "text": "Possible when your domain has no strict DMARC policy.",
-      "url": "https://mastodon.social/@attackscout/117653375551081049",
-      "room": "mastodon.social",
-      "date": "2026-11-21"
-     },
-     {
-      "text": "# email # dmarc # phishing https:// attackscout.com/en/tools/dmarc -check?utm_source=mastodon&utm_medium=social&utm_campaign=lancement-s1",
-      "url": "https://mastodon.social/@attackscout/117653375551081049",
-      "room": "mastodon.social",
       "date": "2026-11-21"
      }
     ],
@@ -2433,20 +2447,6 @@
       "date": "2026-10-24"
      }
     ],
-    "seg": [
-     {
-      "text": "🔎 Pour comprendre la technique : https:// fr.blog.barracuda.com/2026/04/ 23/threat-spotlight-device-code-phishing https://www.",
-      "url": "https://infosec.exchange/@decio/117557899451752278",
-      "room": "infosec.exchange",
-      "date": "2026-11-04"
-     },
-     {
-      "text": "SEPPmail Secure Email Gateway <15.1.1 has a CRITICAL vuln (CVE-2026-114425, CVSS 9.2): unauthenticated attackers can manipulate root files via LFT metadata.",
-      "url": "https://infosec.exchange/@offseq/117557705841519914",
-      "room": "infosec.exchange",
-      "date": "2026-11-04"
-     }
-    ],
     "ai_phishing": [
      {
       "text": "AiTM-stolen M365 tokens bypassed MFA - then rogue devices and hidden inbox rules hid payroll mail.",
@@ -2463,10 +2463,127 @@
     ]
    },
    "brief": {},
-   "count": 90
+   "count": 92
   }
  },
  "conversations": [
+  {
+   "id": "6580c27adf5c",
+   "source": "Mastodon",
+   "room": "thecybersecguru.com",
+   "title": "",
+   "text": "Your Laravel App Passes composer audit and Is Still Vulnerable to This DoS A 590 KB JSON request kept a Laravel PHP worker busy for 30 seconds. See how the TrimStrings DoS works, who is affected, and how to patch it https:// thecybersecguru.com/exploits/l aravel-trimstrings-dos-590kb-request-30-seconds-cpu/",
+   "url": "https://thecybersecguru.com/exploits/laravel-trimstrings-dos-590kb-request-30-seconds-cpu/",
+   "date": "2026-11-22",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-22",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "remediation",
+      "compliance"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": false,
+     "shopping": false,
+     "evidence": [
+      "audit",
+      "patch"
+     ],
+     "score": 9,
+     "why": [
+      "+6 core topic: Getting fixes owned and done",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "worth",
+     "who": "Sales engineer",
+     "angle": "Findings don't reduce risk. Fixes do. Route each fix to the owner with the context they need to act.",
+     "topic": "remediation"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "03f8434e9ae6",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "Is DKIM signing your emails? Gmail asks every sender for SPF or DKIM, and all three (SPF, DKIM, DMARC) above 5,000 emails a day. Check your DKIM record for free, no account. # emailsecurity # smallbusiness https:// attackscout.com/en/tools/dkim- check?utm_source=mastodon&utm_medium=social&utm_campaign=monde",
+   "url": "https://mastodon.social/@attackscout/117659272677088445",
+   "date": "2026-11-22",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-22",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "authentication"
+     ],
+     "personas": [],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "dkim",
+      "dmarc",
+      "spf"
+     ],
+     "score": 6,
+     "why": [
+      "+1 listen-only topic: DMARC, SPF and DKIM setup",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "",
+     "angle": "",
+     "topic": "authentication"
+    }
+   },
+   "rooms": []
+  },
+  {
+   "id": "ce65797cf120",
+   "source": "Mastodon",
+   "room": "mastodon.social",
+   "title": "",
+   "text": "N-able says an unauthorised party reached one web server behind its Mail Assure and SpamExperts hosted email filtering. It says it has no evidence customer data was compromised, but credentials stored on the platform may have been reachable. Our write-up covers the timeline, what partners lost access to, and the one question a small business should put to its IT provider. https://www. kbytechnologies.com/news-secur ity/n-able-mail-assure-cyberattack-one-server-portal-api-offline?utm_source=mastodon&utm_medium=organic_social&utm_campaign=news # InfoSec # MSP",
+   "url": "https://mastodon.social/@kbytech/117661652077215318",
+   "date": "2026-11-22",
+   "kind": "post",
+   "replies": 0,
+   "found": "2026-11-22",
+   "lens": {
+    "ocean": {
+     "topics": [
+      "seg"
+     ],
+     "personas": [
+      "msp"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "email filtering"
+     ],
+     "score": 12,
+     "why": [
+      "+6 core topic: Replacing or adding to the email gateway",
+      "+1 buyer: MSP",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "today",
+     "who": "Account executive and sales engineer",
+     "angle": "Run tools side by side on live mail and count what each one misses. Let the results make the case.",
+     "topic": "seg"
+    }
+   },
+   "rooms": []
+  },
   {
    "id": "907055b02114",
    "source": "Mastodon",
@@ -3249,6 +3366,46 @@
    "rooms": []
   },
   {
+   "id": "5efdddf39408",
+   "source": "Press",
+   "room": "BankInfoSecurity",
+   "title": "How Healthcare CISOs Can Better Engage Boards on Cyber Risk",
+   "text": "",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVVdXR3FDQTYwOWcyNHNhRXIxdDZlRnNXSVA0NGRUYTZoWThMaXJ1RkMzWWlqaVpOUzJ2ZlM4NXVWS2RZYnZNbUNNWU93ajhYTm93eGVXU1Z2YmF3YUs2M3JzS1F0VW1LNHpuRmpUTVdQX1VIY205ZDRDN01XMlFqRkVoQVRQY3o3aV9FNDZ6S1BPWl90MWtGX0dEMWI?oc=5",
+   "date": "2026-11-20",
+   "kind": "article",
+   "replies": null,
+   "found": "2026-11-22",
+   "lens": {
+    "nagomi": {
+     "topics": [
+      "board"
+     ],
+     "personas": [
+      "leader"
+     ],
+     "mentions": false,
+     "asking": true,
+     "shopping": false,
+     "evidence": [
+      "board"
+     ],
+     "score": 12,
+     "why": [
+      "+4 adjacent topic: Proving progress to the board",
+      "+3 buyer: Security leader",
+      "+2 asking for help",
+      "+3 posted in the last 2 days"
+     ],
+     "band": "listen",
+     "who": "Founder or CISO advisor",
+     "angle": "Report exposures closed and risk reduced, not vulnerability counts.",
+     "topic": "board"
+    }
+   },
+   "rooms": []
+  },
+  {
    "id": "ed524192e4b9",
    "source": "Mastodon",
    "room": "mastodon.social",
@@ -3273,13 +3430,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3312,13 +3469,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3351,13 +3508,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3390,13 +3547,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3429,13 +3586,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3468,13 +3625,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3507,13 +3664,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3546,13 +3703,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3585,13 +3742,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3624,13 +3781,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3663,13 +3820,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3702,13 +3859,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3741,13 +3898,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3780,13 +3937,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3819,13 +3976,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3858,13 +4015,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3897,13 +4054,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3936,13 +4093,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -3975,13 +4132,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4014,13 +4171,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4053,13 +4210,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4092,13 +4249,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4131,13 +4288,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4170,13 +4327,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4209,13 +4366,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4248,13 +4405,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4287,13 +4444,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4326,13 +4483,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4365,13 +4522,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4404,13 +4561,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4443,13 +4600,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4482,13 +4639,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4521,13 +4678,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4560,13 +4717,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4599,13 +4756,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4638,13 +4795,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4677,13 +4834,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4716,13 +4873,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4755,13 +4912,13 @@
      "evidence": [
       "cvss"
      ],
-     "score": 11,
+     "score": 9,
      "why": [
       "+6 core topic: Too many findings to prioritize",
       "+2 buyer: Security engineer & SecOps",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
-     "band": "today",
+     "band": "worth",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
@@ -4794,12 +4951,12 @@
      "evidence": [
       "dmarc"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+1 listen-only topic: DMARC, SPF and DKIM setup",
       "+3 buyer: Email & M365 admin",
       "+2 asking for help",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -4833,10 +4990,10 @@
       "bec",
       "gift card"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: BEC and payment fraud",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -4872,11 +5029,11 @@
      "evidence": [
       "agentic"
      ],
-     "score": 7,
+     "score": 5,
      "why": [
       "+1 listen-only topic: Securing AI and agents",
       "+3 buyer: Security leader",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -4910,10 +5067,10 @@
       "bec",
       "business email compromise"
      ],
-     "score": 9,
+     "score": 7,
      "why": [
       "+6 core topic: BEC and payment fraud",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "Sales engineer",
@@ -4949,11 +5106,11 @@
      "evidence": [
       "agentic"
      ],
-     "score": 7,
+     "score": 5,
      "why": [
       "+1 listen-only topic: Securing AI and agents",
       "+3 buyer: Security leader",
-      "+3 posted in the last 2 days"
+      "+1 posted this week"
      ],
      "band": "listen",
      "who": "",
@@ -5801,11 +5958,10 @@
      "evidence": [
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Getting fixes owned and done",
-      "+2 buyer: Security engineer & SecOps",
-      "+1 posted this week"
+      "+2 buyer: Security engineer & SecOps"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -5840,10 +5996,9 @@
       "dmarc",
       "spf"
      ],
-     "score": 2,
+     "score": 1,
      "why": [
-      "+1 listen-only topic: DMARC, SPF and DKIM setup",
-      "+1 posted this week"
+      "+1 listen-only topic: DMARC, SPF and DKIM setup"
      ],
      "band": "listen",
      "who": "",
@@ -5878,12 +6033,11 @@
       "bec",
       "invoice fraud"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: BEC and payment fraud",
-      "+1 posted this week"
+      "+6 core topic: BEC and payment fraud"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "BEC has no malicious link or file to catch. Judge intent: who is asking for money or credentials, and does it fit how this sender normally behaves?",
      "topic": "bec"
@@ -5918,11 +6072,10 @@
       "cvss",
       "patch"
      ],
-     "score": 9,
+     "score": 8,
      "why": [
       "+6 core topic: Too many findings to prioritize",
-      "+2 buyer: Security engineer & SecOps",
-      "+1 posted this week"
+      "+2 buyer: Security engineer & SecOps"
      ],
      "band": "worth",
      "who": "Sales engineer",
@@ -5957,12 +6110,11 @@
       "cvss",
       "patch"
      ],
-     "score": 7,
+     "score": 6,
      "why": [
-      "+6 core topic: Too many findings to prioritize",
-      "+1 posted this week"
+      "+6 core topic: Too many findings to prioritize"
      ],
-     "band": "worth",
+     "band": "listen",
      "who": "Sales engineer",
      "angle": "Rank findings by whether an attacker could actually use them in this environment, including whether existing controls already block the path.",
      "topic": "prioritization"
